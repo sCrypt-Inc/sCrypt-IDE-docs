@@ -21,6 +21,7 @@ project = 'sCrypt-IDE-docs'
 copyright = '2021, sCrypt.Inc'
 author = 'sCrypt.Inc'
 
+version = '1.0'
 # The full version, including alpha/beta/rc tags
 release = '1.0'
 
