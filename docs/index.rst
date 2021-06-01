@@ -5,7 +5,7 @@
 
 
 ===========================================
-欢迎阅读 sCrypt IDE 文档
+欢迎阅读 sCrypt IDE 官方文档
 ===========================================
 
 
@@ -22,16 +22,12 @@
 .. toctree::
    :maxdepth: 2
    :caption: 目录:
-   
-   features
+
+   getting_started
+   scrypt_editor
+   settings
+   compiling
    debugger
    testting
    deploy
    premium
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
