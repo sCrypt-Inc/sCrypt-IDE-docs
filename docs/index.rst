@@ -25,9 +25,9 @@
 
    getting_started
    scrypt_editor
-   settings
    compiling
    debugger
    testting
    deploy
+   settings
    premium
