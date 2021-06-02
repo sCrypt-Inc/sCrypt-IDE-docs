@@ -1,8 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2021, sCrypt.Inc
-# This file is distributed under the same license as the sCrypt-IDE-docs
-# package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+# This file is distributed under the same license as the sCrypt-IDE-docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
 # qtom zheng <zhfnjust@gmail.com>, 2021
@@ -12,28 +11,27 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sCrypt-IDE-docs 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-02 16:14+0800\n"
+"POT-Creation-Date: 2021-06-02 22:01+0800\n"
 "PO-Revision-Date: 2021-06-02 09:22+0000\n"
 "Last-Translator: qtom zheng <zhfnjust@gmail.com>, 2021\n"
 "Language-Team: English (https://www.transifex.com/scrypt-1/teams/121283/en/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
 "Language: en\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../compiling.rst:5
+#: ../../compiling.rst:5 7e43e1438e1e4bcab169c05a666604a0
 msgid "编译"
 msgstr "Compiling"
 
-#: ../../compiling.rst:7
+#: ../../compiling.rst:7 f7f1124b33df4ceba997f863f5338119
 msgid "**sCrypt IDE** 支持在代码编辑器/资源管理器上下文菜单中编译合约文件。"
 msgstr ""
 "**sCrypt IDE** supports compiling contract files in the context menu of the "
 "code editor/resource manager."
 
-#: ../../compiling.rst:12
+#: ../../compiling.rst:12 a09287feb0984f5c9e1971751c2d3cc6
 msgid ""
 "编译完成后，在vscode 窗口的右下角会有 **通知** ，同时 **输出面板** 也会输出编译结果，包括编译的合约文件名，编译出来的脚本大小 "
 "[1]_， 合约描述文件存放路径。"
@@ -44,11 +42,11 @@ msgstr ""
 "file, the size of the compiled script [1]_, and the description of the "
 "contract. File storage path."
 
-#: ../../compiling.rst:18
+#: ../../compiling.rst:18 7abe284993b24f14855bb087090144ad
 msgid "合约描述文件"
 msgstr "Contract description file"
 
-#: ../../compiling.rst:21
+#: ../../compiling.rst:21 d61156bea5dc4441a3e55fe9f22484ce
 msgid ""
 "合约描述文件（ * *_desc.json* 文件）是编译合约的输出结果，可用于测试合约、部署、调用和集成合约。 这是一个示例合约描述文件 desc_。"
 msgstr ""
@@ -57,133 +55,133 @@ msgstr ""
 "and integrate the contract. This is an example contract description file "
 "desc_."
 
-#: ../../compiling.rst:24
+#: ../../compiling.rst:24 3f3a480ddde44833ba96a9e232242a79
 msgid "主要字段说明"
 msgstr "Main field description"
 
-#: ../../compiling.rst:28
+#: ../../compiling.rst:28 604eaaca7c07431e8fe4b2ac0e37b03e
 msgid "字段"
 msgstr "Field"
 
-#: ../../compiling.rst:28
+#: ../../compiling.rst:28 2f11554039d146b785e90cabbc385124
 msgid "说明"
 msgstr "Description"
 
-#: ../../compiling.rst:30
+#: ../../compiling.rst:30 cd89014ef6234b119b50d54deec1c2bf
 msgid "version"
 msgstr "version"
 
-#: ../../compiling.rst:30
+#: ../../compiling.rst:30 6f1fcc1109a8439dbd61ff1165f3bbf9
 msgid "合约描述文件版本号，版本修改记录 VERSIONLOG_"
 msgstr ""
 "Contract description file version number, version modification record "
 "VERSIONLOG_"
 
-#: ../../compiling.rst:31
+#: ../../compiling.rst:31 4b3443add36e4d2181e658320b09c9f4
 msgid "compilerVersion"
 msgstr "compilerVersion"
 
-#: ../../compiling.rst:31
+#: ../../compiling.rst:31 62f0e5e4e77f4039a330d7a1060d0619
 msgid "编译合约时使用的 sCrypt 编译器版本号"
 msgstr "The sCrypt compiler version number used when compiling the contract"
 
-#: ../../compiling.rst:32
+#: ../../compiling.rst:32 2b3cea91a8514173aa3f6504415c13d5
 msgid "contract"
 msgstr "contract"
 
-#: ../../compiling.rst:32
+#: ../../compiling.rst:32 fd25d10b5d934bccb28b5b696892e244
 msgid "合约名称"
 msgstr "Contract name"
 
-#: ../../compiling.rst:33
+#: ../../compiling.rst:33 aaf03de4e5654bd6a1c20ffee465e6bb
 msgid "md5"
 msgstr "md5"
 
-#: ../../compiling.rst:33
+#: ../../compiling.rst:33 8ae19c5b2c024841bca2f48d81e6f5e8
 msgid "合约源代码 md5"
 msgstr "Contract source code md5"
 
-#: ../../compiling.rst:34
+#: ../../compiling.rst:34 bdc97f6d7ceb4744aef2f12e2577f186
 msgid "buildTypes"
 msgstr "buildTypes"
 
-#: ../../compiling.rst:34
+#: ../../compiling.rst:34 459faf44718e4b3ab52efb8a68bf02ee
 msgid "合约描述文件的构建类型 ``debug`` 或者 ``release``"
 msgstr ""
 "The construction type of the contract description file ``debug`` or "
 "``release``"
 
-#: ../../compiling.rst:35
+#: ../../compiling.rst:35 2adea17884434c9e8865cbefdc4ffb52
 msgid "structs"
 msgstr "structs"
 
-#: ../../compiling.rst:35
+#: ../../compiling.rst:35 db21de4d4bea4bdabe3fda60abd6a0d2
 msgid "合约中定义的结构体"
 msgstr "Structure defined in the contract"
 
-#: ../../compiling.rst:36
+#: ../../compiling.rst:36 38ada3f299f24f1788c2eb37c7778bf5
 msgid "alias"
 msgstr "alias"
 
-#: ../../compiling.rst:36
+#: ../../compiling.rst:36 0a3db93642804c0591a3f4bdd15ae3e1
 msgid "合约中定义的别名"
 msgstr "Alias defined in the contract"
 
-#: ../../compiling.rst:37
+#: ../../compiling.rst:37 2e93bb59c3144f88af0a0b8f4b925be1
 msgid "abi"
 msgstr "abi"
 
-#: ../../compiling.rst:37
+#: ../../compiling.rst:37 a64d03a0206e4bb2beae6b22a4bec8d0
 msgid "合约接口，合约中所有 ``public`` 方法的描述"
 msgstr ""
 "Contract interface, description of all ``public`` methods in the contract"
 
-#: ../../compiling.rst:38
+#: ../../compiling.rst:38 2f669b5395fc4819afa321c24a5ec407
 msgid "file"
 msgstr "file"
 
-#: ../../compiling.rst:38
+#: ../../compiling.rst:38 e059c9ff5d3442f3ababfa80f4522295
 msgid "合约源代码路径"
 msgstr "Contract source code path"
 
-#: ../../compiling.rst:39
+#: ../../compiling.rst:39 8218ce0b4ae94d96b0fd5e14fb130073
 msgid "asm"
 msgstr "asm"
 
-#: ../../compiling.rst:39
+#: ../../compiling.rst:39 4ce275ddaa19413ba14d9d549379e51d
 msgid "合约编译出来的比特币脚本"
 msgstr "Bitcoin script compiled from the contract"
 
-#: ../../compiling.rst:40
+#: ../../compiling.rst:40 190ca41b5416446fa1f3551029408eba
 msgid "sources"
 msgstr "sources"
 
-#: ../../compiling.rst:40
+#: ../../compiling.rst:40 029b10eaedd0438299ea8c3367e31a6d
 msgid "合约包含的所有源代码"
 msgstr "All source code included in the contract"
 
-#: ../../compiling.rst:41
+#: ../../compiling.rst:41 0fb8b58e349d47ea9c80782be6e6d784
 msgid "sourceMap"
 msgstr "sourceMap"
 
-#: ../../compiling.rst:41
+#: ../../compiling.rst:41 6324cceea0d64e86bcfe28e5b4306071
 msgid "sourceMap 主要用于 debug 调试，发布编译没有sourceMap信息， 调试编译才有内容"
 msgstr ""
 "sourceMap is mainly used for debugging, release and compilation do not have "
 "sourceMap information, only content is available for debugging and "
 "compilation"
 
-#: ../../compiling.rst:48
+#: ../../compiling.rst:48 f63b84eccefd4134966789819b2f3f44
 msgid "调试编译"
 msgstr "Debug compilation"
 
-#: ../../compiling.rst:50
+#: ../../compiling.rst:50 40cfc16540b041d28a1cf01d0ac7e3e5
 msgid "*在代码编辑器上右键单击，选择* : ``Compile to Bitcoin Script : Debug``"
 msgstr ""
 "*Right click on the code editor and select*: ``Compile to Bitcoin Script: "
 "Debug``"
 
-#: ../../compiling.rst:52
+#: ../../compiling.rst:52 68db07c0ae8f4588b0290862436bef0f
 msgid ""
 "在开发过程中我们主要使用调试编译来构建合约，包括调试器、单元测试，甚至部署调用合约也使用此构建类型。在该构建类型下， "
 "编译器生成的脚本可能包含辅助信息，不包含优化，编译结果包含 ``sourceMap``， 可以用于调试定位异常。"
@@ -192,20 +190,20 @@ msgstr ""
 " contracts, including debuggers, unit tests, and even deployment and calling"
 " contracts also use this build type. Under this build type, the script "
 "generated by the compiler may contain auxiliary information, but does not "
-"contain optimization, and the compiled result contains ``sourceMap'', which "
+"contain optimization, and the compiled result contains ``sourceMap``, which "
 "can be used to debug and locate abnormalities."
 
-#: ../../compiling.rst:58
+#: ../../compiling.rst:58 5b18514e552b4625af7c8a2fbed78bf6
 msgid "发布编译"
 msgstr "Release compilation"
 
-#: ../../compiling.rst:60
+#: ../../compiling.rst:60 09d818910bf14e818feb63403e6dfadc
 msgid "*在代码编辑器上右键单击，选择* : ``Compile to Bitcoin Script : Release``"
 msgstr ""
 "*Right click on the code editor and select*: ``Compile to Bitcoin Script: "
 "Release``"
 
-#: ../../compiling.rst:62
+#: ../../compiling.rst:62 c8028408450b43868904151af45ecfa5
 msgid ""
 "当一切准备就绪之后，我们应该使用发布编译来构建你的合约。在该构建类型下， 编译器会 :ref:`优化生成 <optimize>` "
 "的脚本，删除辅助信息，从而使脚本会变得更小，节省您的交易手续费。 目前只有我们的付费用户才能使用此功能，请参阅 :ref:`高级付费功能 "
@@ -215,10 +213,10 @@ msgstr ""
 "contract. Under this build type, the compiler will :ref:`optimize to "
 "generate <optimize>` script, delete auxiliary information, so that the "
 "script will become smaller and save your transaction fees. Currently only "
-"our paid users can use this feature, please refer to :ref:`Advanced paid "
-"features <premium> `"
+"our paid users can use this feature, please refer to :ref:`Premium paid "
+"features <premium>`"
 
-#: ../../compiling.rst:68
+#: ../../compiling.rst:68 b819596af2cf49658cd3bd8051574e46
 msgid ""
 "不版本的编译器编译出来的脚本可能会不一样，但是脚本是等价。如果编译出来的脚本发生变化了，通常会导致旧的的 **交易原象** "
 "无法校验通过，通过计算一个新的 **交易原象** 即可修复此问题。"
@@ -228,7 +226,7 @@ msgstr ""
 "usually cause the old **transaction image** to fail to be verified. This "
 "problem can be fixed by calculating a new **transaction image**."
 
-#: ../../compiling.rst:72
+#: ../../compiling.rst:72 2869c9a72d8d4bdcb1dfbdb5c3db8f3e
 msgid "改大小计算方式不包含合约构造函数参数"
 msgstr ""
 "Change the size calculation method to not include contract constructor "
