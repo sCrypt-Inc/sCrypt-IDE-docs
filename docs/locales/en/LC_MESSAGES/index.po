@@ -1,8 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2021, sCrypt.Inc
-# This file is distributed under the same license as the sCrypt-IDE-docs
-# package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+# This file is distributed under the same license as the sCrypt-IDE-docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
 # qtom zheng <zhfnjust@gmail.com>, 2021
@@ -12,26 +11,25 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sCrypt-IDE-docs 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-02 16:14+0800\n"
+"POT-Creation-Date: 2021-06-02 22:01+0800\n"
 "PO-Revision-Date: 2021-06-02 09:22+0000\n"
 "Last-Translator: qtom zheng <zhfnjust@gmail.com>, 2021\n"
 "Language-Team: English (https://www.transifex.com/scrypt-1/teams/121283/en/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
 "Language: en\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../index.rst:22
+#: ../../index.rst:22 ../../index.rst:22 f57f82404e954885b419464d9981fe46
 msgid "目录:"
 msgstr "Contents:"
 
-#: ../../index.rst:9
+#: ../../index.rst:9 14c4e3afd4d341fdbd1efd2697ca8ba8
 msgid "欢迎阅读 sCrypt IDE 官方文档"
 msgstr "Welcome to the official documentation of sCrypt IDE"
 
-#: ../../index.rst:12
+#: ../../index.rst:12 6d507a14f9474b22a04d4cd66b86bfc1
 msgid ""
 "**sCrypt IDE** "
 "是一个强大的sCrypt开发工具，您可以通过该工具使用sCrypt语言来编写、编译、调试、测试、部署比特币合约，而无需安装其它软件。 "
@@ -43,19 +41,20 @@ msgstr ""
 "development, and it is also suitable for learning and teaching of sCrypt "
 "smart contracts."
 
-#: ../../index.rst:15
+#: ../../index.rst:15 6230bdf6e3b24d35a2e0bdfa603d8b9f
 msgid ""
 "**sCrypt IDE** 是一个 **Visual Studio Code** 插件 。在插件市场中搜索 sCrypt 就可以找到。 你可以以 "
 "`样板项目 <https://github.com/sCrypt-Inc/boilerplate>`_  为基础开始构建你自己的sCrypt项目。"
 msgstr ""
 "**sCrypt IDE** is a **Visual Studio Code** plugin. You can find it by "
 "searching for sCrypt in the plug-in market. You can start building your own "
-"sCrypt project based on the `boilerplate project  `_."
+"sCrypt project based on the `Boilerplate <https://github.com/sCrypt-"
+"Inc/boilerplate>`_ ."
 
-#: ../../index.rst:19
+#: ../../index.rst:19 10738d929a5340d383bb03910e080cb2
 msgid ""
 "本文档包含有关如何使用 **sCrypt IDE** 的说明。其他教程可以在我们的 `博客 "
 "<https://blog.csdn.net/freedomhero>`_ 找到，"
 msgstr ""
 "This document contains instructions on how to use **sCrypt IDE**. Other "
-"tutorials can be found on our `blog <https://blog.csdn.net/freedomhero> `_,"
+"tutorials can be found on our `blog <https://xiaohuiliu.medium.com>`_ ."
