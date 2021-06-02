@@ -54,17 +54,16 @@ Log 开关
 高级付费功能设置
 ===========================================
 
-License 设置
+.. _settings_license:
+
+高级许可证设置 
 -----------------------------------------
 
-使用高级付费功能，请先获取 **Premium License**，具体方法是通过使用 `Baemail <https://baemail.me/>`_ 服务向我们的官方邮件地址 scrypt@moneybutton.com 发送标题为 ‘Purchase An sCrypt Premium License’ 的邮件，
-同时在其中支付单个用户 License 的费用 10 美元。待我们收到并确认后，会回复相应的 License 给发件人。
-
-收到 我们回复的 License 之后， 在设置项中找到 **Premium: User License** 和 **Premium: User Paymail**,  配置好相应的 Paymail 及 License 信息，就可以顺利使用这个以及以后所有的高级功能了。
+首先您需要购买我们的 :ref:`高级许可证 <buy_license>` ，在设置项中找到 **Premium: User License** 和 **Premium: User Paymail**,  配置好相应的 Paymail 及 License 信息，就可以顺利使用所有的高级功能了。
 
 .. note::
 
-  License 验证成后窗口右下角会有通知提示
+  高级许可证验证成后窗口右下角会有通知提示
 
 .. image:: ./images/settings_license.png
     :width: 100%
