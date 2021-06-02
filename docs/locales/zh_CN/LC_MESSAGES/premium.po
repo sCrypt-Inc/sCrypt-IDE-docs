@@ -1,0 +1,143 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, sCrypt.Inc
+# This file is distributed under the same license as the sCrypt-IDE-docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: sCrypt-IDE-docs 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-06-02 16:16+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../premium.rst:7
+msgid "高级付费功能"
+msgstr "高级付费功能"
+
+#: ../../premium.rst:12
+msgid "购买许可证"
+msgstr "购买许可证"
+
+#: ../../premium.rst:14
+msgid "使用我们的高级付费功能需要先购买高级许可证"
+msgstr "使用我们的高级付费功能需要先购买高级许可证"
+
+#: ../../premium.rst:17
+msgid "高级许可证收费"
+msgstr "高级许可证收费"
+
+#: ../../premium.rst:19
+msgid "``10`` 美元 每个许可证"
+msgstr "``10`` 美元 每个许可证"
+
+#: ../../premium.rst:22
+msgid "高级许可证的有效期"
+msgstr "高级许可证的有效期"
+
+#: ../../premium.rst:24
+msgid "当前阶段颁发的所有许可证对于我们的早期采用者都将终身有效。"
+msgstr "当前阶段颁发的所有许可证对于我们的早期采用者都将终身有效。"
+
+#: ../../premium.rst:27
+msgid "如何获得高级许可证"
+msgstr "如何获得高级许可证"
+
+#: ../../premium.rst:29
+msgid ""
+"通过使用 `Baemail <https://baemail.me/>`_ 服务向我们的官方邮件地址 scrypt@moneybutton.com "
+"发送标题为 ‘Purchase An sCrypt Premium License’ 的邮件， "
+"同时在其中支付单个用户高级许可证的费用。待我们收到并确认后，会回复相应的高级许可证给发件人。"
+msgstr ""
+"通过使用 `Baemail <https://baemail.me/>`_ 服务向我们的官方邮件地址 scrypt@moneybutton.com "
+"发送标题为 ‘Purchase An sCrypt Premium License’ 的邮件， "
+"同时在其中支付单个用户高级许可证的费用。待我们收到并确认后，会回复相应的高级许可证给发件人。"
+
+#: ../../premium.rst:33
+msgid "如何使用高级许可证"
+msgstr "如何使用高级许可证"
+
+#: ../../premium.rst:35
+msgid "收到许可证后，在设置中 :ref:`设置激活 <settings_license>`"
+msgstr "收到许可证后，在设置中 :ref:`设置激活 <settings_license>`"
+
+#: ../../premium.rst:42
+msgid "比特币脚本调试"
+msgstr "比特币脚本调试"
+
+#: ../../premium.rst:44
+msgid ""
+"**sCrypt IDE** 提供的调试器，不仅支持进行sCrypt 源码级的调试，也支持比特币脚本级的调试。 "
+"当调试器进入中断模式后，点击代码编辑器右上角的 **View Script in debugging** 按钮，即可打开脚本视图，主要包括这几个功能点："
+msgstr ""
+"**sCrypt IDE** 提供的调试器，不仅支持进行sCrypt 源码级的调试，也支持比特币脚本级的调试。 "
+"当调试器进入中断模式后，点击代码编辑器右上角的 **View Script in debugging** 按钮，即可打开脚本视图，主要包括这几个功能点："
+
+#: ../../premium.rst:49
+msgid "sCrypt 源码与其编译出的 Script 脚本之间关联的实时展示；"
+msgstr "sCrypt 源码与其编译出的 Script 脚本之间关联的实时展示；"
+
+#: ../../premium.rst:50
+msgid ""
+"通过单击代码行左侧的边缘来设置断点，通过按 **F10** 或 **F11** 开始单步执行比特脚本。更多调试技巧参阅 :ref:`调试器 "
+"<debugger>`"
+msgstr ""
+"通过单击代码行左侧的边缘来设置断点，通过按 **F10** 或 **F11** 开始单步执行比特脚本。更多调试技巧参阅 :ref:`调试器 "
+"<debugger>`"
+
+#: ../../premium.rst:51
+msgid "在左下脚的 **Data Stack** 窗口查看比特堆栈的实时状态；"
+msgstr "在左下脚的 **Data Stack** 窗口查看比特堆栈的实时状态；"
+
+#: ../../premium.rst:59
+msgid "复制值"
+msgstr "复制值"
+
+#: ../../premium.rst:61
+msgid ""
+"在 **Data Stack** 窗口中数据项上单击右键，会出现 **Copy Value** 菜单，点击改菜单可以将栈上的数据复制到剪切板。"
+msgstr ""
+"在 **Data Stack** 窗口中数据项上单击右键，会出现 **Copy Value** 菜单，点击改菜单可以将栈上的数据复制到剪切板。"
+
+#: ../../premium.rst:68
+msgid "利用这个功能可以方便高级用户进一步提高 sCrypt 的开发调试效率，并且方便地进行一些优化。"
+msgstr "利用这个功能可以方便高级用户进一步提高 sCrypt 的开发调试效率，并且方便地进行一些优化。"
+
+#: ../../premium.rst:74
+msgid "优化生成"
+msgstr "优化生成"
+
+#: ../../premium.rst:76
+msgid ""
+"**sCrypt** 编程与使用 Javascript 或 Python "
+"进行的传统编程不同，因为当将包含编译结果的交易提交到比特币网络时，脚本大小直接决定了它们的运行成本。因此，最终的脚本应该尽可能小，以节省交易费用 "
+"[1]_。 `sCrypt 开发人员优化指南 "
+"<https://blog.csdn.net/freedomhero/article/details/117001452>`_ "
+"列出了一些技巧，供开发人员手动优化其 sCrypt 合约的脚本输出。而手动优化可能会导致含义模糊、难于维护的代码。 "
+"为此，我们编译器提供一个自动优化的功能，您可以信赖编译器来代表您优化代码。"
+msgstr ""
+"**sCrypt** 编程与使用 Javascript 或 Python "
+"进行的传统编程不同，因为当将包含编译结果的交易提交到比特币网络时，脚本大小直接决定了它们的运行成本。因此，最终的脚本应该尽可能小，以节省交易费用 "
+"[1]_。 `sCrypt 开发人员优化指南 "
+"<https://blog.csdn.net/freedomhero/article/details/117001452>`_ "
+"列出了一些技巧，供开发人员手动优化其 sCrypt 合约的脚本输出。而手动优化可能会导致含义模糊、难于维护的代码。 "
+"为此，我们编译器提供一个自动优化的功能，您可以信赖编译器来代表您优化代码。"
+
+#: ../../premium.rst:80
+msgid ""
+"当您使用 :ref:`发布编译 <release_compiling>` "
+"来构建合约时，编译器会自动开启优化，优化可以显著（两位数的百分比）减小脚本的大小并提高其性能。"
+msgstr ""
+"当您使用 :ref:`发布编译 <release_compiling>` "
+"来构建合约时，编译器会自动开启优化，优化可以显著（两位数的百分比）减小脚本的大小并提高其性能。"
+
+#: ../../premium.rst:87
+msgid "当前，交易费用仅与脚本/事务的大小成正比，未来会将演变为考虑脚本的复杂性。因此，优化目标也有望在未来发展演变。"
+msgstr "当前，交易费用仅与脚本/事务的大小成正比，未来会将演变为考虑脚本的复杂性。因此，优化目标也有望在未来发展演变。"

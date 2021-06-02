@@ -1,0 +1,165 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, sCrypt.Inc
+# This file is distributed under the same license as the sCrypt-IDE-docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+# 
+# Translators:
+# qtom zheng <zhfnjust@gmail.com>, 2021
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: sCrypt-IDE-docs 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-06-02 16:14+0800\n"
+"PO-Revision-Date: 2021-06-02 09:22+0000\n"
+"Last-Translator: qtom zheng <zhfnjust@gmail.com>, 2021\n"
+"Language-Team: English (https://www.transifex.com/scrypt-1/teams/121283/en/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../exception.rst:2
+msgid "异常自动中断"
+msgstr "Abnormal automatic interrupt"
+
+#: ../../exception.rst:4
+msgid ""
+"调试器在执行过程中遇到代码中的异常会自动中断执行，并保留现场，这让你有机会在调用调试器之前对异常进行诊断。您可以通过查看中断现场变量的值，调用堆栈，监视的表达式来"
+" 诊断异常，也可在调试控制器中执行代码来分析异常。"
+msgstr ""
+"When the debugger encounters an exception in the code during execution, it "
+"will automatically interrupt the execution and keep the scene, which gives "
+"you the opportunity to diagnose the exception before calling the debugger. "
+"You can diagnose the exception by viewing the value of the interrupt field "
+"variable, the call stack, and the monitored expression. You can also execute"
+" the code in the debug controller to analyze the exception."
+
+#: ../../exception.rst:12
+msgid "对于一些典型的异常，我们提供了更多的信息和方法，以供您分析、诊断异常。"
+msgstr ""
+"For some typical abnormalities, we provide more information and methods for "
+"you to analyze and diagnose the abnormalities."
+
+#: ../../exception.rst:16
+msgid "签名检查失败"
+msgstr "Signature check failed"
+
+#: ../../exception.rst:18
+msgid "一类常见的错误是 ``CheckSig`` 异常,通常是由于签名问题导致的。具体原因通常是："
+msgstr ""
+"A common type of error is the ``CheckSig'' exception, which is usually "
+"caused by a signature problem. The specific reasons are usually:"
+
+#: ../../exception.rst:20
+msgid "您使用了与公钥不匹配的 **错误私钥**  对交易进行了签名"
+msgstr ""
+"You signed the transaction with a **wrong private key** that does not match "
+"the public key"
+
+#: ../../exception.rst:21
+msgid "您对错误的 **交易原象** (Preimage) 进行了签名。"
+msgstr "You signed the wrong **Preimage** (Preimage)."
+
+#: ../../exception.rst:23
+msgid "调试控制台会提示您正确的，应该被用于签名的信息。"
+msgstr ""
+"The debug console will prompt you with the correct information that should "
+"be used for signing."
+
+#: ../../exception.rst:28
+msgid "上述提示信息涵盖了解决签名错误时的主要检查点，即:"
+msgstr ""
+"The above prompt information covers the main checkpoints when resolving "
+"signature errors, namely:"
+
+#: ../../exception.rst:30
+msgid "确定生成签名所使用私钥是否正确。"
+msgstr ""
+"Determine whether the private key used to generate the signature is correct."
+
+#: ../../exception.rst:31
+msgid ""
+"确认待签名 **tx** 的 **preimage** (根据 **交易上下文** 自动计算得到)与传入参数是否一致。这里的小技巧是：在生成输入参数 "
+"**preimage** 的地方插入一段代码，与上述异常提示中输出的 **preimage** 进行对比，进而找出二者可能存在的差异。如以下代码所示："
+msgstr ""
+"Confirm whether the **preimage** of the **tx** to be signed (automatically "
+"calculated according to the **transaction context**) is consistent with the "
+"incoming parameters. The trick here is: insert a piece of code where the "
+"input parameter **preimage** is generated, and compare it with the "
+"**preimage** output in the above exception prompt, and then find out the "
+"possible differences between the two. As shown in the following code:"
+
+#: ../../exception.rst:45
+msgid ""
+"这里需要再次提醒大家的是，调试器启动配置 ``txContext`` （交易上下文） 属性下的字段都会影响 **preimage** "
+"的计算，所以在排查问题时需要逐一对比确认是否一致。"
+msgstr ""
+"What needs to be reminded here is that the fields under the debugger startup"
+" configuration ``txContext'' (transaction context) attribute will affect the"
+" calculation of **preimage**, so when troubleshooting, you need to compare "
+"and confirm whether they are consistent."
+
+#: ../../exception.rst:51
+msgid "交易原象检查失败"
+msgstr "Transaction pre-existing check failed"
+
+#: ../../exception.rst:54
+msgid ""
+"另一类常见的错误是 ``checkPreimage`` 异常,通常是由于签名问题导致的。具体原因通常是在启动配置参数 ``pubFuncArgs`` "
+"中传入的数值与使用 ``txContext`` 中各项参数所计算出的结果不一致。"
+msgstr ""
+"Another common type of error is the ``checkPreimage'' exception, which is "
+"usually caused by a signature problem. The specific reason is usually that "
+"the value passed in the startup configuration parameter ``pubFuncArgs`` is "
+"inconsistent with the result calculated using the parameters in "
+"``txContext``."
+
+#: ../../exception.rst:59
+msgid ""
+"如上图所示，Sighash Preimage 由多个部分组合而成，如果两个原像不一致，一定是其中某些字段不相同。发生这类异常时，**调试控制台** "
+"会自动打印错误提示信息，其中会有一个包含两个原像所有不同 字段的表格，如果是 ``scriptCode`` 字段不同，还会打印出两个 "
+"``scriptCode`` 字段的对比结果，有了这些错误信息，您可以快速分析出来异常的原因了。"
+msgstr ""
+"As shown in the figure above, Sighash Preimage is composed of multiple "
+"parts. If the two preimages are inconsistent, some of the fields must be "
+"different. When such an exception occurs, the **Debug Console** will "
+"automatically print an error message. There will be a table containing all "
+"the different fields of the two pre-images. If the ``scriptCode`` fields are"
+" different, two A comparison result of the ``scriptCode`` field, with these "
+"error messages, you can quickly analyze the cause of the exception."
+
+#: ../../exception.rst:67
+msgid "交易输出哈希不一致"
+msgstr "Inconsistent transaction output hash"
+
+#: ../../exception.rst:69
+msgid "这通常是由于当前交易的一个或者多个 **输出** 不符号合约本身逻辑对当前 **交易输出** 的约束。例如下面的例子："
+msgstr ""
+"This is usually due to one or more **outputs** of the current transaction "
+"not symbolizing the constraints of the current **transaction output** by the"
+" contract itself. For example, the following example:"
+
+#: ../../exception.rst:71
+msgid ""
+"``Counter`` 合约约束 **交易输出** 中的 ``satoshis`` 必须等于解锁参数 ``amount``， 但是实际 **交易输出**"
+" 中的 ``satoshis`` 为 ``222222``, 而解锁参数 ``amount`` 的值为 ``2222222``。 "
+"由于合约中检查的是哈希是否一致，所以出现这类错误的时候，您只知道是 **交易输出** 哈希不一致，却不知道是哪个 **交易输出** 不一致，也不知道 "
+"**交易输出** 具体哪里不一致。这个时候您可以通过 调试控制台的 ``:diffoutputs`` 内置命令， 将合约产生的 **交易输出** 和来自"
+" 当前交易的 **交易输出** 进行对比。"
+msgstr ""
+"The ``Counter'' contract restricts the ``satoshis'' in the **transaction "
+"output** must be equal to the unlocking parameter ``amount'', but the actual"
+" **transaction output** ``satoshis'' is ``222222` `, and the value of the "
+"unlock parameter ``amount`` is ``2222222``. Since the contract checks "
+"whether the hash is consistent, when this kind of error occurs, you only "
+"know that the **transaction output** hash is inconsistent, but you don’t "
+"know which **transaction output** is inconsistent, and you don’t know* "
+"*Transaction output** What is inconsistent specifically. At this time, you "
+"can compare the **transaction output** generated by the contract with the "
+"**transaction output** from the current transaction through the "
+"``:diffoutputs'' built-in command of the debugging console."

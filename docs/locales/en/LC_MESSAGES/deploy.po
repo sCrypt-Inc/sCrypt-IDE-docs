@@ -1,0 +1,313 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, sCrypt.Inc
+# This file is distributed under the same license as the sCrypt-IDE-docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+# 
+# Translators:
+# qtom zheng <zhfnjust@gmail.com>, 2021
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: sCrypt-IDE-docs 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-06-02 16:14+0800\n"
+"PO-Revision-Date: 2021-06-02 09:22+0000\n"
+"Last-Translator: qtom zheng <zhfnjust@gmail.com>, 2021\n"
+"Language-Team: English (https://www.transifex.com/scrypt-1/teams/121283/en/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../deploy.rst:5
+msgid "部署调用合约"
+msgstr "Deploy the call contract"
+
+#: ../../deploy.rst:8
+msgid ""
+"在完成合约的编写与测试之后，通常我们会需要将合约部署到比特币测试网中，以验证合约能否被正常解锁，相关交易能否被网络接受。 **sCrypt IDE** "
+"提供一个通用的 UI 交互界面，只需简单的填写相关参数，就能一键部署合约，点击 **Call** 按钮就能调用合约方法。"
+msgstr ""
+"After completing the writing and testing of the contract, we usually need to"
+" deploy the contract to the Bitcoin testnet to verify whether the contract "
+"can be unlocked normally and whether the related transaction can be accepted"
+" by the network. **sCrypt IDE** provides a universal UI interface. You can "
+"deploy the contract with one click by simply filling in the relevant "
+"parameters, and click the **Call** button to call the contract method."
+
+#: ../../deploy.rst:14
+msgid "主要 UI 交换控件包括："
+msgstr "The main UI exchange controls include:"
+
+#: ../../deploy.rst:16
+msgid "左边的 **sCrypt Deploy** 按钮, 点击可以从其它侧边视图切换到部署视图"
+msgstr ""
+"**SCrypt Deploy** button on the left, click to switch from other side view "
+"to deployment view"
+
+#: ../../deploy.rst:17
+msgid "本地合约窗口，加载当前工作区下 out 目录所有已经编译的 :ref:`合约描述文件 <contractdescription>`"
+msgstr ""
+"Local contract window, load all compiled out directory under current "
+"workspace :ref:`Contract description file <contractdescription> `"
+
+#: ../../deploy.rst:18
+msgid "已经部署成功的合约实例窗口"
+msgstr "The contract instance window that has been successfully deployed"
+
+#: ../../deploy.rst:19
+msgid ""
+"部署合约配置视图，在该视图下填写部署合约的相关参数，包括：构造函数参数，合约锁定的 ``satoshis`` 余额，以及有状态合约的初始状态。"
+msgstr ""
+"Deployment contract configuration view, fill in the relevant parameters of "
+"the deployment contract in this view, including: constructor parameters, the"
+" ``satoshis'' balance locked by the contract, and the initial state of the "
+"stateful contract."
+
+#: ../../deploy.rst:23
+msgid "设置私钥"
+msgstr "Set private key"
+
+#: ../../deploy.rst:25
+msgid ""
+"部署合约到测试网需要先 :ref:`设置私钥 <settings_privatekey>` ，如果检测到您没有设置私钥，**sCrypt IDE** "
+"会自打开设置界面，提示您设置测试网私钥。"
+msgstr ""
+"To deploy the contract to the testnet, you need to :ref:`Set the private key"
+" <settings_privatekey>`. If it detects that you have not set the private "
+"key, **sCrypt IDE** will automatically open the setting interface and prompt"
+" you to set the testnet private key."
+
+#: ../../deploy.rst:30
+msgid "编译合约"
+msgstr "Compile the contract"
+
+#: ../../deploy.rst:32
+msgid ""
+"部署合约到测试网需要先 :ref:`编译合约 <compiling>`，编译完合约后， 本地合约窗口（COMPILED "
+"CONTRACTS）会自动刷新出刚刚编译的合约，点击窗口中的合约，打开部署合约配置视图。 您也可以通过在代码编辑器上右键单击 **Deploy** "
+"菜单，将会自动以 :ref:`调试编译 <debug_compiling>` 编译合约，并打开部署合约配置视图。"
+msgstr ""
+"To deploy the contract to the testnet, you need to :ref:`Compile contract "
+"<compiling>`. After compiling the contract, the local contract window "
+"(COMPILED CONTRACTS) will automatically refresh the newly compiled contract."
+" Click the contract in the window to open the deployment contract "
+"configuration view. You can also right-click the **Deploy** menu on the code"
+" editor, it will automatically compile the contract with :ref:`Debug and "
+"compile <debug_compiling>` and open the deployment contract configuration "
+"view."
+
+#: ../../deploy.rst:39
+msgid "部署合约"
+msgstr "Deployment contract"
+
+#: ../../deploy.rst:41
+msgid ""
+"打开部署合约配置视图后， 在视图中填写合约构造函数的各个参数，以及合约锁定 ``satoshis`` "
+"余额，如果是状态合约，您还需要填写初始的状态，然后点击 **Deploy** 按钮，就可以看到部署成功对应的 ``txid``, 在左边的合约实例窗口 "
+"(DEPLOYED CONTRACTS) 中会出现对应的实例，点击合约实例上的 View Tx 按钮，则可打开浏览器查看对应 Tx。"
+msgstr ""
+"After opening the deployment contract configuration view, fill in the "
+"various parameters of the contract constructor and the contract lock "
+"``satoshis'' balance in the view. If it is a state contract, you also need "
+"to fill in the initial state, and then click the **Deploy** button, You can "
+"see the ``txid'' corresponding to the successful deployment. The "
+"corresponding instance will appear in the contract instance window (DEPLOYED"
+" CONTRACTS) on the left. Click the View Tx button on the contract instance "
+"to open the browser to view the corresponding Tx."
+
+#: ../../deploy.rst:48
+msgid "调用合约"
+msgstr "Call contract"
+
+#: ../../deploy.rst:51
+msgid "无状态合约调用"
+msgstr "Stateless contract call"
+
+#: ../../deploy.rst:53
+msgid ""
+"无状态合约的调用相对简单，点击合约实例上的构造方法，则可查看构造方法调用时的实参，点击 ``public`` 方法，右边则会出现方法的调用视图， "
+"和部署合约的过程一样，只需给方法对应的参数赋值，点击 **Call** 按钮，就能调用合约的方法了，如果调用成功，你会看到对应的 ``txid``， "
+"失败则会打印出对应的错误。"
+msgstr ""
+"The call of a stateless contract is relatively simple. Click the constructor"
+" on the contract instance to view the actual parameters of the constructor "
+"call. Click the ``public'' method, and the method call view will appear on "
+"the right, which is the same as the process of deploying the contract. Just "
+"assign values to the corresponding parameters of the method and click the "
+"**Call** button to call the method of the contract. If the call is "
+"successful, you will see the corresponding ``txid'', and if it fails, the "
+"corresponding error will be printed ."
+
+#: ../../deploy.rst:60
+msgid "有状态合约调用"
+msgstr "Stateful contract call"
+
+#: ../../deploy.rst:62
+msgid "在合约调用视图可以看到合约的当前信息，如合约锁定余额、当前执行阶段、内部状态等。要调用当前合约方法，还需要根据情况完成以下几个步骤："
+msgstr ""
+"In the contract call view, you can see the current information of the "
+"contract, such as the locked balance of the contract, the current execution "
+"stage, and the internal state. To call the current contract method, you need"
+" to complete the following steps according to the situation:"
+
+#: ../../deploy.rst:65
+msgid "填写调用方法所需的实参。"
+msgstr "Fill in the actual parameters required to call the method."
+
+#: ../../deploy.rst:66
+msgid "添加交易输出，对于有状态合约，一般会限制合约的输出脚本，所以需要手动管理所有交易输出。目前支持的输出类型有三种："
+msgstr ""
+"Add transaction output. For stateful contracts, the output script of the "
+"contract is generally restricted, so all transaction outputs need to be "
+"manually managed. There are three types of output currently supported:"
+
+#: ../../deploy.rst:69
+msgid "输出类型"
+msgstr "Output type"
+
+#: ../../deploy.rst:69
+msgid "参数"
+msgstr "parameter"
+
+#: ../../deploy.rst:71
+msgid "状态合约输出"
+msgstr "State contract output"
+
+#: ../../deploy.rst:71
+msgid "``State`` : 合约状态的序列化值， ``Amount`` : 合约中锁定的余额"
+msgstr ""
+"``State``: the serialized value of the contract state, ``Amount``: the "
+"balance locked in the contract"
+
+#: ../../deploy.rst:72
+msgid "P2PKH输出"
+msgstr "P2PKH output"
+
+#: ../../deploy.rst:72
+msgid "``Address``: 收款人地址， ``Amount`` : 合约中锁定的余额"
+msgstr ""
+"``Address``: the address of the payee, ``Amount``: the balance locked in the"
+" contract"
+
+#: ../../deploy.rst:73
+msgid "OpReturn输出"
+msgstr "OpReturn output"
+
+#: ../../deploy.rst:73
+msgid "``OpReturn`` : op_return 脚本中的数据部分，asm 格式， ``Amount`` : 合约中锁定的余额"
+msgstr ""
+"``OpReturn``: the data part of the op_return script, in asm format, "
+"``Amount``: the balance locked in the contract"
+
+#: ../../deploy.rst:76
+msgid "设置交易相关参数"
+msgstr "Set transaction related parameters"
+
+#: ../../deploy.rst:78
+msgid ""
+"交易费用 ``Fee``： 根据您添加的交易输出，以及合约的 ``satoshis`` 余额自动计算得到。 交易签名类型 "
+"``SighashType``： 默认用于计算交易原象 Preimage 的签名类型是 ALL，您可根据合约使用交易签名类型来修改此值。"
+msgstr ""
+"Transaction fee ``Fee``: automatically calculated based on the transaction "
+"output you added and the ``satoshis`` balance of the contract. Transaction "
+"signature type ``SighashType``: The default signature type used to calculate"
+" the preimage of the transaction is ALL. You can modify this value according"
+" to the transaction signature type used in the contract."
+
+#: ../../deploy.rst:81
+msgid "点击 Call 按钮调用合约"
+msgstr "Click the Call button to call the contract"
+
+#: ../../deploy.rst:83
+msgid ""
+"所有设置均完成后点击 Call 按钮，会触发 API 发送这个合约调用交易到测试网。交易发送成功后，我们可以看到顶部显示合约余额发生变化。 合约实例的 "
+"**transactions** 子项中增加了一个交易，并且可通过右侧的 **View Tx** "
+"按钮在区块链浏览器上进行查看。另外，选中该交易子项时，被调用方法下的参数列表中会显示出此次调用时传递的各个实参。"
+msgstr ""
+"After all settings are completed, click the Call button to trigger the API "
+"to send this contract call transaction to the testnet. After the transaction"
+" is successfully sent, we can see that the contract balance displayed at the"
+" top has changed. A transaction is added to the **transactions** sub-item of"
+" the contract instance, and it can be viewed on the blockchain browser "
+"through the **View Tx** button on the right. In addition, when the "
+"transaction sub-item is selected, the parameter list under the called method"
+" will display the actual parameters passed during the call."
+
+#: ../../deploy.rst:89
+msgid "重复调用"
+msgstr "Repeat call"
+
+#: ../../deploy.rst:91
+msgid "针对有状态合约，可以重复上面的步骤继续调用其方法并观察其状态变更，直到合约中的余额不足"
+msgstr ""
+"For a stateful contract, you can repeat the above steps to continue to call "
+"its method and observe its state changes until the balance in the contract "
+"is insufficient"
+
+#: ../../deploy.rst:95
+msgid "目前暂不支持合并其它输入来调用合约"
+msgstr ""
+"Currently, it does not support merging other inputs to call the contract"
+
+#: ../../deploy.rst:99
+msgid "调用失败"
+msgstr "Call failed"
+
+#: ../../deploy.rst:101
+msgid ""
+"通常情况下，调用合约失败，将会在 **输出面板** 输出相应的信息，并生成 ``Launch Debugger`` 链接， **CRTL + 单击** "
+"链接将根据测试中的参数直接启动调试器会话。"
+msgstr ""
+"Normally, if the call to the contract fails, the corresponding information "
+"will be output in the **output panel**, and a ``Launch Debugger`` link will "
+"be generated, **CRTL + click** the link will directly start debugging "
+"according to the parameters in the test器session."
+
+#: ../../deploy.rst:110
+msgid "其它功能"
+msgstr "other functions"
+
+#: ../../deploy.rst:115
+msgid "查看交易"
+msgstr "View transaction"
+
+#: ../../deploy.rst:117
+msgid "合约实例窗口下 **transactions** 子项带有 **View Tx** 按钮， 点击可打开区块链浏览器查看该交易"
+msgstr ""
+"The **transactions** sub-item under the contract instance window has the "
+"**View Tx** button, click to open the blockchain browser to view the "
+"transaction"
+
+#: ../../deploy.rst:124
+msgid "复制值"
+msgstr "Copy value"
+
+#: ../../deploy.rst:126
+msgid "合约实例窗口下被方法下的参数列表上单击右键，会出现 **Copy Value** 菜单， 点击改菜单可以将参数的值复制到剪切板。"
+msgstr ""
+"Right-click on the parameter list under the method under the contract "
+"instance window, and the **Copy Value** menu will appear. Click the change "
+"menu to copy the value of the parameter to the clipboard."
+
+#: ../../deploy.rst:133
+msgid "清除合约实例"
+msgstr "Clear contract instance"
+
+#: ../../deploy.rst:135
+msgid "点击该按钮删除所有合约实例"
+msgstr "Click this button to delete all contract instances"
+
+#: ../../deploy.rst:142
+msgid "删除单个合约实例"
+msgstr "Delete a single contract instance"
+
+#: ../../deploy.rst:144
+msgid "在合约实例上右键单击会出现 **Delete** 菜单， 点击改菜单可以删除该合约实例"
+msgstr ""
+"Right-click on the contract instance and the **Delete** menu will appear, "
+"click the change menu to delete the contract instance"

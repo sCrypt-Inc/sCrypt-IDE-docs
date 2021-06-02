@@ -1,0 +1,60 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, sCrypt.Inc
+# This file is distributed under the same license as the sCrypt-IDE-docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+# 
+# Translators:
+# qtom zheng <zhfnjust@gmail.com>, 2021
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: sCrypt-IDE-docs 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-06-02 16:14+0800\n"
+"PO-Revision-Date: 2021-06-02 09:22+0000\n"
+"Last-Translator: qtom zheng <zhfnjust@gmail.com>, 2021\n"
+"Language-Team: English (https://www.transifex.com/scrypt-1/teams/121283/en/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../installation.rst:2
+msgid "安装"
+msgstr "installation"
+
+#: ../../installation.rst:4
+msgid "安装 `nodejs <https://nodejs.org>`_, require `version >= 12`"
+msgstr "Install `nodejs  `_, require `version >= 12`"
+
+#: ../../installation.rst:6
+msgid "安装 `vscode <https://code.visualstudio.com>`_"
+msgstr "Install `vscode  `_"
+
+#: ../../installation.rst:8
+msgid ""
+"安装 `sCrypt IDE <https://marketplace.visualstudio.com/items?itemName=bsv-"
+"scrypt.sCrypt>`_，在vscode 插件市场搜索 *sCrypt*"
+msgstr ""
+"Install `sCrypt IDE  `_, search for *sCrypt* in the vscode plug-in market"
+
+#: ../../installation.rst:11
+msgid "欢迎界面"
+msgstr "Welcome Screen"
+
+#: ../../installation.rst:13
+msgid "安装完成后，尝试打开我们的样本项目，会看到如下欢迎界面。"
+msgstr ""
+"After the installation is complete, try to open our sample project, you will"
+" see the following welcome interface."
+
+#: ../../installation.rst:15
+msgid "欢迎界面上有我们的官网地址，博客地址，联系方式和历史版本记录，通常也会显示当前版本的新功能，以及修复的问题。"
+msgstr ""
+"The welcome interface has our official website address, blog address, "
+"contact information and historical version records, and usually also "
+"displays the new features of the current version, as well as fixed problems."

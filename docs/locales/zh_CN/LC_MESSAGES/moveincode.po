@@ -1,0 +1,71 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, sCrypt.Inc
+# This file is distributed under the same license as the sCrypt-IDE-docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: sCrypt-IDE-docs 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-06-02 16:14+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../moveincode.rst:2
+msgid "大纲"
+msgstr "大纲"
+
+#: ../../moveincode.rst:4
+msgid "可使用“大纲”（在资源管理器中），在基本代码中导航代码。 点击对于的项目，代码编辑器就会跳转到对应的代码"
+msgstr "可使用“大纲”（在资源管理器中），在基本代码中导航代码。 点击对于的项目，代码编辑器就会跳转到对应的代码"
+
+#: ../../moveincode.rst:12
+msgid "转到符号"
+msgstr "转到符号"
+
+#: ../../moveincode.rst:14
+msgid "如果您想跳转到当前文件中的某个符号， 可以按以下快捷键:"
+msgstr "如果您想跳转到当前文件中的某个符号， 可以按以下快捷键:"
+
+#: ../../moveincode.rst:16
+msgid "Windows: ``Ctrl + Shift + o``"
+msgstr "Windows: ``Ctrl + Shift + o``"
+
+#: ../../moveincode.rst:18
+msgid "Mac: ``Command + Shift+ o``"
+msgstr "Mac: ``Command + Shift+ o``"
+
+#: ../../moveincode.rst:20
+msgid "Ubuntu: ``Ctrl + Shift + o``"
+msgstr "Ubuntu: ``Ctrl + Shift + o``"
+
+#: ../../moveincode.rst:22
+msgid "如果当前文件代码比较多，跳转到符号能够大大提升您查找代码的效率"
+msgstr "如果当前文件代码比较多，跳转到符号能够大大提升您查找代码的效率"
+
+#: ../../moveincode.rst:29
+msgid "查找所有引用"
+msgstr "查找所有引用"
+
+#: ../../moveincode.rst:31
+msgid ""
+"在你想要查找其引用的元素的上下文（右键单击）菜单中可以使用“查找所有引用”命令, 可以在整个代码库中查找引用该代码元素的位置。如果使用键盘，请按 "
+"``Shift + Alt + F12`` 。"
+msgstr ""
+"在你想要查找其引用的元素的上下文（右键单击）菜单中可以使用“查找所有引用”命令, 可以在整个代码库中查找引用该代码元素的位置。如果使用键盘，请按 "
+"``Shift + Alt + F12`` 。"
+
+#: ../../moveincode.rst:39
+msgid "转到定义"
+msgstr "转到定义"
+
+#: ../../moveincode.rst:41
+msgid "当您需要查看符号在代码中的定义，“转到定义”功能可导航到符号定义的位置，如果符号不是在当前文件定义的，会在新选项卡中打开结果。"
+msgstr "当您需要查看符号在代码中的定义，“转到定义”功能可导航到符号定义的位置，如果符号不是在当前文件定义的，会在新选项卡中打开结果。"
