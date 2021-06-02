@@ -1,0 +1,87 @@
+[main]
+host = https://www.transifex.com
+
+[scrypt-ide-docs.compilingpo]
+file_filter = docs/locales/<lang>/LC_MESSAGES/compiling.po
+source_file = docs/_build/gettext/compiling.pot
+source_lang = zh
+type = PO
+
+[scrypt-ide-docs.debuggerpo]
+file_filter = docs/locales/<lang>/LC_MESSAGES/debugger.po
+source_file = docs/_build/gettext/debugger.pot
+source_lang = zh
+type = PO
+
+[scrypt-ide-docs.deploypo]
+file_filter = docs/locales/<lang>/LC_MESSAGES/deploy.po
+source_file = docs/_build/gettext/deploy.pot
+source_lang = zh
+type = PO
+
+[scrypt-ide-docs.exceptionpo]
+file_filter = docs/locales/<lang>/LC_MESSAGES/exception.po
+source_file = docs/_build/gettext/exception.pot
+source_lang = zh
+type = PO
+
+[scrypt-ide-docs.getting_startedpo]
+file_filter = docs/locales/<lang>/LC_MESSAGES/getting_started.po
+source_file = docs/_build/gettext/getting_started.pot
+source_lang = zh
+type = PO
+
+[scrypt-ide-docs.hello_worldpo]
+file_filter = docs/locales/<lang>/LC_MESSAGES/hello_world.po
+source_file = docs/_build/gettext/hello_world.pot
+source_lang = zh
+type = PO
+
+[scrypt-ide-docs.indexpo]
+file_filter = docs/locales/<lang>/LC_MESSAGES/index.po
+source_file = docs/_build/gettext/index.pot
+source_lang = zh
+type = PO
+
+[scrypt-ide-docs.installationpo]
+file_filter = docs/locales/<lang>/LC_MESSAGES/installation.po
+source_file = docs/_build/gettext/installation.pot
+source_lang = zh
+type = PO
+
+[scrypt-ide-docs.moveincodepo]
+file_filter = docs/locales/<lang>/LC_MESSAGES/moveincode.po
+source_file = docs/_build/gettext/moveincode.pot
+source_lang = zh
+type = PO
+
+[scrypt-ide-docs.premiumpo]
+file_filter = docs/locales/<lang>/LC_MESSAGES/premium.po
+source_file = docs/_build/gettext/premium.pot
+source_lang = zh
+type = PO
+
+[scrypt-ide-docs.replpo]
+file_filter = docs/locales/<lang>/LC_MESSAGES/repl.po
+source_file = docs/_build/gettext/repl.pot
+source_lang = zh
+type = PO
+
+[scrypt-ide-docs.scrypt_editorpo]
+file_filter = docs/locales/<lang>/LC_MESSAGES/scrypt_editor.po
+source_file = docs/_build/gettext/scrypt_editor.pot
+source_lang = zh
+type = PO
+
+[scrypt-ide-docs.settingspo]
+file_filter = docs/locales/<lang>/LC_MESSAGES/settings.po
+source_file = docs/_build/gettext/settings.pot
+source_lang = zh
+type = PO
+
+[scrypt-ide-docs.testtingpo]
+file_filter = docs/locales/<lang>/LC_MESSAGES/testting.po
+source_file = docs/_build/gettext/testting.pot
+source_lang = zh
+type = PO
+
