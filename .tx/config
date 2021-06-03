@@ -67,9 +67,9 @@ source_file = docs/_build/gettext/repl.pot
 source_lang = zh
 type = PO
 
-[scrypt-ide-docs.scrypt_editorpo]
-file_filter = docs/locales/<lang>/LC_MESSAGES/scrypt_editor.po
-source_file = docs/_build/gettext/scrypt_editor.pot
+[scrypt-ide-docs.editorpo]
+file_filter = docs/locales/<lang>/LC_MESSAGES/editor.po
+source_file = docs/_build/gettext/editor.pot
 source_lang = zh
 type = PO
 
