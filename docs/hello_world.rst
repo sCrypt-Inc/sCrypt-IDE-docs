@@ -54,4 +54,4 @@ Hello World
     :width: 100%
 
 
-恭喜您，您已经完成了一个 ``HelloWorld`` 合约的开发和运行
+恭喜你，完成了一个 ``HelloWorld`` 合约的开发和运行
