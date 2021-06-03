@@ -7,7 +7,7 @@
 我们通过编写 **javascript/typescript** 来测试合约。我们推荐使用 `mocha <https://mochajs.org/>`_ 测试框架来进行合约的测试，当然您可以使用其它测试框架。
 ``package.json`` 文件的脚本部分中应该存在一个名为 ``single-test`` 的脚本。**sCrypt IDE** 用它来运行单个文件测试。通常它看起来像 "single-test": "mocha"，但您可以自定义它。
 
-**sCrypt IDE** 支持在代码编辑器/资源管理器上下文菜单中运行单元测试文件。开始运行后，**sCrypt IDE** 会为您自动打开 vscode 底部面板，并显示 **输出** 视图，
+**sCrypt IDE** 支持在代码编辑器/资源管理器上下文菜单中运行单元测试文件。开始运行后，**sCrypt IDE** 会为您自动打开 VS Code 底部面板，并显示 **输出** 视图，
 测试报告将输出到 **输出** 视图。
 
 

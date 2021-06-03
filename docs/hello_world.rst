@@ -3,7 +3,7 @@ Hello World
 
 初始化项目
 ----------
-开始编写合约之前，我们先创建一个helloworld目录，并进入到目录，通过 ``npm init`` 创建一个 **npm** 项目。
+开始编写合约之前，先创建一个helloworld目录，并进入到目录，通过 ``npm init`` 创建一个 **npm** 项目。
 
 
 然后创建 ``helloworld.scrypt`` 文件。
@@ -29,7 +29,7 @@ Hello World
 调试合约
 --------------------
 
-打开 vscode 的 **运行和调试** 视图，点击 **创建 launch.json 文件** 按钮，创建如下配置：
+打开 VS Code 的 **运行和调试** 视图，点击 **创建 launch.json 文件** 按钮，创建如下配置：
 
 
 .. code-block:: console
