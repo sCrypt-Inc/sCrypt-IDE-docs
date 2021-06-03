@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sCrypt-IDE-docs 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-03 18:35+0800\n"
+"POT-Creation-Date: 2021-06-04 00:29+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,12 +19,12 @@ msgstr ""
 #: ../../repl.rst:2 a77ad3ce07ba404c8b7c3b10f5a9533f
 msgid ""
 "调试控制台, 又称为交互式窗口 **REPL** (**R** ead/**E** valuate/**P** rint **L** "
-"oop)，可以极大地缩短了常用的“编译-生成-调试”周期，提高您的开发效率。 **sCrypt IDE** "
-"支持您在调试控制台中输入变量，表达式，同时还有一些内置命令，方便您调试异常。"
+"oop)，可以极大地缩短了常用的“编译-生成-调试”周期，提高开发效率。 **IDE** "
+"支持在调试控制台中输入变量，表达式，同时还有一些方便调试异常的内置命令。"
 msgstr ""
 "调试控制台, 又称为交互式窗口 **REPL** (**R** ead/**E** valuate/**P** rint **L** "
-"oop)，可以极大地缩短了常用的“编译-生成-调试”周期，提高您的开发效率。 **sCrypt IDE** "
-"支持您在调试控制台中输入变量，表达式，同时还有一些内置命令，方便您调试异常。"
+"oop)，可以极大地缩短了常用的“编译-生成-调试”周期，提高开发效率。 **IDE** "
+"支持在调试控制台中输入变量，表达式，同时还有一些方便调试异常的内置命令。"
 
 #: ../../repl.rst:5 93e522dba4b245c2974c39c089f20222
 msgid ""
@@ -33,16 +33,16 @@ msgstr ""
 "要打开调试控制台，请使用调试视图顶部的调试控制台操作或使用 **查看：调试控制台** 命令, 键盘快捷键是 **Ctrl+Shift+Y**。"
 
 #: ../../repl.rst:9 a6e6cb3c2da648dd89dc92cd0ba1b73b
-msgid "您必须处于正在运行的调试会话中才能使用调试控制台"
-msgstr "您必须处于正在运行的调试会话中才能使用调试控制台"
+msgid "必须处于正在运行的调试会话中才能使用调试控制台"
+msgstr "必须处于正在运行的调试会话中才能使用调试控制台"
 
 #: ../../repl.rst:13 88b63a881be949ddbb44fe4f40175b50
 msgid "自动提示"
 msgstr "自动提示"
 
 #: ../../repl.rst:15 3b057f59e5ae4dbd9ffadfc221eb7fa5
-msgid "调试过程中，当您在调试控制台输入代码时， **sCrypt IDE** 会根据您的输入，自动提示，您可以选择想要的提示项进行补全。"
-msgstr "调试过程中，当您在调试控制台输入代码时， **sCrypt IDE** 会根据您的输入，自动提示，您可以选择想要的提示项进行补全。"
+msgid "调试过程中，当在调试控制台输入代码时， **IDE** 会根据你的输入，自动提示补全。"
+msgstr "调试过程中，当在调试控制台输入代码时， **IDE** 会根据你的输入，自动提示补全。"
 
 #: ../../repl.rst:23 e59022f1017247a4ab4edb2e52e3dd48
 msgid "历史记录"
@@ -50,11 +50,9 @@ msgstr "历史记录"
 
 #: ../../repl.rst:25 48c065d25e134677806b7ac3c5534015
 msgid ""
-"**历史记录** 功能需要开启相应设置，如果您没有开启，可以找到 设置->功能->调试->Console->History "
-"Suggestions，并开启。"
+"**历史记录** 功能需要开启相应设置，如果没有开启，找到 设置->功能->调试->Console->History Suggestions，并开启。"
 msgstr ""
-"**历史记录** 功能需要开启相应设置，如果您没有开启，可以找到 设置->功能->调试->Console->History "
-"Suggestions，并开启。"
+"**历史记录** 功能需要开启相应设置，如果没有开启，找到 设置->功能->调试->Console->History Suggestions，并开启。"
 
 #: ../../repl.rst:32 7be81445199e445589726802cb0b667a
 msgid "内置命令"

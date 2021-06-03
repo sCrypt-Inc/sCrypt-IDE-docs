@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sCrypt-IDE-docs 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-03 17:45+0800\n"
+"POT-Creation-Date: 2021-06-04 00:29+0800\n"
 "PO-Revision-Date: 2021-06-02 09:22+0000\n"
 "Last-Translator: qtom zheng <zhfnjust@gmail.com>, 2021\n"
 "Language-Team: English (https://www.transifex.com/scrypt-1/teams/121283/en/)\n"
@@ -21,96 +21,96 @@ msgstr ""
 "Language: en\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../settings.rst:3 2f5e2b7dae4f48a2bb4bef86e29a2dec
+#: ../../settings.rst:3 c79c92c3d4af4854b393b8861c347d85
 msgid "设置"
 msgstr "Settings"
 
-#: ../../settings.rst:5 993672c4928444368a46f6db06900bf7
+#: ../../settings.rst:5 ea988656d6ce4c558a6bb7dbe5070e32
 msgid "在 VS Code 中打开 “文件” -> “首选项” -> “设置” -> “扩展” -> **sCrypt**"
 msgstr ""
 "Open \"File\" -> \"Preferences\" -> \"Settings\" -> \"Extensions\" -> "
 "**sCrypt** in VS Code"
 
-#: ../../settings.rst:14 c9b41f44e9de4a03a98990e36fe89fda
+#: ../../settings.rst:14 f981706f0dde413e83487ae83d55ffad
 msgid "私钥"
 msgstr "Private key"
 
-#: ../../settings.rst:17 df07244fe0f74fcdad6229fb0cdcc6b6
-msgid "在设置项中找到 **Priv Key**，输入您的测试网私钥，有了测试网私钥后，您才能使用部署合约的相关功能。"
+#: ../../settings.rst:17 b60c0de63a51447bab65f2bb14bf71a1
+msgid "在设置项中找到 **Priv Key**，输入你的测试网私钥，有了测试网私钥后，才能使用部署合约的相关功能。"
 msgstr ""
-"Find **Priv Key** in the settings and enter your testnet private key. After "
-"you have the testnet private key, you can use related functions of the "
-"deployment contract."
+"Find **Priv Key** in the settings item, enter your testnet private key, and "
+"you can use the related functions of the deployment contract after you have "
+"the testnet private key."
 
-#: ../../settings.rst:25 aca3176aa5c4459592ef897cbf925d17
-msgid "请勿在此处输入您主网上的私钥"
-msgstr "Please do not enter your private key on your mainnet here"
+#: ../../settings.rst:25 36491b7332f24366ba42a92912dbd737
+msgid "请勿在此处输入主网上的私钥"
+msgstr "Do not enter the private key on the mainnet here"
 
-#: ../../settings.rst:28 b65641196acb421b9d9831d4d9419945
+#: ../../settings.rst:28 b641a0559ffd40eea94719dbee031472
 msgid "状态栏私钥余额"
 msgstr "Private key balance in status bar"
 
-#: ../../settings.rst:30 8bd2eaee1a8e4edfaa496fab3b87b1bd
+#: ../../settings.rst:30 ddf51f3f4ff8411eb5b28994638c35e9
 msgid "设置好私钥后，状态栏右下角的 **BSV** 按钮会自动更新，显示出该私钥对应地址的比特币余额。"
 msgstr ""
 "After setting the private key, the **BSV** button in the lower right corner "
 "of the status bar will automatically update, showing the Bitcoin balance of "
 "the address corresponding to the private key."
 
-#: ../../settings.rst:37 985169ddf69a40be83a34562a57a3176
+#: ../../settings.rst:37 0cb9c49837044520a7f0de82ca4b6d61
 msgid "Log 开关"
 msgstr "Log switch"
 
-#: ../../settings.rst:42 3acfd5fdee584c6fba61f9704aae7ca2
-msgid "在设置项中找到 **Log** > **Enable**，开启 log开关 后，您将在 **输出面板** 中看到更多的信息。"
+#: ../../settings.rst:42 b78145f885e044ac9796de3f60a89a46
+msgid "在设置项中找到 **Log** > **Enable**，开启 log开关 后，将在 **输出面板** 中看到更多的信息。"
 msgstr ""
 "Find **Log**> **Enable** in the setting item, after turning on the log "
 "switch, you will see more information in the **output panel**."
 
-#: ../../settings.rst:44 877ce71c1c21484f83898a4872c368b6
+#: ../../settings.rst:44 916357100ff24ffca15d72053a7b3870
 msgid ""
-"同时，**sCrypt IDE** 会将所有的 log 输出一个到文件中并保存在磁盘上。在 **sCrypt IDE** 激活时，您可以在 "
-"**输出面板** 中看到 log 保存的目录："
+"同时，**IDE** 会将所有的 log 输出一个到文件中并保存在磁盘上。在 **IDE** 激活时，可以在 **输出面板** 中看到 log "
+"保存的目录："
 msgstr ""
-"At the same time, **sCrypt IDE** will output all the logs to a file and save"
-" it on the disk. When **sCrypt IDE** is activated, you can see the directory"
-" where log is saved in the **output panel**:"
+"At the same time, **IDE** will output all the logs to a file and save it on "
+"the disk. When **IDE** is activated, you can see the directory where log is "
+"saved in the **output panel**:"
 
-#: ../../settings.rst:51 df4a1fc22efe4a4783d744a0eb0cfef9
-msgid "默认情况下log是关闭，在遇到问题时，我们的开发人员可能会请你开启Log以协助分析问题。"
+#: ../../settings.rst:51 030c8ba40e5e47f2a7967777952514b5
+msgid "默认情况下log是关闭，在遇到问题时，请开启Log以协助分析问题。"
 msgstr ""
-"By default, log is turned off. When encountering a problem, our developers "
-"may ask you to turn on the log to assist in analyzing the problem."
+"By default, log is turned off. When you encounter problems, please turn on "
+"log to help analyze the problem."
 
-#: ../../settings.rst:55 3a8b37d305024e25a7b7b56e789da432
+#: ../../settings.rst:55 51e5cc182db44bb19bda43ec2022c123
 msgid "高级付费功能设置"
 msgstr "Preminum paid features settings"
 
-#: ../../settings.rst:60 8061a05e19d34af6895b05507a8d8e78
+#: ../../settings.rst:60 a1013867b6d24c0a8c876b3b7700d90c
 msgid "高级许可证设置"
 msgstr "Preminum license settings"
 
-#: ../../settings.rst:62 ad50ef5b66d641ba908d266ec2ef3b7f
+#: ../../settings.rst:62 ea96615aea1c418cb409e27113dc0bfd
 msgid ""
-"首先您需要购买我们的 :ref:`高级许可证 <buy_license>` ，在设置项中找到 **Premium: User License** 和 "
+"首先需要购买我们的 :ref:`高级许可证 <buy_license>` ，在设置项中找到 **Premium: User License** 和 "
 "**Premium: User Paymail**,  配置好相应的 Paymail 及 License 信息，就可以顺利使用所有的高级功能了。"
 msgstr ""
-"First, you need to purchase our :ref:`Premium license <buy_license>`, find "
+"First, you need to purchase our: ref: `Premium license <buy_license>`, find "
 "**Premium: User License** and **Premium: User Paymail** in the settings, "
-"configure the corresponding Paymail and license information, and you can Use"
-" all advanced functions smoothly."
+"configure the corresponding Paymail and License information, and you can go "
+"smoothly Use all the advanced features."
 
-#: ../../settings.rst:66 fef5cb0c1f1f4b17866922e76fcd3376
+#: ../../settings.rst:66 80ad9a5bcb674bf3a4b18dbf99aa9b01
 msgid "高级许可证验证成后窗口右下角会有通知提示"
 msgstr ""
 "After the advanced license is verified, there will be a notification prompt "
 "in the lower right corner of the window"
 
-#: ../../settings.rst:73 076838bcab0048e88be5b3ecc0564163
+#: ../../settings.rst:73 ebd6037e714a4cac882a4a86b1fe25d5
 msgid "ASM操作码缩进设置"
 msgstr "ASM opcode indentation settings"
 
-#: ../../settings.rst:75 2e7f9f4d0a67483b82fc766080d0205c
+#: ../../settings.rst:75 a94a8d0ce862429e98c5b09c45c9688e
 msgid ""
 "在设置项中找到 **Premium: Indentedasm**，开启后，在使用 :ref:`比特币脚本调 "
 "<script_level_debugging>` 功能时，ASM操作码会缩进显示。"

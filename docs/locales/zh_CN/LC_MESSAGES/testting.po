@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sCrypt-IDE-docs 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-03 20:18+0800\n"
+"POT-Creation-Date: 2021-06-04 00:29+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -60,19 +60,19 @@ msgstr "在 ``package.json`` 中配置测试命令"
 
 #: ../../testting.rst:27 1344afdd22924933979dcdf9b5dc1fb8
 msgid ""
-"``package.json`` 文件的脚本部分中应该存在一个名为 ``single-test`` 的脚本。**sCrypt IDE** "
+"``package.json`` 文件的脚本部分中应该存在一个名为 ``single-test`` 的脚本。**IDE** "
 "用它来运行单个文件测试。通常它看起来像 \"single-test\": \"mocha\"，但您可以自定义它。"
 msgstr ""
-"``package.json`` 文件的脚本部分中应该存在一个名为 ``single-test`` 的脚本。**sCrypt IDE** "
+"``package.json`` 文件的脚本部分中应该存在一个名为 ``single-test`` 的脚本。**IDE** "
 "用它来运行单个文件测试。通常它看起来像 \"single-test\": \"mocha\"，但您可以自定义它。"
 
 #: ../../testting.rst:53 e1ff5b57c1c7483e924ec1fc9c42505e
 msgid ""
-"**sCrypt IDE** 支持在代码编辑器/资源管理器上下文菜单中运行单元测试文件。开始运行后，**sCrypt IDE** 会为你自动打开 "
-"vscode 底部面板，并显示 **输出** 视图， 测试报告将输出到 **输出** 面板。"
+"**IDE** 支持在代码编辑器/资源管理器上下文菜单中运行单元测试文件。开始运行后，**IDE** 会为你自动打开 vscode 底部面板，并显示 "
+"**输出** 视图， 测试报告将输出到 **输出** 面板。"
 msgstr ""
-"**sCrypt IDE** 支持在代码编辑器/资源管理器上下文菜单中运行单元测试文件。开始运行后，**sCrypt IDE** 会为你自动打开 "
-"vscode 底部面板，并显示 **输出** 视图， 测试报告将输出到 **输出** 面板。"
+"**IDE** 支持在代码编辑器/资源管理器上下文菜单中运行单元测试文件。开始运行后，**IDE** 会为你自动打开 vscode 底部面板，并显示 "
+"**输出** 视图， 测试报告将输出到 **输出** 面板。"
 
 #: ../../testting.rst:59 0bc413495c2249bea999769682b0f812
 msgid ""
@@ -108,11 +108,9 @@ msgstr "如何快速调试 sCrypt 单元测试错误"
 
 #: ../../testting.rst:100 d52db01e45254d12b9ab1db8239f9c12
 msgid ""
-"**sCrypt IDE** "
-"允许您在单元测试失败的地方启动调试器，这将帮助开发人员极大地提高调试合约问题的效率。如果单元测试失败，则错误消息中还有另外两行信息："
+"**IDE** 允许您在单元测试失败的地方启动调试器，这将帮助开发人员极大地提高调试合约问题的效率。如果单元测试失败，则错误消息中还有另外两行信息："
 msgstr ""
-"**sCrypt IDE** "
-"允许您在单元测试失败的地方启动调试器，这将帮助开发人员极大地提高调试合约问题的效率。如果单元测试失败，则错误消息中还有另外两行信息："
+"**IDE** 允许您在单元测试失败的地方启动调试器，这将帮助开发人员极大地提高调试合约问题的效率。如果单元测试失败，则错误消息中还有另外两行信息："
 
 #: ../../testting.rst:106 e58c72b47cef461bae16a8e46d6af957
 msgid ""
