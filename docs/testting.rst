@@ -50,7 +50,7 @@
     }
 
 
-**IDE** 支持在代码编辑器/资源管理器上下文菜单中运行单元测试文件。开始运行后，**IDE** 会为你自动打开 vscode 底部面板，并显示 **输出** 视图，
+**IDE** 支持在代码编辑器/资源管理器上下文菜单中运行单元测试文件。开始运行后，**IDE** 会为你自动打开VS Code底部面板，并显示 **输出** 视图，
 测试报告将输出到 **输出** 面板。
 
 
@@ -69,14 +69,14 @@
 
     const MyContract = buildContractClass(JSON.parse(descFileContent));
 
-也可以使用 **scryptlib** 导出 ``compileContract`` 或者 ``compile`` 函数来编译合约，用于集成和测试以 **sCrypt** 语言编写的比特币智能合约的 Javascript/TypeScript SDK
+也可以使用 **scryptlib** 导出 ``compileContract`` 或者 ``compile`` 函数来编译合约。
 
 .. code-block:: javascript
 
     const MyContract = buildContractClass(compileContract('demo.scrypt'));
 
 
-2. 创建合约的实例
+1. 创建合约的实例
 
 .. code-block:: javascript
 
@@ -88,22 +88,22 @@
 
     const funcCall = instance.someFunc(new Sig('0123456'), new Bytes('aa11ff'), ...parameters);
     const result = funcCall.verify(context);
+    expect(result.success, result.error).to.be.true;
 
 
 
 
 
-
-如何快速调试 sCrypt 单元测试错误
+如何快速调试单元测试错误
 ================================
 
-**IDE** 允许您在单元测试失败的地方启动调试器，这将帮助开发人员极大地提高调试合约问题的效率。如果单元测试失败，则错误消息中还有另外两行信息：
+**IDE** 允许在单元测试失败的地方启动调试器，这将帮助开发人员极大地提高调试合约问题的效率。如果单元测试失败，则错误消息中还有另外两行信息：
 
 
 .. image:: ./images/testting_fail.png
   :width: 100%
 
-**Go to Source** : 它显示了单元测试具体在 **sCrypt** 合约代码中哪一行失败，以及最后执行的脚本操作码。**CRTL + 单击** 将直接跳转到发生错误行；
+**Go to Source** : 它显示了单元测试具体在合约代码中哪一行失败，以及最后执行的脚本操作码。**CRTL + 单击** 将直接跳转到发生错误行；
 
 **Launch Debugger** : **CRTL + 单击** 链接将根据测试中的参数直接启动调试器会话。调试器将在错误即将发生之前暂停，以便检查导致故障的原因。利用这个功能可以极大提升 debug 的效率。
 
@@ -112,8 +112,8 @@
 Launch Debugger 命令
 ================================
 
-通常情况下，您使用右键菜单来运行单元测试，这样您可以从 **输出** 中单击测试报告中的链接来打开调试器， 但是某些情况下，您可能是在外部环境运行测试，比如终端，
-这种情况您将无法通过单击测试报告中的链接来打开调试器，这个时候，您可以使用 **Launch Debugger** 命令，将 ``scryptlaunch:///{file}`` 粘贴到命令的输入弹出框中，并按 **Enter** 来启动调试器。
+通常情况下，可使用右键菜单来运行单元测试，这样可以从 **输出** 中单击测试报告中的链接来打开调试器。 但是某些情况下，测试在外部环境运行，比如终端。
+这种情况您将无法通过单击测试报告中的链接来打开调试器。这个时候，可以使用 **Launch Debugger** 命令，将 ``scryptlaunch:///{file}`` 粘贴到命令的输入弹出框中，并按 **Enter** 来启动调试器。
 
 
 .. note::
