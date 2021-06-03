@@ -1,118 +1,119 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2021, sCrypt.Inc
-# This file is distributed under the same license as the sCrypt-IDE-docs
-# package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
-#
+# This file is distributed under the same license as the sCrypt-IDE-docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: sCrypt-IDE-docs 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-03 17:45+0800\n"
+"POT-Creation-Date: 2021-06-03 18:35+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
 
-#: ../../editor.rst:3 216ab73e5d054db59d370bc388ebe995
+#: ../../editor.rst:3 42bdeb3da4fb40ac9943a4a0bd6760ac
 msgid "代码编辑器"
-msgstr ""
+msgstr "代码编辑器"
 
-#: ../../editor.rst:7 36462d93802c42eb8c5f16e8b4f68180
+#: ../../editor.rst:7 b7f928290a1f4e89a78a7c894608b20c
 msgid "语法高亮"
-msgstr ""
+msgstr "语法高亮"
 
-#: ../../editor.rst:9 8d622492f54f4997b5009fcd31be2b40
+#: ../../editor.rst:9 41879a8cbd0d4b0584d9b77f27dcc2ea
 msgid ""
 "**sCrypt IDE** 内置了一个 **sCrypt** 语言的代码着色器，在您打开 `*.scrypt` "
 "文件的时候可以看到某些语法元素显示高亮的效果，例如，关键字（如 `loop` `require`) 用一种颜色，类型（如 `int` 和 "
 "`bytes`) 用另一种颜色。"
 msgstr ""
+"**sCrypt IDE** 内置了一个 **sCrypt** 语言的代码着色器，在您打开 `*.scrypt` "
+"文件的时候可以看到某些语法元素显示高亮的效果，例如，关键字（如 `loop` `require`) 用一种颜色，类型（如 `int` 和 "
+"`bytes`) 用另一种颜色。"
 
-#: ../../editor.rst:18 ded54a6d0c2f47afbcc771f39eceaa04
+#: ../../editor.rst:18 bb13ffc5605c4f639101edb8959fe88c
 msgid "悬浮提示"
-msgstr ""
+msgstr "悬浮提示"
 
-#: ../../editor.rst:20 14cde5c3f4cc475ebd9352254df2e1d6
+#: ../../editor.rst:20 3ed6b7bcfe9242dea7a0c2e22663c069
 msgid "当您移动鼠标悬停在一个符号上时，会自动显示符号相关的信息"
-msgstr ""
+msgstr "当您移动鼠标悬停在一个符号上时，会自动显示符号相关的信息"
 
-#: ../../editor.rst:26 4bb77322fea6497c9578ebc12ea3742b
+#: ../../editor.rst:26 88b37d913ed54868a70f26e8a432a026
 msgid "自动补全"
-msgstr ""
+msgstr "自动补全"
 
-#: ../../editor.rst:28 0794e9e2c090419e8a8e1057b95646cc
+#: ../../editor.rst:28 0e1d532da26a4e8588defc0a9344e08e
 msgid "当您在编辑器上输入代码时， **sCrypt IDE** 会根据您的输入，自动补全相关输入。"
-msgstr ""
+msgstr "当您在编辑器上输入代码时， **sCrypt IDE** 会根据您的输入，自动补全相关输入。"
 
-#: ../../editor.rst:34 2e68eff089e84ad8b102ad0c7a1ab603
+#: ../../editor.rst:34 ceb3aee389914674a20a6ae52a7743d2
 msgid "函数签名帮助"
-msgstr ""
+msgstr "函数签名帮助"
 
-#: ../../editor.rst:36 8eeb14e11f9e4402adbd5006d80015e3
+#: ../../editor.rst:36 450772ffa8574c719025a80d992b6cbb
 msgid "在代码编辑过程中，**sCrypt IDE** 会根据您的输入，自动给出函数签名的相关提示。"
-msgstr ""
+msgstr "在代码编辑过程中，**sCrypt IDE** 会根据您的输入，自动给出函数签名的相关提示。"
 
-#: ../../editor.rst:43 59220cb4e2b94f2492386d99e2fb2585
+#: ../../editor.rst:43 a558a357101241599fcb42df829d0055
 msgid "错误和警告标记"
-msgstr ""
+msgstr "错误和警告标记"
 
-#: ../../editor.rst:45 424d4ee84b8242aaaa64948d41766829
+#: ../../editor.rst:45 03cdd0e3ed1042558bc90eedb31ee462
 msgid ""
-"修改代码时，可能会看到不同颜色的波浪下划线， 红色波浪线表示语法错误，黄色表示警告。 "
-"您可以根据错误提示信息来快速修复问题。所有文件的错误信息都汇聚在 **问题** 面板中，如果您修改了代码消除了错误， **问题** "
-"面板中的错误提示就会自动消失。"
+"修改代码时，可能会看到不同颜色的波浪下划线， 红色波浪线表示语法错误，黄色表示警告。 您可以根据错误提示信息来快速修复问题。所有文件的错误信息都汇聚在 "
+"**问题** 面板中，如果您修改了代码消除了错误， **问题** 面板中的错误提示就会自动消失。"
 msgstr ""
+"修改代码时，可能会看到不同颜色的波浪下划线， 红色波浪线表示语法错误，黄色表示警告。 您可以根据错误提示信息来快速修复问题。所有文件的错误信息都汇聚在 "
+"**问题** 面板中，如果您修改了代码消除了错误， **问题** 面板中的错误提示就会自动消失。"
 
-#: ../../editor.rst:53 8cfa46a6575348f7ba968804d8564fdc
+#: ../../editor.rst:53 b78644541f0443949dee243c0c108ed6
 msgid "代码导航"
-msgstr ""
+msgstr "代码导航"
 
-#: ../../editor.rst:61 2f021ba84b4e4f30a72010897d3e53cd
+#: ../../editor.rst:61 1aaf1ca9dc19414385c15f881490cd2a
 msgid "重命名符号"
-msgstr ""
+msgstr "重命名符号"
 
-#: ../../editor.rst:63 0f528e80fb494dddac3f167d011240e6
+#: ../../editor.rst:63 c9f5fcf5b16c4089aa5aaf00bf779b6d
 msgid "重命名代码符号的标识符，例如合约名称，合约属性、本地变量、方法、类型。"
-msgstr ""
+msgstr "重命名代码符号的标识符，例如合约名称，合约属性、本地变量、方法、类型。"
 
-#: ../../editor.rst:65 2723a8efa9b74fa2a6d5c9889db8330a
+#: ../../editor.rst:65 f75480de08434030a1043091fbbd7798
 msgid "将文本光标置于要重命名的代码符号："
-msgstr ""
+msgstr "将文本光标置于要重命名的代码符号："
 
-#: ../../editor.rst:67 ac89892e6c114636ab24f193aed1f3da
+#: ../../editor.rst:67 df87c3142b4d4e99b91039bf90ad4244
 msgid "键盘：按 ``F2``"
-msgstr ""
+msgstr "键盘：按 ``F2``"
 
-#: ../../editor.rst:69 56b845c77fe04140a297d91e2f78cc53
+#: ../../editor.rst:69 20779b523b4e42269b55ec26a0366a0f
 msgid "鼠标：右键单击代码并选择“重命名”。"
-msgstr ""
+msgstr "鼠标：右键单击代码并选择“重命名”。"
 
-#: ../../editor.rst:75 9079061481c34ee18e8b1a0b983fef15
+#: ../../editor.rst:75 5d8766e6e5be46a2947a8753589a6978
 msgid "格式化代码"
-msgstr ""
+msgstr "格式化代码"
 
-#: ../../editor.rst:77 d1182467067c476e8c2c2d1b1498c725
+#: ../../editor.rst:77 4d33d9143ecd43209ccd65bf5a0cc29b
 msgid "打开要格式化的代码"
-msgstr ""
+msgstr "打开要格式化的代码"
 
-#: ../../editor.rst:79 855ce977a27449e09c65c9a280b1410c
+#: ../../editor.rst:79 4a3b8f46d3ee43789731404ec6690caf
 msgid "键盘：按 ``Shift + Alt + F``"
-msgstr ""
+msgstr "键盘：按 ``Shift + Alt + F``"
 
-#: ../../editor.rst:81 5061ab36363949d19aeca81cde121f7e
+#: ../../editor.rst:81 3c94ac50a13e4df59c8d9d894fb86299
 msgid "鼠标：右键单击代码并选择“格式化文档”。"
-msgstr ""
+msgstr "鼠标：右键单击代码并选择“格式化文档”。"
 
-#: ../../editor.rst:86 41ca8cf3f1ba413d9948043718844b9f
+#: ../../editor.rst:86 c1332f0ce6f0466d90a0a5633a1d1f6b
 msgid "格式后如果发现某行代码太长，可以尝试手动将其断行在格式化，我们会保留您的断行信息"
-msgstr ""
+msgstr "格式后如果发现某行代码太长，可以尝试手动将其断行在格式化，我们会保留您的断行信息"
 
-#: ../../editor.rst:90 72160a0b2696488b881032b48ea55f47
+#: ../../editor.rst:90 7e198e21b69140db9ba695e86ff82a81
 msgid "格式化之前，需要先确保你的代码没有语法错误，可以正常编译"
-msgstr ""
-
+msgstr "格式化之前，需要先确保你的代码没有语法错误，可以正常编译"

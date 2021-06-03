@@ -30,7 +30,7 @@
 
 
 
-下面是一个调试 `p2pkh <https://github.com/sCrypt-Inc/boilerplate/blob/master/contracts/p2pkh.scrypt>`_ 合约的示例配置：
+下面是一个调试 `p2pkh`_ 合约的示例配置：
 
 .. code-block:: json
     :linenos:
@@ -69,7 +69,7 @@ constructorArgs       是     合约的构造参数
 pubFunc               是     要调试的 ``public`` 方法名称
 pubFuncArgs           是     要调试的 ``public`` 方法的参数
 txContext             否     运行方法所需的 :ref:`交易上下文 <txContext>`
-asmArgs               否     `汇编变量 <https://scryptdoc.readthedocs.io/zh_CN/latest/asm.html>`_ 值
+asmArgs               否     `汇编变量`_ 值
 ===============    ======== ======================================================================================
 
 
@@ -91,7 +91,7 @@ opReturn             否     有状态合约锁定脚本对应的状态
 
 .. hint::
 
-  了解校验签名是如何运作的: `CHECKSIG <https://wiki.bitcoinsv.io/index.php/OP_CHECKSIG>`_
+  了解校验签名是如何运作的: `CHECKSIG`_
 
 
 
@@ -200,3 +200,9 @@ opReturn             否     有状态合约锁定脚本对应的状态
     :maxdepth: 2
 
     exception
+
+
+.. _p2pkh: https://github.com/sCrypt-Inc/boilerplate/blob/master/contracts/p2pkh.scrypt
+.. _CHECKSIG: https://wiki.bitcoinsv.io/index.php/OP_CHECKSIG
+.. _汇编变量: https://scryptdoc.readthedocs.io/zh_CN/latest/asm.html
+.. _Assembly Variable: https://scryptdoc.readthedocs.io/en/latest/asm.html

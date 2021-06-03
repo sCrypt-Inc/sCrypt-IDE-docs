@@ -26,7 +26,7 @@
 如何获得高级许可证
 --------------------
 
-通过使用 `Baemail <https://baemail.me/>`_ 服务向我们的官方邮件地址 scrypt@moneybutton.com 发送标题为 ‘Purchase An sCrypt Premium License’ 的邮件，
+通过使用 `Baemail`_ 服务向我们的官方邮件地址 scrypt@moneybutton.com 发送标题为 ‘Purchase An sCrypt Premium License’ 的邮件，
 同时在其中支付单个用户高级许可证的费用。待我们收到并确认后，会回复相应的高级许可证给发件人。
 
 如何使用高级许可证
@@ -74,7 +74,7 @@
 ==========================================
 
 **sCrypt** 编程与使用 Javascript 或 Python 进行的传统编程不同，因为当将包含编译结果的交易提交到比特币网络时，脚本大小直接决定了它们的运行成本。因此，最终的脚本应该尽可能小，以节省交易费用 [1]_。
-`sCrypt 开发人员优化指南 <https://blog.csdn.net/freedomhero/article/details/117001452>`_ 列出了一些技巧，供开发人员手动优化其 sCrypt 合约的脚本输出。而手动优化可能会导致含义模糊、难于维护的代码。
+`sCrypt 开发人员优化指南`_ 列出了一些技巧，供开发人员手动优化其 sCrypt 合约的脚本输出。而手动优化可能会导致含义模糊、难于维护的代码。
 为此，我们编译器提供一个自动优化的功能，您可以信赖编译器来代表您优化代码。
 
 当您使用 :ref:`发布编译 <release_compiling>` 来构建合约时，编译器会自动开启优化，优化可以显著（两位数的百分比）减小脚本的大小并提高其性能。
@@ -86,3 +86,7 @@
 
 .. [1] 当前，交易费用仅与脚本/事务的大小成正比，未来会将演变为考虑脚本的复杂性。因此，优化目标也有望在未来发展演变。
 
+
+.. _sCrypt 开发人员优化指南: https://blog.csdn.net/freedomhero/article/details/117001452
+.. _sCrypt Developer Optimization Guide: https://xiaohuiliu.medium.com/an-scrypt-developers-guide-to-optimization-bc9848f91e5f
+.. _Baemail: https://baemail.me

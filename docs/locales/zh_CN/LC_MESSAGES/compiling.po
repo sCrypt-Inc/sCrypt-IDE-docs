@@ -1,198 +1,103 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2021, sCrypt.Inc
-# This file is distributed under the same license as the sCrypt-IDE-docs
-# package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
-#
+# This file is distributed under the same license as the sCrypt-IDE-docs package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: sCrypt-IDE-docs 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-03 17:56+0800\n"
+"POT-Creation-Date: 2021-06-03 20:22+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
 
-#: ../../compiling.rst:5 7e43e1438e1e4bcab169c05a666604a0
+#: ../../compiling.rst:5 21532cd7a7534fb88bddb219e89b637c
 msgid "编译"
 msgstr "编译"
 
-#: ../../compiling.rst:9 f63b84eccefd4134966789819b2f3f44
-#, fuzzy
+#: ../../compiling.rst:9 f2ac1eea7fb8436c85edf9714b51b9c3
 msgid "自动编译"
-msgstr "编译"
+msgstr "自动编译"
 
-#: ../../compiling.rst:11 245e9e4abeda45aeaaa5b1d5d13b4326
+#: ../../compiling.rst:11 0dc3d54286c44b39b7f3a6371df5afb1
 msgid "每次修改代码，**sCrypt IDE** 都会重新编译代码，同时也会监听文件系统。如果当前打开的文件依赖的文件被删除，也会重新编译代码。"
-msgstr ""
+msgstr "每次修改代码，**sCrypt IDE** 都会重新编译代码，同时也会监听文件系统。如果当前打开的文件依赖的文件被删除，也会重新编译代码。"
 
-#: ../../compiling.rst:15 f63b84eccefd4134966789819b2f3f44
-#, fuzzy
+#: ../../compiling.rst:15 099cff7dc4bb4dac9223e6fc8d3d8eb1
 msgid "手动编译"
-msgstr "编译"
+msgstr "手动编译"
 
-#: ../../compiling.rst:16 f7f1124b33df4ceba997f863f5338119
+#: ../../compiling.rst:16 c5a8f0b501844e7182811a8293351c86
 msgid "**sCrypt IDE** 支持在代码编辑器/资源管理器上下文菜单中编译合约文件。"
 msgstr "**sCrypt IDE** 支持在代码编辑器/资源管理器上下文菜单中编译合约文件。"
 
-#: ../../compiling.rst:21 a09287feb0984f5c9e1971751c2d3cc6
-#, fuzzy
+#: ../../compiling.rst:21 944bf39824da47fcbc89a0395d476435
 msgid ""
-"编译完成后，在VS Code 窗口的右下角会有 **通知** ，同时 **输出面板** 也会输出编译结果，包括编译的合约文件名，编译出来的脚本大小"
-" [1]_， 合约描述文件存放路径。"
+"编译完成后，在VS Code 窗口的右下角会有 **通知** ，同时 **输出面板** 也会输出编译结果，包括编译的合约文件名，编译出来的脚本大小 "
+"[1]_， 合约描述文件存放路径。"
 msgstr ""
-"编译完成后，在vscode 窗口的右下角会有 **通知** ，同时 **输出面板** 也会输出编译结果，包括编译的合约文件名，编译出来的脚本大小 "
+"编译完成后，在VS Code 窗口的右下角会有 **通知** ，同时 **输出面板** 也会输出编译结果，包括编译的合约文件名，编译出来的脚本大小 "
 "[1]_， 合约描述文件存放路径。"
 
-#: ../../compiling.rst:27 7abe284993b24f14855bb087090144ad
+#: ../../compiling.rst:27 b74524572c754e5c8e2a6d5edecabdb1
 msgid "合约描述文件"
 msgstr "合约描述文件"
 
-#: ../../compiling.rst:29 d61156bea5dc4441a3e55fe9f22484ce
-#, fuzzy
+#: ../../compiling.rst:29 c418fde84d914cad9acb78954e56974d
 msgid "合约描述文件是编译合约的输出结果，可用于测试、部署、调用和集成合约。"
-msgstr ""
-"合约描述文件（ * *_desc.json* 文件）是编译合约的输出结果，可用于测试合约、部署、调用和集成合约。 这是一个示例合约描述文件 "
-"desc_。"
+msgstr "合约描述文件是编译合约的输出结果，可用于测试、部署、调用和集成合约。"
 
-#: ../../compiling.rst:32 1fcbee7099db406db4c09c9869515c96
-msgid ""
-"`scryptlib <https://github.com/sCrypt-Inc/scryptlib>`_ 文档有关于 **合约描述文件** "
-"的详细介绍。"
-msgstr ""
+#: ../../compiling.rst:32 86a963ee42664a08a673f251c84db775
+msgid "`scryptlib`_ 文档有关于 **合约描述文件** 的详细介绍。"
+msgstr "`scryptlib`_ 文档有关于 **合约描述文件** 的详细介绍。"
 
-#: ../../compiling.rst:37 f63b84eccefd4134966789819b2f3f44
+#: ../../compiling.rst:37 ae6db96ba3634d248562d9d848b039be
 msgid "调试编译"
 msgstr "调试编译"
 
-#: ../../compiling.rst:39 40cfc16540b041d28a1cf01d0ac7e3e5
+#: ../../compiling.rst:39 52d31948ad614cbfa6c280ba99d6a99d
 msgid "*在代码编辑器上右键单击，选择* : ``Compile to Bitcoin Script : Debug``"
 msgstr "*在代码编辑器上右键单击，选择* : ``Compile to Bitcoin Script : Debug``"
 
-#: ../../compiling.rst:41 68db07c0ae8f4588b0290862436bef0f
-#, fuzzy
+#: ../../compiling.rst:41 20203b6976464f4e8b0e76a0cc399306
 msgid ""
 "在开发过程中我们主要使用调试编译来构建合约，包括调试器、单元测试，甚至部署调用合约也可以使用此构建类型。在该构建类型下， "
 "编译器生成的脚本不包含优化，包含辅助信息，可以用于调试和定位异常。"
 msgstr ""
-"在开发过程中我们主要使用调试编译来构建合约，包括调试器、单元测试，甚至部署调用合约也使用此构建类型。在该构建类型下， "
-"编译器生成的脚本可能包含辅助信息，不包含优化，编译结果包含 ``sourceMap``， 可以用于调试定位异常。"
+"在开发过程中我们主要使用调试编译来构建合约，包括调试器、单元测试，甚至部署调用合约也可以使用此构建类型。在该构建类型下， "
+"编译器生成的脚本不包含优化，包含辅助信息，可以用于调试和定位异常。"
 
-#: ../../compiling.rst:47 5b18514e552b4625af7c8a2fbed78bf6
+#: ../../compiling.rst:47 ad5b9645a5f044dca65e03d9fe30a96a
 msgid "发布编译"
 msgstr "发布编译"
 
-#: ../../compiling.rst:49 09d818910bf14e818feb63403e6dfadc
+#: ../../compiling.rst:49 4bc0a16387f94c4285330f5539975541
 msgid "*在代码编辑器上右键单击，选择* : ``Compile to Bitcoin Script : Release``"
 msgstr "*在代码编辑器上右键单击，选择* : ``Compile to Bitcoin Script : Release``"
 
-#: ../../compiling.rst:51 c8028408450b43868904151af45ecfa5
-#, fuzzy
+#: ../../compiling.rst:51 6462c02fbdee417dad108f5e9515355d
 msgid ""
 "当一切准备就绪之后，我们应该使用发布编译来构建你的合约。在该构建类型下， 编译器会 :ref:`生成优化 <optimize>` "
 "的脚本，删除辅助信息，从而使脚本会变得更小，节省您的交易手续费。 目前只有我们的付费用户才能使用此功能，请参阅 :ref:`高级付费功能 "
 "<premium>`"
 msgstr ""
-"当一切准备就绪之后，我们应该使用发布编译来构建你的合约。在该构建类型下， 编译器会 :ref:`优化生成 <optimize>` "
+"当一切准备就绪之后，我们应该使用发布编译来构建你的合约。在该构建类型下， 编译器会 :ref:`生成优化 <optimize>` "
 "的脚本，删除辅助信息，从而使脚本会变得更小，节省您的交易手续费。 目前只有我们的付费用户才能使用此功能，请参阅 :ref:`高级付费功能 "
 "<premium>`"
 
-#: ../../compiling.rst:57 b819596af2cf49658cd3bd8051574e46
-#, fuzzy
+#: ../../compiling.rst:57 f1bb25ccd3f446ee9df26889a01eef40
 msgid ""
 "不版本的编译器编译出来的脚本可能会不一样，但是它们是等价的。如果编译出来的脚本发生变化，通常会导致旧的的 **交易原象** "
 "无法校验通过，通过计算一个新的 **交易原象** 即可修复此问题。"
 msgstr ""
-"不版本的编译器编译出来的脚本可能会不一样，但是脚本是等价。如果编译出来的脚本发生变化了，通常会导致旧的的 **交易原象** "
+"不版本的编译器编译出来的脚本可能会不一样，但是它们是等价的。如果编译出来的脚本发生变化，通常会导致旧的的 **交易原象** "
 "无法校验通过，通过计算一个新的 **交易原象** 即可修复此问题。"
 
-#: ../../compiling.rst:61 2869c9a72d8d4bdcb1dfbdb5c3db8f3e
+#: ../../compiling.rst:61 0e31c8ffdc2a4191b82d7a9f75b28997
 msgid "改大小计算方式不包含合约构造函数参数"
 msgstr "改大小计算方式不包含合约构造函数参数"
-
-#~ msgid "主要字段说明"
-#~ msgstr "主要字段说明"
-
-#~ msgid "字段"
-#~ msgstr "字段"
-
-#~ msgid "说明"
-#~ msgstr "说明"
-
-#~ msgid "version"
-#~ msgstr "version"
-
-#~ msgid "合约描述文件版本号，版本修改记录 VERSIONLOG_"
-#~ msgstr "合约描述文件版本号，版本修改记录 VERSIONLOG_"
-
-#~ msgid "compilerVersion"
-#~ msgstr "compilerVersion"
-
-#~ msgid "编译合约时使用的 sCrypt 编译器版本号"
-#~ msgstr "编译合约时使用的 sCrypt 编译器版本号"
-
-#~ msgid "contract"
-#~ msgstr "contract"
-
-#~ msgid "合约名称"
-#~ msgstr "合约名称"
-
-#~ msgid "md5"
-#~ msgstr "md5"
-
-#~ msgid "合约源代码 md5"
-#~ msgstr "合约源代码 md5"
-
-#~ msgid "buildTypes"
-#~ msgstr "buildTypes"
-
-#~ msgid "合约描述文件的构建类型 ``debug`` 或者 ``release``"
-#~ msgstr "合约描述文件的构建类型 ``debug`` 或者 ``release``"
-
-#~ msgid "structs"
-#~ msgstr "structs"
-
-#~ msgid "合约中定义的结构体"
-#~ msgstr "合约中定义的结构体"
-
-#~ msgid "alias"
-#~ msgstr "alias"
-
-#~ msgid "合约中定义的别名"
-#~ msgstr "合约中定义的别名"
-
-#~ msgid "abi"
-#~ msgstr "abi"
-
-#~ msgid "合约接口，合约中所有 ``public`` 方法的描述"
-#~ msgstr "合约接口，合约中所有 ``public`` 方法的描述"
-
-#~ msgid "file"
-#~ msgstr "file"
-
-#~ msgid "合约源代码路径"
-#~ msgstr "合约源代码路径"
-
-#~ msgid "asm"
-#~ msgstr "asm"
-
-#~ msgid "合约编译出来的比特币脚本"
-#~ msgstr "合约编译出来的比特币脚本"
-
-#~ msgid "sources"
-#~ msgstr "sources"
-
-#~ msgid "合约包含的所有源代码"
-#~ msgstr "合约包含的所有源代码"
-
-#~ msgid "sourceMap"
-#~ msgstr "sourceMap"
-
-#~ msgid "sourceMap 主要用于 debug 调试，发布编译没有sourceMap信息， 调试编译才有内容"
-#~ msgstr "sourceMap 主要用于 debug 调试，发布编译没有sourceMap信息， 调试编译才有内容"
-

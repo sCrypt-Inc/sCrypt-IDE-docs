@@ -29,7 +29,7 @@
 合约描述文件是编译合约的输出结果，可用于测试、部署、调用和集成合约。
 
 .. hint::
-    `scryptlib <https://github.com/sCrypt-Inc/scryptlib>`_ 文档有关于 **合约描述文件** 的详细介绍。
+    `scryptlib`_ 文档有关于 **合约描述文件** 的详细介绍。
 
 .. _debug_compiling:
 
@@ -65,3 +65,5 @@
 .. _desc: https://gist.github.com/zhfnjust/026f9f4612693afc73d7e211f1a7d3f1
 
 .. _VERSIONLOG: https://github.com/sCrypt-Inc/scryptlib/blob/master/VERSIONLOG.md
+
+.. _scryptlib: https://github.com/sCrypt-Inc/scryptlib

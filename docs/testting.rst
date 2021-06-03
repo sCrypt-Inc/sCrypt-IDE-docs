@@ -12,15 +12,15 @@
 
 .. hint::
 
-    `scryptlib <https://github.com/sCrypt-Inc/scryptlib>`_ 是官方提供的用于集成以 **sCrypt** 语言编写的比特币智能合约的 Javascript/TypeScript SDK。   
+    `scryptlib`_ 是官方提供的用于集成以 **sCrypt** 语言编写的比特币智能合约的 Javascript/TypeScript SDK。   
 
-2. 安装 **mocha** 测试框架
+1. 安装 **mocha** 测试框架
 
 ``npm i -D chai mocha``
 
 .. hint::
 
-    我们推荐使用 `mocha <https://mochajs.org/>`_ 测试框架来进行合约的测试，当然您可以使用其它测试框架。
+    我们推荐使用 `mocha`_ 测试框架来进行合约的测试，当然您可以使用其它测试框架。
 
 3. 在 ``package.json`` 中配置测试命令 
     
@@ -124,7 +124,7 @@ Launch Debugger 命令
     :width: 100%
 
 
-
-
+.. _scryptlib: https://github.com/sCrypt-Inc/scryptlib
+.. _mocha: https://mochajs.org
 
 
