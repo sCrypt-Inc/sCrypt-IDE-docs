@@ -1,11 +1,15 @@
 安装
 ===========================================
 
-- 安装 `nodejs <https://nodejs.org>`_, require `version >= 12`
+- 安装 `Nodejs <https://nodejs.org>`_, require `version >= 12`
 
 - 安装 `Visual Studio Code <https://code.visualstudio.com>`_
 
-- 安装 `sCrypt IDE <https://marketplace.visualstudio.com/items?itemName=bsv-scrypt.sCrypt>`_，在VS Code 插件市场搜索 *sCrypt*
+- 安装 `sCrypt IDE <https://marketplace.visualstudio.com/items?itemName=bsv-scrypt.sCrypt>`_，在 VS Code 插件市场搜索 **sCrypt**， 并点击安装，安装成功后，
+  窗口左边的会出现一个侧边视图切换按钮 **sCrypt Deploy**， 如下图：
+
+.. image:: ./images/installing.gif
+  :width: 100%
 
 欢迎界面
 ===========================================

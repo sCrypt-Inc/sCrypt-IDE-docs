@@ -4,11 +4,54 @@
 单元测试
 ===========================================
 
-我们通过编写 **javascript/typescript** 来测试合约。我们推荐使用 `mocha <https://mochajs.org/>`_ 测试框架来进行合约的测试，当然您可以使用其它测试框架。
+我们通过编写 **javascript/typescript** 来测试合约。首先，在工程根目录下运行 ``npm init`` 来创建一个 **npm** 项目。接下来安装依赖：
+
+1. 安装 **scryptlib**
+
+``npm i scryptlib``
+
+.. hint::
+
+    `scryptlib <https://github.com/sCrypt-Inc/scryptlib>`_ 是官方提供的用于集成以 **sCrypt** 语言编写的比特币智能合约的 Javascript/TypeScript SDK。   
+
+2. 安装 **mocha** 测试框架
+
+``npm i -D chai mocha``
+
+.. hint::
+
+    我们推荐使用 `mocha <https://mochajs.org/>`_ 测试框架来进行合约的测试，当然您可以使用其它测试框架。
+
+3. 在 ``package.json`` 中配置测试命令 
+    
 ``package.json`` 文件的脚本部分中应该存在一个名为 ``single-test`` 的脚本。**sCrypt IDE** 用它来运行单个文件测试。通常它看起来像 "single-test": "mocha"，但您可以自定义它。
 
-**sCrypt IDE** 支持在代码编辑器/资源管理器上下文菜单中运行单元测试文件。开始运行后，**sCrypt IDE** 会为您自动打开 VS Code 底部面板，并显示 **输出** 视图，
-测试报告将输出到 **输出** 视图。
+
+.. code-block:: console
+
+    {
+        "name": "helloworld",
+        "version": "1.0.0",
+        "description": "",
+        "main": "index.js",
+        "scripts": {
+            "test": "mocha -r ts-node/register tests/**/*scrypttest.*  --reporter spec --timeout 600000",
+            "single-test": "mocha --reporter spec --timeout 120000" //测试命令
+        },
+        "author": "",
+        "license": "ISC",
+        "dependencies": {
+            "scryptlib": "^0.3.10"
+        },
+        "devDependencies": {
+            "chai": "^4.3.4",
+            "mocha": "^8.4.0"
+        }
+    }
+
+
+**sCrypt IDE** 支持在代码编辑器/资源管理器上下文菜单中运行单元测试文件。开始运行后，**sCrypt IDE** 会为你自动打开 vscode 底部面板，并显示 **输出** 视图，
+测试报告将输出到 **输出** 面板。
 
 
 .. note::
@@ -33,13 +76,13 @@
     const MyContract = buildContractClass(compileContract('demo.scrypt'));
 
 
-#. 创建合约的实例
+2. 创建合约的实例
 
 .. code-block:: javascript
 
     const instance = new MyContract(1234, true, ...parameters);
 
-#. 执行合约的 ``public`` 方法来验证合约的正确性。
+3. 执行合约的 ``public`` 方法来验证合约的正确性。
 
 .. code-block:: javascript
 
@@ -47,7 +90,6 @@
     const result = funcCall.verify(context);
 
 
-您可以参阅 `scryptlib <https://github.com/sCrypt-Inc/scryptlib>`_ 的文档以进步了解如何使用它。
 
 
 

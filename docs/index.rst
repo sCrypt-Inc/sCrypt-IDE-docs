@@ -15,8 +15,15 @@
 **sCrypt IDE** 是一个 **Visual Studio Code** 插件 。在插件市场中搜索 sCrypt 就可以找到。
 你可以以 `样板项目 <https://github.com/sCrypt-Inc/boilerplate>`_  为基础开始构建你自己的sCrypt项目。
 
+本文档包含有关如何使用 **sCrypt IDE** 的说明。
 
-本文档包含有关如何使用 **sCrypt IDE** 的说明。其他教程可以在官方 `博客 <https://blog.csdn.net/freedomhero>`_ 找到，
+链接：
+------
+
+   1. `sCrypt语言参考 <https://scryptdoc.readthedocs.io/zh_CN/latest>`_
+   2. `sCrypt官方网站 <https://scrypt.io>`_            
+   3. `博客 <https://blog.csdn.net/freedomhero>`_
+   4. `Slack <https://join.slack.com/t/scryptworkspace/shared_invite/enQtNzQ1OTMyNDk1ODU3LTJmYjE5MGNmNDZhYmYxZWM4ZGY2MTczM2NiNTIxYmFhNTVjNjE5MGYwY2UwNDYxMTQyNGU2NmFkNTY5MmI1MWM>`_
 
 
 .. toctree::
