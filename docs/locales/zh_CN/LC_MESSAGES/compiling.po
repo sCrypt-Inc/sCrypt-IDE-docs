@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sCrypt-IDE-docs 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-03 17:45+0800\n"
+"POT-Creation-Date: 2021-06-03 17:56+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -55,7 +55,7 @@ msgstr "合约描述文件"
 
 #: ../../compiling.rst:29 d61156bea5dc4441a3e55fe9f22484ce
 #, fuzzy
-msgid "合约描述文件是编译合约的输出结果，可用于测试合约、部署、调用和集成合约。"
+msgid "合约描述文件是编译合约的输出结果，可用于测试、部署、调用和集成合约。"
 msgstr ""
 "合约描述文件（ * *_desc.json* 文件）是编译合约的输出结果，可用于测试合约、部署、调用和集成合约。 这是一个示例合约描述文件 "
 "desc_。"
