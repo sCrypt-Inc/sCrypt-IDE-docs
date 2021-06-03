@@ -1,25 +1,27 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2021, sCrypt.Inc
-# This file is distributed under the same license as the sCrypt-IDE-docs package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# This file is distributed under the same license as the sCrypt-IDE-docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
 # Translators:
 # qtom zheng <zhfnjust@gmail.com>, 2021
-# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: sCrypt-IDE-docs 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-02 22:01+0800\n"
+"POT-Creation-Date: 2021-06-03 17:45+0800\n"
 "PO-Revision-Date: 2021-06-02 09:22+0000\n"
 "Last-Translator: qtom zheng <zhfnjust@gmail.com>, 2021\n"
-"Language-Team: English (https://www.transifex.com/scrypt-1/teams/121283/en/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Language: en\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language-Team: English "
+"(https://www.transifex.com/scrypt-1/teams/121283/en/)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
 
 #: ../../repl.rst:2 bf95c268f4c64306b2724b4654a8f3d5
 msgid ""
@@ -27,17 +29,20 @@ msgid ""
 "oop)，可以极大地缩短了常用的“编译-生成-调试”周期，提高您的开发效率。 **sCrypt IDE** "
 "支持您在调试控制台中输入变量，表达式，同时还有一些内置命令，方便您调试异常。"
 msgstr ""
-"The debugging console, also known as the interactive window **REPL** (**R** "
-"ead/**E** valuate/**P** rint **L** oop), can greatly shorten the The "
-"\"compile-build-debug\" cycle improves your development efficiency. **sCrypt"
-" IDE** supports you to enter variables and expressions in the debug console,"
-" and there are also some built-in commands to facilitate you to debug "
-"exceptions."
+"The debugging console, also known as the interactive window **REPL** "
+"(**R** ead/**E** valuate/**P** rint **L** oop), can greatly shorten the "
+"The \"compile-build-debug\" cycle improves your development efficiency. "
+"**sCrypt IDE** supports you to enter variables and expressions in the "
+"debug console, and there are also some built-in commands to facilitate "
+"you to debug exceptions."
 
-#: ../../repl.rst:8 c31f0b33c6cd4caf852c4f74847f6882
-msgid "您必须处于正在运行的调试会话中才能使用调试控制台"
+#: ../../repl.rst:5 b9262f44d7fd4524b35cdefb9efcd826
+msgid "要打开调试控制台，请使用调试视图顶部的调试控制台操作或使用 **查看：调试控制台** 命令, 键盘快捷键是 **Ctrl+Shift+Y**。"
 msgstr ""
-"You must be in a running debugging session to use the debugging console"
+
+#: ../../repl.rst:9 c31f0b33c6cd4caf852c4f74847f6882
+msgid "您必须处于正在运行的调试会话中才能使用调试控制台"
+msgstr "You must be in a running debugging session to use the debugging console"
 
 #: ../../repl.rst:13 ea9fa6aca98c407e98484ae3fcd5e3e3
 msgid "自动提示"
@@ -47,8 +52,8 @@ msgstr "Auto Completion"
 msgid "调试过程中，当您在调试控制台输入代码时， **sCrypt IDE** 会根据您的输入，自动提示，您可以选择想要的提示项进行补全。"
 msgstr ""
 "During the debugging process, when you enter the code in the debugging "
-"console, **sCrypt IDE** will automatically prompt according to your input, "
-"and you can select the prompt items you want to complete."
+"console, **sCrypt IDE** will automatically prompt according to your "
+"input, and you can select the prompt items you want to complete."
 
 #: ../../repl.rst:23 8a0b93c74f9a43f187dd5ed8103dd3ee
 msgid "历史记录"
@@ -59,9 +64,9 @@ msgid ""
 "**历史记录** 功能需要开启相应设置，如果您没有开启，可以找到 设置->功能->调试->Console->History "
 "Suggestions，并开启。"
 msgstr ""
-"**History** function needs to enable the corresponding settings, if you do "
-"not enable it, you can find Settings->Function->Debug->Console->History "
-"Suggestions and enable it."
+"**History** function needs to enable the corresponding settings, if you "
+"do not enable it, you can find "
+"Settings->Function->Debug->Console->History Suggestions and enable it."
 
 #: ../../repl.rst:32 6fd27c10d77a4ffebf31aaa30f16bb2d
 msgid "内置命令"
@@ -99,8 +104,12 @@ msgstr "Convert the pre-image of type ``bytes`` to **json** and print"
 msgid ":diffoutputs"
 msgstr ":diffoutputs"
 
-#: ../../repl.rst:41 d68800eecd454a02b73e559291f21913
-msgid "将指定 ``output`` 与当前交易的 **output** 进行对比，打印出他们的不同之处"
+#: ../../repl.rst:41 1357c6c124aa436c80f88dacd806c6e0
+#, fuzzy
+msgid ""
+"将指定 ``output`` 与当前交易的 **output** 进行对比，打印出他们的不同之处，具体用法见： :ref:`交易输出哈希不一致 "
+"<diffoutputs>`"
 msgstr ""
 "Compare the specified ``output`` with the **output** of the current "
 "transaction, and print out their differences"
+

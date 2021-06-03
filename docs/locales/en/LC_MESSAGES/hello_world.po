@@ -1,25 +1,27 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2021, sCrypt.Inc
-# This file is distributed under the same license as the sCrypt-IDE-docs package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# This file is distributed under the same license as the sCrypt-IDE-docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
 # Translators:
 # qtom zheng <zhfnjust@gmail.com>, 2021
-# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: sCrypt-IDE-docs 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-02 22:01+0800\n"
+"POT-Creation-Date: 2021-06-03 17:45+0800\n"
 "PO-Revision-Date: 2021-06-02 09:22+0000\n"
 "Last-Translator: qtom zheng <zhfnjust@gmail.com>, 2021\n"
-"Language-Team: English (https://www.transifex.com/scrypt-1/teams/121283/en/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Language: en\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language-Team: English "
+"(https://www.transifex.com/scrypt-1/teams/121283/en/)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
 
 #: ../../hello_world.rst:2 a6f14524f270417da5b3dd605305bbb6
 msgid "Hello World"
@@ -29,70 +31,70 @@ msgstr "Hello World"
 msgid "初始化项目"
 msgstr "Initialize the project"
 
-#: ../../hello_world.rst:6 3641d92ed91d40288c084062175da518
-msgid "开始编写合约之前，我们先创建一个helloworld目录，并进入到目录，通过 ``npm init`` 创建一个 **npm** 项目。"
+#: ../../hello_world.rst:7 3641d92ed91d40288c084062175da518
+#, fuzzy
+msgid "开始编写合约之前，先创建一个helloworld目录，并进入到目录，然后创建 ``helloworld.scrypt`` 文件。"
 msgstr ""
 "Before starting to write the contract, we first create a helloworld "
-"directory, enter the directory, and create a **npm** project through ``npm "
-"init``."
+"directory, enter the directory, and create a **npm** project through "
+"``npm init``."
 
-#: ../../hello_world.rst:9 b35b4e3e3b1649b691909cfbb541509d
-msgid "然后创建 ``helloworld.scrypt`` 文件。"
-msgstr "Then create the ``helloworld.scrypt`` file."
-
-#: ../../hello_world.rst:13 33c0187fc636434f9dcc798cccd6f2b9
+#: ../../hello_world.rst:11 33c0187fc636434f9dcc798cccd6f2b9
 msgid "编写合约"
 msgstr "Write a contract"
 
-#: ../../hello_world.rst:30 87f20d0d36d44766bcbf70394e266c36
-msgid "调试合约"
-msgstr "Commissioning contract"
-
-#: ../../hello_world.rst:32 67f6960786dc42ec9b99c998360dc28b
-msgid "打开 vscode 的 **运行和调试** 视图，点击 **创建 launch.json 文件** 按钮，创建如下配置："
+#: ../../hello_world.rst:27 33c0187fc636434f9dcc798cccd6f2b9
+msgid "运行合约"
 msgstr ""
-"Open the **Run and Debug** view of vscode and click the **Create launch.json"
-" file** button to create the following configuration:"
 
-#: ../../hello_world.rst:53 25b3b783140f445d893dfa66b7072b21
-msgid "打开 ``helloworld.scrypt`` 文件, 按 **F5** 启动调试器"
+#: ../../hello_world.rst:29 67f6960786dc42ec9b99c998360dc28b
+#, fuzzy
+msgid "打开 VS Code 的 **运行和调试** 视图，点击 **创建 launch.json 文件** 按钮，创建如下配置："
 msgstr ""
-"Open the ``helloworld.scrypt`` file, press **F5** to start the debugger"
+"Open the **Run and Debug** view of vscode and click the **Create "
+"launch.json file** button to create the following configuration:"
 
-#: ../../hello_world.rst:58 230038494b064a3897460f05ab6d155f
-msgid "测试合约"
-msgstr "Test contract"
+#: ../../hello_world.rst:51 ace34109b7294c8294b38305ce976fe5
+#, fuzzy
+msgid ""
+"打开 ``helloworld.scrypt`` 文件, 按 **F5** 启动调试器，**调试控制台** 会输出 ``Execution "
+"successful.``"
+msgstr "Open the ``helloworld.scrypt`` file, press **F5** to start the debugger"
 
-#: ../../hello_world.rst:61 71a11ab435b043a5b98df556f3ba7257
-msgid "安装 **scryptlib**"
-msgstr "Install **scryptlib**"
-
-#: ../../hello_world.rst:63 fc91d93aa52143d591c9cdc16fb31f26
-msgid "``npm i scryptlib``"
-msgstr "``npm i scryptlib``"
-
-#: ../../hello_world.rst:65 e63f30dc378b4cdf9d88d6e4376f550c
-msgid "安装 **mocha** 测试框架"
-msgstr "Install **mocha** test framework"
-
-#: ../../hello_world.rst:67 61eee3ee78394a5988528435fba8841c
-msgid "``npm i -D chai mocha``"
-msgstr "``npm i -D chai mocha``"
-
-#: ../../hello_world.rst:69 3c267985270049ad9604b3c80d5b3e64
-msgid "在 ``package.json`` 中配置测试命令"
-msgstr "Configure test commands in ``package.json``"
-
-#: ../../hello_world.rst:94 5e083b9e7ced4349b0592ff3fea551bc
-msgid "创建 ``helloworld.scrypttest.js`` 测试文件"
-msgstr "Create ``helloworld.scrypttest.js`` test file"
-
-#: ../../hello_world.rst:132 479fc9697cf748c78458ef1cd829c32a
-msgid "恭喜您，您已经完成了一个 ``HelloWorld`` 合约的开发， 接下来的环节是 **部署调用合约**"
+#: ../../hello_world.rst:57 479fc9697cf748c78458ef1cd829c32a
+#, fuzzy
+msgid "恭喜您，您已经完成了一个 ``HelloWorld`` 合约的开发和运行"
 msgstr ""
 "Congratulations, you have completed the development of a ``HelloWorld`` "
 "contract. The next step is to deploy and call the contract."
 
-#: ../../hello_world.rst:136 2f0cfcf74dae4088a5010e5fa7c4646d
-msgid ":ref:`部署调用合约 <deploy>`"
-msgstr ":ref:`Deploy and call contract <deploy>`"
+#~ msgid "然后创建 ``helloworld.scrypt`` 文件。"
+#~ msgstr "Then create the ``helloworld.scrypt`` file."
+
+#~ msgid "调试合约"
+#~ msgstr "Commissioning contract"
+
+#~ msgid "测试合约"
+#~ msgstr "Test contract"
+
+#~ msgid "安装 **scryptlib**"
+#~ msgstr "Install **scryptlib**"
+
+#~ msgid "``npm i scryptlib``"
+#~ msgstr "``npm i scryptlib``"
+
+#~ msgid "安装 **mocha** 测试框架"
+#~ msgstr "Install **mocha** test framework"
+
+#~ msgid "``npm i -D chai mocha``"
+#~ msgstr "``npm i -D chai mocha``"
+
+#~ msgid "在 ``package.json`` 中配置测试命令"
+#~ msgstr "Configure test commands in ``package.json``"
+
+#~ msgid "创建 ``helloworld.scrypttest.js`` 测试文件"
+#~ msgstr "Create ``helloworld.scrypttest.js`` test file"
+
+#~ msgid ":ref:`部署调用合约 <deploy>`"
+#~ msgstr ":ref:`Deploy and call contract <deploy>`"
+

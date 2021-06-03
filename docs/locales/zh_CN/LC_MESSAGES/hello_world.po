@@ -3,13 +3,13 @@
 # This file is distributed under the same license as the sCrypt-IDE-docs
 # package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: sCrypt-IDE-docs 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-02 16:14+0800\n"
+"POT-Creation-Date: 2021-06-03 17:45+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,70 +18,71 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: ../../hello_world.rst:2
+#: ../../hello_world.rst:2 a6f14524f270417da5b3dd605305bbb6
 msgid "Hello World"
 msgstr "Hello World"
 
-#: ../../hello_world.rst:5
+#: ../../hello_world.rst:5 57b87d3c122d48c9a312e66d6c20e11c
 msgid "初始化项目"
 msgstr "初始化项目"
 
-#: ../../hello_world.rst:6
-msgid "开始编写合约之前，我们先创建一个helloworld目录，并进入到目录，通过 ``npm init`` 创建一个 **npm** 项目。"
+#: ../../hello_world.rst:7 3641d92ed91d40288c084062175da518
+#, fuzzy
+msgid "开始编写合约之前，先创建一个helloworld目录，并进入到目录，然后创建 ``helloworld.scrypt`` 文件。"
 msgstr "开始编写合约之前，我们先创建一个helloworld目录，并进入到目录，通过 ``npm init`` 创建一个 **npm** 项目。"
 
-#: ../../hello_world.rst:9
-msgid "然后创建 ``helloworld.scrypt`` 文件。"
-msgstr "然后创建 ``helloworld.scrypt`` 文件。"
-
-#: ../../hello_world.rst:13
+#: ../../hello_world.rst:11 33c0187fc636434f9dcc798cccd6f2b9
 msgid "编写合约"
 msgstr "编写合约"
 
-#: ../../hello_world.rst:30
-msgid "调试合约"
-msgstr "调试合约"
+#: ../../hello_world.rst:27 33c0187fc636434f9dcc798cccd6f2b9
+msgid "运行合约"
+msgstr ""
 
-#: ../../hello_world.rst:32
-msgid "打开 vscode 的 **运行和调试** 视图，点击 **创建 launch.json 文件** 按钮，创建如下配置："
+#: ../../hello_world.rst:29 67f6960786dc42ec9b99c998360dc28b
+#, fuzzy
+msgid "打开 VS Code 的 **运行和调试** 视图，点击 **创建 launch.json 文件** 按钮，创建如下配置："
 msgstr "打开 vscode 的 **运行和调试** 视图，点击 **创建 launch.json 文件** 按钮，创建如下配置："
 
-#: ../../hello_world.rst:53
-msgid "打开 ``helloworld.scrypt`` 文件, 按 **F5** 启动调试器"
+#: ../../hello_world.rst:51 ace34109b7294c8294b38305ce976fe5
+#, fuzzy
+msgid ""
+"打开 ``helloworld.scrypt`` 文件, 按 **F5** 启动调试器，**调试控制台** 会输出 ``Execution "
+"successful.``"
 msgstr "打开 ``helloworld.scrypt`` 文件, 按 **F5** 启动调试器"
 
-#: ../../hello_world.rst:58
-msgid "测试合约"
-msgstr "测试合约"
-
-#: ../../hello_world.rst:61
-msgid "安装 **scryptlib**"
-msgstr "安装 **scryptlib**"
-
-#: ../../hello_world.rst:63
-msgid "``npm i scryptlib``"
-msgstr "``npm i scryptlib``"
-
-#: ../../hello_world.rst:65
-msgid "安装 **mocha** 测试框架"
-msgstr "安装 **mocha** 测试框架"
-
-#: ../../hello_world.rst:67
-msgid "``npm i -D chai mocha``"
-msgstr "``npm i -D chai mocha``"
-
-#: ../../hello_world.rst:69
-msgid "在 ``package.json`` 中配置测试命令"
-msgstr "在 ``package.json`` 中配置测试命令"
-
-#: ../../hello_world.rst:94
-msgid "创建 ``helloworld.scrypttest.js`` 测试文件"
-msgstr "创建 ``helloworld.scrypttest.js`` 测试文件"
-
-#: ../../hello_world.rst:132
-msgid "恭喜您，您已经完成了一个 ``HelloWorld`` 合约的开发， 接下来的环节是 **部署调用合约**"
+#: ../../hello_world.rst:57 479fc9697cf748c78458ef1cd829c32a
+#, fuzzy
+msgid "恭喜您，您已经完成了一个 ``HelloWorld`` 合约的开发和运行"
 msgstr "恭喜您，您已经完成了一个 ``HelloWorld`` 合约的开发， 接下来的环节是 **部署调用合约**"
 
-#: ../../hello_world.rst:136
-msgid ":ref:`部署调用合约 <deploy>`"
-msgstr ":ref:`部署调用合约 <deploy>`"
+#~ msgid "然后创建 ``helloworld.scrypt`` 文件。"
+#~ msgstr "然后创建 ``helloworld.scrypt`` 文件。"
+
+#~ msgid "调试合约"
+#~ msgstr "调试合约"
+
+#~ msgid "测试合约"
+#~ msgstr "测试合约"
+
+#~ msgid "安装 **scryptlib**"
+#~ msgstr "安装 **scryptlib**"
+
+#~ msgid "``npm i scryptlib``"
+#~ msgstr "``npm i scryptlib``"
+
+#~ msgid "安装 **mocha** 测试框架"
+#~ msgstr "安装 **mocha** 测试框架"
+
+#~ msgid "``npm i -D chai mocha``"
+#~ msgstr "``npm i -D chai mocha``"
+
+#~ msgid "在 ``package.json`` 中配置测试命令"
+#~ msgstr "在 ``package.json`` 中配置测试命令"
+
+#~ msgid "创建 ``helloworld.scrypttest.js`` 测试文件"
+#~ msgstr "创建 ``helloworld.scrypttest.js`` 测试文件"
+
+#~ msgid ":ref:`部署调用合约 <deploy>`"
+#~ msgstr ":ref:`部署调用合约 <deploy>`"
+

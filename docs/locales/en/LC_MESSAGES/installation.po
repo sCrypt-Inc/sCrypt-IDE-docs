@@ -1,60 +1,70 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2021, sCrypt.Inc
-# This file is distributed under the same license as the sCrypt-IDE-docs package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# This file is distributed under the same license as the sCrypt-IDE-docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
 # Translators:
 # qtom zheng <zhfnjust@gmail.com>, 2021
-# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: sCrypt-IDE-docs 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-02 22:01+0800\n"
+"POT-Creation-Date: 2021-06-03 17:45+0800\n"
 "PO-Revision-Date: 2021-06-02 09:22+0000\n"
 "Last-Translator: qtom zheng <zhfnjust@gmail.com>, 2021\n"
-"Language-Team: English (https://www.transifex.com/scrypt-1/teams/121283/en/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Language: en\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language-Team: English "
+"(https://www.transifex.com/scrypt-1/teams/121283/en/)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
 
 #: ../../installation.rst:2 ff8abf210eaa4f2d95e48a2206098d32
 msgid "安装"
 msgstr "Installation"
 
 #: ../../installation.rst:4 3129ae80ac3c4e81abb52634d2a08b25
-msgid "安装 `nodejs <https://nodejs.org>`_, require `version >= 12`"
+#, fuzzy
+msgid "安装 `Nodejs <https://nodejs.org>`_, require `version >= 12`"
 msgstr "Install `nodejs <https://nodejs.org>`_ , require `version >= 12`"
 
 #: ../../installation.rst:6 e8d990d12d40496c8fdfbf32b34d6900
-msgid "安装 `vscode <https://code.visualstudio.com>`_"
+#, fuzzy
+msgid "安装 `Visual Studio Code <https://code.visualstudio.com>`_"
 msgstr "Install `Visual Studio Code <https://code.visualstudio.com>`_"
 
 #: ../../installation.rst:8 5874fe294e124303a940862e1cf815f9
+#, fuzzy
 msgid ""
 "安装 `sCrypt IDE <https://marketplace.visualstudio.com/items?itemName=bsv-"
-"scrypt.sCrypt>`_，在vscode 插件市场搜索 *sCrypt*"
+"scrypt.sCrypt>`_，在 VS Code 插件市场搜索 **sCrypt**， 并点击安装，安装成功后， "
+"窗口左边的会出现一个侧边视图切换按钮 **sCrypt Deploy**， 如下图："
 msgstr ""
 "Install `sCrypt IDE <https://marketplace.visualstudio.com/items?itemName"
 "=bsv-scrypt.sCrypt>`_ , search for *sCrypt* in the Visual Studio Code "
 "Extension Marketplace"
 
-#: ../../installation.rst:11 3d30eacd37764d70acdad40eef98e8c9
+#: ../../installation.rst:15 3d30eacd37764d70acdad40eef98e8c9
 msgid "欢迎界面"
 msgstr "Welcome Page"
 
-#: ../../installation.rst:13 5bc2074f670a4e3e91d4685dd2e79b33
-msgid "安装完成后，尝试打开我们的样本项目，会看到如下欢迎界面。"
+#: ../../installation.rst:17 5bc2074f670a4e3e91d4685dd2e79b33
+#, fuzzy
+msgid "安装完成后，尝试打开样本项目，会看到如下欢迎界面。"
 msgstr ""
-"After the installation is complete, try to open our sample project, you will"
-" see the following welcome interface."
+"After the installation is complete, try to open our sample project, you "
+"will see the following welcome interface."
 
-#: ../../installation.rst:15 1c2da34c29824a1dbaa71edebecacdba
-msgid "欢迎界面上有我们的官网地址，博客地址，联系方式和历史版本记录，通常也会显示当前版本的新功能，以及修复的问题。"
+#: ../../installation.rst:19 1c2da34c29824a1dbaa71edebecacdba
+#, fuzzy
+msgid "欢迎界面上有官网地址，博客地址，联系方式和历史版本记录。通常也会显示当前版本的新功能，以及修复的问题。"
 msgstr ""
 "The welcome interface has our official website address, blog address, "
 "contact information and historical version records, and usually also "
-"displays the new features of the current version, as well as fixed problems."
+"displays the new features of the current version, as well as fixed "
+"problems."
+

@@ -1,25 +1,27 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2021, sCrypt.Inc
-# This file is distributed under the same license as the sCrypt-IDE-docs package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# This file is distributed under the same license as the sCrypt-IDE-docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
 # Translators:
 # qtom zheng <zhfnjust@gmail.com>, 2021
-# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: sCrypt-IDE-docs 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-02 22:01+0800\n"
+"POT-Creation-Date: 2021-06-03 17:45+0800\n"
 "PO-Revision-Date: 2021-06-02 09:22+0000\n"
 "Last-Translator: qtom zheng <zhfnjust@gmail.com>, 2021\n"
-"Language-Team: English (https://www.transifex.com/scrypt-1/teams/121283/en/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Language: en\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language-Team: English "
+"(https://www.transifex.com/scrypt-1/teams/121283/en/)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
 
 #: ../../premium.rst:7 aee23efc066a470596534b0da0984453
 msgid "高级付费功能"
@@ -59,15 +61,15 @@ msgstr "How to obtain a premium license"
 
 #: ../../premium.rst:29 e05dc5b484494038b4d0feacd0076f37
 msgid ""
-"通过使用 `Baemail <https://baemail.me/>`_ 服务向我们的官方邮件地址 scrypt@moneybutton.com "
-"发送标题为 ‘Purchase An sCrypt Premium License’ 的邮件， "
+"通过使用 `Baemail <https://baemail.me/>`_ 服务向我们的官方邮件地址 scrypt@moneybutton.com"
+" 发送标题为 ‘Purchase An sCrypt Premium License’ 的邮件， "
 "同时在其中支付单个用户高级许可证的费用。待我们收到并确认后，会回复相应的高级许可证给发件人。"
 msgstr ""
 "Use the `Baemail <https://baemail.me/>`_ service to send an email titled "
 "‘Purchase An sCrypt Premium License’ to our official email address "
-"scrypt@moneybutton.com, and pay for the premium license for a single user in"
-" it. After we receive and confirm, we will reply the corresponding premium "
-"license to the sender."
+"scrypt@moneybutton.com, and pay for the premium license for a single user"
+" in it. After we receive and confirm, we will reply the corresponding "
+"premium license to the sender."
 
 #: ../../premium.rst:33 b028c31cb4654af8b10513b31e07d8ae
 msgid "如何使用高级许可证"
@@ -86,13 +88,14 @@ msgstr "Bitcoin script debugging"
 #: ../../premium.rst:44 47a9a05161204d67ac541f95aa9dbd41
 msgid ""
 "**sCrypt IDE** 提供的调试器，不仅支持进行sCrypt 源码级的调试，也支持比特币脚本级的调试。 "
-"当调试器进入中断模式后，点击代码编辑器右上角的 **View Script in debugging** 按钮，即可打开脚本视图，主要包括这几个功能点："
+"当调试器进入中断模式后，点击代码编辑器右上角的 **View Script in debugging** "
+"按钮，即可打开脚本视图，主要包括这几个功能点："
 msgstr ""
 "The debugger provided by **sCrypt IDE** not only supports sCrypt source-"
-"level debugging, but also supports Bitcoin script-level debugging. When the "
-"debugger enters the interrupt mode, click the **View Script in debugging** "
-"button in the upper right corner of the code editor to open the script view,"
-" which mainly includes these functions:"
+"level debugging, but also supports Bitcoin script-level debugging. When "
+"the debugger enters the interrupt mode, click the **View Script in "
+"debugging** button in the upper right corner of the code editor to open "
+"the script view, which mainly includes these functions:"
 
 #: ../../premium.rst:49 b83976db492f446fbd85d2cf162934b4
 msgid "sCrypt 源码与其编译出的 Script 脚本之间关联的实时展示；"
@@ -105,26 +108,26 @@ msgid ""
 "通过单击代码行左侧的边缘来设置断点，通过按 **F10** 或 **F11** 开始单步执行比特脚本。更多调试技巧参阅 :ref:`调试器 "
 "<debugger>`"
 msgstr ""
-"Set a breakpoint by clicking on the left edge of the code line, and start "
-"stepping through the bit script by pressing **F10** or **F11**. For more "
-"debugging skills, please refer to :ref:`Debugger <debugger>`"
+"Set a breakpoint by clicking on the left edge of the code line, and start"
+" stepping through the bit script by pressing **F10** or **F11**. For more"
+" debugging skills, please refer to :ref:`Debugger <debugger>`"
 
 #: ../../premium.rst:51 0669b9b0b1b04c5087de59d59f0e5cf4
-msgid "在左下脚的 **Data Stack** 窗口查看比特堆栈的实时状态；"
+#, fuzzy
+msgid "在左下角的 **Data Stack** 窗口查看比特堆栈的实时状态；"
 msgstr ""
-"View the real-time status of the bit stack in the **Data Stack** window at "
-"the bottom left foot;"
+"View the real-time status of the bit stack in the **Data Stack** window "
+"at the bottom left foot;"
 
 #: ../../premium.rst:59 0aedfcb942e941e0a172121299955a56
 msgid "复制值"
 msgstr "Copy value"
 
 #: ../../premium.rst:61 71d68d20424c413dafdc0ceed2750efa
-msgid ""
-"在 **Data Stack** 窗口中数据项上单击右键，会出现 **Copy Value** 菜单，点击改菜单可以将栈上的数据复制到剪切板。"
+msgid "在 **Data Stack** 窗口中数据项上单击右键，会出现 **Copy Value** 菜单，点击改菜单可以将栈上的数据复制到剪切板。"
 msgstr ""
-"Right-click on the data item in the **Data Stack** window, and the **Copy "
-"Value** menu will appear. Click the change menu to copy the data on the "
+"Right-click on the data item in the **Data Stack** window, and the **Copy"
+" Value** menu will appear. Click the change menu to copy the data on the "
 "stack to the clipboard."
 
 #: ../../premium.rst:68 77b51096376446fa91823e8a80c74018
@@ -148,16 +151,17 @@ msgid ""
 "为此，我们编译器提供一个自动优化的功能，您可以信赖编译器来代表您优化代码。"
 msgstr ""
 "**sCrypt** programming is different from traditional programming using "
-"Javascript or Python, because when the transaction containing the compiled "
-"result is submitted to the Bitcoin network, the size of the script directly "
-"determines their running cost. Therefore, the final script should be as "
-"small as possible to save transaction costs [1]_. `sCrypt Developer "
-"Optimization Guide <https://xiaohuiliu.medium.com/an-scrypt-developers-"
-"guide-to-optimization-bc9848f91e5f>`_ lists some tips for developers to "
-"manually optimize the script output of their sCrypt contract. Manual "
-"optimization can lead to ambiguous and difficult-to-maintain code. To this "
-"end, our compiler provides an automatic optimization function, you can rely "
-"on the compiler to optimize the code on your behalf."
+"Javascript or Python, because when the transaction containing the "
+"compiled result is submitted to the Bitcoin network, the size of the "
+"script directly determines their running cost. Therefore, the final "
+"script should be as small as possible to save transaction costs [1]_. "
+"`sCrypt Developer Optimization Guide <https://xiaohuiliu.medium.com/an-"
+"scrypt-developers-guide-to-optimization-bc9848f91e5f>`_ lists some tips "
+"for developers to manually optimize the script output of their sCrypt "
+"contract. Manual optimization can lead to ambiguous and difficult-to-"
+"maintain code. To this end, our compiler provides an automatic "
+"optimization function, you can rely on the compiler to optimize the code "
+"on your behalf."
 
 #: ../../premium.rst:80 438dfe8c116040548bfa374b8453b234
 msgid ""
@@ -165,8 +169,8 @@ msgid ""
 "来构建合约时，编译器会自动开启优化，优化可以显著（两位数的百分比）减小脚本的大小并提高其性能。"
 msgstr ""
 "When you use :ref:`release compilation <release_compiling>` to build a "
-"contract, the compiler will automatically turn on optimization, which can "
-"significantly (two-digit percentage) reduce the size of the script and "
+"contract, the compiler will automatically turn on optimization, which can"
+" significantly (two-digit percentage) reduce the size of the script and "
 "improve its performance."
 
 #: ../../premium.rst:87 c0e3072d875f4a72be9e3613d607b2ad
@@ -174,5 +178,6 @@ msgid "当前，交易费用仅与脚本/事务的大小成正比，未来会将
 msgstr ""
 "Currently, transaction fees are only proportional to the size of the "
 "script/transaction, and in the future it will evolve to consider the "
-"complexity of the script. Therefore, the optimization goal is also expected "
-"to evolve in the future."
+"complexity of the script. Therefore, the optimization goal is also "
+"expected to evolve in the future."
+

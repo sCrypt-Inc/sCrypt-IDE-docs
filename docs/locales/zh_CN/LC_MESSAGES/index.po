@@ -3,13 +3,13 @@
 # This file is distributed under the same license as the sCrypt-IDE-docs
 # package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: sCrypt-IDE-docs 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-02 16:14+0800\n"
+"POT-Creation-Date: 2021-06-03 17:45+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,36 +18,61 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: ../../index.rst:22
+#: ../../index.rst:29 534bd7654ed546798e4199a2e48ecd3e
 msgid "目录:"
 msgstr "目录:"
 
-#: ../../index.rst:9
+#: ../../index.rst:9 14c4e3afd4d341fdbd1efd2697ca8ba8
 msgid "欢迎阅读 sCrypt IDE 官方文档"
 msgstr "欢迎阅读 sCrypt IDE 官方文档"
 
-#: ../../index.rst:12
+#: ../../index.rst:12 6d507a14f9474b22a04d4cd66b86bfc1
+#, fuzzy
 msgid ""
 "**sCrypt IDE** "
-"是一个强大的sCrypt开发工具，您可以通过该工具使用sCrypt语言来编写、编译、调试、测试、部署比特币合约，而无需安装其它软件。 "
-"可用于专业开发，也适用于sCrypt智能合约的学习与教学。"
+"是一个强大的开发工具。通过该工具，可以轻松使用sCrypt语言来编写、编译、调试、测试、部署比特币合约，而无需安装其它软件。 "
+"它可用于专业开发，也适用于sCrypt智能合约的学习与教学。"
 msgstr ""
 "**sCrypt IDE** "
 "是一个强大的sCrypt开发工具，您可以通过该工具使用sCrypt语言来编写、编译、调试、测试、部署比特币合约，而无需安装其它软件。 "
 "可用于专业开发，也适用于sCrypt智能合约的学习与教学。"
 
-#: ../../index.rst:15
+#: ../../index.rst:15 6230bdf6e3b24d35a2e0bdfa603d8b9f
 msgid ""
-"**sCrypt IDE** 是一个 **Visual Studio Code** 插件 。在插件市场中搜索 sCrypt 就可以找到。 你可以以 "
-"`样板项目 <https://github.com/sCrypt-Inc/boilerplate>`_  为基础开始构建你自己的sCrypt项目。"
+"**sCrypt IDE** 是一个 **Visual Studio Code** 插件 。在插件市场中搜索 sCrypt 就可以找到。 你可以以"
+" `样板项目 <https://github.com/sCrypt-Inc/boilerplate>`_  "
+"为基础开始构建你自己的sCrypt项目。"
 msgstr ""
-"**sCrypt IDE** 是一个 **Visual Studio Code** 插件 。在插件市场中搜索 sCrypt 就可以找到。 你可以以 "
-"`样板项目 <https://github.com/sCrypt-Inc/boilerplate>`_  为基础开始构建你自己的sCrypt项目。"
+"**sCrypt IDE** 是一个 **Visual Studio Code** 插件 。在插件市场中搜索 sCrypt 就可以找到。 你可以以"
+" `样板项目 <https://github.com/sCrypt-Inc/boilerplate>`_  "
+"为基础开始构建你自己的sCrypt项目。"
 
-#: ../../index.rst:19
-msgid ""
-"本文档包含有关如何使用 **sCrypt IDE** 的说明。其他教程可以在我们的 `博客 "
-"<https://blog.csdn.net/freedomhero>`_ 找到，"
+#: ../../index.rst:18 10738d929a5340d383bb03910e080cb2
+msgid "本文档包含有关如何使用 **sCrypt IDE** 的说明。"
+msgstr ""
+
+#: ../../index.rst:21 66ebb2d097164d59a5cbf16ee3f9b63d
+msgid "链接："
+msgstr ""
+
+#: ../../index.rst:23 14a5cdb1722a4e09a7694f960501889b
+msgid "`sCrypt语言参考 <https://scryptdoc.readthedocs.io/zh_CN/latest>`_"
+msgstr ""
+
+#: ../../index.rst:24 78f19866f3d04e938f91d75ccfbfc4c4
+msgid "`sCrypt官方网站 <https://scrypt.io>`_"
+msgstr ""
+
+#: ../../index.rst:25 10738d929a5340d383bb03910e080cb2
+#, fuzzy
+msgid "`博客 <https://blog.csdn.net/freedomhero>`_"
 msgstr ""
 "本文档包含有关如何使用 **sCrypt IDE** 的说明。其他教程可以在我们的 `博客 "
 "<https://blog.csdn.net/freedomhero>`_ 找到，"
+
+#: ../../index.rst:26 77d6e0b288384db49ae808c2ed316855
+msgid ""
+"`Slack "
+"<https://join.slack.com/t/scryptworkspace/shared_invite/enQtNzQ1OTMyNDk1ODU3LTJmYjE5MGNmNDZhYmYxZWM4ZGY2MTczM2NiNTIxYmFhNTVjNjE5MGYwY2UwNDYxMTQyNGU2NmFkNTY5MmI1MWM>`_"
+msgstr ""
+
