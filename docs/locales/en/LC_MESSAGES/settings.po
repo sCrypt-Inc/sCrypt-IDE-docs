@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sCrypt-IDE-docs 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-04 12:16+0800\n"
+"POT-Creation-Date: 2021-06-04 18:25+0800\n"
 "PO-Revision-Date: 2021-06-02 09:22+0000\n"
 "Last-Translator: qtom zheng <zhfnjust@gmail.com>, 2021\n"
 "Language-Team: English (https://www.transifex.com/scrypt-1/teams/121283/en/)\n"
@@ -26,21 +26,21 @@ msgid "设置"
 msgstr "Settings"
 
 #: ../../settings.rst:5 3821fa323d2040bc8b31bcede0f4d527
-msgid "在 VS Code 中打开 “文件” -> “首选项” -> “设置” -> “扩展” -> **sCrypt**"
+msgid "在 VS Code 中打开 “文件” -> “首选项” -> “设置” -> “扩展” -> **sCrypt**，可观看所有设置选项。"
 msgstr ""
 "Open \"File\" -> \"Preferences\" -> \"Settings\" -> \"Extensions\" -> "
-"**sCrypt** in VS Code"
+"**sCrypt** in VS Code to view all the setting options."
 
 #: ../../settings.rst:14 c9accf66e9b24fd29ac16566e17ab7fc
 msgid "私钥"
 msgstr "Private key"
 
 #: ../../settings.rst:17 3aa90e11ad8e48a5824c7bab53636859
-msgid "在设置项中找到 **Priv Key**，输入你的测试网私钥，有了测试网私钥后，才能使用部署合约的相关功能。"
+msgid "在设置项中找到 **Priv Key**，输入你的测试网私钥。有了测试网私钥后，才能使用部署合约的相关功能。"
 msgstr ""
-"Find **Priv Key** in the settings item, enter your testnet private key, and "
-"you can use the related functions of the deployment contract after you have "
-"the testnet private key."
+"Find **Priv Key** in the settings, and enter your testnet private key. Only "
+"after having the testnet private key can the related functions of the "
+"deployment contract be used."
 
 #: ../../settings.rst:25 00573b090f964a14b1f30c748f35930b
 msgid "请勿在此处输入主网上的私钥"
@@ -81,10 +81,10 @@ msgstr ""
 "saved in the **output panel**:"
 
 #: ../../settings.rst:55 1378cd3c4d9b49b6ac840d56c79f3819
-msgid "默认情况下log是关闭，在遇到问题时，请开启Log以协助分析问题。"
+msgid "默认情况下log是关闭。在遇到问题时，请开启log以协助分析问题。"
 msgstr ""
-"By default, log is turned off. When you encounter problems, please turn on "
-"log to help analyze the problem."
+"By default, log is closed. When you encounter a problem, please open log to "
+"help analyze the problem."
 
 #: ../../settings.rst:59 b8fa4f1871e44a3ab6d448da6764a1ce
 msgid "高级付费功能设置"
@@ -116,9 +116,9 @@ msgstr "ASM opcode indentation settings"
 
 #: ../../settings.rst:79 542b4da0b5784d03b5da294db8ac2b4e
 msgid ""
-"在设置项中找到 **Premium: Indentedasm**，开启后，在使用 :ref:`脚本级调试 "
+"在设置项中找到 **Premium: Indentedasm**。开启后，在使用 :ref:`脚本级调试 "
 "<script_level_debugging>` 功能时，ASM操作码会缩进显示。"
 msgstr ""
-"Find **Premium: Indentedasm** in the setting item. After enabling it, when "
-"using the :ref:`script-level debugging <script_level_debugging>` function, "
-"the ASM opcode will be indented and displayed."
+"Find **Premium: Indentedasm** in the settings. After enabling it, when using"
+" the :ref:`script-level debugging <script_level_debugging>` function, the "
+"ASM opcode will be indented and displayed."

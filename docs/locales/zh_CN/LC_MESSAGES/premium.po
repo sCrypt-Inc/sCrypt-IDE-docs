@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sCrypt-IDE-docs 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-04 12:16+0800\n"
+"POT-Creation-Date: 2021-06-04 20:01+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,24 +25,24 @@ msgid "购买许可证"
 msgstr "购买许可证"
 
 #: ../../premium.rst:14 829c31f0fbed4ca0b340d28bea9084a1
-msgid "使用我们的高级付费功能需要先购买高级许可证"
-msgstr "使用我们的高级付费功能需要先购买高级许可证"
+msgid "高级付费功能需先购买高级许可证"
+msgstr "高级付费功能需先购买高级许可证"
 
 #: ../../premium.rst:17 7f7dff326a674332b3dd73c25fb08e17
 msgid "高级许可证收费"
 msgstr "高级许可证收费"
 
-#: ../../premium.rst:19 bce593ce3710426080e19624fc7900eb
-msgid "``10`` 美元 每个许可证"
-msgstr "``10`` 美元 每个许可证"
+#: ../../premium.rst:19 ef7e6293c0ee476bbeff515a0e8096c0
+msgid "每个许可证 ``10`` 美元"
+msgstr "每个许可证 ``10`` 美元"
 
 #: ../../premium.rst:22 321852e3a55e49d9aa26984490e14088
 msgid "高级许可证的有效期"
 msgstr "高级许可证的有效期"
 
 #: ../../premium.rst:24 62d7ee0392d54a37bd6ac5689cfce85f
-msgid "当前阶段颁发的所有许可证对于我们的早期采用者都将终身有效。"
-msgstr "当前阶段颁发的所有许可证对于我们的早期采用者都将终身有效。"
+msgid "当前阶段颁发的所有许可证对于早期采用者都将终身有效。"
+msgstr "当前阶段颁发的所有许可证对于早期采用者都将终身有效。"
 
 #: ../../premium.rst:27 a6d9becf85f94b6982c46edd4f1e0658
 msgid "如何获得高级许可证"
@@ -51,18 +51,20 @@ msgstr "如何获得高级许可证"
 #: ../../premium.rst:29 a01d6977a3024667b4111f3ffcfb45a3
 msgid ""
 "通过使用 `Baemail`_ 服务向我们的官方邮件地址 scrypt@moneybutton.com 发送标题为 ‘Purchase An "
-"sCrypt Premium License’ 的邮件， 同时在其中支付单个用户高级许可证的费用。待我们收到并确认后，会回复相应的高级许可证给发件人。"
+"sCrypt Premium License’ 的邮件， "
+"同时在其中支付单个用户高级许可证的费用。待我们收到并确认后，会回复相应的高级许可证给发件人。如遇问题, 发邮件至 support@scrypt.io。"
 msgstr ""
 "通过使用 `Baemail`_ 服务向我们的官方邮件地址 scrypt@moneybutton.com 发送标题为 ‘Purchase An "
-"sCrypt Premium License’ 的邮件， 同时在其中支付单个用户高级许可证的费用。待我们收到并确认后，会回复相应的高级许可证给发件人。"
+"sCrypt Premium License’ 的邮件， "
+"同时在其中支付单个用户高级许可证的费用。待我们收到并确认后，会回复相应的高级许可证给发件人。如遇问题, 发邮件至 support@scrypt.io。"
 
 #: ../../premium.rst:33 4882a172efd145d9bfdc57f2534916a4
 msgid "如何使用高级许可证"
 msgstr "如何使用高级许可证"
 
 #: ../../premium.rst:35 8e4834216bbe46f2acbdfd3a4527f1d2
-msgid "收到许可证后，在设置中 :ref:`设置激活 <settings_license>`"
-msgstr "收到许可证后，在设置中 :ref:`设置激活 <settings_license>`"
+msgid "收到许可证后，在设置中 :ref:`设置激活 <settings_license>`。"
+msgstr "收到许可证后，在设置中 :ref:`设置激活 <settings_license>`。"
 
 #: ../../premium.rst:42 7f280b9bc18e4fbe9856d2baaca71970
 msgid "脚本级调试"
@@ -71,14 +73,14 @@ msgstr "脚本级调试"
 #: ../../premium.rst:44 80c7d9a97661403f8f57cb93520697b0
 msgid ""
 "**IDE** 提供的调试器，不仅支持进行sCrypt 源码级的调试，也支持脚本级的调试。 当调试器进入中断模式后，点击代码编辑器右上角的 **View"
-" Script in debugging** 按钮，即可打开脚本视图，主要包括这几个功能点："
+" Script in debugging** 按钮，即可打开脚本视图。主要包括这几个功能点："
 msgstr ""
 "**IDE** 提供的调试器，不仅支持进行sCrypt 源码级的调试，也支持脚本级的调试。 当调试器进入中断模式后，点击代码编辑器右上角的 **View"
-" Script in debugging** 按钮，即可打开脚本视图，主要包括这几个功能点："
+" Script in debugging** 按钮，即可打开脚本视图。主要包括这几个功能点："
 
 #: ../../premium.rst:49 66c331aae3c74e4b9a07691015abb41b
-msgid "sCrypt 源码与其编译出的 Script 脚本之间关联的实时展示；"
-msgstr "sCrypt 源码与其编译出的 Script 脚本之间关联的实时展示；"
+msgid "sCrypt 源码与其编译出的 Script 脚本之间关联映射的实时展示；"
+msgstr "sCrypt 源码与其编译出的 Script 脚本之间关联映射的实时展示；"
 
 #: ../../premium.rst:50 6737a05510154fbf8a80be6b8908a683
 msgid ""
@@ -98,17 +100,17 @@ msgstr "复制值"
 
 #: ../../premium.rst:61 7e0b80f9f74946fba4ad54b936ce2902
 msgid ""
-"在 **Data Stack** 窗口中数据项上单击右键，会出现 **Copy Value** 菜单，点击改菜单可以将栈上的数据复制到剪切板。"
+"在 **Data Stack** 窗口中数据项上单击右键，会出现 **Copy Value** 菜单。点击改菜单可以将栈上的数据复制到剪切板。"
 msgstr ""
-"在 **Data Stack** 窗口中数据项上单击右键，会出现 **Copy Value** 菜单，点击改菜单可以将栈上的数据复制到剪切板。"
+"在 **Data Stack** 窗口中数据项上单击右键，会出现 **Copy Value** 菜单。点击改菜单可以将栈上的数据复制到剪切板。"
 
 #: ../../premium.rst:68 24d064d5cec044d1903036d3fc8633ec
-msgid "利用这个功能可以方便高级用户进一步提高 sCrypt 的开发调试效率，并且方便地进行一些优化。"
-msgstr "利用这个功能可以方便高级用户进一步提高 sCrypt 的开发调试效率，并且方便地进行一些优化。"
+msgid "利用这个功能可以方便高级用户进一步提高开发调试效率，并且方便地进行一些脚本优化。"
+msgstr "利用这个功能可以方便高级用户进一步提高开发调试效率，并且方便地进行一些脚本优化。"
 
-#: ../../premium.rst:74 28fa7c2ad2d54f6d82a3fdf7699f3671
-msgid "优化生成"
-msgstr "优化生成"
+#: ../../premium.rst:74 48d3fbbd719e4fa2ab506f7cf72456ef
+msgid "代码优化"
+msgstr "代码优化"
 
 #: ../../premium.rst:76 4bde5debe4dc43abaa180356f3029d4e
 msgid ""
@@ -126,11 +128,9 @@ msgstr ""
 
 #: ../../premium.rst:81 7e567cc709c8411ba9b84a2953a97194
 msgid ""
-"当使用 :ref:`发布编译 <release_compiling>` "
-"来构建合约时，编译器会自动开启优化，优化可以显著（两位数的百分比）减小脚本的大小并提高其性能。"
+"当使用 :ref:`发布编译 <release_compiling>` 来构建合约时，编译器会自动开启优化，优化可以显著减小脚本的体积并提高其性能。"
 msgstr ""
-"当使用 :ref:`发布编译 <release_compiling>` "
-"来构建合约时，编译器会自动开启优化，优化可以显著（两位数的百分比）减小脚本的大小并提高其性能。"
+"当使用 :ref:`发布编译 <release_compiling>` 来构建合约时，编译器会自动开启优化，优化可以显著减小脚本的体积并提高其性能。"
 
 #: ../../premium.rst:84 a6f0c63af115405b95df7942fc00969e
 msgid "当前，交易费用仅与脚本/事务的大小成正比，未来会将演变为考虑脚本的复杂性。因此，优化目标也有望在未来发展演变。"

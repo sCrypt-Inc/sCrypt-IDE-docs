@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sCrypt-IDE-docs 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-04 12:16+0800\n"
+"POT-Creation-Date: 2021-06-04 18:25+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,16 +21,16 @@ msgid "设置"
 msgstr "设置"
 
 #: ../../settings.rst:5 3821fa323d2040bc8b31bcede0f4d527
-msgid "在 VS Code 中打开 “文件” -> “首选项” -> “设置” -> “扩展” -> **sCrypt**"
-msgstr "在 VS Code 中打开 “文件” -> “首选项” -> “设置” -> “扩展” -> **sCrypt**"
+msgid "在 VS Code 中打开 “文件” -> “首选项” -> “设置” -> “扩展” -> **sCrypt**，可观看所有设置选项。"
+msgstr "在 VS Code 中打开 “文件” -> “首选项” -> “设置” -> “扩展” -> **sCrypt**，可观看所有设置选项。"
 
 #: ../../settings.rst:14 c9accf66e9b24fd29ac16566e17ab7fc
 msgid "私钥"
 msgstr "私钥"
 
 #: ../../settings.rst:17 3aa90e11ad8e48a5824c7bab53636859
-msgid "在设置项中找到 **Priv Key**，输入你的测试网私钥，有了测试网私钥后，才能使用部署合约的相关功能。"
-msgstr "在设置项中找到 **Priv Key**，输入你的测试网私钥，有了测试网私钥后，才能使用部署合约的相关功能。"
+msgid "在设置项中找到 **Priv Key**，输入你的测试网私钥。有了测试网私钥后，才能使用部署合约的相关功能。"
+msgstr "在设置项中找到 **Priv Key**，输入你的测试网私钥。有了测试网私钥后，才能使用部署合约的相关功能。"
 
 #: ../../settings.rst:25 00573b090f964a14b1f30c748f35930b
 msgid "请勿在此处输入主网上的私钥"
@@ -65,8 +65,8 @@ msgstr ""
 "保存的目录："
 
 #: ../../settings.rst:55 1378cd3c4d9b49b6ac840d56c79f3819
-msgid "默认情况下log是关闭，在遇到问题时，请开启Log以协助分析问题。"
-msgstr "默认情况下log是关闭，在遇到问题时，请开启Log以协助分析问题。"
+msgid "默认情况下log是关闭。在遇到问题时，请开启log以协助分析问题。"
+msgstr "默认情况下log是关闭。在遇到问题时，请开启log以协助分析问题。"
 
 #: ../../settings.rst:59 b8fa4f1871e44a3ab6d448da6764a1ce
 msgid "高级付费功能设置"
@@ -94,8 +94,8 @@ msgstr "ASM操作码缩进设置"
 
 #: ../../settings.rst:79 542b4da0b5784d03b5da294db8ac2b4e
 msgid ""
-"在设置项中找到 **Premium: Indentedasm**，开启后，在使用 :ref:`脚本级调试 "
+"在设置项中找到 **Premium: Indentedasm**。开启后，在使用 :ref:`脚本级调试 "
 "<script_level_debugging>` 功能时，ASM操作码会缩进显示。"
 msgstr ""
-"在设置项中找到 **Premium: Indentedasm**，开启后，在使用 :ref:`脚本级调试 "
+"在设置项中找到 **Premium: Indentedasm**。开启后，在使用 :ref:`脚本级调试 "
 "<script_level_debugging>` 功能时，ASM操作码会缩进显示。"
