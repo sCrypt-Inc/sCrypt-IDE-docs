@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sCrypt-IDE-docs 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-04 00:29+0800\n"
+"POT-Creation-Date: 2021-06-04 16:57+0800\n"
 "PO-Revision-Date: 2021-06-02 09:22+0000\n"
 "Last-Translator: qtom zheng <zhfnjust@gmail.com>, 2021\n"
 "Language-Team: English (https://www.transifex.com/scrypt-1/teams/121283/en/)\n"
@@ -21,32 +21,32 @@ msgstr ""
 "Language: en\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../compiling.rst:5 21532cd7a7534fb88bddb219e89b637c
+#: ../../compiling.rst:5 ea8b697be363482e91b40b9ffac14a75
 msgid "编译"
 msgstr "Compiling"
 
-#: ../../compiling.rst:9 f2ac1eea7fb8436c85edf9714b51b9c3
+#: ../../compiling.rst:9 c5331d6cc28a41459d93f2ee2e9f53db
 msgid "自动编译"
 msgstr "Automatic compilation"
 
-#: ../../compiling.rst:11 0dc3d54286c44b39b7f3a6371df5afb1
+#: ../../compiling.rst:11 9d97b193ab5b4e3cacf804971eb3d40b
 msgid "每次修改代码，**IDE** 都会重新编译代码，同时也会监听文件系统。如果当前打开的文件依赖的文件被删除，也会重新编译代码。"
 msgstr ""
 "Every time you modify the code, the **IDE** will recompile the code and also"
 " monitor the file system. If the file that the currently opened file depends"
 " on is deleted, the code will also be recompiled."
 
-#: ../../compiling.rst:15 099cff7dc4bb4dac9223e6fc8d3d8eb1
+#: ../../compiling.rst:15 fd52603d5e9f4aad8c893af3ac083b8d
 msgid "手动编译"
 msgstr "Manual compilation"
 
-#: ../../compiling.rst:16 c5a8f0b501844e7182811a8293351c86
+#: ../../compiling.rst:16 6b087dbd47a14cf1b0a8cd17b176a650
 msgid "**IDE** 支持在代码编辑器/资源管理器上下文菜单中编译合约文件。"
 msgstr ""
 "**IDE** supports compiling contract files in the context menu of the code "
 "editor/resource manager."
 
-#: ../../compiling.rst:21 944bf39824da47fcbc89a0395d476435
+#: ../../compiling.rst:21 c317361d82b5435694a99d33468b54af
 msgid ""
 "编译完成后，在VS Code 窗口的右下角会有 **通知** ，同时 **输出面板** 也会输出编译结果，包括编译的合约文件名，编译出来的脚本大小 "
 "[1]_， 合约描述文件存放路径。"
@@ -57,34 +57,33 @@ msgstr ""
 " file, the size of the compiled script [1]_, contract The storage path of "
 "the description file."
 
-#: ../../compiling.rst:27 b74524572c754e5c8e2a6d5edecabdb1
+#: ../../compiling.rst:27 064bb621a6a74eeca53f4997de4e7e1e
 msgid "合约描述文件"
 msgstr "Contract description file"
 
-#: ../../compiling.rst:29 c418fde84d914cad9acb78954e56974d
+#: ../../compiling.rst:29 af13fb8285fd4d12b996fa178b556619
 msgid "合约描述文件是编译合约的输出结果，可用于测试、部署、调用和集成合约。"
 msgstr ""
 "The contract description file is the output result of compiling the "
 "contract, which can be used for testing, deploying, calling and integrating "
 "the contract."
 
-#: ../../compiling.rst:32 86a963ee42664a08a673f251c84db775
+#: ../../compiling.rst:32 f4c6c1fa15b84dacbddc1d570450b61c
 msgid "`scryptlib`_ 文档有关于 **合约描述文件** 的详细介绍。"
 msgstr ""
 "The `scryptlib`_ document has a detailed introduction about the **contract "
 "description file**."
 
-#: ../../compiling.rst:37 ae6db96ba3634d248562d9d848b039be
+#: ../../compiling.rst:37 33ff893dd7224a74af28dbebd6db51d3
 msgid "调试编译"
 msgstr "Debug build"
 
-#: ../../compiling.rst:39 52d31948ad614cbfa6c280ba99d6a99d
-msgid "*在代码编辑器上右键单击，选择* : ``Compile to Bitcoin Script : Debug``"
+#: ../../compiling.rst:39 70eb29ead3e443c3bd453196280f79f1
+msgid "*在代码编辑器上右键单击，选择* : ``Compile Contract : Debug``"
 msgstr ""
-"*Right click on the code editor and select*: ``Compile to Bitcoin Script: "
-"Debug``"
+"*Right click on the code editor and select* : ``Compile Contract: Debug``"
 
-#: ../../compiling.rst:41 20203b6976464f4e8b0e76a0cc399306
+#: ../../compiling.rst:41 1261976e71f14e12824087adf3b28264
 msgid ""
 "在开发过程中主要使用调试编译来构建合约，包括调试器、单元测试，甚至部署调用合约也可以使用此构建类型。在该构建类型下， "
 "编译器生成的脚本不包含优化，包含辅助信息，可以用于调试和定位异常。"
@@ -96,17 +95,16 @@ msgstr ""
 "auxiliary information, which can be used for debugging and locating "
 "exceptions."
 
-#: ../../compiling.rst:47 ad5b9645a5f044dca65e03d9fe30a96a
+#: ../../compiling.rst:47 70daf66b1c4d407e87a20c69daf9f9d1
 msgid "发布编译"
 msgstr "Release build"
 
-#: ../../compiling.rst:49 4bc0a16387f94c4285330f5539975541
-msgid "*在代码编辑器上右键单击，选择* : ``Compile to Bitcoin Script : Release``"
+#: ../../compiling.rst:49 f907a3c24476400aa8221cccbf8d044e
+msgid "*在代码编辑器上右键单击，选择* : ``Compile Contract : Release``"
 msgstr ""
-"*Right click on the code editor and select*: ``Compile to Bitcoin Script: "
-"Release``"
+"*Right click on the code editor and select* : ``Compile Contract: Release``"
 
-#: ../../compiling.rst:51 6462c02fbdee417dad108f5e9515355d
+#: ../../compiling.rst:51 1fb1f451dd0640f083a1d3d92df92ba1
 msgid ""
 "当一切准备就绪之后，应该使用发布编译来构建合约。在该构建类型下， 编译器会 :ref:`生成优化 <optimize>` "
 "的脚本，删除辅助信息，从而使脚本会变得更小，节省交易手续费。 目前只有付费用户才能使用此功能，请参阅 :ref:`高级付费功能 <premium>`"
@@ -117,7 +115,7 @@ msgstr ""
 "will become smaller and save transaction fees. Currently only paid users can"
 " use this feature, please refer to :ref:`Premium paid features <premium>`"
 
-#: ../../compiling.rst:57 f1bb25ccd3f446ee9df26889a01eef40
+#: ../../compiling.rst:57 64c18e018a574c68934ebfcd03063d1e
 msgid ""
 "不版本的编译器编译出来的脚本可能会不一样，但是它们是等价的。如果编译出来的脚本发生变化，通常会导致旧的的 **交易原象** "
 "无法校验通过，通过计算一个新的 **交易原象** 即可修复此问题。"
@@ -127,7 +125,7 @@ msgstr ""
 "cause the old **transaction image** to fail verification. This problem can "
 "be fixed by calculating a new **transaction image**."
 
-#: ../../compiling.rst:61 0e31c8ffdc2a4191b82d7a9f75b28997
+#: ../../compiling.rst:61 68073e259f7646e4831444e92c9e9f77
 msgid "改大小计算方式不包含合约构造函数参数"
 msgstr ""
 "Change the size calculation method to not include contract constructor "
