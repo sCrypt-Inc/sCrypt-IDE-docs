@@ -72,6 +72,33 @@ txContext             否     运行函数所需的 :ref:`交易上下文 <txCon
 asmArgs               否     `汇编变量`_
 ===============    ======== ======================================================================================
 
+.. _scryptTypes:
+
+参数输入格式
+----------------
+
+===============    ==============================================================================================================
+参数类型             输入格式说明
+===============    ==============================================================================================================
+bool               ``true`` 或者 ``false``
+int                数字或字符串，如果值小于 ``9007199254740991`` (2^53 − 1)， 可以直接使用数字表示，也可以使用字符串表示（包括十进制
+                   字符串和 ``0x`` 开头的十六进制字符串），如果值大于等于 ``9007199254740991``，应该使用字符串表示
+bytes              字符串, 例如: ``"b'0011'"``
+PubKey             字符串, 例如: ``"PubKey(b'036cfa9a0b0abf4fa56e583b99f8d1ba4a2608096283cdea68ecf1d4f5bdefeb1f')"``，括号中间是 *bytes*
+                   
+PrivKey            字符串, 例如: ``"PrivKey(1000000000000)"`` or ``"PrivKey(0x036cfa9a)"``, 括号中间是十进制或十六进制数字
+Sig                字符串, 例如: ``"Sig(b'036cfa9a0b0abf4fa56e583b99f8d1ba4a2608096283cdea68ecf1d4f5bdefeb1f')"``，括号中间是 *bytes*
+Ripemd160          字符串, 例如: ``"Ripemd160(b'ba53f598a150a242b21bcb6963a2db6dae6fa896')"``，括号中间是 *bytes*
+Sha1               字符串, 例如: ``"Sha1(b'3e5b01787918c4e39f99ee70d7db11dddb1cc98d')"``，括号中间是 *bytes*
+Sha256             字符串, 例如: ``"Sha256(b'5a3d057ba410db21e6e92788779e6262a83d0a305762d5ece77dc801c6242f70')"``，括号中间是 *bytes*
+SigHashType        字符串, 例如: ``"SigHashType(b'4c')"``，括号中间是 *bytes*
+SigHashPreimage    字符串, 例如: ``"SigHashPreimage(b'0100000028bcef7e73248aa273db19d73f65730862b2491c8e0eeb767f7fbd78c4...')"``，括号中间是 *bytes*
+OpCodeType         字符串, 例如: ``"OpCodeType(b'81')"`` 表示 OP_1， 更多 `Opcodes`_ ，括号中间是 *bytes*
+
+
+数组                同 *JSON* 的数组，所有元素必须是以上基本类型或者是结构体、数组
+结构体              同 *JSON* 的对象，所有成员必须是以上基本类型或者是结构体、数组
+===============    ==============================================================================================================
 
 .. _txContext:
 
@@ -206,3 +233,4 @@ opReturn             否     带状态合约的状态，从OP_RETURN开始，不
 .. _CHECKSIG: https://wiki.bitcoinsv.io/index.php/OP_CHECKSIG
 .. _汇编变量: https://scryptdoc.readthedocs.io/zh_CN/latest/asm.html
 .. _Assembly Variable: https://scryptdoc.readthedocs.io/en/latest/asm.html
+.. _Opcodes: https://wiki.bitcoinsv.io/index.php/Opcodes_used_in_Bitcoin_Script
