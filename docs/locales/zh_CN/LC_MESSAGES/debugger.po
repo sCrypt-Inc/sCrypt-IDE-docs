@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sCrypt-IDE-docs 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-04 00:29+0800\n"
+"POT-Creation-Date: 2021-06-04 10:14+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,13 +38,13 @@ msgstr "配置调试器启动参数"
 msgid ""
 "与一般语言（比如c++/javascript)不同， 启动 **IDE** 的 debugger 必须配置启动参数。这是 **sCrypt** "
 "语言的结构特性决定的，如下图： 我们知道比特币脚本的执行是将解锁脚本和锁定脚本连接起来形成完整的脚本后再执行， 其中解锁脚本在前，锁定脚本在后。 "
-"**sCrypt** 合约含有一个或者多个 ``public`` 方法， 启动调试器就是运行合约的某一个 ``public`` "
-"方法，方法的参数对应解锁脚本， 方法的内容对应锁定脚本。 运行这个方法，需要按照这个方法的签名来正确的配置调用方法的参数，也就是解锁脚本。"
+"**sCrypt** 合约含有一个或者多个 *public* 函数， 启动调试器就是运行合约的某一个 *public* 函数，函数的参数对应解锁脚本， "
+"函数的内容对应锁定脚本。 运行这个函数，需要按照这个函数的签名来正确的配置调用函数的参数，也就是解锁脚本。"
 msgstr ""
 "与一般语言（比如c++/javascript)不同， 启动 **IDE** 的 debugger 必须配置启动参数。这是 **sCrypt** "
 "语言的结构特性决定的，如下图： 我们知道比特币脚本的执行是将解锁脚本和锁定脚本连接起来形成完整的脚本后再执行， 其中解锁脚本在前，锁定脚本在后。 "
-"**sCrypt** 合约含有一个或者多个 ``public`` 方法， 启动调试器就是运行合约的某一个 ``public`` "
-"方法，方法的参数对应解锁脚本， 方法的内容对应锁定脚本。 运行这个方法，需要按照这个方法的签名来正确的配置调用方法的参数，也就是解锁脚本。"
+"**sCrypt** 合约含有一个或者多个 *public* 函数， 启动调试器就是运行合约的某一个 *public* 函数，函数的参数对应解锁脚本， "
+"函数的内容对应锁定脚本。 运行这个函数，需要按照这个函数的签名来正确的配置调用函数的参数，也就是解锁脚本。"
 
 #: ../../debugger.rst:25 81d1d4510bd748d08c29fee749c737a8
 msgid "创建launch.json"
@@ -133,16 +133,16 @@ msgid "pubFunc"
 msgstr "pubFunc"
 
 #: ../../debugger.rst:69 3da81920000f4f2f897b43737e25ae14
-msgid "要调试的 ``public`` 方法名称"
-msgstr "要调试的 ``public`` 方法名称"
+msgid "要调试的 *public* 函数名称"
+msgstr "要调试的 *public* 函数名称"
 
 #: ../../debugger.rst:70 2d9d53d491a94c1eb89cbe381c15412a
 msgid "pubFuncArgs"
 msgstr "pubFuncArgs"
 
 #: ../../debugger.rst:70 b66beac59be841aa869e0365a4e2dfee
-msgid "要调试的 ``public`` 方法的参数"
-msgstr "要调试的 ``public`` 方法的参数"
+msgid "要调试的 *public* 函数的参数"
+msgstr "要调试的 *public* 函数的参数"
 
 #: ../../debugger.rst:71 5bc18d2560c048c49ae9c9288a34f3bd
 msgid "txContext"
@@ -155,8 +155,8 @@ msgid "否"
 msgstr "否"
 
 #: ../../debugger.rst:71 80de611af7114df5b1f0237d026e3f0c
-msgid "运行方法所需的 :ref:`交易上下文 <txContext>`"
-msgstr "运行方法所需的 :ref:`交易上下文 <txContext>`"
+msgid "运行函数所需的 :ref:`交易上下文 <txContext>`"
+msgstr "运行函数所需的 :ref:`交易上下文 <txContext>`"
 
 #: ../../debugger.rst:72 cbe6f45aaf014351b9665707b8426eae
 msgid "asmArgs"
@@ -261,8 +261,8 @@ msgstr ""
 "添加了表达式或者变量，将会实时地变化。"
 
 #: ../../debugger.rst:126 e35e717a4b4943158d236a5bbab0724c
-msgid "一次调试只能以一个  ``public`` 方法为入口。"
-msgstr "一次调试只能以一个  ``public`` 方法为入口。"
+msgid "一次调试只能以一个 *public* 函数为入口。"
+msgstr "一次调试只能以一个 *public* 函数为入口。"
 
 #: ../../debugger.rst:129 c883cddc01cf4b6e9c6a32e7fd1873d5
 msgid "调试操作"
@@ -334,10 +334,10 @@ msgstr "调用堆栈"
 
 #: ../../debugger.rst:179 638b8b64cc6d4750af691b62e044efe8
 msgid ""
-"使用“调用堆栈”面板可以查看当前堆栈上的函数或过程调用。 “调用堆栈”窗口显示方法和函数被调用的顺序。栈底式当前调试的 ``public`` 方法。 "
+"使用“调用堆栈”面板可以查看当前堆栈上的函数或过程调用。 “调用堆栈”窗口显示函数被调用的顺序。栈底式当前调试的 *public* 函数。 "
 "单击“调用堆栈”上的函数名，代码编辑器会自动跳转到函数的定义的位置。"
 msgstr ""
-"使用“调用堆栈”面板可以查看当前堆栈上的函数或过程调用。 “调用堆栈”窗口显示方法和函数被调用的顺序。栈底式当前调试的 ``public`` 方法。 "
+"使用“调用堆栈”面板可以查看当前堆栈上的函数或过程调用。 “调用堆栈”窗口显示函数被调用的顺序。栈底式当前调试的 *public* 函数。 "
 "单击“调用堆栈”上的函数名，代码编辑器会自动跳转到函数的定义的位置。"
 
 #: ../../debugger.rst:188 816ea07bba2c446fb7d625b93201dcb4

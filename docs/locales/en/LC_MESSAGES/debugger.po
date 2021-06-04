@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sCrypt-IDE-docs 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-04 00:29+0800\n"
+"POT-Creation-Date: 2021-06-04 10:14+0800\n"
 "PO-Revision-Date: 2021-06-02 09:22+0000\n"
 "Last-Translator: qtom zheng <zhfnjust@gmail.com>, 2021\n"
 "Language-Team: English (https://www.transifex.com/scrypt-1/teams/121283/en/)\n"
@@ -50,8 +50,8 @@ msgstr "Configure debugger startup parameters"
 msgid ""
 "与一般语言（比如c++/javascript)不同， 启动 **IDE** 的 debugger 必须配置启动参数。这是 **sCrypt** "
 "语言的结构特性决定的，如下图： 我们知道比特币脚本的执行是将解锁脚本和锁定脚本连接起来形成完整的脚本后再执行， 其中解锁脚本在前，锁定脚本在后。 "
-"**sCrypt** 合约含有一个或者多个 ``public`` 方法， 启动调试器就是运行合约的某一个 ``public`` "
-"方法，方法的参数对应解锁脚本， 方法的内容对应锁定脚本。 运行这个方法，需要按照这个方法的签名来正确的配置调用方法的参数，也就是解锁脚本。"
+"**sCrypt** 合约含有一个或者多个 *public* 函数， 启动调试器就是运行合约的某一个 *public* 函数，函数的参数对应解锁脚本， "
+"函数的内容对应锁定脚本。 运行这个函数，需要按照这个函数的签名来正确的配置调用函数的参数，也就是解锁脚本。"
 msgstr ""
 "Unlike general languages (such as c++/javascript), the debugger that starts "
 "**IDE** must be configured with startup parameters. This is determined by "
@@ -59,13 +59,13 @@ msgstr ""
 "figure below: We know that the execution of the Bitcoin script is to connect"
 " the unlocking script and the locking script to form a complete script "
 "before execution, where the unlocking script is first, and the locking "
-"script is Rear. The **sCrypt** contract contains one or more ``public`` "
-"methods. Starting the debugger is to run a certain ``public`` method of the "
-"contract. The parameters of the method correspond to the unlocking script, "
-"and the content of the method corresponds to the locking script. To run this"
-" method, you need to correctly configure the parameters of the calling "
-"method according to the signature of this method, that is, the unlocking "
-"script."
+"script is Rear. The **sCrypt** contract contains one or more *public* "
+"functions. Starting the debugger is to run a certain *public* function of "
+"the contract. The parameters of the function correspond to the unlocking "
+"script, and the content of the function corresponds to the locking script. "
+"To run this function, you need to correctly configure the parameters of the "
+"calling function according to the signature of this function, that is, the "
+"unlocking script."
 
 #: ../../debugger.rst:25 81d1d4510bd748d08c29fee749c737a8
 msgid "创建launch.json"
@@ -160,16 +160,16 @@ msgid "pubFunc"
 msgstr "pubFunc"
 
 #: ../../debugger.rst:69 3da81920000f4f2f897b43737e25ae14
-msgid "要调试的 ``public`` 方法名称"
-msgstr "The name of the ``public`` method to be debugged"
+msgid "要调试的 *public* 函数名称"
+msgstr "*public* function name to be debugged"
 
 #: ../../debugger.rst:70 2d9d53d491a94c1eb89cbe381c15412a
 msgid "pubFuncArgs"
 msgstr "pubFuncArgs"
 
 #: ../../debugger.rst:70 b66beac59be841aa869e0365a4e2dfee
-msgid "要调试的 ``public`` 方法的参数"
-msgstr "Parameters of the ``public`` method to be debugged"
+msgid "要调试的 *public* 函数的参数"
+msgstr "The parameters of the *public* function to be debugged"
 
 #: ../../debugger.rst:71 5bc18d2560c048c49ae9c9288a34f3bd
 msgid "txContext"
@@ -182,8 +182,8 @@ msgid "否"
 msgstr "No"
 
 #: ../../debugger.rst:71 80de611af7114df5b1f0237d026e3f0c
-msgid "运行方法所需的 :ref:`交易上下文 <txContext>`"
-msgstr "Required to run the method :ref:`transaction context <txContext>`"
+msgid "运行函数所需的 :ref:`交易上下文 <txContext>`"
+msgstr "Required to run the function :ref:`Transaction Context <txContext>`"
 
 #: ../../debugger.rst:72 cbe6f45aaf014351b9665707b8426eae
 msgid "asmArgs"
@@ -308,9 +308,9 @@ msgstr ""
 "panel** or Variables will change in real time."
 
 #: ../../debugger.rst:126 e35e717a4b4943158d236a5bbab0724c
-msgid "一次调试只能以一个  ``public`` 方法为入口。"
+msgid "一次调试只能以一个 *public* 函数为入口。"
 msgstr ""
-"Only one ``public`` method can be used as the entry point for debugging at a"
+"Only one *public* function can be used as the entry point for debugging at a"
 " time."
 
 #: ../../debugger.rst:129 c883cddc01cf4b6e9c6a32e7fd1873d5
@@ -391,14 +391,14 @@ msgstr "Call stack"
 
 #: ../../debugger.rst:179 638b8b64cc6d4750af691b62e044efe8
 msgid ""
-"使用“调用堆栈”面板可以查看当前堆栈上的函数或过程调用。 “调用堆栈”窗口显示方法和函数被调用的顺序。栈底式当前调试的 ``public`` 方法。 "
+"使用“调用堆栈”面板可以查看当前堆栈上的函数或过程调用。 “调用堆栈”窗口显示函数被调用的顺序。栈底式当前调试的 *public* 函数。 "
 "单击“调用堆栈”上的函数名，代码编辑器会自动跳转到函数的定义的位置。"
 msgstr ""
-"Use the **Call Stack** window to view the function or procedure calls on the"
-" current stack. The **Call Stack** window shows the order in which methods "
-"and functions are called. Bottom of the stack is the currently debugged "
-"``public`` method. Click the function name on the **Call Stack**, the code "
-"editor will automatically jump to the position of the function definition."
+"Use the \"Call Stack\" panel to view the function or procedure calls on the "
+"current stack. The \"Call Stack\" window shows the order in which the "
+"functions are called. The *public* function currently being debugged in the "
+"bottom of the stack. Click the function name on the \"call stack\", the code"
+" editor will automatically jump to the position of the function definition."
 
 #: ../../debugger.rst:188 816ea07bba2c446fb7d625b93201dcb4
 msgid "调试控制台 (REPL)"

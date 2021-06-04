@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sCrypt-IDE-docs 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-04 00:29+0800\n"
+"POT-Creation-Date: 2021-06-04 10:14+0800\n"
 "PO-Revision-Date: 2021-06-02 09:22+0000\n"
 "Last-Translator: qtom zheng <zhfnjust@gmail.com>, 2021\n"
 "Language-Team: English (https://www.transifex.com/scrypt-1/teams/121283/en/)\n"
@@ -116,9 +116,9 @@ msgid "创建合约的实例"
 msgstr "Create an instance of the contract"
 
 #: ../../testting.rst:85 c50657b20f634b93a63d0fe5310a2ba1
-msgid "执行合约的 ``public`` 方法来验证合约的正确性。"
+msgid "执行合约的 *public* 函数来验证合约的正确性。"
 msgstr ""
-"Execute the ``public`` method of the contract to verify the correctness of "
+"Execute the *public* function of the contract to verify the correctness of "
 "the contract."
 
 #: ../../testting.rst:98 69d35f6c6eb1447e9f2046aa9b42434d

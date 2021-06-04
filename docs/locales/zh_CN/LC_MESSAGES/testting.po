@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sCrypt-IDE-docs 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-04 00:29+0800\n"
+"POT-Creation-Date: 2021-06-04 10:14+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -99,8 +99,8 @@ msgid "创建合约的实例"
 msgstr "创建合约的实例"
 
 #: ../../testting.rst:85 c50657b20f634b93a63d0fe5310a2ba1
-msgid "执行合约的 ``public`` 方法来验证合约的正确性。"
-msgstr "执行合约的 ``public`` 方法来验证合约的正确性。"
+msgid "执行合约的 *public* 函数来验证合约的正确性。"
+msgstr "执行合约的 *public* 函数来验证合约的正确性。"
 
 #: ../../testting.rst:98 69d35f6c6eb1447e9f2046aa9b42434d
 msgid "如何快速调试 sCrypt 单元测试错误"

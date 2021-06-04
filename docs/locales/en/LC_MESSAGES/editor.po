@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sCrypt-IDE-docs 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-04 00:29+0800\n"
+"POT-Creation-Date: 2021-06-04 10:14+0800\n"
 "PO-Revision-Date: 2021-06-02 09:22+0000\n"
 "Last-Translator: qtom zheng <zhfnjust@gmail.com>, 2021\n"
 "Language-Team: English (https://www.transifex.com/scrypt-1/teams/121283/en/)\n"
@@ -95,10 +95,10 @@ msgid "重命名符号"
 msgstr "Rename symbol"
 
 #: ../../editor.rst:63 c9f5fcf5b16c4089aa5aaf00bf779b6d
-msgid "重命名代码符号的标识符，例如合约名称，合约属性、本地变量、方法、类型。"
+msgid "重命名代码符号的标识符，例如合约名称，合约属性、本地变量、函数、类型。"
 msgstr ""
 "Rename the identifier of the code symbol, such as contract name, contract "
-"properties, local variables, methods, and types."
+"properties, local variables, functions, types."
 
 #: ../../editor.rst:65 f75480de08434030a1043091fbbd7798
 msgid "将文本光标置于要重命名的代码符号："
