@@ -79,6 +79,12 @@ source_file = docs/_build/gettext/settings.pot
 source_lang = zh
 type = PO
 
+[scrypt-ide-docs.commandspo]
+file_filter = docs/locales/<lang>/LC_MESSAGES/commands.po
+source_file = docs/_build/gettext/commands.pot
+source_lang = zh
+type = PO
+
 [scrypt-ide-docs.testtingpo]
 file_filter = docs/locales/<lang>/LC_MESSAGES/testting.po
 source_file = docs/_build/gettext/testting.pot
