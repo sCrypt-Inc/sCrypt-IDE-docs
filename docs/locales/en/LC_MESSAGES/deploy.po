@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sCrypt-IDE-docs 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-04 10:54+0800\n"
+"POT-Creation-Date: 2021-06-04 11:25+0800\n"
 "PO-Revision-Date: 2021-06-02 09:22+0000\n"
 "Last-Translator: qtom zheng <zhfnjust@gmail.com>, 2021\n"
 "Language-Team: English (https://www.transifex.com/scrypt-1/teams/121283/en/)\n"
@@ -66,11 +66,15 @@ msgstr ""
 " *satoshis* balance locked by the contract, and the initial state of the "
 "stateful contract."
 
-#: ../../deploy.rst:23 7afb45ecf45440869fef192518d02250
+#: ../../deploy.rst:23 aba0e4c0dbad4b2a9a675912609eee5e
+msgid "目前只支持测试网"
+msgstr "Currently only supports testnet"
+
+#: ../../deploy.rst:26 7afb45ecf45440869fef192518d02250
 msgid "设置私钥"
 msgstr "Set private key"
 
-#: ../../deploy.rst:25 fde945d8f6ae414893a81ee3460ce8df
+#: ../../deploy.rst:28 fde945d8f6ae414893a81ee3460ce8df
 msgid ""
 "部署合约到测试网需要先 :ref:`设置私钥 <settings_privatekey>` ，如果检测到没有设置私钥，**IDE** "
 "会自打开设置界面，提示你设置测试网私钥。"
@@ -80,11 +84,11 @@ msgstr ""
 "**IDE** will open the setting interface and prompt you to set the testnet "
 "private key."
 
-#: ../../deploy.rst:30 b1664a524a1f418a89767c0341e1f7ab
+#: ../../deploy.rst:33 b1664a524a1f418a89767c0341e1f7ab
 msgid "编译合约"
 msgstr "Compile the contract"
 
-#: ../../deploy.rst:32 613cc6d71e4d44b8aa8aa8ceb06c51b5
+#: ../../deploy.rst:35 613cc6d71e4d44b8aa8aa8ceb06c51b5
 msgid ""
 "部署合约到测试网需要先 :ref:`编译合约 <compiling>`，编译完合约后， 本地合约窗口（COMPILED "
 "CONTRACTS）会自动刷新出刚刚编译的合约，点击窗口中的合约，打开部署合约配置视图。 也可以通过在代码编辑器上右键单击 **Deploy** "
@@ -98,11 +102,11 @@ msgstr ""
 " editor to automatically compile the contract with :ref:`Debug and compile "
 "<debug_compiling>` and open the deployment contract configuration view."
 
-#: ../../deploy.rst:39 1bda30f82c8c4ee0a8e9d1fca7c1678e
+#: ../../deploy.rst:42 1bda30f82c8c4ee0a8e9d1fca7c1678e
 msgid "部署合约"
 msgstr "Deployment contract"
 
-#: ../../deploy.rst:41 bbc578b45ee347568d42fe79a577a5f7
+#: ../../deploy.rst:44 bbc578b45ee347568d42fe79a577a5f7
 msgid ""
 "打开部署合约配置视图后， 在视图中填写合约构造函数的各个参数，以及合约锁定 *satoshis* 余额，如果是状态合约，还需要填写初始的状态，然后点击 "
 "**Deploy** 按钮，在 **输出面板** 可以看到部署成功的提示, 在左边的合约实例窗口 (DEPLOYED CONTRACTS) "
@@ -117,15 +121,15 @@ msgstr ""
 "left. Click the View Tx button on the contract instance to open the browser "
 "to view the corresponding Tx."
 
-#: ../../deploy.rst:48 f28d7669d98a407db2a06657e4a6d2c7
+#: ../../deploy.rst:51 f28d7669d98a407db2a06657e4a6d2c7
 msgid "调用合约"
 msgstr "Call contract"
 
-#: ../../deploy.rst:51 ef923072fc594c94bfd8956a9582ab00
+#: ../../deploy.rst:54 ef923072fc594c94bfd8956a9582ab00
 msgid "无状态合约调用"
 msgstr "Call stateless contract"
 
-#: ../../deploy.rst:53 ecb63a31cff345d896cd841d53d79ea0
+#: ../../deploy.rst:56 ecb63a31cff345d896cd841d53d79ea0
 msgid ""
 "无状态合约的调用相对简单，点击合约实例上的构造函数，则可查看构造函数调用时的实参，点击 *public* 函数，右边则会出现调用视图， "
 "和部署合约的过程一样，只需给函数对应的参数赋值，点击 **Call** 按钮，就能调用该函数了，如果调用成功，可以看到对应的交易， "
@@ -140,11 +144,11 @@ msgstr ""
 " the corresponding transaction, and if it fails, the corresponding error "
 "will be printed."
 
-#: ../../deploy.rst:60 562760c0d42a431eb674281f92376c32
+#: ../../deploy.rst:63 562760c0d42a431eb674281f92376c32
 msgid "有状态合约调用"
 msgstr "Call stateful contract"
 
-#: ../../deploy.rst:62 584e36a13d3b495a854bdd8e1f304c12
+#: ../../deploy.rst:65 584e36a13d3b495a854bdd8e1f304c12
 msgid "在合约调用视图可以看到合约的当前信息，如合约锁定余额、当前执行阶段、内部状态等。要调用当前合约的函数，还需要根据情况完成以下几个步骤："
 msgstr ""
 "In the contract call view, you can see the current information of the "
@@ -152,60 +156,60 @@ msgstr ""
 "stage, and the internal state. To call the function of the current contract,"
 " you need to complete the following steps according to the situation:"
 
-#: ../../deploy.rst:65 08dcd3f07188468d993579005802a4aa
+#: ../../deploy.rst:68 08dcd3f07188468d993579005802a4aa
 msgid "填写调用函数所需的实参。"
 msgstr "Fill in the actual parameters required to call the function."
 
-#: ../../deploy.rst:66 e18a6a144f714ffea85d23165ab6d177
+#: ../../deploy.rst:69 e18a6a144f714ffea85d23165ab6d177
 msgid "添加交易输出，对于有状态合约，一般会限制合约的输出脚本，所以需要手动管理所有交易输出。目前支持的输出类型有三种："
 msgstr ""
 "Add transaction output. For stateful contracts, the output script of the "
 "contract is generally restricted, so all transaction outputs need to be "
 "manually managed. There are three types of output currently supported:"
 
-#: ../../deploy.rst:69 35804b3d021046cbb08a3e4103d4f13a
+#: ../../deploy.rst:72 35804b3d021046cbb08a3e4103d4f13a
 msgid "输出类型"
 msgstr "Output type"
 
-#: ../../deploy.rst:69 5c5b2827d30a4cefafa8c6686d3dda69
+#: ../../deploy.rst:72 5c5b2827d30a4cefafa8c6686d3dda69
 msgid "参数"
 msgstr "parameter"
 
-#: ../../deploy.rst:71 5f31925d9831435b9f3a917077d7d69a
+#: ../../deploy.rst:74 5f31925d9831435b9f3a917077d7d69a
 msgid "状态合约输出"
 msgstr "State contract output"
 
-#: ../../deploy.rst:71 b9292319038f4a5b9fc843372d108496
+#: ../../deploy.rst:74 b9292319038f4a5b9fc843372d108496
 msgid "``State`` : 合约状态的序列化值， ``Amount`` : 合约中锁定的余额"
 msgstr ""
 "``State``: the serialized value of the contract state, ``Amount``: the "
 "balance locked in the contract"
 
-#: ../../deploy.rst:72 af0105d4d1bf473ba1c4f4e100177081
+#: ../../deploy.rst:75 af0105d4d1bf473ba1c4f4e100177081
 msgid "P2PKH输出"
 msgstr "P2PKH output"
 
-#: ../../deploy.rst:72 c42267e37f9e4f98bdb30c5a69aa731a
+#: ../../deploy.rst:75 c42267e37f9e4f98bdb30c5a69aa731a
 msgid "``Address``: 收款人地址， ``Amount`` : 合约中锁定的余额"
 msgstr ""
 "``Address``: the address of the payee, ``Amount``: the balance locked in the"
 " contract"
 
-#: ../../deploy.rst:73 1136a0c251dc415fbf1dbf0a554b41c7
+#: ../../deploy.rst:76 1136a0c251dc415fbf1dbf0a554b41c7
 msgid "OpReturn输出"
 msgstr "OpReturn output"
 
-#: ../../deploy.rst:73 128e6e59aca244a388fc5a7723189ea5
+#: ../../deploy.rst:76 128e6e59aca244a388fc5a7723189ea5
 msgid "``OpReturn`` : op_return 脚本中的数据部分，asm 格式， ``Amount`` : 合约中锁定的余额"
 msgstr ""
 "``OpReturn``: the data part of the op_return script, in asm format, "
 "``Amount``: the balance locked in the contract"
 
-#: ../../deploy.rst:76 f37dc331a4644683acbcc869ff773288
+#: ../../deploy.rst:79 f37dc331a4644683acbcc869ff773288
 msgid "设置交易相关参数"
 msgstr "Set transaction related parameters"
 
-#: ../../deploy.rst:78 8d3ceb24bd5e44a8990a8c7b4452c06e
+#: ../../deploy.rst:81 8d3ceb24bd5e44a8990a8c7b4452c06e
 msgid ""
 "交易费用 ``Fee``： 根据已经添加的交易输出，以及合约的 *satoshis* 余额自动计算得到。 交易签名类型 ``SighashType``："
 " 默认用于计算交易原象 Preimage 的签名类型是 ALL，可根据合约使用交易签名类型来修改此值。"
@@ -216,11 +220,11 @@ msgstr ""
 " the preimage of the transaction is ALL, and this value can be modified "
 "according to the transaction signature type used in the contract."
 
-#: ../../deploy.rst:81 b99084e301c04b2ab9e51494766108a3
+#: ../../deploy.rst:84 b99084e301c04b2ab9e51494766108a3
 msgid "点击 Call 按钮调用合约"
 msgstr "Click the Call button to call the contract"
 
-#: ../../deploy.rst:83 cc8719a84239402a82b10d5518a741e1
+#: ../../deploy.rst:86 cc8719a84239402a82b10d5518a741e1
 msgid ""
 "所有设置均完成后点击 Call 按钮，会触发 API 发送这个合约调用交易到测试网。交易发送成功后，可以看到顶部显示合约余额发生变化。 合约实例的 "
 "**transactions** 子项中增加了一个交易，并且可通过右侧的 **View Tx** "
@@ -235,27 +239,27 @@ msgstr ""
 "transaction sub-item is selected, the parameter list under the called "
 "function will display the actual parameters passed during the call."
 
-#: ../../deploy.rst:89 1cb643f077ed48f9bdd9fc493f66e91d
+#: ../../deploy.rst:92 1cb643f077ed48f9bdd9fc493f66e91d
 msgid "重复调用"
 msgstr "Repeat call"
 
-#: ../../deploy.rst:91 42122bc2c7b945ad96dfb6bf6558ff45
+#: ../../deploy.rst:94 42122bc2c7b945ad96dfb6bf6558ff45
 msgid "针对有状态合约，可以重复上面的步骤继续调用合约并观察其状态变更，直到合约中的余额不足"
 msgstr ""
 "For stateful contracts, you can repeat the above steps to continue calling "
 "the contract and observe its state changes until the balance in the contract"
 " is insufficient"
 
-#: ../../deploy.rst:95 674c7602443e45bf9da8e368838be970
+#: ../../deploy.rst:98 674c7602443e45bf9da8e368838be970
 msgid "目前暂不支持合并其它输入来调用合约"
 msgstr ""
 "Currently, it does not support merging other inputs to call the contract"
 
-#: ../../deploy.rst:99 ef258e40cbaf40b99aa8de2004f70914
+#: ../../deploy.rst:102 ef258e40cbaf40b99aa8de2004f70914
 msgid "调用失败"
 msgstr "Call contract fail"
 
-#: ../../deploy.rst:101 ebff44da10a14fd9b21e9e84b603e821
+#: ../../deploy.rst:104 ebff44da10a14fd9b21e9e84b603e821
 msgid ""
 "通常情况下，调用合约失败，将会在 **输出面板** 输出相应的信息，并生成 ``Launch Debugger`` 链接， **CRTL + 单击** "
 "链接将根据测试中的参数直接启动调试器会话。"
@@ -265,45 +269,45 @@ msgstr ""
 "be generated, **CRTL + click** the link will directly start debugging "
 "according to the parameters in the test."
 
-#: ../../deploy.rst:110 c094bda2f0624ef3848088942b7a0bed
+#: ../../deploy.rst:113 c094bda2f0624ef3848088942b7a0bed
 msgid "其它功能"
 msgstr "Other features"
 
-#: ../../deploy.rst:115 935257746f874408a60d6a284d638d72
+#: ../../deploy.rst:118 935257746f874408a60d6a284d638d72
 msgid "查看交易"
 msgstr "View transaction"
 
-#: ../../deploy.rst:117 93a62e22e50e4dfab05ef0a6f781f09c
+#: ../../deploy.rst:120 93a62e22e50e4dfab05ef0a6f781f09c
 msgid "合约实例窗口下 **transactions** 子项带有 **View Tx** 按钮， 点击可打开区块链浏览器查看该交易"
 msgstr ""
 "The **transactions** sub-item under the contract instance window has the "
 "**View Tx** button, click to open the blockchain browser to view the "
 "transaction"
 
-#: ../../deploy.rst:124 19e261e213b849a89fa02de5a6791fab
+#: ../../deploy.rst:127 19e261e213b849a89fa02de5a6791fab
 msgid "复制值"
 msgstr "Copy value"
 
-#: ../../deploy.rst:126 ffee4780aa3746aca252526b3deba084
+#: ../../deploy.rst:129 ffee4780aa3746aca252526b3deba084
 msgid "在合约实例窗口下选中某个函数，在参数列表上单击右键，会出现 **Copy Value** 菜单， 点击改菜单可以将参数的值复制到剪切板。"
 msgstr ""
 "Select a function in the contract instance window, right-click on the "
 "parameter list, and the **Copy Value** menu will appear. Click the change "
 "menu to copy the value of the parameter to the clipboard."
 
-#: ../../deploy.rst:133 cd15bfaba3204ebfae2f80016319c80b
+#: ../../deploy.rst:136 cd15bfaba3204ebfae2f80016319c80b
 msgid "清除合约实例"
 msgstr "Clear contract instance"
 
-#: ../../deploy.rst:135 5add23b3cce94c90afd29e1bbfcd80cd
+#: ../../deploy.rst:138 5add23b3cce94c90afd29e1bbfcd80cd
 msgid "点击该按钮删除所有合约实例"
 msgstr "Click this button to delete all contract instances"
 
-#: ../../deploy.rst:142 7fa1bec68d07417bb84a6248d4c9a8aa
+#: ../../deploy.rst:145 7fa1bec68d07417bb84a6248d4c9a8aa
 msgid "删除单个合约实例"
 msgstr "Delete a single contract instance"
 
-#: ../../deploy.rst:144 80de929df86042d1ab9d66a559bb72f1
+#: ../../deploy.rst:147 80de929df86042d1ab9d66a559bb72f1
 msgid "在合约实例上右键单击会出现 **Delete** 菜单， 点击改菜单可以删除该合约实例"
 msgstr ""
 "Right-click on the contract instance and the **Delete** menu will appear, "
