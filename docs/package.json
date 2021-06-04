@@ -1,0 +1,19 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gettext": ".\\make.bat gettext",
+    "push": "npm run gettext && tx push -s",
+    "pushs": "npm run gettext && tx push -s -r ",
+    "pull": "tx pull -a",
+    "pulls": "tx pull -s -r ",
+    "build": ".\\make.bat html",
+    "build:en": "set SPHINXOPTS=-Dlanguage=en && npm run build",
+    "build:zh": "set SPHINXOPTS=-Dlanguage=zh && npm run build"
+  },
+  "author": "",
+  "license": "ISC"
+}
