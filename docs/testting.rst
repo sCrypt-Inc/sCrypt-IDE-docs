@@ -4,7 +4,9 @@
 单元测试
 ===========================================
 
-我们通过编写 **javascript/typescript** 来测试合约。首先，在工程根目录下运行 ``npm init`` 来创建一个 **npm** 项目。接下来安装依赖：
+我们通过编写 **javascript/typescript** 来测试合约。`样板项目`_ 中有很多合约的测试用例。
+
+首先，在工程根目录下运行 ``npm init`` 来创建一个 **npm** 项目。接下来安装依赖：
 
 1. 安装 **scryptlib**
 
@@ -126,5 +128,6 @@ Launch Debugger 命令
 
 .. _scryptlib: https://github.com/sCrypt-Inc/scryptlib
 .. _mocha: https://mochajs.org
-
+.. _样板项目: https://github.com/sCrypt-Inc/boilerplate/tree/master/tests
+.. _Boilerplate: https://github.com/sCrypt-Inc/boilerplate/tree/master/tests
 

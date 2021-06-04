@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sCrypt-IDE-docs 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-04 10:14+0800\n"
+"POT-Creation-Date: 2021-06-04 11:59+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,49 +16,49 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../testting.rst:5 0221d9b27acf4a8eb7f6f1c25b70a550
+#: ../../testting.rst:5 d6b4a0b90c8647c5aba4f483f7846901
 msgid "单元测试"
 msgstr "单元测试"
 
-#: ../../testting.rst:7 ec351b7c6dfb4caf9d7c43a76730f6cf
-msgid ""
-"我们通过编写 **javascript/typescript** 来测试合约。首先，在工程根目录下运行 ``npm init`` 来创建一个 "
-"**npm** 项目。接下来安装依赖："
-msgstr ""
-"我们通过编写 **javascript/typescript** 来测试合约。首先，在工程根目录下运行 ``npm init`` 来创建一个 "
-"**npm** 项目。接下来安装依赖："
+#: ../../testting.rst:7 c1f89afd832e43d9bb9cd637fc2519af
+msgid "我们通过编写 **javascript/typescript** 来测试合约。`样板项目`_ 中有很多合约的测试用例。"
+msgstr "我们通过编写 **javascript/typescript** 来测试合约。`样板项目`_ 中有很多合约的测试用例。"
 
-#: ../../testting.rst:9 0962bb3c1c9f4417918db27e40819397
+#: ../../testting.rst:9 c1f89afd832e43d9bb9cd637fc2519af
+msgid "首先，在工程根目录下运行 ``npm init`` 来创建一个 **npm** 项目。接下来安装依赖："
+msgstr "首先，在工程根目录下运行 ``npm init`` 来创建一个 **npm** 项目。接下来安装依赖："
+
+#: ../../testting.rst:11 f5f5a38ecafa458d9f7b56327ad43517
 msgid "安装 **scryptlib**"
 msgstr "安装 **scryptlib**"
 
-#: ../../testting.rst:11 aba26fc6850644b18fd6493bfb2f7161
+#: ../../testting.rst:13 0a3238bc854742669afc4a2976717a7f
 msgid "``npm i scryptlib``"
 msgstr "``npm i scryptlib``"
 
-#: ../../testting.rst:15 0f2039fbe6524cfdaf702ed750eccc77
+#: ../../testting.rst:17 c3f4eb89a9cf428796ce683b16420048
 msgid ""
 "`scryptlib`_ 是官方提供的用于集成以 **sCrypt** 语言编写的比特币智能合约的 Javascript/TypeScript SDK。"
 msgstr ""
 "`scryptlib`_ 是官方提供的用于集成以 **sCrypt** 语言编写的比特币智能合约的 Javascript/TypeScript SDK。"
 
-#: ../../testting.rst:17 26d3c4e9a9464fec9ba302ce47cb5308
+#: ../../testting.rst:19 fb1510d4c4f1474e8991d14541009c48
 msgid "安装 **mocha** 测试框架"
 msgstr "安装 **mocha** 测试框架"
 
-#: ../../testting.rst:19 42495a71c1a545a8ba7a721d619e2cde
+#: ../../testting.rst:21 3b82d681993948f2bee76832283a4b55
 msgid "``npm i -D chai mocha``"
 msgstr "``npm i -D chai mocha``"
 
-#: ../../testting.rst:23 3e9c20fa95c149fc9a00f0dce2e3b39f
+#: ../../testting.rst:25 9a31231e07ba4747bd528f77f2bb06de
 msgid "我们推荐使用 `mocha`_ 测试框架来进行合约的测试，当然您可以使用其它测试框架。"
 msgstr "我们推荐使用 `mocha`_ 测试框架来进行合约的测试，当然您可以使用其它测试框架。"
 
-#: ../../testting.rst:25 002528f6a6e4496fa00ddefc596439c0
+#: ../../testting.rst:27 62d60293536f4acc84739e9e794b45b9
 msgid "在 ``package.json`` 中配置测试命令"
 msgstr "在 ``package.json`` 中配置测试命令"
 
-#: ../../testting.rst:27 1344afdd22924933979dcdf9b5dc1fb8
+#: ../../testting.rst:29 66b06d0457ac41da9e5561afdd1a537c
 msgid ""
 "``package.json`` 文件的脚本部分中应该存在一个名为 ``single-test`` 的脚本。**IDE** "
 "用它来运行单个文件测试。通常它看起来像 \"single-test\": \"mocha\"，但您可以自定义它。"
@@ -66,7 +66,7 @@ msgstr ""
 "``package.json`` 文件的脚本部分中应该存在一个名为 ``single-test`` 的脚本。**IDE** "
 "用它来运行单个文件测试。通常它看起来像 \"single-test\": \"mocha\"，但您可以自定义它。"
 
-#: ../../testting.rst:53 e1ff5b57c1c7483e924ec1fc9c42505e
+#: ../../testting.rst:55 4f6fa9183354419c8942462c07425e73
 msgid ""
 "**IDE** 支持在代码编辑器/资源管理器上下文菜单中运行单元测试文件。开始运行后，**IDE** 会为你自动打开 vscode 底部面板，并显示 "
 "**输出** 视图， 测试报告将输出到 **输出** 面板。"
@@ -74,7 +74,7 @@ msgstr ""
 "**IDE** 支持在代码编辑器/资源管理器上下文菜单中运行单元测试文件。开始运行后，**IDE** 会为你自动打开 vscode 底部面板，并显示 "
 "**输出** 视图， 测试报告将输出到 **输出** 面板。"
 
-#: ../../testting.rst:59 0bc413495c2249bea999769682b0f812
+#: ../../testting.rst:61 c5b4e76cb39c4a08b1d12b4ab4b8536b
 msgid ""
 "测试文件必须以 ``.scrypttest.js`` 或 ``.scrypttest.ts`` 为后缀，否则菜单中不会出现“Run sCrypt "
 "Test”选项。"
@@ -82,11 +82,11 @@ msgstr ""
 "测试文件必须以 ``.scrypttest.js`` 或 ``.scrypttest.ts`` 为后缀，否则菜单中不会出现“Run sCrypt "
 "Test”选项。"
 
-#: ../../testting.rst:66 4247fd37b24d4fddaaaf83db8e429bdb
+#: ../../testting.rst:68 91c3fd6c26b44b5ab8a71d7ebe390ac2
 msgid "测试合约时，您可以使用加载编译输出的 **合约描述文件** （也是就 * *_desc.json* 文件）比如："
 msgstr "测试合约时，您可以使用加载编译输出的 **合约描述文件** （也是就 * *_desc.json* 文件）比如："
 
-#: ../../testting.rst:72 3c42268c59274468b8f5147486019487
+#: ../../testting.rst:74 c49deb67afef4dbeada6b2d59c25af26
 msgid ""
 "也可以使用 **scryptlib** 导出 ``compileContract`` 或者 ``compile`` 函数来编译合约，用于集成和测试以 "
 "**sCrypt** 语言编写的比特币智能合约的 Javascript/TypeScript SDK"
@@ -94,25 +94,25 @@ msgstr ""
 "也可以使用 **scryptlib** 导出 ``compileContract`` 或者 ``compile`` 函数来编译合约，用于集成和测试以 "
 "**sCrypt** 语言编写的比特币智能合约的 Javascript/TypeScript SDK"
 
-#: ../../testting.rst:79 b095da38d9ea4a119d6bc6fc73845042
+#: ../../testting.rst:81 5439fc14889b4bf096f6d0f2a9a15179
 msgid "创建合约的实例"
 msgstr "创建合约的实例"
 
-#: ../../testting.rst:85 c50657b20f634b93a63d0fe5310a2ba1
+#: ../../testting.rst:87 1563c65359e04572a61d21c5e6ba27d9
 msgid "执行合约的 *public* 函数来验证合约的正确性。"
 msgstr "执行合约的 *public* 函数来验证合约的正确性。"
 
-#: ../../testting.rst:98 69d35f6c6eb1447e9f2046aa9b42434d
+#: ../../testting.rst:100 f30796999f564824837032b8d6a14447
 msgid "如何快速调试 sCrypt 单元测试错误"
 msgstr "如何快速调试 sCrypt 单元测试错误"
 
-#: ../../testting.rst:100 d52db01e45254d12b9ab1db8239f9c12
+#: ../../testting.rst:102 a086ef1a515e442eac72e27a6db0c626
 msgid ""
 "**IDE** 允许您在单元测试失败的地方启动调试器，这将帮助开发人员极大地提高调试合约问题的效率。如果单元测试失败，则错误消息中还有另外两行信息："
 msgstr ""
 "**IDE** 允许您在单元测试失败的地方启动调试器，这将帮助开发人员极大地提高调试合约问题的效率。如果单元测试失败，则错误消息中还有另外两行信息："
 
-#: ../../testting.rst:106 e58c72b47cef461bae16a8e46d6af957
+#: ../../testting.rst:108 4726b618770544568966453eecffedff
 msgid ""
 "**Go to Source** : 它显示了单元测试具体在 **sCrypt** 合约代码中哪一行失败，以及最后执行的脚本操作码。**CRTL + "
 "单击** 将直接跳转到发生错误行；"
@@ -120,7 +120,7 @@ msgstr ""
 "**Go to Source** : 它显示了单元测试具体在 **sCrypt** 合约代码中哪一行失败，以及最后执行的脚本操作码。**CRTL + "
 "单击** 将直接跳转到发生错误行；"
 
-#: ../../testting.rst:108 586f72e239e44afe8ce9fc1a7f94edcf
+#: ../../testting.rst:110 aafd3d6d4a5546ad95c25cb58fad27b8
 msgid ""
 "**Launch Debugger** : **CRTL + 单击** "
 "链接将根据测试中的参数直接启动调试器会话。调试器将在错误即将发生之前暂停，以便检查导致故障的原因。利用这个功能可以极大提升 debug 的效率。"
@@ -128,11 +128,11 @@ msgstr ""
 "**Launch Debugger** : **CRTL + 单击** "
 "链接将根据测试中的参数直接启动调试器会话。调试器将在错误即将发生之前暂停，以便检查导致故障的原因。利用这个功能可以极大提升 debug 的效率。"
 
-#: ../../testting.rst:113 4b3624b716514023acc72448bb2ffeb9
+#: ../../testting.rst:115 8da8c488816e4af4ad444d6830b0108c
 msgid "Launch Debugger 命令"
 msgstr "Launch Debugger 命令"
 
-#: ../../testting.rst:115 59ebec872683444a942a2649a4abb47b
+#: ../../testting.rst:117 c336900b0f1f435fa16c17c6f6e5fc81
 msgid ""
 "通常情况下，您使用右键菜单来运行单元测试，这样您可以从 **输出** 中单击测试报告中的链接来打开调试器， "
 "但是某些情况下，您可能是在外部环境运行测试，比如终端， 这种情况您将无法通过单击测试报告中的链接来打开调试器，这个时候，您可以使用 **Launch "
@@ -142,6 +142,6 @@ msgstr ""
 "但是某些情况下，您可能是在外部环境运行测试，比如终端， 这种情况您将无法通过单击测试报告中的链接来打开调试器，这个时候，您可以使用 **Launch "
 "Debugger** 命令，将 ``scryptlaunch:///{file}`` 粘贴到命令的输入弹出框中，并按 **Enter** 来启动调试器。"
 
-#: ../../testting.rst:121 4f5a578cb5a749ddbb6fe82e63b0ebf4
+#: ../../testting.rst:123 4db4e4066ed242d9a033a123eaeb7313
 msgid "即使即将调试的合约不在当前项目中，也可以启动调试器"
 msgstr "即使即将调试的合约不在当前项目中，也可以启动调试器"
