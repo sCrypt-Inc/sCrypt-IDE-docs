@@ -76,7 +76,7 @@ Log 开关
 ASM操作码缩进设置
 -----------------------------------------
 
-在设置项中找到 **Premium: Indentedasm**。开启后，在使用 :ref:`比特币脚本调试 <script_level_debugging>` 功能时，ASM操作码会缩进显示。
+在设置项中找到 **Premium: Indentedasm**。开启后，在使用 :ref:`脚本级调试 <script_level_debugging>` 功能时，ASM操作码会缩进显示。
 
 
 .. image:: ./images/indentedasm.png
