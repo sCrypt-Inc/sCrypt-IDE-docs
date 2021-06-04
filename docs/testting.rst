@@ -82,7 +82,7 @@
 
     const instance = new MyContract(1234, true, ...parameters);
 
-3. 执行合约的 ``public`` 方法来验证合约的正确性。
+1. 执行合约的 *public* 函数来验证合约的正确性。
 
 .. code-block:: javascript
 
