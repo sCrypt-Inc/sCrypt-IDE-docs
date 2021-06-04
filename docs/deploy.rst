@@ -16,7 +16,7 @@
 1. 左边的 **sCrypt Deploy** 按钮, 点击可以从其它侧边视图切换到部署视图
 2. 本地合约窗口，加载当前工作区下 out 目录所有已经编译的 :ref:`合约描述文件 <contractdescription>` 
 3. 已经部署成功的合约实例窗口
-4. 部署合约配置视图。在该视图下填写部署合约的相关参数，包括：构造函数参数，合约锁定的 *satoshis* 余额，以及有状态合约的初始状态。
+4. 部署合约配置视图。在该视图下填写部署合约的相关参数，包括：构造函数参数，合约锁定的 *satoshis* 余额，以及 `有状态合约`_ 的初始状态。
 
 .. note::
 
@@ -151,3 +151,5 @@ OpReturn输出         ``OpReturn`` : op_return后数据部分，asm 格式， `
 
 
 
+.. _有状态合约: https://blog.csdn.net/freedomhero/article/details/107307306
+.. _stateful contract: https://medium.com/coinmonks/stateful-smart-contracts-on-bitcoin-sv-c24f83a0f783
