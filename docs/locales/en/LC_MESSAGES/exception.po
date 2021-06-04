@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sCrypt-IDE-docs 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-04 18:25+0800\n"
+"POT-Creation-Date: 2021-06-04 20:18+0800\n"
 "PO-Revision-Date: 2021-06-02 09:22+0000\n"
 "Last-Translator: qtom zheng <zhfnjust@gmail.com>, 2021\n"
 "Language-Team: English (https://www.transifex.com/scrypt-1/teams/121283/en/)\n"
@@ -47,11 +47,17 @@ msgstr ":ref:`Parameter input format <scryptTypes>` incorrect"
 msgid "忘记提供 :ref:`交易上下文 <txContext>`"
 msgstr "Forgot to provide :ref:`Transaction Context <txContext>`"
 
-#: ../../exception.rst:19 643dc603572d4ff2af62b77dba54a319
+#: ../../exception.rst:17 13b371ece2cb4d1b90d39d516e502824
+msgid "出现该错误时，打开 *launch.json* 文件，检查参数是否正确填写。"
+msgstr ""
+"When this error occurs, open the *launch.json* file and check whether the "
+"parameters are filled in correctly."
+
+#: ../../exception.rst:20 643dc603572d4ff2af62b77dba54a319
 msgid "异常自动中断"
 msgstr "Abnormal automatic interrupt"
 
-#: ../../exception.rst:21 4fe34539da704efdaa4e66b81e1b77e7
+#: ../../exception.rst:22 4fe34539da704efdaa4e66b81e1b77e7
 msgid ""
 "调试器在执行过程中遇到代码中的异常会自动中断执行，并保留现场，便于异常进行诊断。可以通过查看中断现场的变量值，调用堆栈，监视的表达式来 "
 "诊断异常，也可在调试控制台执行代码来分析异常。"
@@ -63,46 +69,46 @@ msgstr ""
 "site, and you can also execute the code in the debug console to analyze the "
 "exception."
 
-#: ../../exception.rst:28 548eb42acba149d2a6b216c69af709a4
+#: ../../exception.rst:29 548eb42acba149d2a6b216c69af709a4
 msgid "对于一些典型的异常，调试器提供了更多的信息和方法，以供分析和诊断异常。"
 msgstr ""
 "For some typical exceptions, the debugger provides more information and "
 "methods for analysis and diagnosis of exceptions."
 
-#: ../../exception.rst:32 905b2d71bbf7424db46732ede3ec9408
+#: ../../exception.rst:33 905b2d71bbf7424db46732ede3ec9408
 msgid "签名检查失败"
 msgstr "Signature check failed"
 
-#: ../../exception.rst:34 cb1210506ee346b0a31da229435f57f5
+#: ../../exception.rst:35 cb1210506ee346b0a31da229435f57f5
 msgid "一类常见的错误是 ``checkSig`` 失败。原因可能是："
 msgstr "A common type of error is ``checkSig`` failure. reasons may be:"
 
-#: ../../exception.rst:36 3960c28c8bcf4b9e8351f23986a7e8d6
+#: ../../exception.rst:37 3960c28c8bcf4b9e8351f23986a7e8d6
 msgid "使用了与公钥不匹配的 **错误私钥**  对交易进行了签名"
 msgstr ""
 "A **wrong private key** that does not match the public key was used to sign "
 "the transaction"
 
-#: ../../exception.rst:37 810be8af3a654fc887b37c4e18c141c2
+#: ../../exception.rst:38 810be8af3a654fc887b37c4e18c141c2
 msgid "对错误的 **交易原象** (Preimage) 进行了签名。"
 msgstr "Signed the wrong **Preimage** (Preimage)."
 
-#: ../../exception.rst:39 72c35f33ff6842b0aebcb66fae45784c
+#: ../../exception.rst:40 72c35f33ff6842b0aebcb66fae45784c
 msgid "调试控制台会提示辅助信息。"
 msgstr "The debugging console will prompt auxiliary information."
 
-#: ../../exception.rst:44 cd69fcc8f7924b4682ecc03027052144
+#: ../../exception.rst:45 cd69fcc8f7924b4682ecc03027052144
 msgid "上述提示信息涵盖了解决签名错误时的主要检查点，即:"
 msgstr ""
 "The above prompt information covers the main checkpoints when resolving "
 "signature errors, namely:"
 
-#: ../../exception.rst:46 08bb7b0e15c347189f854e82a21632c1
+#: ../../exception.rst:47 08bb7b0e15c347189f854e82a21632c1
 msgid "确定生成签名所使用私钥是否正确。"
 msgstr ""
 "Determine whether the private key used to generate the signature is correct."
 
-#: ../../exception.rst:47 2aaf7fd808094bc2a45ee64c0dbbc058
+#: ../../exception.rst:48 2aaf7fd808094bc2a45ee64c0dbbc058
 msgid ""
 "确认待签名 **tx** 的 **preimage** (根据 **交易上下文** 自动计算得到)与传入参数是否一致。这里的小技巧是：在生成输入参数 "
 "**preimage** 的地方插入一段代码，与上述异常提示中输出的 **preimage** 进行对比，进而找出二者可能存在的差异。如以下代码所示："
@@ -114,7 +120,7 @@ msgstr ""
 "**preimage** output in the above exception prompt, and then find out the "
 "possible differences between the two. As shown in the following code:"
 
-#: ../../exception.rst:61 a8ca21abc10f4ba6880827b75a28565e
+#: ../../exception.rst:62 a8ca21abc10f4ba6880827b75a28565e
 msgid ""
 "这里需要再次提醒大家的是，调试器启动配置 ``txContext`` （交易上下文） 属性下的字段都会影响 **preimage** "
 "的计算，所以在排查问题时需要逐一对比确认是否一致。"
@@ -124,11 +130,11 @@ msgstr ""
 " calculation of **preimage**, so when troubleshooting, you need to compare "
 "and confirm whether they are consistent."
 
-#: ../../exception.rst:67 4f8ad92d8f034ff2acd246b862d6384a
+#: ../../exception.rst:68 4f8ad92d8f034ff2acd246b862d6384a
 msgid "交易原象检查失败"
 msgstr "Transaction preimage check failed"
 
-#: ../../exception.rst:70 4f28fcedff6a457b888583a1f88cf2a9
+#: ../../exception.rst:71 4f28fcedff6a457b888583a1f88cf2a9
 msgid ""
 "另一类常见的错误是 ``checkPreimage`` 异常。通常原因是在启动配置参数 ``pubFuncArgs`` 中传入的数值与使用的 "
 "``txContext`` 中各项参数所计算出的结果不一致。"
@@ -138,7 +144,7 @@ msgstr ""
 "``pubFuncArgs`` is inconsistent with the result calculated by the parameters"
 " in the ``txContext`` used."
 
-#: ../../exception.rst:75 c646779982e4464a977a7109e638c0e4
+#: ../../exception.rst:76 c646779982e4464a977a7109e638c0e4
 msgid ""
 "如上图所示，Sighash Preimage 由多个部分组合而成。如果两个原像不一致，一定是其中某些字段不相同。发生这类异常时，**调试控制台** "
 "会自动打印错误提示信息，其中会有一个包含两个原像所有不同 字段的表格。如果是 ``scriptCode`` 字段不同，还会打印出两个 "
@@ -153,18 +159,18 @@ msgstr ""
 "``scriptCode`` fields will also be printed. With these error messages, you "
 "can quickly analyze the cause of the exception."
 
-#: ../../exception.rst:85 08c4f5918f714dfa98087c85e9c37b82
+#: ../../exception.rst:86 08c4f5918f714dfa98087c85e9c37b82
 msgid "交易输出哈希不一致"
 msgstr "Inconsistent transaction output hash"
 
-#: ../../exception.rst:87 de996f3d62be4d4a94d277477a15ada4
+#: ../../exception.rst:88 de996f3d62be4d4a94d277477a15ada4
 msgid "这通常是由于当前交易的一个或者多个 **交易输出** 不符号合约本身逻辑对 **输出** 的约束。例如下面的例子："
 msgstr ""
 "This is usually due to the fact that one or more **transaction outputs** of "
 "the current transaction do not sign the constraints on **output** by the "
 "logic of the contract itself. For example, the following example:"
 
-#: ../../exception.rst:89 34b0c87ea85546739fbf0e7d533fefc4
+#: ../../exception.rst:90 34b0c87ea85546739fbf0e7d533fefc4
 msgid ""
 "`Counter`_ 合约约束 **输出** 中的 *satoshis* 必须等于解锁参数 ``amount``， 实际 **输出** 中的 "
 "*satoshis* 为 ``222222``, 而解锁参数 ``amount`` 的值为 ``2222222``。"
@@ -173,14 +179,14 @@ msgstr ""
 " unlock parameter ``amount``, the actual **output** *satoshis* is "
 "``222222``, and the  value of unlock parameter ``amount``  is ``2222222``."
 
-#: ../../exception.rst:91 f91e0f245ffb4a4c9276336c36b82195
+#: ../../exception.rst:92 f91e0f245ffb4a4c9276336c36b82195
 msgid "由于合约中检查的是哈希是否一致，所以出现这类错误的时候，只能知道是 **输出** 哈希不一致，无法直接定位出二者之间的差异。"
 msgstr ""
 "Since the contract checks whether the hashes are consistent, when this type "
 "of error occurs, you can only know that the **output** hashes are "
 "inconsistent, and you cannot directly locate the difference between the two."
 
-#: ../../exception.rst:93 ac6db8df02414d7c87665975eaee653e
+#: ../../exception.rst:94 ac6db8df02414d7c87665975eaee653e
 msgid ""
 "调试控制台提供 ``:diffoutputs`` 内置命令， 可以将合约产生的 **输出** 和来自 当前交易的 **输出** "
 "进行对比，进而快速找出二者可能存在的差异。"
