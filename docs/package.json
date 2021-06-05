@@ -12,7 +12,8 @@
     "pulls": "tx pull -s -r ",
     "build": ".\\make.bat html",
     "build:en": "set SPHINXOPTS=-Dlanguage=en && npm run build",
-    "build:zh": "set SPHINXOPTS=-Dlanguage=zh && npm run build"
+    "build:zh": "set SPHINXOPTS=-Dlanguage=zh && npm run build",
+    "clean": ".\\make.bat clean"
   },
   "author": "",
   "license": "ISC"
