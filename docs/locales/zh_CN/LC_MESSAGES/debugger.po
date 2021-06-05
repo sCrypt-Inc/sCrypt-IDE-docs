@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sCrypt-IDE-docs 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-04 18:25+0800\n"
+"POT-Creation-Date: 2021-06-05 18:09+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,11 +16,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../debugger.rst:5 7abeaa592dad41518b9948bff9622a80
+#: ../../debugger.rst:5 536000d91ac74948b4c9d1223dc9cb99
 msgid "调试器"
 msgstr "调试器"
 
-#: ../../debugger.rst:7 af4db369bb6b41118acdc7f3e4e03cc4
+#: ../../debugger.rst:7 214dd40d1de1451681cb8ce31c1b0bdd
 msgid ""
 "**IDE** 自带一个功能强大的调试器。可以用它来调试 **.scrypt** 源代码。如果购买了高级付费功能，还可以用它来进行脚本级别的调试。 "
 "并非所有合约都可以编写完成后就会按照预期行事，当它发生错误时，可能需要盯着代码看好几个小时，一个好调试器可以让你更轻松且更高效地解决问题。 "
@@ -30,11 +30,11 @@ msgstr ""
 "并非所有合约都可以编写完成后就会按照预期行事，当它发生错误时，可能需要盯着代码看好几个小时，一个好调试器可以让你更轻松且更高效地解决问题。 "
 "当调试合约时，调试器提供许多方法让你查看代码的情况，比如逐步执行代码、查看变量中存储的值、查看函数的调用栈、查看比特币双堆栈中的数据、代码的执行路径等。"
 
-#: ../../debugger.rst:14 4071f228c30f41719ef460f1e485ac39
-msgid "配置调试器启动参数"
-msgstr "配置调试器启动参数"
+#: ../../debugger.rst:14 61d0c025c82a433b9e41522837a95aa7
+msgid "配置启动参数"
+msgstr "配置启动参数"
 
-#: ../../debugger.rst:16 0a23afe1d27a47f4800ca1a28683a71c
+#: ../../debugger.rst:16 2de9672716ef4e7484b715e02b9c46e5
 msgid ""
 "与一般语言（比如c++/javascript)不同， 启动 **IDE** 的 debugger 必须配置启动参数。这是 **sCrypt** "
 "语言的结构特性决定的，如下图： 我们知道比特币脚本的执行是将解锁脚本和锁定脚本连接起来形成完整的脚本后再执行， 其中解锁脚本在前，锁定脚本在后。 "
@@ -46,151 +46,151 @@ msgstr ""
 "**sCrypt** 合约含有一个或者多个 *public* 函数， 启动调试器就是运行合约的某一个 *public* 函数，函数的参数对应解锁脚本， "
 "函数的内容对应锁定脚本。 运行这个函数，需要按照这个函数的签名来正确的配置调用函数的参数，也就是解锁脚本。"
 
-#: ../../debugger.rst:25 0c276a2751a34f6daf0ac0f267684670
+#: ../../debugger.rst:25 102c4a05f39c4a28a98240d8682058f5
 msgid "创建launch.json"
 msgstr "创建launch.json"
 
-#: ../../debugger.rst:26 96257c84f38c4fbeb986a084285e7727
+#: ../../debugger.rst:26 03835c21fed84fba85f84e8d2c7ab85d
 msgid "打开调试视图，如果当前工作区没有创建 **launch.json** ，会提示你创建 **launch.json** 文件。"
 msgstr "打开调试视图，如果当前工作区没有创建 **launch.json** ，会提示你创建 **launch.json** 文件。"
 
-#: ../../debugger.rst:33 bf198b99f41e4bc6a5d997c8c908a462
+#: ../../debugger.rst:33 01653193555e4f548521992be720ef87
 msgid "下面是一个调试 `p2pkh`_ 合约的示例配置："
 msgstr "下面是一个调试 `p2pkh`_ 合约的示例配置："
 
-#: ../../debugger.rst:59 6fe0c6f05200437aa7b803e07293f24e
+#: ../../debugger.rst:59 8f774fcc95b94c2081f0a4eedaaa29c6
 msgid "配置项说明"
 msgstr "配置项说明"
 
-#: ../../debugger.rst:62 148cd54d728a46f582e9c4e60c44e21c
+#: ../../debugger.rst:62 c5147b5fd9a24adbb4fc9f7ae12d2657
 msgid "配置项"
 msgstr "配置项"
 
 #: ../../debugger.rst:62 ../../debugger.rst:111
-#: be220bb97fa146c4ae8a6c2d821237e6 729dba87ebb84d2bba081cb1f7b6f1ae
+#: 005c6755a77c4d7998635e72c018975a 9b5f3c9f6b9d428b83e61b0b5c424ed9
 msgid "必须"
 msgstr "必须"
 
 #: ../../debugger.rst:62 ../../debugger.rst:111
-#: 2b5312d760f9499b8d64b964ecca518d 248060c925cb452bb77e90e214f768f5
+#: bddcb043378d4ae3ab51827974f2ed50 8b80866db3594bd1acb3b2220ddd9631
 msgid "说明"
 msgstr "说明"
 
-#: ../../debugger.rst:64 3b3e5f35cf23493899ac1e7c09d48c06
+#: ../../debugger.rst:64 0860a5eb565844309da3ea9ad21b625a
 msgid "type"
 msgstr "type"
 
 #: ../../debugger.rst:64 ../../debugger.rst:65 ../../debugger.rst:66
 #: ../../debugger.rst:67 ../../debugger.rst:68 ../../debugger.rst:69
 #: ../../debugger.rst:70 ../../debugger.rst:113 ../../debugger.rst:114
-#: ../../debugger.rst:115 35f75cc6d7d24306a9d22585a741b1db
-#: 2503ee94ada34d09bfcba5ed1671d084 ebfef33f9bef47d49e17ffcfbf9bd171
-#: 201eb5fa1f384218ba77ccd810422af0 5a1596af0c2c4280a537f57fb1801ea7
-#: 6f38dc00b07142a88ba7baf7ce4a6e60 b6ad6f826ee64a9e84379d184577ea06
-#: a5bbad1d3a9c49188d38daa9d1b264cb a5bbad1d3a9c49188d38daa9d1b264cb
-#: a5bbad1d3a9c49188d38daa9d1b264cb
+#: ../../debugger.rst:115 12e460f0564e45caa0fe17e078e24382
+#: 3a69f63ee5794e20a9de52f5db54365e 17bef8fdc8e84053b542e8a8174806c1
+#: a48c85d7807247e1b7f9cfa84c260fd2 9f63e765c1a6430592df317069016914
+#: 88717910b34e4884882c2ef70bbf98a8 47c8863db2ce4279b5fe9b15fee3cb12
+#: 5b741c14392d41a494b67906d0212c2f 1527a28540b54059b457824d95ff5b37
+#: 8398f09e57c44e2882d85a7b4700d050
 msgid "是"
 msgstr "是"
 
-#: ../../debugger.rst:64 f590f2d0ba2940838d588544cb7db5c4
+#: ../../debugger.rst:64 7c7f51159e4540949f54aaa7ce553bcd
 msgid "配置类型，固定为 ``scrypt``"
 msgstr "配置类型，固定为 ``scrypt``"
 
-#: ../../debugger.rst:65 ead89c0eea88478995a1c3d16e91ecc8
+#: ../../debugger.rst:65 96186e7a670f48018a988f4a5f479837
 msgid "request"
 msgstr "request"
 
-#: ../../debugger.rst:65 13ecf9a206ca442d85b735c3afd95119
+#: ../../debugger.rst:65 ed87b3a99f4e4d38ac6721f096bf4469
 msgid "调试器启动类型，只支持 ``launch`` 模式"
 msgstr "调试器启动类型，只支持 ``launch`` 模式"
 
-#: ../../debugger.rst:66 b07ab4a8bf0b4a68be60f418eb3b4d5a
+#: ../../debugger.rst:66 6a001d7504c04b0595e6121cb667eeb7
 msgid "name"
 msgstr "name"
 
-#: ../../debugger.rst:66 8df034b10e454585a6302fadcdc2e70b
+#: ../../debugger.rst:66 8f8e7156650e472bb5d35eecbafdb10a
 msgid "配置名称"
 msgstr "配置名称"
 
-#: ../../debugger.rst:67 c8f29555e3bb432c83e5b01182e92b8e
+#: ../../debugger.rst:67 6036b014632343efa2e50c3131739e43
 msgid "program"
 msgstr "program"
 
-#: ../../debugger.rst:67 98ba01bcf6b241d29b70dce7d7a4f4fa
+#: ../../debugger.rst:67 20db4c44fa644c9bbb05c17130ff2e79
 msgid "要调试的源代码文件，可以使用VS Code的工作区代号 ``${workspaceFolder}``，也可以使用绝对路径"
 msgstr "要调试的源代码文件，可以使用VS Code的工作区代号 ``${workspaceFolder}``，也可以使用绝对路径"
 
-#: ../../debugger.rst:68 3a7226c4c1d0444faa44bf11bcd320fa
+#: ../../debugger.rst:68 f8164bea38b6436fb5d11a4ce72383e4
 msgid "constructorArgs"
 msgstr "constructorArgs"
 
-#: ../../debugger.rst:68 42905e9b7c5f4569a5202b58277531ae
+#: ../../debugger.rst:68 a4d55d9937004e6aa2bd50e8009e31eb
 msgid "合约的构造参数"
 msgstr "合约的构造参数"
 
-#: ../../debugger.rst:69 f56801efcdb3450b984da258b1a47d04
+#: ../../debugger.rst:69 cff80d27d4814a3f86bdcb89856cb845
 msgid "pubFunc"
 msgstr "pubFunc"
 
-#: ../../debugger.rst:69 f903260e43744cdaae7efb9ae3a9e3f4
+#: ../../debugger.rst:69 0b056caa6eff476aaf3ccc00b2f3e1bf
 msgid "要调试的 *public* 函数名称"
 msgstr "要调试的 *public* 函数名称"
 
-#: ../../debugger.rst:70 de731d036b6d47dcbc58198ebf71f5d7
+#: ../../debugger.rst:70 5ba1b7434c4343f3aa220ea70e8e7267
 msgid "pubFuncArgs"
 msgstr "pubFuncArgs"
 
-#: ../../debugger.rst:70 7186afdc97a1405db9c35b3f33d6dc98
+#: ../../debugger.rst:70 d3eef28366614246b549097353e6e269
 msgid "要调试的 *public* 函数的参数"
 msgstr "要调试的 *public* 函数的参数"
 
-#: ../../debugger.rst:71 533c560aa07c42da9304f1cbb4d709a4
+#: ../../debugger.rst:71 d6abd1cc21f44822aa64cd742c8cec0f
 msgid "txContext"
 msgstr "txContext"
 
 #: ../../debugger.rst:71 ../../debugger.rst:72 ../../debugger.rst:116
-#: bebb9436802d461a9359cf8047ec1252 220fb30c5cab4249bb9b9d8ff8ff7230
-#: 535685a99dc5436884b16de40ddc056b
+#: ce241b3fb9924561a41029cfd5cb3ace 0794a52a6db94d54ad7ba806cc06b30a
+#: ba69a06e0de046f6a88c4e4896810e0a
 msgid "否"
 msgstr "否"
 
-#: ../../debugger.rst:71 74051288e9234b38a2f6a2b9cb74ef1f
+#: ../../debugger.rst:71 6550ec062503425db596381a803fe229
 msgid "运行函数所需的 :ref:`交易上下文 <txContext>`"
 msgstr "运行函数所需的 :ref:`交易上下文 <txContext>`"
 
-#: ../../debugger.rst:72 b769d394df014420b4ef97e4f57e7675
+#: ../../debugger.rst:72 7ba131ba769142b89777b558dddcaa01
 msgid "asmArgs"
 msgstr "asmArgs"
 
-#: ../../debugger.rst:72 042f7ff8b1724b37a7e82d6806dcbe8f
+#: ../../debugger.rst:72 0a4ca30bb15b41b6bfc06fd2be790380
 msgid "`汇编变量`_"
 msgstr "`汇编变量`_"
 
-#: ../../debugger.rst:78 a4300622e9004189a2091b99568d76ad
+#: ../../debugger.rst:78 ac43ad812d2c40fba24b37811f0c1ac1
 msgid "参数输入格式"
 msgstr "参数输入格式"
 
-#: ../../debugger.rst:81 d417899e9227444c890544a0a6855a04
+#: ../../debugger.rst:81 806b0199d35243d9af98366f5d2bd04f
 msgid "参数类型"
 msgstr "参数类型"
 
-#: ../../debugger.rst:81 703e31483a434904b7b5f57398cd31c7
+#: ../../debugger.rst:81 1cad26b0b58c498e839fc615824f0569
 msgid "输入格式说明"
 msgstr "输入格式说明"
 
-#: ../../debugger.rst:83 782ead48e38c4c02a320a41d2011ee98
+#: ../../debugger.rst:83 60073db86fb14ec1a833c54e0e59329e
 msgid "bool"
 msgstr "bool"
 
-#: ../../debugger.rst:83 1aa675e8717d417082279fa4152f6a9b
+#: ../../debugger.rst:83 4d2f5060f967441dbd7ecc2a64594c2c
 msgid "``true`` 或者 ``false``"
 msgstr "``true`` 或者 ``false``"
 
-#: ../../debugger.rst:84 8179f550d4364aefb060d1a643881825
+#: ../../debugger.rst:84 2de05d33f5f442c7ba756f86fd9dcad8
 msgid "int"
 msgstr "int"
 
-#: ../../debugger.rst:84 e7dc6addfe234702ab8d7c1cf797ed15
+#: ../../debugger.rst:84 aba96b473c684ae1a1403a395b115ef3
 msgid ""
 "数字或字符串，如果值小于 ``9007199254740991`` (2^53 − 1)， 可以直接使用数字表示，也可以使用字符串表示（包括十进制 "
 "字符串和 ``0x`` 开头的十六进制字符串），如果值大于等于 ``9007199254740991``，应该使用字符串表示"
@@ -198,19 +198,19 @@ msgstr ""
 "数字或字符串，如果值小于 ``9007199254740991`` (2^53 − 1)， 可以直接使用数字表示，也可以使用字符串表示（包括十进制 "
 "字符串和 ``0x`` 开头的十六进制字符串），如果值大于等于 ``9007199254740991``，应该使用字符串表示"
 
-#: ../../debugger.rst:86 6bbea16654524ea0b18d68bf4d97b923
+#: ../../debugger.rst:86 899c976623f948cdaf99fbd3380c764b
 msgid "bytes"
 msgstr "bytes"
 
-#: ../../debugger.rst:86 0595ec1acb9e4936af11adef97ccf7e4
+#: ../../debugger.rst:86 713bc8e2d32941fa9f9d6f28126120c4
 msgid "字符串, 例如: ``\"b'0011'\"``"
 msgstr "字符串, 例如: ``\"b'0011'\"``"
 
-#: ../../debugger.rst:87 0caadf7b7f1c44c98d78285ee03ce7e7
+#: ../../debugger.rst:87 014506c1f9f3483789b4e56dd3add20b
 msgid "PubKey"
 msgstr "PubKey"
 
-#: ../../debugger.rst:87 50d87caa35614b10a70ce04f6f771fbf
+#: ../../debugger.rst:87 e03ab516c07a45dcbd60ed77c979e9c7
 msgid ""
 "字符串, 例如: "
 "``\"PubKey(b'036cfa9a0b0abf4fa56e583b99f8d1ba4a2608096283cdea68ecf1d4f5bdefeb1f')\"``，括号中间是"
@@ -220,11 +220,11 @@ msgstr ""
 "``\"PubKey(b'036cfa9a0b0abf4fa56e583b99f8d1ba4a2608096283cdea68ecf1d4f5bdefeb1f')\"``，括号中间是"
 " *bytes*"
 
-#: ../../debugger.rst:89 ca8a872a1b0e41be8b29652b24f92e6c
+#: ../../debugger.rst:89 025a117b151541939687c82ee184f385
 msgid "PrivKey"
 msgstr "PrivKey"
 
-#: ../../debugger.rst:89 622afed2692947a1bfc00993f8cab58e
+#: ../../debugger.rst:89 9f60f2c2882346a5b00a6c1883c1432a
 msgid ""
 "字符串, 例如: ``\"PrivKey(1000000000000)\"`` or ``\"PrivKey(0x036cfa9a)\"``, "
 "括号中间是十进制或十六进制数字"
@@ -232,11 +232,11 @@ msgstr ""
 "字符串, 例如: ``\"PrivKey(1000000000000)\"`` or ``\"PrivKey(0x036cfa9a)\"``, "
 "括号中间是十进制或十六进制数字"
 
-#: ../../debugger.rst:90 b11733e8cbc94836839fec8c4a63a269
+#: ../../debugger.rst:90 71331e885d9f435bac7175b72a072675
 msgid "Sig"
 msgstr "Sig"
 
-#: ../../debugger.rst:90 5e023bff3fa04d8db0fc0d7655274228
+#: ../../debugger.rst:90 fe522b13107545bc99aaf88c078a5fa7
 msgid ""
 "字符串, 例如: "
 "``\"Sig(b'036cfa9a0b0abf4fa56e583b99f8d1ba4a2608096283cdea68ecf1d4f5bdefeb1f')\"``，括号中间是"
@@ -246,11 +246,11 @@ msgstr ""
 "``\"Sig(b'036cfa9a0b0abf4fa56e583b99f8d1ba4a2608096283cdea68ecf1d4f5bdefeb1f')\"``，括号中间是"
 " *bytes*"
 
-#: ../../debugger.rst:91 8d7ca37f182d49cdb618ba827a780216
+#: ../../debugger.rst:91 e1324ce6c204439db5d9afaf79cb945e
 msgid "Ripemd160"
 msgstr "Ripemd160"
 
-#: ../../debugger.rst:91 3d496120bc7a4d6aab1665ba698ea2f0
+#: ../../debugger.rst:91 b2f5b8fe05044b4ca55260d5a0cf33d5
 msgid ""
 "字符串, 例如: "
 "``\"Ripemd160(b'ba53f598a150a242b21bcb6963a2db6dae6fa896')\"``，括号中间是 *bytes*"
@@ -258,11 +258,11 @@ msgstr ""
 "字符串, 例如: "
 "``\"Ripemd160(b'ba53f598a150a242b21bcb6963a2db6dae6fa896')\"``，括号中间是 *bytes*"
 
-#: ../../debugger.rst:92 36348124c4c34fc7a1bde37309753f26
+#: ../../debugger.rst:92 9d05a8bae5854182b73c822abba10b09
 msgid "Sha1"
 msgstr "Sha1"
 
-#: ../../debugger.rst:92 9fad777959174d9c8a4434cbabb5dfcd
+#: ../../debugger.rst:92 261799c69e5c4bf8a9fa227c8acec7bd
 msgid ""
 "字符串, 例如: ``\"Sha1(b'3e5b01787918c4e39f99ee70d7db11dddb1cc98d')\"``，括号中间是 "
 "*bytes*"
@@ -270,11 +270,11 @@ msgstr ""
 "字符串, 例如: ``\"Sha1(b'3e5b01787918c4e39f99ee70d7db11dddb1cc98d')\"``，括号中间是 "
 "*bytes*"
 
-#: ../../debugger.rst:93 fd6dcc8d43a2414e96efc84812ab458f
+#: ../../debugger.rst:93 8ce97001238148d99066cbcb561ccfc3
 msgid "Sha256"
 msgstr "Sha256"
 
-#: ../../debugger.rst:93 b84191a9108b43a3abe1e7d639840ae0
+#: ../../debugger.rst:93 64a58bf32c5346bfbfd62695367d6c48
 msgid ""
 "字符串, 例如: "
 "``\"Sha256(b'5a3d057ba410db21e6e92788779e6262a83d0a305762d5ece77dc801c6242f70')\"``，括号中间是"
@@ -284,19 +284,19 @@ msgstr ""
 "``\"Sha256(b'5a3d057ba410db21e6e92788779e6262a83d0a305762d5ece77dc801c6242f70')\"``，括号中间是"
 " *bytes*"
 
-#: ../../debugger.rst:94 607959e1224c4968a73a132c615cda7f
+#: ../../debugger.rst:94 42818f4309c54549aa0bd1b74f4b7f09
 msgid "SigHashType"
 msgstr "SigHashType"
 
-#: ../../debugger.rst:94 7a63f13e5b2a47159fb78c3a1399cc14
+#: ../../debugger.rst:94 b05814bca34d4503ae54dcf81ad9c0cc
 msgid "字符串, 例如: ``\"SigHashType(b'4c')\"``，括号中间是 *bytes*"
 msgstr "字符串, 例如: ``\"SigHashType(b'4c')\"``，括号中间是 *bytes*"
 
-#: ../../debugger.rst:95 6832d273815a42a68f345d601b77365f
+#: ../../debugger.rst:95 3373270e0609455fb77181e783b03ac9
 msgid "SigHashPreimage"
 msgstr "SigHashPreimage"
 
-#: ../../debugger.rst:95 c4ade1b451d7425f8d9fd97cf5a3cdad
+#: ../../debugger.rst:95 ec42064d12b84d499ae7e94b03f9adb8
 msgid ""
 "字符串, 例如: "
 "``\"SigHashPreimage(b'0100000028bcef7e73248aa273db19d73f65730862b2491c8e0eeb767f7fbd78c4...')\"``，括号中间是"
@@ -306,35 +306,35 @@ msgstr ""
 "``\"SigHashPreimage(b'0100000028bcef7e73248aa273db19d73f65730862b2491c8e0eeb767f7fbd78c4...')\"``，括号中间是"
 " *bytes*"
 
-#: ../../debugger.rst:96 93833a40096c4ad393afebf1e81fb52a
+#: ../../debugger.rst:96 3b544b66e7dc40a6ab682690be58c5f6
 msgid "OpCodeType"
 msgstr "OpCodeType"
 
-#: ../../debugger.rst:96 ebcd9f67d476440ab9fad97c4e7bc57b
+#: ../../debugger.rst:96 4b29d017e9214c849a58bab6a2e8a672
 msgid "字符串, 例如: ``\"OpCodeType(b'81')\"`` 表示 OP_1， 更多 `Opcodes`_ ，括号中间是 *bytes*"
 msgstr "字符串, 例如: ``\"OpCodeType(b'81')\"`` 表示 OP_1， 更多 `Opcodes`_ ，括号中间是 *bytes*"
 
-#: ../../debugger.rst:99 2f9afd0844a54314901e64dd94bde548
+#: ../../debugger.rst:99 91fe3a6b1eae4b97b06a5c1290142535
 msgid "数组"
 msgstr "数组"
 
-#: ../../debugger.rst:99 006c66b4e7be4d5680917a9f4ddd33b2
+#: ../../debugger.rst:99 8f45ecdb1b5841258f96cfe3a5697cb9
 msgid "同 *JSON* 的数组，所有元素必须是以上基本类型或者是结构体、数组"
 msgstr "同 *JSON* 的数组，所有元素必须是以上基本类型或者是结构体、数组"
 
-#: ../../debugger.rst:100 86922fc36bdf4d37897d86d002c96ec9
+#: ../../debugger.rst:100 c22e1e511ef3458dbe83275ca2a2fa5c
 msgid "结构体"
 msgstr "结构体"
 
-#: ../../debugger.rst:100 518577cdda694ef0ac7cb0e76863356f
+#: ../../debugger.rst:100 5325fece97dd4d0ea57584051d418a2c
 msgid "同 *JSON* 的对象，所有成员必须是以上基本类型或者是结构体、数组"
 msgstr "同 *JSON* 的对象，所有成员必须是以上基本类型或者是结构体、数组"
 
-#: ../../debugger.rst:106 0a44065a4e504cf390d6a185741a3264
+#: ../../debugger.rst:106 2ad2651350494f5ea5d6d0028b2b8d84
 msgid "交易上下文"
 msgstr "交易上下文"
 
-#: ../../debugger.rst:108 46420adaff10478590dadc9815374f2e
+#: ../../debugger.rst:108 654783c0e1244ee6a86ac19a10219e21
 msgid ""
 "交易上下文，即 **txContext** "
 "参数，指定调试时当前交易的相关上下文信息，仅当在合约内进行签名或者原象校验时才需要。缺少会导致调试器无法进行校验。"
@@ -342,51 +342,51 @@ msgstr ""
 "交易上下文，即 **txContext** "
 "参数，指定调试时当前交易的相关上下文信息，仅当在合约内进行签名或者原象校验时才需要。缺少会导致调试器无法进行校验。"
 
-#: ../../debugger.rst:111 fa9238de286f4adc9b5a7a1d718b3c61
+#: ../../debugger.rst:111 02288f71b41d48559b3d14c607ab9cf0
 msgid "字段"
 msgstr "字段"
 
-#: ../../debugger.rst:113 d65d7048cb1b4ae2953bc5d712d07488
+#: ../../debugger.rst:113 d93ca79bf0634685a7d2d8e48e3ac7d4
 msgid "hex"
 msgstr "hex"
 
-#: ../../debugger.rst:113 e9d4701588b847d697845376b071e1ba
+#: ../../debugger.rst:113 beb499110d8142dd8225dbb55c0b1f38
 msgid "序列化的当前交易，即解锁脚本所在交易。可以是签名过的，也可以是未签名的"
 msgstr "序列化的当前交易，即解锁脚本所在交易。可以是签名过的，也可以是未签名的"
 
-#: ../../debugger.rst:114 c6fd29af63e24a448197481ddd08ab1d
+#: ../../debugger.rst:114 76cedd4724714b5eb3cec6201f2819f1
 msgid "inputIndex"
 msgstr "inputIndex"
 
-#: ../../debugger.rst:114 6726a248d4484aa4b5a886ed7064c28f
+#: ../../debugger.rst:114 15c4a9a4403d4897b865dd2889a3384b
 msgid "要花费的、被合约锁定的 UTXO 所对应的 input 索引"
 msgstr "要花费的、被合约锁定的 UTXO 所对应的 input 索引"
 
-#: ../../debugger.rst:115 713f067003bc47f6b939bc9d18cc1287
+#: ../../debugger.rst:115 955135f6f9574a8196a1a2f0f0dcdc86
 msgid "inputSatoshis"
 msgstr "inputSatoshis"
 
-#: ../../debugger.rst:115 2526fb35f6484d6f82be9bb34e4d7568
+#: ../../debugger.rst:115 49b0af3b87994198b5882c7eff94147f
 msgid "要花费的、被合约锁定的 UTXO 中比特币数量，单位 *satoshis*"
 msgstr "要花费的、被合约锁定的 UTXO 中比特币数量，单位 *satoshis*"
 
-#: ../../debugger.rst:116 6494fa83ed1e4fe28e1439ffa7d86961
+#: ../../debugger.rst:116 01b93867f5234f9c8509e866751566ae
 msgid "opReturn"
 msgstr "opReturn"
 
-#: ../../debugger.rst:116 a0d10992f54a4ebb94c9e63cf611f328
+#: ../../debugger.rst:116 e7c4f9cd804d41e1bd84ff3a3c49ebb3
 msgid "带状态合约的状态，从OP_RETURN开始，不包含OP_RETURN"
 msgstr "带状态合约的状态，从OP_RETURN开始，不包含OP_RETURN"
 
-#: ../../debugger.rst:121 5185391f524e466f81b34cb9adddc6c4
+#: ../../debugger.rst:121 653ea32bb9f14652ba158adac768ad1f
 msgid "了解校验签名是如何运作的: `CHECKSIG`_"
 msgstr "了解校验签名是如何运作的: `CHECKSIG`_"
 
-#: ../../debugger.rst:126 3c8b4f1d3dcf4b4f85ed58948a5656fb
-msgid "设置断点并启动调试器"
-msgstr "设置断点并启动调试器"
+#: ../../debugger.rst:126 5642c01fc8cc41699205bc8c18c06020
+msgid "设置断点并启动"
+msgstr "设置断点并启动"
 
-#: ../../debugger.rst:129 67fef9f9fbec4b76a99efa04de192ca3
+#: ../../debugger.rst:129 e4a69e17cc6b4224ae7c23b20a8815ec
 msgid ""
 "在启动调试器之前，首先设置断点。断点是可靠调试的最基本和最重要的功能，若代码编辑器中打开了文件，则可通过单击代码行左侧的边缘来设置断点，或者按 "
 "**F9**。 接下来按 **F5** 或者 点击 **运行和调式** 侧边栏面板中的“开始调试”按钮，调试器将运行至它遇到的第一个断点。"
@@ -394,31 +394,31 @@ msgstr ""
 "在启动调试器之前，首先设置断点。断点是可靠调试的最基本和最重要的功能，若代码编辑器中打开了文件，则可通过单击代码行左侧的边缘来设置断点，或者按 "
 "**F9**。 接下来按 **F5** 或者 点击 **运行和调式** 侧边栏面板中的“开始调试”按钮，调试器将运行至它遇到的第一个断点。"
 
-#: ../../debugger.rst:136 c90fa658277c48198a0ba8a5f0188180
-msgid "使用单步执行命令在调试器中移动浏览代码"
-msgstr "使用单步执行命令在调试器中移动浏览代码"
+#: ../../debugger.rst:136 4e9285c83e434d4d895eebf35ac7e3d3
+msgid "单步执行"
+msgstr "单步执行"
 
-#: ../../debugger.rst:138 1ff59ce7bf45410f83d27660e8141564
+#: ../../debugger.rst:138 4ad29e5af80f43949dd9c6335d96377e
 msgid "调试器遇到断点后，就进入中断模式，脚本执行被挂起，而函数、变量和合约实例保留在栈中，接下来："
 msgstr "调试器遇到断点后，就进入中断模式，脚本执行被挂起，而函数、变量和合约实例保留在栈中，接下来："
 
-#: ../../debugger.rst:140 fbb076bd166d4f5999f7756f26bd48ce
+#: ../../debugger.rst:140 499311ec56a84b809917d81be706effe
 msgid "通过按 **F10** 或 **F11** 开始单步执行代码"
 msgstr "通过按 **F10** 或 **F11** 开始单步执行代码"
 
-#: ../../debugger.rst:142 4118584d92cb4bbe96268f904136e027
+#: ../../debugger.rst:142 aea3c959592742b09c694925347d2f7a
 msgid "通过打开右键菜单，选择 **运行到光标** 菜单"
 msgstr "通过打开右键菜单，选择 **运行到光标** 菜单"
 
-#: ../../debugger.rst:144 c5296019487f4a93803ce83406290691
+#: ../../debugger.rst:144 a0140e530222475daa2c2bb50c1b1009
 msgid "通过按 **F5** 执行到下一个断点"
 msgstr "通过按 **F5** 执行到下一个断点"
 
-#: ../../debugger.rst:146 82a120eb304c45849c24038b5daa5fac
+#: ../../debugger.rst:146 5510d4f2422743f3b3473fa22084ccc6
 msgid "通过按 **Shit + F11** 停止单步执行， 跳出当前函数"
 msgstr "通过按 **Shit + F11** 停止单步执行， 跳出当前函数"
 
-#: ../../debugger.rst:148 3e1b4a426ff5421f923b7ffe6f046699
+#: ../../debugger.rst:148 62c08dc3f4c2406093a2f14d3d5e647e
 msgid ""
 "在通过上述操作浏览代码时，左侧调试视图的中的 **变量面板** 和 **调用堆栈面板** 中的数据会实时地变化，如果在 **监视面板** "
 "添加了表达式或者变量，将会实时地变化。"
@@ -426,47 +426,47 @@ msgstr ""
 "在通过上述操作浏览代码时，左侧调试视图的中的 **变量面板** 和 **调用堆栈面板** 中的数据会实时地变化，如果在 **监视面板** "
 "添加了表达式或者变量，将会实时地变化。"
 
-#: ../../debugger.rst:153 e16d85b221694a0eaff33019b670298c
+#: ../../debugger.rst:153 21b2631cffe24cfeb348652dc98477a8
 msgid "一次调试只能以一个 *public* 函数为入口。"
 msgstr "一次调试只能以一个 *public* 函数为入口。"
 
-#: ../../debugger.rst:156 8df990c5d7ac4e25a9e3da4feb95dfd2
+#: ../../debugger.rst:156 8e60a88760df4de7b30cb58d65003b9e
 msgid "调试操作"
 msgstr "调试操作"
 
-#: ../../debugger.rst:158 04573b9358db44f4af845622af297fdb
+#: ../../debugger.rst:158 59be4c5169a746fd9d154ebee4c1aaf7
 msgid "调试会话开始后，调试工具栏将出现在代码编辑器的顶部。"
 msgstr "调试会话开始后，调试工具栏将出现在代码编辑器的顶部。"
 
-#: ../../debugger.rst:164 9cc85e6384bd44e0b8b9cd140e3ee689
+#: ../../debugger.rst:164 325c3ea157684d448fbd4f77c751266b
 msgid "继续/暂停 **F5**"
 msgstr "继续/暂停 **F5**"
 
-#: ../../debugger.rst:165 7a01367520954c13a7072088deca72da
+#: ../../debugger.rst:165 2f13c7b477ef4368a5fa22690ced5216
 msgid "单步跨过 **F10**"
 msgstr "单步跨过 **F10**"
 
-#: ../../debugger.rst:166 e156e0e7cf32495b9dd62dbc2a2b0cc6
+#: ../../debugger.rst:166 42852db642a54e90b90d211ad1b9736b
 msgid "单步跳入 **F11**"
 msgstr "单步跳入 **F11**"
 
-#: ../../debugger.rst:167 7a5e769d7dcc4603b6825031ee7713d3
+#: ../../debugger.rst:167 79c1179db2bd4f038d6a0bfe5714b02b
 msgid "单步跳出 **Shift+F11**"
 msgstr "单步跳出 **Shift+F11**"
 
-#: ../../debugger.rst:168 fa409337e42c45ea846c4fd0479eea85
+#: ../../debugger.rst:168 9fabe3e0a2f14fdaa571452e6e401109
 msgid "重启调试器 **Ctrl+Shift+F5**"
 msgstr "重启调试器 **Ctrl+Shift+F5**"
 
-#: ../../debugger.rst:169 6b58f3a3b8464aa6a7b80ecd2e179398
+#: ../../debugger.rst:169 5e69d74f1e4e4d24814f5a14f36ddda5
 msgid "停止 **Shift+F5**"
 msgstr "停止 **Shift+F5**"
 
-#: ../../debugger.rst:173 b6f8cd4b1c99426e98f48f452b0c5f4c
+#: ../../debugger.rst:173 1140be03b49c4fffb0bc719a513129a5
 msgid "变量"
 msgstr "变量"
 
-#: ../../debugger.rst:175 b7a5be0327384c2fba4405a36667b6b6
+#: ../../debugger.rst:175 6ef56ee26dea486db08fdad9c1d1d255
 msgid ""
 "**变量面板** 主要显示两个域的变量： 当前函数和静态变量。 ``this`` 表示当前合约， 单击可展开查看合约的所有属性。 ``Statics``"
 " 下则显示所有的静态变量。"
@@ -474,31 +474,31 @@ msgstr ""
 "**变量面板** 主要显示两个域的变量： 当前函数和静态变量。 ``this`` 表示当前合约， 单击可展开查看合约的所有属性。 ``Statics``"
 " 下则显示所有的静态变量。"
 
-#: ../../debugger.rst:183 68b8a03f5aee46ef88dca8ca2244bcd5
+#: ../../debugger.rst:183 60351ea92d4145c0a3ede6faa11f8383
 msgid "复制值"
 msgstr "复制值"
 
-#: ../../debugger.rst:185 730d460b83f3452ead088eaed43fb317
+#: ../../debugger.rst:185 2eed41a71d2141c09fec585134bcc6d3
 msgid "在某个变量上右键单击，会出现 **复制值** 菜单，可以直接复制变量的值到剪切板中。"
 msgstr "在某个变量上右键单击，会出现 **复制值** 菜单，可以直接复制变量的值到剪切板中。"
 
-#: ../../debugger.rst:192 55a50fc070eb4c2fa53ef49a4b3502cf
+#: ../../debugger.rst:192 f70a5ddc207549b7a3326aa0f732cd73
 msgid "没有被引用到的静态变量不会出现在最后的脚本编译输出里，也不会在面板中显示。"
 msgstr "没有被引用到的静态变量不会出现在最后的脚本编译输出里，也不会在面板中显示。"
 
-#: ../../debugger.rst:196 9279a48d35bb46c198ab77119936d073
+#: ../../debugger.rst:196 78294d74a7bb4f55ab254001aeff3bf8
 msgid "监视"
 msgstr "监视"
 
-#: ../../debugger.rst:198 acb4000f093242c9be7f6b474f932c5d
+#: ../../debugger.rst:198 cc5d6c2047114681b62cbc030669f3e1
 msgid "可以在 **监视面板** 中添加变量和表达式。"
 msgstr "可以在 **监视面板** 中添加变量和表达式。"
 
-#: ../../debugger.rst:204 29e91f41a4f94edaa23f5742fa45c50c
+#: ../../debugger.rst:204 36eb4c1c959c4931ba6f1226cad8089e
 msgid "调用堆栈"
 msgstr "调用堆栈"
 
-#: ../../debugger.rst:206 3b4b1463329c4837a6e381df7ab90d92
+#: ../../debugger.rst:206 d4452a132e034d6dae6a8e1640b2a999
 msgid ""
 "使用“调用堆栈”面板可以查看当前被调用的所有函数。 “调用堆栈”窗口显示函数被调用的顺序。栈底是当前调试的 *public* 函数。 "
 "单击“调用堆栈”上的函数名，代码编辑器会自动跳转到函数定义的位置。"
@@ -506,10 +506,10 @@ msgstr ""
 "使用“调用堆栈”面板可以查看当前被调用的所有函数。 “调用堆栈”窗口显示函数被调用的顺序。栈底是当前调试的 *public* 函数。 "
 "单击“调用堆栈”上的函数名，代码编辑器会自动跳转到函数定义的位置。"
 
-#: ../../debugger.rst:215 03cab4c6d7764a208941a28805ea2dd6
+#: ../../debugger.rst:215 4a7f20ae77664f4c820da22ac9c7b6eb
 msgid "调试控制台 (REPL)"
 msgstr "调试控制台 (REPL)"
 
-#: ../../debugger.rst:224 fc2c0d5f8aa14b66b03c1e882ce00d57
-msgid "调试中的异常"
-msgstr "调试中的异常"
+#: ../../debugger.rst:224 4082e00de1364eea97a411d45a4e6549
+msgid "异常"
+msgstr "异常"

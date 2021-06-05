@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sCrypt-IDE-docs 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-04 18:25+0800\n"
+"POT-Creation-Date: 2021-06-05 18:09+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,47 +16,47 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../settings.rst:3 0012848928ab4db78bc98fbbf236b01a
+#: ../../settings.rst:3 f3805a1a8c664c4ea6c16914fa4da002
 msgid "设置"
 msgstr "设置"
 
-#: ../../settings.rst:5 3821fa323d2040bc8b31bcede0f4d527
+#: ../../settings.rst:5 d1145d3a994e421b827627ca3c496061
 msgid "在 VS Code 中打开 “文件” -> “首选项” -> “设置” -> “扩展” -> **sCrypt**，可观看所有设置选项。"
 msgstr "在 VS Code 中打开 “文件” -> “首选项” -> “设置” -> “扩展” -> **sCrypt**，可观看所有设置选项。"
 
-#: ../../settings.rst:14 c9accf66e9b24fd29ac16566e17ab7fc
+#: ../../settings.rst:14 48b0c75eb8464a1ab8b379583f16b4ff
 msgid "私钥"
 msgstr "私钥"
 
-#: ../../settings.rst:17 3aa90e11ad8e48a5824c7bab53636859
+#: ../../settings.rst:17 281279ded8d34c0199cc3f345a000c63
 msgid "在设置项中找到 **Priv Key**，输入你的测试网私钥。有了测试网私钥后，才能使用部署合约的相关功能。"
 msgstr "在设置项中找到 **Priv Key**，输入你的测试网私钥。有了测试网私钥后，才能使用部署合约的相关功能。"
 
-#: ../../settings.rst:25 00573b090f964a14b1f30c748f35930b
+#: ../../settings.rst:25 ba63a37531554c779d8237745b815d53
 msgid "请勿在此处输入主网上的私钥"
 msgstr "请勿在此处输入主网上的私钥"
 
-#: ../../settings.rst:29 0ef12de00cd843ffb01f6e7c460adc37
+#: ../../settings.rst:29 97919f1e173246cab4a040af4c3944f4
 msgid "我们永远不会上传，收集你的私钥。"
 msgstr "我们永远不会上传，收集你的私钥。"
 
-#: ../../settings.rst:32 ac4661082806495bb57062f51b5cb067
-msgid "状态栏私钥余额"
-msgstr "状态栏私钥余额"
+#: ../../settings.rst:32 04f0e072bb324e3093c87cd84ed9e745
+msgid "状态栏余额"
+msgstr "状态栏余额"
 
-#: ../../settings.rst:34 b4c5a49ce2394b318f75cedb310bff64
+#: ../../settings.rst:34 56661a0cfa084a7193816a99710e4af0
 msgid "设置好私钥后，状态栏右下角的 **BSV** 按钮会自动更新，显示出该私钥对应地址的比特币余额。"
 msgstr "设置好私钥后，状态栏右下角的 **BSV** 按钮会自动更新，显示出该私钥对应地址的比特币余额。"
 
-#: ../../settings.rst:41 ecacc9a4005d4095b9f4f98808398166
+#: ../../settings.rst:41 ff46c5ebf03544c99e5099db3ae8aeb7
 msgid "Log 开关"
 msgstr "Log 开关"
 
-#: ../../settings.rst:46 fa0789e3456e43a8a9e553040cdea272
+#: ../../settings.rst:46 93196867ef2942b8ba801fb65b29e819
 msgid "在设置项中找到 **Log** > **Enable**，开启 log开关 后，将在 **输出面板** 中看到更多的信息。"
 msgstr "在设置项中找到 **Log** > **Enable**，开启 log开关 后，将在 **输出面板** 中看到更多的信息。"
 
-#: ../../settings.rst:48 65c7c779b3c34472809479fcc1ea2c8f
+#: ../../settings.rst:48 9b6b82a3b7bc4f91a5d6f69ef27e40e5
 msgid ""
 "同时，**IDE** 会将所有的 log 输出一个到文件中并保存在磁盘上。在 **IDE** 激活时，可以在 **输出面板** 中看到 log "
 "保存的目录："
@@ -64,19 +64,19 @@ msgstr ""
 "同时，**IDE** 会将所有的 log 输出一个到文件中并保存在磁盘上。在 **IDE** 激活时，可以在 **输出面板** 中看到 log "
 "保存的目录："
 
-#: ../../settings.rst:55 1378cd3c4d9b49b6ac840d56c79f3819
+#: ../../settings.rst:55 6807760a456a4e978fb34a00d34cc0a8
 msgid "默认情况下log是关闭。在遇到问题时，请开启log以协助分析问题。"
 msgstr "默认情况下log是关闭。在遇到问题时，请开启log以协助分析问题。"
 
-#: ../../settings.rst:59 b8fa4f1871e44a3ab6d448da6764a1ce
-msgid "高级付费功能设置"
-msgstr "高级付费功能设置"
+#: ../../settings.rst:59 4533819b450a49c89b015a2d05e648fa
+msgid "高级付费功能"
+msgstr "高级付费功能"
 
-#: ../../settings.rst:64 d25701f8065a423781d2b1510c968a77
-msgid "高级许可证设置"
-msgstr "高级许可证设置"
+#: ../../settings.rst:64 1f24c701fa6449e0b7c8c29626781558
+msgid "高级许可证"
+msgstr "高级许可证"
 
-#: ../../settings.rst:66 a02ea60e05fd40118826a443a42df0d5
+#: ../../settings.rst:66 93dc53f88f8e441685a332b2f0972213
 msgid ""
 "首先需要购买我们的 :ref:`高级许可证 <buy_license>` ，在设置项中找到 **Premium: User License** 和 "
 "**Premium: User Paymail**,  配置好相应的 Paymail 及 License 信息，就可以顺利使用所有的高级功能了。"
@@ -84,15 +84,15 @@ msgstr ""
 "首先需要购买我们的 :ref:`高级许可证 <buy_license>` ，在设置项中找到 **Premium: User License** 和 "
 "**Premium: User Paymail**,  配置好相应的 Paymail 及 License 信息，就可以顺利使用所有的高级功能了。"
 
-#: ../../settings.rst:70 230170c7f0ec4b7fb05233bf30f3aa98
+#: ../../settings.rst:70 0cde28fc8a624f2fad63b7eb3e4cc50e
 msgid "高级许可证验证成后窗口右下角会有通知提示"
 msgstr "高级许可证验证成后窗口右下角会有通知提示"
 
-#: ../../settings.rst:77 33859387b45d42baa475918d815da855
-msgid "ASM操作码缩进设置"
-msgstr "ASM操作码缩进设置"
+#: ../../settings.rst:77 73a5b176da064111895b321f1cff5295
+msgid "ASM缩进"
+msgstr "ASM缩进"
 
-#: ../../settings.rst:79 542b4da0b5784d03b5da294db8ac2b4e
+#: ../../settings.rst:79 f9efa3a059af4bd6a9a40dba4109d046
 msgid ""
 "在设置项中找到 **Premium: Indentedasm**。开启后，在使用 :ref:`脚本级调试 "
 "<script_level_debugging>` 功能时，ASM操作码会缩进显示。"
