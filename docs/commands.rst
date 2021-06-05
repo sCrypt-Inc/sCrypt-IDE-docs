@@ -10,29 +10,13 @@
 
 
 
-详细列表
-======================
-
-
 1. **sCrypt: Welcome**
 
     打开 **IDE** 的欢迎页面。
 
-#. **sCrypt: Random Privkey**
+#. **sCrypt: Run sCrypt Test**
 
-    随机产生一个私钥
-
-#. **sCrypt: Privkey To Address**
-
-    打印出私钥对应的地址
-
-#. **sCrypt: Privkey To PubKey**
-
-    打印出私钥对应的公钥
-    
-#. **sCrypt: Privkey To PubKeyHash**
-
-    打印出私钥对应的公钥哈希
+    运行当前测试文件
 
 #. **sCrypt: Launch debugger**
 
@@ -54,6 +38,23 @@
 
     在调试过程中打开脚本视图
 
-#. **sCrypt: Run sCrypt Test**
 
-    运行当前测试文件
+#. **sCrypt: Random Privkey**
+
+    随机产生一个私钥
+
+#. **sCrypt: Privkey To Address**
+
+    打印出私钥对应的地址
+
+#. **sCrypt: Privkey To PubKey**
+
+    打印出私钥对应的公钥
+    
+#. **sCrypt: Privkey To PubKeyHash**
+
+    打印出私钥对应的公钥哈希
+
+#. **sCrypt: Show Transaction ID**
+
+    通过交易的 Raw-Hex 打印出交易的 ``ID``
