@@ -24,11 +24,11 @@ msgstr ""
 
 #: ../../editor.rst:3 ccfbff4b494c464db365478ef196150c
 msgid "代码编辑器"
-msgstr "Code editor"
+msgstr "Code Editor"
 
 #: ../../editor.rst:7 fd9355b4f2ad408aa7f1022fbed6f7b1
 msgid "语法高亮"
-msgstr "Syntax highlighting"
+msgstr "Syntax Highlighting"
 
 #: ../../editor.rst:9 e267fcbdf05645ce9e35b35a2bbfd8d9
 msgid ""
@@ -63,7 +63,7 @@ msgstr ""
 
 #: ../../editor.rst:34 2b6e098f978e4f2f9559c9ea35815bcc
 msgid "函数签名帮助"
-msgstr "Function signature help"
+msgstr "Function Signature Help"
 
 #: ../../editor.rst:36 01cebad80a8f41069d35ff7b6f44ae29
 msgid "在代码编辑过程中，**IDE** 会根据你的输入，自动给出函数签名的相关提示。"
@@ -89,11 +89,11 @@ msgstr ""
 
 #: ../../editor.rst:53 5b8d6d8a8fc84fb89e06cf577678556d
 msgid "代码导航"
-msgstr "Code navigation"
+msgstr "Code Navigation"
 
 #: ../../editor.rst:61 6fac43768bf44e3f8a8966cc4050a756
 msgid "重命名符号"
-msgstr "Rename"
+msgstr "Rename Symbol"
 
 #: ../../editor.rst:63 63a501b981bb4141aab7bdcfa9a3c105
 msgid "重命名代码符号的标识符，例如合约名称，合约属性、本地变量、函数、类型。"

@@ -129,7 +129,7 @@ msgstr "Call a Contract"
 
 #: ../../deploy.rst:54 ef923072fc594c94bfd8956a9582ab00
 msgid "普通合约"
-msgstr "Ordinary contract"
+msgstr "Ordinary Contract"
 
 #: ../../deploy.rst:56 ecb63a31cff345d896cd841d53d79ea0
 msgid ""
@@ -147,7 +147,7 @@ msgstr ""
 
 #: ../../deploy.rst:63 562760c0d42a431eb674281f92376c32
 msgid "有状态合约"
-msgstr "Stateful contract"
+msgstr "Stateful Contract"
 
 #: ../../deploy.rst:65 584e36a13d3b495a854bdd8e1f304c12
 msgid "在合约调用视图可以看到合约的当前信息，如合约锁定余额、当前执行阶段、内部状态等。要调用当前合约的函数，还需要根据情况完成以下几个步骤："
@@ -170,11 +170,11 @@ msgstr ""
 
 #: ../../deploy.rst:72 35804b3d021046cbb08a3e4103d4f13a
 msgid "输出类型"
-msgstr "Output type"
+msgstr "Output Type"
 
 #: ../../deploy.rst:72 5c5b2827d30a4cefafa8c6686d3dda69
 msgid "参数"
-msgstr "parameter"
+msgstr "Parameter"
 
 #: ../../deploy.rst:74 5f31925d9831435b9f3a917077d7d69a
 msgid "状态合约输出"
@@ -389,11 +389,11 @@ msgstr "Each member fills in separately"
 
 #: ../../deploy.rst:141 c094bda2f0624ef3848088942b7a0bed
 msgid "其它功能"
-msgstr "Other features"
+msgstr "Other Features"
 
 #: ../../deploy.rst:146 935257746f874408a60d6a284d638d72
 msgid "查看交易"
-msgstr "View transaction"
+msgstr "View Transaction"
 
 #: ../../deploy.rst:148 93a62e22e50e4dfab05ef0a6f781f09c
 msgid "合约实例窗口下 **transactions** 子项带有 **View Tx** 按钮， 点击可打开区块链浏览器查看该交易详情。"
@@ -404,7 +404,7 @@ msgstr ""
 
 #: ../../deploy.rst:155 19e261e213b849a89fa02de5a6791fab
 msgid "复制值"
-msgstr "Copy value"
+msgstr "Copy Value"
 
 #: ../../deploy.rst:157 ffee4780aa3746aca252526b3deba084
 msgid "在合约实例窗口下选中某个函数，在参数列表上单击右键，会出现 **Copy Value** 菜单， 点击改菜单可以将参数的值复制到剪切板。"
@@ -415,7 +415,7 @@ msgstr ""
 
 #: ../../deploy.rst:164 cd15bfaba3204ebfae2f80016319c80b
 msgid "清除所有合约实例"
-msgstr "Clear all contract instances"
+msgstr "Clear All Contract Instances"
 
 #: ../../deploy.rst:166 5add23b3cce94c90afd29e1bbfcd80cd
 msgid "点击该按钮删除所有合约实例。"
@@ -423,7 +423,7 @@ msgstr "Click this button to delete all contract instances."
 
 #: ../../deploy.rst:173 7fa1bec68d07417bb84a6248d4c9a8aa
 msgid "删除单个合约实例"
-msgstr "Delete a single contract instance"
+msgstr "Delete a Single Contract Instance"
 
 #: ../../deploy.rst:175 80de929df86042d1ab9d66a559bb72f1
 msgid "在合约实例上右键单击会出现 **Delete** 菜单， 点击改菜单可以删除该合约实例。"

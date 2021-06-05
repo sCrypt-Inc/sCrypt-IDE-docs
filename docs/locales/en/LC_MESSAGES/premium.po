@@ -23,11 +23,11 @@ msgstr ""
 
 #: ../../premium.rst:7 804b1c7acfbb4674b152696908ea0801
 msgid "高级付费功能"
-msgstr "Premium paid features"
+msgstr "Premium Paid Features"
 
 #: ../../premium.rst:12 edd82dfd622f4811a7ba673215b03920
 msgid "购买许可证"
-msgstr "Purchase license"
+msgstr "Purchase License"
 
 #: ../../premium.rst:14 829c31f0fbed4ca0b340d28bea9084a1
 msgid "高级付费功能需先购买高级许可证"
@@ -35,7 +35,7 @@ msgstr "Premium paid features need to purchase premium license first"
 
 #: ../../premium.rst:17 7f7dff326a674332b3dd73c25fb08e17
 msgid "高级许可证收费"
-msgstr "Premium license fees"
+msgstr "Premium License Fees"
 
 #: ../../premium.rst:19 ef7e6293c0ee476bbeff515a0e8096c0
 msgid "每个许可证 ``10`` 美元"
@@ -43,7 +43,7 @@ msgstr "``10`` USD per license"
 
 #: ../../premium.rst:22 321852e3a55e49d9aa26984490e14088
 msgid "高级许可证的有效期"
-msgstr "Validity period of premium license"
+msgstr "Validity Period of Premium License"
 
 #: ../../premium.rst:24 62d7ee0392d54a37bd6ac5689cfce85f
 msgid "当前阶段颁发的所有许可证对于早期采用者都将终身有效。"
@@ -53,7 +53,7 @@ msgstr ""
 
 #: ../../premium.rst:27 a6d9becf85f94b6982c46edd4f1e0658
 msgid "如何获得高级许可证"
-msgstr "How to obtain a premium license"
+msgstr "How to Obtain a Premium License"
 
 #: ../../premium.rst:29 a01d6977a3024667b4111f3ffcfb45a3
 msgid ""
@@ -69,7 +69,7 @@ msgstr ""
 
 #: ../../premium.rst:33 4882a172efd145d9bfdc57f2534916a4
 msgid "如何使用高级许可证"
-msgstr "How to use premium license"
+msgstr "How to Use Premium License"
 
 #: ../../premium.rst:35 8e4834216bbe46f2acbdfd3a4527f1d2
 msgid "收到许可证后，在设置中 :ref:`设置激活 <settings_license>`。"
@@ -79,7 +79,7 @@ msgstr ""
 
 #: ../../premium.rst:42 7f280b9bc18e4fbe9856d2baaca71970
 msgid "脚本级调试"
-msgstr "Script-level debugging"
+msgstr "Script-level Debugging"
 
 #: ../../premium.rst:44 80c7d9a97661403f8f57cb93520697b0
 msgid ""
@@ -115,7 +115,7 @@ msgstr ""
 
 #: ../../premium.rst:59 30dfa998ecc54f2cb13e6ce700e6e798
 msgid "复制值"
-msgstr "Copy value"
+msgstr "Copy Value"
 
 #: ../../premium.rst:61 7e0b80f9f74946fba4ad54b936ce2902
 msgid ""
@@ -134,7 +134,7 @@ msgstr ""
 
 #: ../../premium.rst:74 48d3fbbd719e4fa2ab506f7cf72456ef
 msgid "代码优化"
-msgstr "Code optimization"
+msgstr "Code Optimization"
 
 #: ../../premium.rst:76 4bde5debe4dc43abaa180356f3029d4e
 msgid ""

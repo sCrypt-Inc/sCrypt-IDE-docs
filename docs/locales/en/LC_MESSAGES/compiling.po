@@ -27,7 +27,7 @@ msgstr "Compiling"
 
 #: ../../compiling.rst:9 c5331d6cc28a41459d93f2ee2e9f53db
 msgid "自动编译"
-msgstr "Automatic compilation"
+msgstr "Automatic Compilation"
 
 #: ../../compiling.rst:11 9d97b193ab5b4e3cacf804971eb3d40b
 msgid "每次修改代码，**IDE** 都会重新编译代码，同时也会监听文件系统。如果当前打开的文件依赖的文件被删除，也会重新编译代码。"
@@ -38,7 +38,7 @@ msgstr ""
 
 #: ../../compiling.rst:15 fd52603d5e9f4aad8c893af3ac083b8d
 msgid "手动编译"
-msgstr "Manual compilation"
+msgstr "Manual Compilation"
 
 #: ../../compiling.rst:16 6b087dbd47a14cf1b0a8cd17b176a650
 msgid "**IDE** 支持在代码编辑器/资源管理器上下文菜单中编译合约文件。"
@@ -59,7 +59,7 @@ msgstr ""
 
 #: ../../compiling.rst:27 064bb621a6a74eeca53f4997de4e7e1e
 msgid "合约描述文件"
-msgstr "Contract description file"
+msgstr "Contract Description File"
 
 #: ../../compiling.rst:29 af13fb8285fd4d12b996fa178b556619
 msgid "合约描述文件是编译合约的输出结果，可用于测试、部署、调用和集成合约。"
@@ -76,7 +76,7 @@ msgstr ""
 
 #: ../../compiling.rst:37 33ff893dd7224a74af28dbebd6db51d3
 msgid "调试编译"
-msgstr "Debug build"
+msgstr "Debug Build"
 
 #: ../../compiling.rst:39 70eb29ead3e443c3bd453196280f79f1
 msgid "*在代码编辑器上右键单击，选择* : ``Compile Contract : Debug``"
@@ -97,7 +97,7 @@ msgstr ""
 
 #: ../../compiling.rst:47 70daf66b1c4d407e87a20c69daf9f9d1
 msgid "发布编译"
-msgstr "Release build"
+msgstr "Release Build"
 
 #: ../../compiling.rst:49 f907a3c24476400aa8221cccbf8d044e
 msgid "*在代码编辑器上右键单击，选择* : ``Compile Contract : Release``"

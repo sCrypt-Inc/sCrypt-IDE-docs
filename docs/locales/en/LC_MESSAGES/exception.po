@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../exception.rst:2 17208beabc3d459f9be329b5a8e1b194
 msgid "调试器启动失败"
-msgstr "Debugger failed to start"
+msgstr "Debugger Failed to Start"
 
 #: ../../exception.rst:4 14cd9ea701944097b4138aa8d4036a3e
 msgid "通常是 *launch.json* 的输入参数填写有问题，比如："
@@ -55,7 +55,7 @@ msgstr ""
 
 #: ../../exception.rst:20 643dc603572d4ff2af62b77dba54a319
 msgid "异常自动中断"
-msgstr "Abnormal automatic interrupt"
+msgstr "Abnormal Automatic Interrupt"
 
 #: ../../exception.rst:22 4fe34539da704efdaa4e66b81e1b77e7
 msgid ""
@@ -77,7 +77,7 @@ msgstr ""
 
 #: ../../exception.rst:33 905b2d71bbf7424db46732ede3ec9408
 msgid "签名检查失败"
-msgstr "Signature check failed"
+msgstr "Signature Check Failed"
 
 #: ../../exception.rst:35 cb1210506ee346b0a31da229435f57f5
 msgid "一类常见的错误是 ``checkSig`` 失败。原因可能是："
@@ -132,7 +132,7 @@ msgstr ""
 
 #: ../../exception.rst:68 4f8ad92d8f034ff2acd246b862d6384a
 msgid "交易原象检查失败"
-msgstr "Transaction preimage check failed"
+msgstr "Transaction Preimage Check Failed"
 
 #: ../../exception.rst:71 4f28fcedff6a457b888583a1f88cf2a9
 msgid ""
@@ -161,7 +161,7 @@ msgstr ""
 
 #: ../../exception.rst:86 08c4f5918f714dfa98087c85e9c37b82
 msgid "交易输出哈希不一致"
-msgstr "Inconsistent transaction output hash"
+msgstr "Inconsistent Transaction Output Hash"
 
 #: ../../exception.rst:88 de996f3d62be4d4a94d277477a15ada4
 msgid "这通常是由于当前交易的一个或者多个 **交易输出** 不符号合约本身逻辑对 **输出** 的约束。例如下面的例子："
