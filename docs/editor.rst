@@ -6,8 +6,8 @@
 语法高亮
 ===============
 
-**IDE** 内置了一个 **sCrypt** 语言的代码着色器。打开sCrypt文件的时候可以看到某些语法元素显示高亮的效果。例如，关键字（如 `loop` `require`)
-用一种颜色，类型（如 `int` 和 `bytes`) 用另一种颜色。
+**IDE** 内置了一个 **sCrypt** 语言的代码着色器，打开sCrypt文件的时候可以看到某些语法元素显示高亮的效果。例如，关键字（如 ``loop`` ``require``)
+用一种颜色，类型（如 ``int`` 和 ``bytes``) 用另一种颜色。
 
 
 .. image:: ./images/highlighting.png
