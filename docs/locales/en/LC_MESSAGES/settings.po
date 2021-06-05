@@ -5,6 +5,7 @@
 # 
 # Translators:
 # qtom zheng <zhfnjust@gmail.com>, 2021
+# Xiaohui Liu <x.liu@scrypt.io>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -13,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-04 18:25+0800\n"
 "PO-Revision-Date: 2021-06-02 09:22+0000\n"
-"Last-Translator: qtom zheng <zhfnjust@gmail.com>, 2021\n"
+"Last-Translator: Xiaohui Liu <x.liu@scrypt.io>, 2021\n"
 "Language-Team: English (https://www.transifex.com/scrypt-1/teams/121283/en/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -52,7 +53,7 @@ msgstr "We will never upload and collect your private key."
 
 #: ../../settings.rst:32 ac4661082806495bb57062f51b5cb067
 msgid "状态栏私钥余额"
-msgstr "Private key balance in status bar"
+msgstr "Balance in Status Bar"
 
 #: ../../settings.rst:34 b4c5a49ce2394b318f75cedb310bff64
 msgid "设置好私钥后，状态栏右下角的 **BSV** 按钮会自动更新，显示出该私钥对应地址的比特币余额。"
@@ -88,11 +89,11 @@ msgstr ""
 
 #: ../../settings.rst:59 b8fa4f1871e44a3ab6d448da6764a1ce
 msgid "高级付费功能设置"
-msgstr "Preminum paid features settings"
+msgstr "Premium Features"
 
 #: ../../settings.rst:64 d25701f8065a423781d2b1510c968a77
 msgid "高级许可证设置"
-msgstr "Preminum license settings"
+msgstr "Premium License"
 
 #: ../../settings.rst:66 a02ea60e05fd40118826a443a42df0d5
 msgid ""
@@ -112,7 +113,7 @@ msgstr ""
 
 #: ../../settings.rst:77 33859387b45d42baa475918d815da855
 msgid "ASM操作码缩进设置"
-msgstr "ASM opcode indentation settings"
+msgstr "ASM Indentation"
 
 #: ../../settings.rst:79 542b4da0b5784d03b5da294db8ac2b4e
 msgid ""

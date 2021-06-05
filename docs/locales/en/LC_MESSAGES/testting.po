@@ -5,6 +5,7 @@
 # 
 # Translators:
 # qtom zheng <zhfnjust@gmail.com>, 2021
+# Xiaohui Liu <x.liu@scrypt.io>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -13,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-04 18:25+0800\n"
 "PO-Revision-Date: 2021-06-02 09:22+0000\n"
-"Last-Translator: qtom zheng <zhfnjust@gmail.com>, 2021\n"
+"Last-Translator: Xiaohui Liu <x.liu@scrypt.io>, 2021\n"
 "Language-Team: English (https://www.transifex.com/scrypt-1/teams/121283/en/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,7 +24,7 @@ msgstr ""
 
 #: ../../testting.rst:5 d6b4a0b90c8647c5aba4f483f7846901
 msgid "单元测试"
-msgstr "Testting"
+msgstr "Testing"
 
 #: ../../testting.rst:7 c1f89afd832e43d9bb9cd637fc2519af
 msgid "我们通过编写 **javascript/typescript** 来测试合约。`样板项目`_ 中有很多合约的测试用例。"
@@ -122,7 +123,7 @@ msgstr ""
 
 #: ../../testting.rst:100 f30796999f564824837032b8d6a14447
 msgid "如何快速调试单元测试错误"
-msgstr "How to quickly debug unit test errors"
+msgstr "Quick Debug"
 
 #: ../../testting.rst:102 a086ef1a515e442eac72e27a6db0c626
 msgid ""

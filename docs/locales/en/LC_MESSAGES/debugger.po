@@ -5,6 +5,7 @@
 # 
 # Translators:
 # qtom zheng <zhfnjust@gmail.com>, 2021
+# Xiaohui Liu <x.liu@scrypt.io>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -13,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-04 18:25+0800\n"
 "PO-Revision-Date: 2021-06-02 09:22+0000\n"
-"Last-Translator: qtom zheng <zhfnjust@gmail.com>, 2021\n"
+"Last-Translator: Xiaohui Liu <x.liu@scrypt.io>, 2021\n"
 "Language-Team: English (https://www.transifex.com/scrypt-1/teams/121283/en/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -44,7 +45,7 @@ msgstr ""
 
 #: ../../debugger.rst:14 4071f228c30f41719ef460f1e485ac39
 msgid "配置调试器启动参数"
-msgstr "Configure debugger startup parameters"
+msgstr "Configure"
 
 #: ../../debugger.rst:16 0a23afe1d27a47f4800ca1a28683a71c
 msgid ""
@@ -434,7 +435,7 @@ msgstr "Understand how the verification signature works: `CHECKSIG`_"
 
 #: ../../debugger.rst:126 3c8b4f1d3dcf4b4f85ed58948a5656fb
 msgid "设置断点并启动调试器"
-msgstr "Set breakpoints and start the debugger"
+msgstr "Set Breakpoints and Start"
 
 #: ../../debugger.rst:129 67fef9f9fbec4b76a99efa04de192ca3
 msgid ""
@@ -450,7 +451,7 @@ msgstr ""
 
 #: ../../debugger.rst:136 c90fa658277c48198a0ba8a5f0188180
 msgid "使用单步执行命令在调试器中移动浏览代码"
-msgstr "Use single step commands to move through the code in the debugger"
+msgstr "Step"
 
 #: ../../debugger.rst:138 1ff59ce7bf45410f83d27660e8141564
 msgid "调试器遇到断点后，就进入中断模式，脚本执行被挂起，而函数、变量和合约实例保留在栈中，接下来："
@@ -586,4 +587,4 @@ msgstr "Debug console (REPL)"
 
 #: ../../debugger.rst:224 fc2c0d5f8aa14b66b03c1e882ce00d57
 msgid "调试中的异常"
-msgstr "Exception during debugging"
+msgstr "Exceptions"

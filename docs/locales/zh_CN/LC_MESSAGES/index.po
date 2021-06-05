@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sCrypt-IDE-docs 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-04 00:29+0800\n"
+"POT-Creation-Date: 2021-06-05 10:39+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,15 +16,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../index.rst:28 ../../index.rst:28 1ecd74ffcafc440ab94a55487c7805cd
+#: ../../index.rst:27 ../../index.rst:27 9ec66b8fca2d47e887ccb192708a2459
 msgid "目录:"
 msgstr "目录:"
 
-#: ../../index.rst:9 5709979d310e40098864916d05c119c0
+#: ../../index.rst:9 77e0fbd3664b4392b93d6ca479bf09b6
 msgid "欢迎阅读 sCrypt IDE 官方文档"
 msgstr "欢迎阅读 sCrypt IDE 官方文档"
 
-#: ../../index.rst:12 3f9931c54ad24f06b5b7b97771b0df23
+#: ../../index.rst:12 120ce998a1194ed2b997759f89209129
 msgid ""
 "**sCrypt IDE** 是 **sCrypt** 官方开发工具, 包含用于编写、编译、调试、测试、部署 **sCrypt** 智能合约的 GUI "
 "构建器和工具， 为 **sCrypt** 开发者提供强有力的支持， 可用于专业开发，也适用于sCrypt智能合约的学习与教学。"
@@ -32,30 +32,26 @@ msgstr ""
 "**sCrypt IDE** 是 **sCrypt** 官方开发工具, 包含用于编写、编译、调试、测试、部署 **sCrypt** 智能合约的 GUI "
 "构建器和工具， 为 **sCrypt** 开发者提供强有力的支持， 可用于专业开发，也适用于sCrypt智能合约的学习与教学。"
 
-#: ../../index.rst:15 01904f7472644b02aa55bfaa8dc4497c
-msgid "发挥你想象力，使用它来构建令人惊喜的软件。"
-msgstr "发挥你想象力，使用它来构建令人惊喜的软件。"
-
-#: ../../index.rst:17 e312a30e701542698ce0ae4942afd1d0
+#: ../../index.rst:16 4162580e3ab446e7ad6dc9e6ad4435c2
 msgid "本文档包含有关如何使用 **sCrypt IDE** 的说明。"
 msgstr "本文档包含有关如何使用 **sCrypt IDE** 的说明。"
 
-#: ../../index.rst:20 0d9c188ba44e42929e0a8ceee0844223
+#: ../../index.rst:19 9a563e01d2a540d5b8993140040425ab
 msgid "链接："
 msgstr "链接："
 
-#: ../../index.rst:22 62dc6c8348a5457c8a1d1c628f31c759
+#: ../../index.rst:21 9fa3efb970ee4442aaaaa431fc1659ab
 msgid "`sCrypt语言参考`_"
 msgstr "`sCrypt语言参考`_"
 
-#: ../../index.rst:23 67e2099ce54e4d3ab41d57f77d1baddd
+#: ../../index.rst:22 03e25cb467154959912761e98730fa23
 msgid "`sCrypt官方网站`_"
 msgstr "`sCrypt官方网站`_"
 
-#: ../../index.rst:24 29689cdd29ae49cc8652b8592e26e3b1
+#: ../../index.rst:23 f07ead715cbf4186b89e54c8181dff47
 msgid "`博客`_"
 msgstr "`博客`_"
 
-#: ../../index.rst:25 bc5e0589081d4b1fa18fbd9e9d81cb8c
+#: ../../index.rst:24 ac42e7fe10f34e56bcb78336c5f47904
 msgid "`Slack`_"
 msgstr "`Slack`_"

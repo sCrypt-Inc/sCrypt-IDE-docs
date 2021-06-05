@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sCrypt-IDE-docs 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-04 19:57+0800\n"
+"POT-Creation-Date: 2021-06-05 10:39+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -99,8 +99,8 @@ msgid "调用合约"
 msgstr "调用合约"
 
 #: ../../deploy.rst:54 ef923072fc594c94bfd8956a9582ab00
-msgid "普通合约调用"
-msgstr "普通合约调用"
+msgid "普通合约"
+msgstr "普通合约"
 
 #: ../../deploy.rst:56 ecb63a31cff345d896cd841d53d79ea0
 msgid ""
@@ -113,8 +113,8 @@ msgstr ""
 "失败则会打印出对应的错误。"
 
 #: ../../deploy.rst:63 562760c0d42a431eb674281f92376c32
-msgid "有状态合约调用"
-msgstr "有状态合约调用"
+msgid "有状态合约"
+msgstr "有状态合约"
 
 #: ../../deploy.rst:65 584e36a13d3b495a854bdd8e1f304c12
 msgid "在合约调用视图可以看到合约的当前信息，如合约锁定余额、当前执行阶段、内部状态等。要调用当前合约的函数，还需要根据情况完成以下几个步骤："

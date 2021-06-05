@@ -4,6 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
+# Xiaohui Liu <x.liu@scrypt.io>, 2021
 # qtom zheng <zhfnjust@gmail.com>, 2021
 # 
 #, fuzzy
@@ -11,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sCrypt-IDE-docs 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-04 19:57+0800\n"
+"POT-Creation-Date: 2021-06-05 10:39+0800\n"
 "PO-Revision-Date: 2021-06-02 09:22+0000\n"
 "Last-Translator: qtom zheng <zhfnjust@gmail.com>, 2021\n"
 "Language-Team: English (https://www.transifex.com/scrypt-1/teams/121283/en/)\n"
@@ -23,7 +24,7 @@ msgstr ""
 
 #: ../../deploy.rst:5 e21850d821cc47368d4b2e341fc4c571
 msgid "部署调用合约"
-msgstr "Deploy and call the contract"
+msgstr "Deploy and Call a Contract"
 
 #: ../../deploy.rst:8 a3c63afc8f1b439eb6c90f0a5ed97426
 msgid ""
@@ -87,7 +88,7 @@ msgstr ""
 
 #: ../../deploy.rst:33 b1664a524a1f418a89767c0341e1f7ab
 msgid "编译合约"
-msgstr "Compile the contract"
+msgstr "Compile a Contract"
 
 #: ../../deploy.rst:35 613cc6d71e4d44b8aa8aa8ceb06c51b5
 msgid ""
@@ -105,7 +106,7 @@ msgstr ""
 
 #: ../../deploy.rst:42 1bda30f82c8c4ee0a8e9d1fca7c1678e
 msgid "部署合约"
-msgstr "Deployment contract"
+msgstr "Deploy a Contract"
 
 #: ../../deploy.rst:44 bbc578b45ee347568d42fe79a577a5f7
 msgid ""
@@ -124,11 +125,11 @@ msgstr ""
 
 #: ../../deploy.rst:51 f28d7669d98a407db2a06657e4a6d2c7
 msgid "调用合约"
-msgstr "Call contract"
+msgstr "Call a Contract"
 
 #: ../../deploy.rst:54 ef923072fc594c94bfd8956a9582ab00
-msgid "普通合约调用"
-msgstr "Ordinary contract call"
+msgid "普通合约"
+msgstr "Ordinary contract"
 
 #: ../../deploy.rst:56 ecb63a31cff345d896cd841d53d79ea0
 msgid ""
@@ -145,8 +146,8 @@ msgstr ""
 "transaction, if it fails, the corresponding error will be printed out."
 
 #: ../../deploy.rst:63 562760c0d42a431eb674281f92376c32
-msgid "有状态合约调用"
-msgstr "Call stateful contract"
+msgid "有状态合约"
+msgstr "Stateful contract"
 
 #: ../../deploy.rst:65 584e36a13d3b495a854bdd8e1f304c12
 msgid "在合约调用视图可以看到合约的当前信息，如合约锁定余额、当前执行阶段、内部状态等。要调用当前合约的函数，还需要根据情况完成以下几个步骤："
@@ -260,7 +261,7 @@ msgstr ""
 
 #: ../../deploy.rst:102 ef258e40cbaf40b99aa8de2004f70914
 msgid "调用失败"
-msgstr "Call contract fail"
+msgstr "Call Failure"
 
 #: ../../deploy.rst:104 ebff44da10a14fd9b21e9e84b603e821
 msgid ""
@@ -274,7 +275,7 @@ msgstr ""
 
 #: ../../deploy.rst:115 67c962adc91549ca9cafda97ce690c75
 msgid "参数输入格式"
-msgstr "Parameter input format"
+msgstr "Argument Input Format"
 
 #: ../../deploy.rst:117 128b43515e71412e95e0aa7384787b09
 msgid "部署合约和调用合约都需要在视图中输入正确的参数。参数输入格式参照下表："
