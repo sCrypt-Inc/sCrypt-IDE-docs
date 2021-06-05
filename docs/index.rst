@@ -32,7 +32,7 @@
    editor
    compiling
    debugger
-   testting
+   testing
    deploy
    settings
    commands
