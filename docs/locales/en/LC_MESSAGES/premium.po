@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sCrypt-IDE-docs 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-04 20:01+0800\n"
+"POT-Creation-Date: 2021-06-08 10:40+0800\n"
 "PO-Revision-Date: 2021-06-02 09:22+0000\n"
 "Last-Translator: qtom zheng <zhfnjust@gmail.com>, 2021\n"
 "Language-Team: English (https://www.transifex.com/scrypt-1/teams/121283/en/)\n"
@@ -21,41 +21,41 @@ msgstr ""
 "Language: en\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../premium.rst:7 804b1c7acfbb4674b152696908ea0801
+#: ../../premium.rst:7 5760f0b562e148fe945c7cd162988f09
 msgid "高级付费功能"
 msgstr "Premium Paid Features"
 
-#: ../../premium.rst:12 edd82dfd622f4811a7ba673215b03920
+#: ../../premium.rst:12 73ded6f5959748289606ab497cd2d6bf
 msgid "购买许可证"
 msgstr "Purchase License"
 
-#: ../../premium.rst:14 829c31f0fbed4ca0b340d28bea9084a1
+#: ../../premium.rst:14 bde3d29b80c94ed99e98881a1e002a24
 msgid "高级付费功能需先购买高级许可证"
 msgstr "Premium paid features need to purchase premium license first"
 
-#: ../../premium.rst:17 7f7dff326a674332b3dd73c25fb08e17
+#: ../../premium.rst:17 387eb40fde5b45879ec5b4faecd9ea45
 msgid "高级许可证收费"
 msgstr "Premium License Fees"
 
-#: ../../premium.rst:19 ef7e6293c0ee476bbeff515a0e8096c0
-msgid "每个许可证 ``10`` 美元"
-msgstr "``10`` USD per license"
+#: ../../premium.rst:19 8185db8a25bf481f9a5b3a7f0be66acf
+msgid "每个许可证 ``199`` 美元"
+msgstr "``199`` USD per license"
 
-#: ../../premium.rst:22 321852e3a55e49d9aa26984490e14088
+#: ../../premium.rst:22 0878e1f16e0e4d16baf8f5140e1b1988
 msgid "高级许可证的有效期"
 msgstr "Validity Period of Premium License"
 
-#: ../../premium.rst:24 62d7ee0392d54a37bd6ac5689cfce85f
+#: ../../premium.rst:24 64eda1a3b5f04a359b9abf00795843b6
 msgid "当前阶段颁发的所有许可证对于早期采用者都将终身有效。"
 msgstr ""
 "All licenses issued at the current stage will be valid for life for early "
 "adopters."
 
-#: ../../premium.rst:27 a6d9becf85f94b6982c46edd4f1e0658
+#: ../../premium.rst:27 7c18a3863a144ae8b2c951ffad451169
 msgid "如何获得高级许可证"
 msgstr "How to Obtain a Premium License"
 
-#: ../../premium.rst:29 a01d6977a3024667b4111f3ffcfb45a3
+#: ../../premium.rst:29 76f381d0953441feb842a1b54636ef1d
 msgid ""
 "通过使用 `Baemail`_ 服务向我们的官方邮件地址 scrypt@moneybutton.com 发送标题为 ‘Purchase An "
 "sCrypt Premium License’ 的邮件， "
@@ -67,21 +67,21 @@ msgstr ""
 "confirm, we will reply the corresponding premium license to the sender. In "
 "case of problems, send an email to support@scrypt.io."
 
-#: ../../premium.rst:33 4882a172efd145d9bfdc57f2534916a4
+#: ../../premium.rst:33 479bd2bdf18b49ee91f2b83ff2b6ecb9
 msgid "如何使用高级许可证"
 msgstr "How to Use Premium License"
 
-#: ../../premium.rst:35 8e4834216bbe46f2acbdfd3a4527f1d2
+#: ../../premium.rst:35 253264e80f774a558071306acd0d9041
 msgid "收到许可证后，在设置中 :ref:`设置激活 <settings_license>`。"
 msgstr ""
 "After receiving the license, in the settings :ref:`set to activate "
 "<settings_license>`."
 
-#: ../../premium.rst:42 7f280b9bc18e4fbe9856d2baaca71970
+#: ../../premium.rst:42 cce189b46c8c4bbcb84195e62a324093
 msgid "脚本级调试"
 msgstr "Script-level Debugging"
 
-#: ../../premium.rst:44 80c7d9a97661403f8f57cb93520697b0
+#: ../../premium.rst:44 c060a14e53634ab4b313ae0d55f05d4f
 msgid ""
 "**IDE** 提供的调试器，不仅支持进行sCrypt 源码级的调试，也支持脚本级的调试。 当调试器进入中断模式后，点击代码编辑器右上角的 **View"
 " Script in debugging** 按钮，即可打开脚本视图。主要包括这几个功能点："
@@ -92,13 +92,13 @@ msgstr ""
 "right corner of the code editor to open the script view. Mainly include "
 "these several function points:"
 
-#: ../../premium.rst:49 66c331aae3c74e4b9a07691015abb41b
+#: ../../premium.rst:49 1e1be1e03e5a4fab99133c70bd10f892
 msgid "sCrypt 源码与其编译出的 Script 脚本之间关联映射的实时展示；"
 msgstr ""
 "Real-time display of the association mapping between sCrypt source code and "
 "its compiled Script;"
 
-#: ../../premium.rst:50 6737a05510154fbf8a80be6b8908a683
+#: ../../premium.rst:50 aea7db21c7ea495eb6a1c9ab44605ea8
 msgid ""
 "通过单击代码行左侧的边缘来设置断点，通过按 **F10** 或 **F11** 开始单步执行比特脚本。更多调试技巧参阅 :ref:`调试器 "
 "<debugger>`"
@@ -107,17 +107,17 @@ msgstr ""
 "stepping through the bit script by pressing **F10** or **F11**. For more "
 "debugging skills, please refer to :ref:`Debugger <debugger>`"
 
-#: ../../premium.rst:51 68f0ef01cf524502a896581d02ed7c59
+#: ../../premium.rst:51 465a2603a0c142c19c5dc08755934d79
 msgid "在左下角的 **Data Stack** 窗口查看比特堆栈的实时状态；"
 msgstr ""
 "Check the real-time status of the bit stack in the **Data Stack** window in "
 "the lower left corner;"
 
-#: ../../premium.rst:59 30dfa998ecc54f2cb13e6ce700e6e798
+#: ../../premium.rst:59 f1fad1773d6a446586d9202b4e735ce4
 msgid "复制值"
 msgstr "Copy Value"
 
-#: ../../premium.rst:61 7e0b80f9f74946fba4ad54b936ce2902
+#: ../../premium.rst:61 b445e69c8fd74de2a089693dff5f87f5
 msgid ""
 "在 **Data Stack** 窗口中数据项上单击右键，会出现 **Copy Value** 菜单。点击改菜单可以将栈上的数据复制到剪切板。"
 msgstr ""
@@ -125,18 +125,18 @@ msgstr ""
 "Value** menu will appear. Click the change menu to copy the data on the "
 "stack to the clipboard."
 
-#: ../../premium.rst:68 24d064d5cec044d1903036d3fc8633ec
+#: ../../premium.rst:68 9d28251ab0ea4912819eb3ea6ac5741a
 msgid "利用这个功能可以方便高级用户进一步提高开发调试效率，并且方便地进行一些脚本优化。"
 msgstr ""
 "Using this function can facilitate advanced users to further improve the "
 "efficiency of development and debugging, and facilitate some script "
 "optimization."
 
-#: ../../premium.rst:74 48d3fbbd719e4fa2ab506f7cf72456ef
+#: ../../premium.rst:74 a7145dca77014c3a8e0e5b01e2a413b3
 msgid "代码优化"
 msgstr "Code Optimization"
 
-#: ../../premium.rst:76 4bde5debe4dc43abaa180356f3029d4e
+#: ../../premium.rst:76 10d29f5c235f40d4a5863dd2df4c0521
 msgid ""
 "优化是将一段代码转换为其他功能上等效的代码以提高一个或多个特征的过程。两个最重要的特征是代码速度和大小。**sCrypt** 编程与使用 "
 "Javascript 或 Python 进行的传统编程不同，因为当将包含编译结果的交易提交到比特币网络时， "
@@ -157,7 +157,7 @@ msgstr ""
 "and difficult-to-maintain code. The compiler provides an automatic "
 "optimization function for paying users."
 
-#: ../../premium.rst:81 7e567cc709c8411ba9b84a2953a97194
+#: ../../premium.rst:81 38087c55ae15466898dbef5103f66b75
 msgid ""
 "当使用 :ref:`发布编译 <release_compiling>` 来构建合约时，编译器会自动开启优化，优化可以显著减小脚本的体积并提高其性能。"
 msgstr ""
@@ -165,7 +165,7 @@ msgstr ""
 "compiler will automatically turn on optimization, which can significantly "
 "reduce the size of the script and improve its performance."
 
-#: ../../premium.rst:84 a6f0c63af115405b95df7942fc00969e
+#: ../../premium.rst:84 63de4fb88cf846d79e7f5386bb58ae95
 msgid "当前，交易费用仅与脚本/事务的大小成正比，未来会将演变为考虑脚本的复杂性。因此，优化目标也有望在未来发展演变。"
 msgstr ""
 "Currently, transaction fees are only proportional to the size of the "

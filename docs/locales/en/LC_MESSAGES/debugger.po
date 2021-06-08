@@ -483,9 +483,9 @@ msgid ""
 "添加了表达式或者变量，将会实时地变化。"
 msgstr ""
 "When browsing the code through the above operations, the data in the "
-"**variable panel** and the **call stack panel** in the debugging view on the"
-" left will change in real time. If an expression is added to the **watch "
-"panel** or Variables will change in real time."
+"**Variable Panel** and **Call Stack Panel** in the debugging view on the "
+"left will change in real time. If you add an expression or variables to the "
+"**Watch Panel**, it will change in real time too."
 
 #: ../../debugger.rst:153 21b2631cffe24cfeb348652dc98477a8
 msgid "一次调试只能以一个 *public* 函数为入口。"
