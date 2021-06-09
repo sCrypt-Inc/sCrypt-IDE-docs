@@ -4,7 +4,7 @@
 单元测试
 ===========================================
 
-我们通过编写 **javascript/typescript** 来测试合约。`样板项目`_ 中有很多合约的测试用例。
+我们通过编写 **Javascript/Typescript** 来测试合约。`样板项目`_ 中有很多合约的测试用例。
 
 首先，在工程根目录下运行 ``npm init`` 来创建一个 **npm** 项目。接下来安装依赖：
 
@@ -26,7 +26,7 @@
 
 3. 在 ``package.json`` 中配置测试命令 
     
-``package.json`` 文件的脚本部分中应该存在一个名为 ``single-test`` 的脚本。**IDE** 用它来运行单个文件测试。通常它看起来像 "single-test": "mocha"，但您可以自定义它。
+``package.json`` 文件的脚本部分中应该存在一个名为 ``single-test`` 的脚本。**IDE** 用它来运行单个文件测试。通常它看起来像 ``"single-test": "mocha"``，但您可以自定义它。
 
 
 .. code-block:: console
@@ -65,7 +65,7 @@
 
 
 
-1. 测试合约时，您可以使用加载编译输出的 **合约描述文件** （也是就 * *_desc.json* 文件）比如：
+1. 测试合约时，您可以使用加载编译输出的 **合约描述文件** （也是就 ``_desc.json`` 文件）比如：
 
 .. code-block:: javascript
 
@@ -78,13 +78,13 @@
     const MyContract = buildContractClass(compileContract('demo.scrypt'));
 
 
-1. 创建合约的实例
+2. 创建合约的实例
 
 .. code-block:: javascript
 
     const instance = new MyContract(1234, true, ...parameters);
 
-1. 执行合约的 *public* 函数来验证合约的正确性。
+3. 执行合约的 *public* 函数来验证合约的正确性。
 
 .. code-block:: javascript
 
