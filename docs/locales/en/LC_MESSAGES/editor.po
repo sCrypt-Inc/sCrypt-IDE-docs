@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sCrypt-IDE-docs 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-05 18:09+0800\n"
+"POT-Creation-Date: 2021-06-09 14:03+0800\n"
 "PO-Revision-Date: 2021-06-02 09:22+0000\n"
 "Last-Translator: qtom zheng <zhfnjust@gmail.com>, 2021\n"
 "Language-Team: English (https://www.transifex.com/scrypt-1/teams/121283/en/)\n"
@@ -22,120 +22,116 @@ msgstr ""
 "Language: en\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../editor.rst:3 287eec8219be4a448f8b69cbc42f3652
+#: ../../editor.rst:3 6489f8347acc457daa35e92db8e71b07
 msgid "代码编辑器"
 msgstr "Code Editor"
 
-#: ../../editor.rst:7 4fa406a20499444e9df5d130a795e321
+#: ../../editor.rst:7 239ce882f6914d31817ffa58b7f6f7d8
 msgid "语法高亮"
 msgstr "Syntax Highlighting"
 
-#: ../../editor.rst:9 e050f046fca3489b98c7a4aee934ffba
+#: ../../editor.rst:9 377e7be4f2444643bb51bc01fd0eef5a
 msgid ""
 "**IDE** 内置了一个 **sCrypt** 语言的代码着色器，打开sCrypt文件的时候可以看到某些语法元素显示高亮的效果。例如，关键字（如 "
 "``loop`` ``require``) 用一种颜色，类型（如 ``int`` 和 ``bytes``) 用另一种颜色。"
 msgstr ""
-"**IDE** has a built-in code shader for **sCrypt** language. When opening the"
-" sCrypt file, you can see the highlighting effect of certain syntax "
-"elements. For example, keywords (such as ``loop`` ``require``) use one "
-"color, and types (such as ``int`` and ``bytes``) use another color."
+"After opening an sCrypt file, you can see the highlighting effect of certain"
+" syntax elements. For example, keywords (such as ``loop`` ``require``) use "
+"one color, and types (such as ``int`` and ``bytes``) use another color."
 
-#: ../../editor.rst:18 3d23d6d1612a4aeba3c27681d4d8fe11
+#: ../../editor.rst:18 5e701bbacad34efe9db00aec0db7d0fa
 msgid "悬浮提示"
 msgstr "Hover"
 
-#: ../../editor.rst:20 147fbf266c754daba250dc872e02c0c1
+#: ../../editor.rst:20 a497e1637e1f4f03ba50cad9b22d403e
 msgid "当移动鼠标悬停在一个符号上时，会自动显示符号相关的信息"
 msgstr ""
-"When moving the mouse and hovering over a symbol, the related information of"
-" the symbol will be automatically displayed"
+"When moving the mouse and hovering over a symbol, the relevant information "
+"of the symbol will be automatically displayed."
 
-#: ../../editor.rst:26 a10205535a3c40c78ad26aea43f4765a
+#: ../../editor.rst:26 349296a431914b7b92b9c35aac57082c
 msgid "自动补全"
 msgstr "Autocomplete"
 
-#: ../../editor.rst:28 096c5f97ac8e408cad25f663a24d6773
+#: ../../editor.rst:28 317704841ff848aa9e8bdb67788af458
 msgid "当在编辑器上输入代码时， **IDE** 会根据你的输入，自动补全相关输入。"
 msgstr ""
-"When you enter the code on the editor, **IDE** will automatically complete "
-"the relevant input according to your input."
+"When you enter the code on the editor, **IDE** will automatically prompt "
+"according to your input."
 
-#: ../../editor.rst:34 a4af2bb76b9145d7862d2891a30143d0
+#: ../../editor.rst:34 7cb2f1e0bc4a479499c0c39c4582be16
 msgid "函数签名帮助"
 msgstr "Function Signature Help"
 
-#: ../../editor.rst:36 24bdbe1607754f22810837f856d01be4
+#: ../../editor.rst:36 a1b65c95ce0746ee97dfe3e5aaaea640
 msgid "在代码编辑过程中，**IDE** 会根据你的输入，自动给出函数签名的相关提示。"
-msgstr ""
-"During the code editing process, **IDE** will automatically give relevant "
-"prompts about the function signature based on your input."
+msgstr "After a function name is entered, **IDE** will prompt its signature."
 
-#: ../../editor.rst:43 aa83d9e3df1f4f3abba629fc38a3fd5f
+#: ../../editor.rst:43 f69068fbbca942e285c7b71b2b030752
 msgid "错误和警告标记"
 msgstr "Errors and Warnings"
 
-#: ../../editor.rst:45 1fc560067386424e82dcbb05f5877042
+#: ../../editor.rst:45 157f7e9fbcc9459f96327376ad4a22f6
 msgid ""
 "修改代码时，可能会看到不同颜色的波浪下划线， 红色波浪线表示语法错误，黄色表示警告。 可以根据错误提示信息来快速修复问题。所有文件的错误信息都汇聚在 "
 "**问题** 面板中，如果修改了代码消除了错误， **问题** 面板中的错误提示就会自动消失。"
 msgstr ""
-"When you modify the code, you may see wavy underlines in different colors, "
-"red wavy lines indicate syntax errors, and yellow indicate warnings. You can"
-" quickly fix the problem according to the error message. The error messages "
-"of all files are gathered in the **Questions** panel. If the code is "
-"modified to eliminate the errors, the error prompts in the **Questions** "
-"panel will automatically disappear."
+"When you are editing code, you may see wavy underlines in different colors: "
+"red indicate errors, and yellow warnings. You can quickly identify the "
+"problem according to the error message. The error messages of all files are "
+"gathered in the **PROBLEMS** panel. Once errors are fixed, error messages in"
+" the **PROBLEMS** panel will disappear."
 
-#: ../../editor.rst:53 b719c6a8534249ce88eb1cb6040f8811
+#: ../../editor.rst:53 8e0d0297823348f8a25fa7536fc52049
 msgid "代码导航"
 msgstr "Code Navigation"
 
-#: ../../editor.rst:61 a538c1a208b545be9ca6e900fc6befdc
+#: ../../editor.rst:61 1fc2bf3f59ca4ec28de3f4ac824e2891
 msgid "重命名符号"
 msgstr "Rename Symbol"
 
-#: ../../editor.rst:63 3bd684406b2d40b2a072a805e3f6c525
+#: ../../editor.rst:63 7b1f3c4808564e6381f880dd761bb355
 msgid "重命名代码符号的标识符，例如合约名称，合约属性、本地变量、函数、类型。"
 msgstr ""
-"Rename the identifier of the code symbol, such as contract name, contract "
-"properties, local variables, functions, types."
+"Rename identifiers/symbols in batch, such as contract name, contract "
+"properties, local variables, functions, and types."
 
-#: ../../editor.rst:65 42b6d11b7b7641319070a5ea69165819
-msgid "将文本光标置于要重命名的代码符号："
-msgstr "Place the text cursor on the code symbol to be renamed:"
+#: ../../editor.rst:65 5448b65e12c8465fa8a6a9c6873ba39e
+msgid "将文本光标置于要重命名的代码符号,"
+msgstr "Place the text cursor on the code symbol to be renamed,"
 
-#: ../../editor.rst:67 0b46898914054cc6bc26595e150937aa
+#: ../../editor.rst:67 47cc8ad86c864a5d8e405da047adb90c
 msgid "键盘：按 ``F2``"
 msgstr "Keyboard: press ``F2``"
 
-#: ../../editor.rst:69 73420157bc5a43daa546bc515d57c778
+#: ../../editor.rst:69 ad6abc715e224c10a61bc1173d4ada00
 msgid "鼠标：右键单击代码并选择“重命名”。"
 msgstr "Mouse: Right click on the code and select **Rename Symbol** ."
 
-#: ../../editor.rst:75 743a0d237fa449b2abc9927e2718a052
+#: ../../editor.rst:75 84ab6212d1ec424da902c5e02e3a63eb
 msgid "格式化代码"
 msgstr "Formatting"
 
-#: ../../editor.rst:77 0bacd4bfa5d54970b0f897cf54ac466a
-msgid "打开要格式化的代码"
-msgstr "Open the code to be formatted"
+#: ../../editor.rst:77 393fc3e01f97450880f48b20122d74f8
+msgid "打开要格式化的代码,"
+msgstr "Open the code you want to format,"
 
-#: ../../editor.rst:79 d56df47be3cd4f5c896a579e8802da7f
+#: ../../editor.rst:79 ef29252b425c472fa56196158586e82a
 msgid "键盘：按 ``Shift + Alt + F``"
 msgstr "Keyboard: Press ``Shift + Alt + F``"
 
-#: ../../editor.rst:81 7dae963ecf5e4fb5aa31b9b65b11df3f
+#: ../../editor.rst:81 28a921fae45a4899bb6d0245a7c67146
 msgid "鼠标：右键单击代码并选择“格式化文档”。"
 msgstr "Mouse: Right-click the code and select \"Format Document\"."
 
-#: ../../editor.rst:86 b11cd645421045ed89ff65686525176c
-msgid "格式后如果发现某行代码太长，可以尝试手动将其断行在格式化，“格式化文档”会保留您的断行信息"
+#: ../../editor.rst:86 5e24525f1e7248a2b10b267c6bda2b68
+msgid "格式后如果发现某行代码太长，可以尝试手动将其断行在格式化，“格式化文档”会保留您的断行信息。"
 msgstr ""
 "After formatting, if you find that a line of code is too long, you can try "
-"to manually break the line and format it, \"Format Document\" will retain "
-"your line-breaking information"
+"to manually break the line and format it. \"Format Document\" will retain "
+"your line-breaking information."
 
-#: ../../editor.rst:90 e32ad9552d66403a86997282989760c5
+#: ../../editor.rst:90 421f8aa3fa3346f6a5838b361a1677c0
 msgid "格式化之前，需要先确保代码没有语法错误，可以正常编译"
 msgstr ""
 "Before formatting, you need to make sure that the code has no syntax errors "

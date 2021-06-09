@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sCrypt-IDE-docs 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-04 00:29+0800\n"
+"POT-Creation-Date: 2021-06-09 14:03+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,43 +16,43 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../moveincode.rst:2 015eb80971f94d41af4affe37f7cf2e3
+#: ../../moveincode.rst:2 9bac6d6f35fa45f1855c3304dfb57a0a
 msgid "大纲"
 msgstr "大纲"
 
-#: ../../moveincode.rst:4 e1f05aeead774bde9d54774b90ba8a09
-msgid "可使用“大纲”（在资源管理器中），在基本代码中代码导航。 点击对于的项目，代码编辑器就会跳转到对应的代码"
-msgstr "可使用“大纲”（在资源管理器中），在基本代码中代码导航。 点击对于的项目，代码编辑器就会跳转到对应的代码"
+#: ../../moveincode.rst:4 36cee6ced34641c384bc7ffc03fc69af
+msgid "可使用“大纲”（在资源管理器中）在代码中导航。 点击对于的项目，代码编辑器就会跳转到对应的代码。"
+msgstr "可使用“大纲”（在资源管理器中）在代码中导航。 点击对于的项目，代码编辑器就会跳转到对应的代码。"
 
-#: ../../moveincode.rst:12 847b93ccf4a2474c87cf2711667eea7f
+#: ../../moveincode.rst:12 5108366caae5400f81ae3ad902272fd6
 msgid "转到符号"
 msgstr "转到符号"
 
-#: ../../moveincode.rst:14 ce69213c08e6455b97575f31ae06d6bc
+#: ../../moveincode.rst:14 7f04825776ea41538e7999e39e436351
 msgid "如果想跳转到当前文件中的某个符号，可以按以下快捷键:"
 msgstr "如果想跳转到当前文件中的某个符号，可以按以下快捷键:"
 
-#: ../../moveincode.rst:16 bc946cbc18eb412f9c80e48f34459977
+#: ../../moveincode.rst:16 5c9abbbfe47d47cda0ae27b186769291
 msgid "Windows: ``Ctrl + Shift + o``"
 msgstr "Windows: ``Ctrl + Shift + o``"
 
-#: ../../moveincode.rst:18 017d6760624b4f7a892e92aac29ea274
+#: ../../moveincode.rst:18 d6d063fbce8348d5b4bc36ec57c27308
 msgid "Mac: ``Command + Shift+ o``"
 msgstr "Mac: ``Command + Shift+ o``"
 
-#: ../../moveincode.rst:20 0c046f3b25174e68a2d0693f53538862
+#: ../../moveincode.rst:20 24d3f7492f564a809ee1dcb0668eb847
 msgid "Ubuntu: ``Ctrl + Shift + o``"
 msgstr "Ubuntu: ``Ctrl + Shift + o``"
 
-#: ../../moveincode.rst:22 4e83bcc577394fe0afac57f18c267408
+#: ../../moveincode.rst:22 b7e5e06f29364eacb7e4a4e337d2ddce
 msgid "如果当前文件代码比较多，跳转到符号能够大大提升查找代码的效率"
 msgstr "如果当前文件代码比较多，跳转到符号能够大大提升查找代码的效率"
 
-#: ../../moveincode.rst:29 94242920385a4328baa43755b9939a5c
+#: ../../moveincode.rst:29 ed81728981ca4fb3bfebb84b15879c19
 msgid "查找所有引用"
 msgstr "查找所有引用"
 
-#: ../../moveincode.rst:31 6b6c493e90d44f80b6ed196c5362e29b
+#: ../../moveincode.rst:31 968499b5c94941f9b55cbf996ac704d7
 msgid ""
 "在代码元素上右键单击，使用“查找所有引用”命令，可以在整个代码库中查找引用该代码元素的上下文。如果使用键盘，请按 ``Shift + Alt + "
 "F12`` 。"
@@ -60,11 +60,11 @@ msgstr ""
 "在代码元素上右键单击，使用“查找所有引用”命令，可以在整个代码库中查找引用该代码元素的上下文。如果使用键盘，请按 ``Shift + Alt + "
 "F12`` 。"
 
-#: ../../moveincode.rst:39 f2480081afdc4db182d42bb3e0070b1f
+#: ../../moveincode.rst:39 fe012f2c853440ae84470f56e331b880
 msgid "转到定义"
 msgstr "转到定义"
 
-#: ../../moveincode.rst:41 357f44bedff3478bb4ef9e235f1af7df
+#: ../../moveincode.rst:41 04d613e837c1464dafcff955f19068fa
 msgid ""
 "**Ctrl + 单击** 是鼠标用户快速访问 **转到定义** 的快捷方式。当需要查看符号在代码中的定义，按 Ctrl "
 "并将鼠标悬停在类型或变量上，符号变为可单击。 要快速导航到某个符号的定义，按 Ctrl "
@@ -74,11 +74,11 @@ msgstr ""
 "并将鼠标悬停在类型或变量上，符号变为可单击。 要快速导航到某个符号的定义，按 Ctrl "
 "键然后单击该符号。如果符号不是在当前文件定义的，会在新选项卡中打开结果。"
 
-#: ../../moveincode.rst:49 76b8603e440f422597fd9e4e5f1adeec
+#: ../../moveincode.rst:49 b72befef5afa42fd942a53891e8a5e97
 msgid "查看定义"
 msgstr "查看定义"
 
-#: ../../moveincode.rst:51 0c5c5f50dc434c3dbfdd53c005afeb98
+#: ../../moveincode.rst:51 415e03c0a9744d8eb7d53f138bc7bf96
 msgid ""
 "“查看定义” 功能有助于预览类型的定义，无需离开编辑器中的当前位置。 如果使用键盘，请将文本游标放置在类型或成员名称内的某个地方，然后按 **Alt +"
 " F12** 。 如果使用鼠标，可以选择右键单击菜单中的“速览定义”。"

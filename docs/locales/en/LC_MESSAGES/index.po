@@ -5,15 +5,16 @@
 # 
 # Translators:
 # qtom zheng <zhfnjust@gmail.com>, 2021
+# Xiaohui Liu <x.liu@scrypt.io>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: sCrypt-IDE-docs 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-05 10:39+0800\n"
+"POT-Creation-Date: 2021-06-08 10:40+0800\n"
 "PO-Revision-Date: 2021-06-02 09:22+0000\n"
-"Last-Translator: qtom zheng <zhfnjust@gmail.com>, 2021\n"
+"Last-Translator: Xiaohui Liu <x.liu@scrypt.io>, 2021\n"
 "Language-Team: English (https://www.transifex.com/scrypt-1/teams/121283/en/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,45 +22,43 @@ msgstr ""
 "Language: en\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../index.rst:27 ../../index.rst:27 9ec66b8fca2d47e887ccb192708a2459
+#: ../../index.rst:27 ../../index.rst:27 4fa1bd926c5b4837b41f02783c779f6b
 msgid "目录:"
 msgstr "Contents:"
 
-#: ../../index.rst:9 77e0fbd3664b4392b93d6ca479bf09b6
+#: ../../index.rst:9 555452e7863147b5beb1b7f720aa1fe2
 msgid "欢迎阅读 sCrypt IDE 官方文档"
 msgstr "Welcome to the official documentation of sCrypt IDE"
 
-#: ../../index.rst:12 120ce998a1194ed2b997759f89209129
+#: ../../index.rst:12 f5feeeccc8e643d58f9f82249cfa54ba
 msgid ""
 "**sCrypt IDE** 是 **sCrypt** 官方开发工具, 包含用于编写、编译、调试、测试、部署 **sCrypt** 智能合约的 GUI "
 "构建器和工具， 为 **sCrypt** 开发者提供强有力的支持， 可用于专业开发，也适用于sCrypt智能合约的学习与教学。"
 msgstr ""
-"**sCrypt IDE** is the official development tool of **sCrypt**, including GUI"
-" builders and tools for writing, compiling, debugging, testing, and "
-"deploying **sCrypt** smart contracts, for **sCrypt** developers Provide "
-"strong support, which can be used for professional development, and is also "
-"suitable for learning and teaching of sCrypt smart contracts."
+"**sCrypt IDE** is the official development tool of **sCrypt**, including "
+"writing, compiling, debugging, testing, and deploying sCrypt smart "
+"contracts."
 
-#: ../../index.rst:16 4162580e3ab446e7ad6dc9e6ad4435c2
+#: ../../index.rst:16 f51b6dfe3bee4f99bfcb532461e00600
 msgid "本文档包含有关如何使用 **sCrypt IDE** 的说明。"
 msgstr "This document contains instructions on how to use **sCrypt IDE**."
 
-#: ../../index.rst:19 9a563e01d2a540d5b8993140040425ab
+#: ../../index.rst:19 57ab0ea80cd34b849d11c864dc0cfb44
 msgid "链接："
 msgstr "Links:"
 
-#: ../../index.rst:21 9fa3efb970ee4442aaaaa431fc1659ab
+#: ../../index.rst:21 8a8007145809486dbfbd59d2ddb87479
 msgid "`sCrypt语言参考`_"
 msgstr "`sCrypt Language Reference`_"
 
-#: ../../index.rst:22 03e25cb467154959912761e98730fa23
+#: ../../index.rst:22 ae3a3852ca90404eb70cfb8ba465b934
 msgid "`sCrypt官方网站`_"
 msgstr "`sCrypt official website`_"
 
-#: ../../index.rst:23 f07ead715cbf4186b89e54c8181dff47
+#: ../../index.rst:23 15d3f17dd4104cb59399abb9d824e15c
 msgid "`博客`_"
 msgstr "`Blog`_"
 
-#: ../../index.rst:24 ac42e7fe10f34e56bcb78336c5f47904
+#: ../../index.rst:24 72a28f64f9aa401c9fbc875fed5f07c4
 msgid "`Slack`_"
 msgstr "`Slack`_"

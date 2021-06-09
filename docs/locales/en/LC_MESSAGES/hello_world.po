@@ -5,15 +5,16 @@
 # 
 # Translators:
 # qtom zheng <zhfnjust@gmail.com>, 2021
+# Xiaohui Liu <x.liu@scrypt.io>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: sCrypt-IDE-docs 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-04 00:29+0800\n"
+"POT-Creation-Date: 2021-06-08 10:40+0800\n"
 "PO-Revision-Date: 2021-06-02 09:22+0000\n"
-"Last-Translator: qtom zheng <zhfnjust@gmail.com>, 2021\n"
+"Last-Translator: Xiaohui Liu <x.liu@scrypt.io>, 2021\n"
 "Language-Team: English (https://www.transifex.com/scrypt-1/teams/121283/en/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,44 +22,44 @@ msgstr ""
 "Language: en\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../hello_world.rst:2 3d00600e390b4fb4b63023317340f855
+#: ../../hello_world.rst:2 51fef5b589664810af715a25164d5f41
 msgid "Hello World"
 msgstr "Hello World"
 
-#: ../../hello_world.rst:5 4fbb11fc4b9e41afb9dae8b1bee2395e
+#: ../../hello_world.rst:5 ef2932f805f44dabb41258dfe9ff7c20
 msgid "初始化项目"
-msgstr "Initialize the project"
+msgstr "Initialize a project"
 
-#: ../../hello_world.rst:7 c651db4195954a7a869671ae755a6a60
+#: ../../hello_world.rst:7 ea8380a6018f42c3aef628ee56d0aae2
 msgid "开始编写合约之前，先创建一个helloworld目录，并进入到目录，然后创建 ``helloworld.scrypt`` 文件。"
 msgstr ""
-"Before writing the contract, first create a helloworld directory, enter the "
-"directory, and then create the ``helloworld.scrypt`` file."
+"Before writing a contract, first create a ``helloworld`` directory. Enter "
+"the directory, and then create a ``helloworld.scrypt`` file."
 
-#: ../../hello_world.rst:11 d890f80ea4b94cbbb0645e35d1e3656f
+#: ../../hello_world.rst:11 66d56656b48c42e8beae0387cd14e72a
 msgid "编写合约"
 msgstr "Write a contract"
 
-#: ../../hello_world.rst:27 c8ac48eee15d4fc38802fe073878bdf6
+#: ../../hello_world.rst:27 eb05ddb71f2243da9eaf772eee2232fe
 msgid "运行合约"
 msgstr "Run the contract"
 
-#: ../../hello_world.rst:29 875ed8765ba14f909771781de12146ac
+#: ../../hello_world.rst:29 1c4993e69c8542dd9907444c10419fca
 msgid "打开 VS Code 的 **运行和调试** 视图，点击 **创建 launch.json 文件** 按钮，创建如下配置："
 msgstr ""
 "Open the **Run and Debug** view of VS Code and click the **Create "
 "launch.json file** button to create the following configuration:"
 
-#: ../../hello_world.rst:51 b4b5a58eb9fa4b3f8d96869f55197e1a
+#: ../../hello_world.rst:51 12f219eb76e44363b6f3edbbac78875c
 msgid ""
 "打开 ``helloworld.scrypt`` 文件, 按 **F5** 启动调试器，**调试控制台** 会输出 ``Execution "
 "successful.``"
 msgstr ""
-"Open the ``helloworld.scrypt`` file, press **F5** to start the debugger, the"
-" **Debug Console** will output ``Execution successful.``"
+"Open ``helloworld.scrypt``, press **F5** to start the debugger. The **Debug "
+"Console** will output ``Execution successful.``"
 
-#: ../../hello_world.rst:57 2514ad6421ff413497f8545ee93cc38b
+#: ../../hello_world.rst:57 ad18dc117d4a42fd89f6b9c551c21bd6
 msgid "恭喜你，完成了一个 ``HelloWorld`` 合约的开发和运行"
 msgstr ""
-"Congratulations, you have completed the development and operation of a "
-"``HelloWorld`` contract"
+"Congratulations, you have completed the development and call of the "
+"``HelloWorld`` contract."
