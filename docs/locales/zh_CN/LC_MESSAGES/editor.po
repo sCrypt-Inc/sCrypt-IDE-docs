@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sCrypt-IDE-docs 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-09 14:03+0800\n"
+"POT-Creation-Date: 2021-06-09 16:05+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -53,8 +53,8 @@ msgid "函数签名帮助"
 msgstr "函数签名帮助"
 
 #: ../../editor.rst:36 a1b65c95ce0746ee97dfe3e5aaaea640
-msgid "在代码编辑过程中，**IDE** 会根据你的输入，自动给出函数签名的相关提示。"
-msgstr "在代码编辑过程中，**IDE** 会根据你的输入，自动给出函数签名的相关提示。"
+msgid "在输入函数名后，**IDE** 会根据你的输入，自动给出函数签名的相关提示。"
+msgstr "在输入函数名后，**IDE** 会根据你的输入，自动给出函数签名的相关提示。"
 
 #: ../../editor.rst:43 f69068fbbca942e285c7b71b2b030752
 msgid "错误和警告标记"

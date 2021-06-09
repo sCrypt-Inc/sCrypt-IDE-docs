@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sCrypt-IDE-docs 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-09 14:03+0800\n"
+"POT-Creation-Date: 2021-06-09 16:05+0800\n"
 "PO-Revision-Date: 2021-06-02 09:22+0000\n"
 "Last-Translator: qtom zheng <zhfnjust@gmail.com>, 2021\n"
 "Language-Team: English (https://www.transifex.com/scrypt-1/teams/121283/en/)\n"
@@ -64,8 +64,10 @@ msgid "函数签名帮助"
 msgstr "Function Signature Help"
 
 #: ../../editor.rst:36 a1b65c95ce0746ee97dfe3e5aaaea640
-msgid "在代码编辑过程中，**IDE** 会根据你的输入，自动给出函数签名的相关提示。"
-msgstr "After a function name is entered, **IDE** will prompt its signature."
+msgid "在输入函数名后，**IDE** 会根据你的输入，自动给出函数签名的相关提示。"
+msgstr ""
+"After entering the function name, **IDE** will automatically give relevant "
+"prompts about the function signature based on your input."
 
 #: ../../editor.rst:43 f69068fbbca942e285c7b71b2b030752
 msgid "错误和警告标记"
