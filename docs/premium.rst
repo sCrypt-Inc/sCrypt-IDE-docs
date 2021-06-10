@@ -58,7 +58,7 @@
 复制值
 -------------------
 
-在 **Data Stack** 窗口中数据项上单击右键，会出现 **Copy Value** 菜单。点击改菜单可以将栈上的数据复制到剪切板。
+在 **Data Stack** 窗口中数据项上单击右键，会出现 **Copy Value** 菜单。点击该菜单可以将栈上的数据复制到剪切板。
 
 .. image:: ./images/asm_copyvalue.png
     :width: 100%

@@ -57,4 +57,4 @@
 
 #. **sCrypt: Show Transaction ID**
 
-    通过交易的 Raw-Hex 打印出交易的 ``ID``
+    打印出hex格式的交易的 ``txid``
