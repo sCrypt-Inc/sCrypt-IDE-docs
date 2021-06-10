@@ -8,7 +8,7 @@
     "gettext": ".\\make.bat gettext",
     "push:all": "npm run gettext && tx push -s",
     "push": "npm run gettext && tx push -s -r ",
-    "pull:all": "git diff",
+    "pull:all": "tx pull -a",
     "postpull:all": "npm run build:cn && npm run build:en",
     "pull": "tx pull -s -r ",
     "postpull": "npm run build:cn && npm run build:en",
