@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# qtom zheng <zhfnjust@gmail.com>, 2021
 # Xiaohui Liu <x.liu@scrypt.io>, 2021
+# qtom zheng <zhfnjust@gmail.com>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: sCrypt-IDE-docs 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-08 10:40+0800\n"
+"POT-Creation-Date: 2021-06-10 10:02+0800\n"
 "PO-Revision-Date: 2021-06-02 09:22+0000\n"
-"Last-Translator: Xiaohui Liu <x.liu@scrypt.io>, 2021\n"
+"Last-Translator: qtom zheng <zhfnjust@gmail.com>, 2021\n"
 "Language-Team: English (https://www.transifex.com/scrypt-1/teams/121283/en/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -30,12 +30,15 @@ msgstr "Compiling"
 msgid "自动编译"
 msgstr "Automatic Compilation"
 
-#: ../../compiling.rst:11 37feb5f4cc4446bd9a83ca0aa7bb85ce
-msgid "每次修改代码，**IDE** 都会重新编译代码，同时也会监听文件系统。如果当前打开的文件依赖的文件被删除，也会重新编译代码。"
+#: ../../compiling.rst:11 e7e874ac06b54a6c8a5019b47fb9868c
+msgid ""
+"在编辑器上修改代码，**IDE** 会自动编译代码，以检查最新代码能否编译通过。如果编译失败，**问题** 面板中的会出现错误提示。自动编译不会输出 "
+"**合约描述文件**。"
 msgstr ""
-"Every time you modify the code, the **IDE** will recompile the code and also"
-" monitor the file system. If the file that the currently opened file depends"
-" on is deleted, the code will also be recompiled."
+"Modify the code on the editor, **IDE** will automatically compile the code "
+"to check whether the latest code can be compiled. If the compilation fails, "
+"an error message will appear in the **Problems** panel. Automatic "
+"compilation will not output the **contract description file**."
 
 #: ../../compiling.rst:15 f888b12e2b6a455fa9cd4064701cfa38
 msgid "手动编译"
@@ -113,7 +116,7 @@ msgstr ""
 "become smaller and save transaction fees. Currently only paid users can use "
 "this feature, please refer to :ref:`Premium paid features <premium>`"
 
-#: ../../compiling.rst:57 04bedb2a91fe43d38455fea44a0dc78a
+#: ../../compiling.rst:60 04bedb2a91fe43d38455fea44a0dc78a
 msgid ""
 "不版本的编译器编译出来的脚本可能会不一样，但是它们是等价的。如果编译出来的脚本发生变化，通常会导致旧的的 **交易原象** "
 "无法校验通过，通过计算一个新的 **交易原象** 即可修复此问题。"
@@ -123,7 +126,7 @@ msgstr ""
 "old **transaction preimage** to fail verification. This problem can be fixed"
 " by calculating a new **transaction preimage**."
 
-#: ../../compiling.rst:61 7dbfaed838864f4288cd5d122161f1c6
+#: ../../compiling.rst:64 7dbfaed838864f4288cd5d122161f1c6
 msgid "改大小计算方式不包含合约构造函数参数"
 msgstr ""
 "Change the size calculation method to not include contract constructor "

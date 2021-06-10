@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sCrypt-IDE-docs 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-04 16:57+0800\n"
+"POT-Creation-Date: 2021-06-10 10:02+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,27 +16,31 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../compiling.rst:5 ea8b697be363482e91b40b9ffac14a75
+#: ../../compiling.rst:5 a331ff95dd29414fa4e1661efd7b56c7
 msgid "编译"
 msgstr "编译"
 
-#: ../../compiling.rst:9 c5331d6cc28a41459d93f2ee2e9f53db
+#: ../../compiling.rst:9 487d07c2d8dc4466b451cbf83234707e
 msgid "自动编译"
 msgstr "自动编译"
 
-#: ../../compiling.rst:11 9d97b193ab5b4e3cacf804971eb3d40b
-msgid "每次修改代码，**IDE** 都会重新编译代码，同时也会监听文件系统。如果当前打开的文件依赖的文件被删除，也会重新编译代码。"
-msgstr "每次修改代码，**IDE** 都会重新编译代码，同时也会监听文件系统。如果当前打开的文件依赖的文件被删除，也会重新编译代码。"
+#: ../../compiling.rst:11 e7e874ac06b54a6c8a5019b47fb9868c
+msgid ""
+"在编辑器上修改代码，**IDE** 会自动编译代码，以检查最新代码能否编译通过。如果编译失败，**问题** 面板中的会出现错误提示。自动编译不会输出 "
+"**合约描述文件**。"
+msgstr ""
+"在编辑器上修改代码，**IDE** 会自动编译代码，以检查最新代码能否编译通过。如果编译失败，**问题** 面板中的会出现错误提示。自动编译不会输出 "
+"**合约描述文件**。"
 
-#: ../../compiling.rst:15 fd52603d5e9f4aad8c893af3ac083b8d
+#: ../../compiling.rst:15 f888b12e2b6a455fa9cd4064701cfa38
 msgid "手动编译"
 msgstr "手动编译"
 
-#: ../../compiling.rst:16 6b087dbd47a14cf1b0a8cd17b176a650
+#: ../../compiling.rst:16 62afa6b0a6ea4d68bbd20ec414b62edf
 msgid "**IDE** 支持在代码编辑器/资源管理器上下文菜单中编译合约文件。"
 msgstr "**IDE** 支持在代码编辑器/资源管理器上下文菜单中编译合约文件。"
 
-#: ../../compiling.rst:21 c317361d82b5435694a99d33468b54af
+#: ../../compiling.rst:21 95f15198980a408387b1c96ba890b9ad
 msgid ""
 "编译完成后，在VS Code 窗口的右下角会有 **通知** ，同时 **输出面板** 也会输出编译结果，包括编译的合约文件名，编译出来的脚本大小 "
 "[1]_， 合约描述文件存放路径。"
@@ -44,27 +48,27 @@ msgstr ""
 "编译完成后，在VS Code 窗口的右下角会有 **通知** ，同时 **输出面板** 也会输出编译结果，包括编译的合约文件名，编译出来的脚本大小 "
 "[1]_， 合约描述文件存放路径。"
 
-#: ../../compiling.rst:27 064bb621a6a74eeca53f4997de4e7e1e
+#: ../../compiling.rst:27 096e20aeb4154ef6947df4911a012b7a
 msgid "合约描述文件"
 msgstr "合约描述文件"
 
-#: ../../compiling.rst:29 af13fb8285fd4d12b996fa178b556619
+#: ../../compiling.rst:29 447a3d9e06bd4bd9803bc94fe5113490
 msgid "合约描述文件是编译合约的输出结果，可用于测试、部署、调用和集成合约。"
 msgstr "合约描述文件是编译合约的输出结果，可用于测试、部署、调用和集成合约。"
 
-#: ../../compiling.rst:32 f4c6c1fa15b84dacbddc1d570450b61c
+#: ../../compiling.rst:32 ee847f9246a845d2a73499feb2957331
 msgid "`scryptlib`_ 文档有关于 **合约描述文件** 的详细介绍。"
 msgstr "`scryptlib`_ 文档有关于 **合约描述文件** 的详细介绍。"
 
-#: ../../compiling.rst:37 33ff893dd7224a74af28dbebd6db51d3
+#: ../../compiling.rst:37 f9a6abcb76dd4eec88f130dde1b2f51a
 msgid "调试编译"
 msgstr "调试编译"
 
-#: ../../compiling.rst:39 70eb29ead3e443c3bd453196280f79f1
+#: ../../compiling.rst:39 e975cb19570b41389aaaa03956f01621
 msgid "*在代码编辑器上右键单击，选择* : ``Compile Contract : Debug``"
 msgstr "*在代码编辑器上右键单击，选择* : ``Compile Contract : Debug``"
 
-#: ../../compiling.rst:41 1261976e71f14e12824087adf3b28264
+#: ../../compiling.rst:41 50613658e55b498b869173c22c8d0bb7
 msgid ""
 "在开发过程中主要使用调试编译来构建合约，包括调试器、单元测试，甚至部署调用合约也可以使用此构建类型。在该构建类型下， "
 "编译器生成的脚本不包含优化，包含辅助信息，可以用于调试和定位异常。"
@@ -72,15 +76,15 @@ msgstr ""
 "在开发过程中主要使用调试编译来构建合约，包括调试器、单元测试，甚至部署调用合约也可以使用此构建类型。在该构建类型下， "
 "编译器生成的脚本不包含优化，包含辅助信息，可以用于调试和定位异常。"
 
-#: ../../compiling.rst:47 70daf66b1c4d407e87a20c69daf9f9d1
+#: ../../compiling.rst:47 689068bfa0af4cb0a410f3eb774275b3
 msgid "发布编译"
 msgstr "发布编译"
 
-#: ../../compiling.rst:49 f907a3c24476400aa8221cccbf8d044e
+#: ../../compiling.rst:49 c0097479b64a475a9e1afb21e87dcf24
 msgid "*在代码编辑器上右键单击，选择* : ``Compile Contract : Release``"
 msgstr "*在代码编辑器上右键单击，选择* : ``Compile Contract : Release``"
 
-#: ../../compiling.rst:51 1fb1f451dd0640f083a1d3d92df92ba1
+#: ../../compiling.rst:51 227ac91af8be41c29233d5966dee50d8
 msgid ""
 "当一切准备就绪之后，应该使用发布编译来构建合约。在该构建类型下， 编译器会 :ref:`生成优化 <optimize>` "
 "的脚本，删除辅助信息，从而使脚本会变得更小，节省交易手续费。 目前只有付费用户才能使用此功能，请参阅 :ref:`高级付费功能 <premium>`"
@@ -88,7 +92,7 @@ msgstr ""
 "当一切准备就绪之后，应该使用发布编译来构建合约。在该构建类型下， 编译器会 :ref:`生成优化 <optimize>` "
 "的脚本，删除辅助信息，从而使脚本会变得更小，节省交易手续费。 目前只有付费用户才能使用此功能，请参阅 :ref:`高级付费功能 <premium>`"
 
-#: ../../compiling.rst:57 64c18e018a574c68934ebfcd03063d1e
+#: ../../compiling.rst:60 04bedb2a91fe43d38455fea44a0dc78a
 msgid ""
 "不版本的编译器编译出来的脚本可能会不一样，但是它们是等价的。如果编译出来的脚本发生变化，通常会导致旧的的 **交易原象** "
 "无法校验通过，通过计算一个新的 **交易原象** 即可修复此问题。"
@@ -96,6 +100,6 @@ msgstr ""
 "不版本的编译器编译出来的脚本可能会不一样，但是它们是等价的。如果编译出来的脚本发生变化，通常会导致旧的的 **交易原象** "
 "无法校验通过，通过计算一个新的 **交易原象** 即可修复此问题。"
 
-#: ../../compiling.rst:61 68073e259f7646e4831444e92c9e9f77
+#: ../../compiling.rst:64 7dbfaed838864f4288cd5d122161f1c6
 msgid "改大小计算方式不包含合约构造函数参数"
 msgstr "改大小计算方式不包含合约构造函数参数"

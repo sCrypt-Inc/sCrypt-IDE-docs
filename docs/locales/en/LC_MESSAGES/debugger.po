@@ -4,8 +4,8 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Xiaohui Liu <x.liu@scrypt.io>, 2021
 # qtom zheng <zhfnjust@gmail.com>, 2021
+# Xiaohui Liu <x.liu@scrypt.io>, 2021
 # 
 #, fuzzy
 msgid ""
@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-09 14:03+0800\n"
 "PO-Revision-Date: 2021-06-02 09:22+0000\n"
-"Last-Translator: qtom zheng <zhfnjust@gmail.com>, 2021\n"
+"Last-Translator: Xiaohui Liu <x.liu@scrypt.io>, 2021\n"
 "Language-Team: English (https://www.transifex.com/scrypt-1/teams/121283/en/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -444,10 +444,10 @@ msgid ""
 msgstr ""
 "Before starting the debugger, first set a breakpoint. Breakpoint is a basic "
 "and important function for debugging. If the file is opened in the code "
-"editor, you can set the breakpoint by clicking the left edge of the code "
-"line, or press **F9**. Then press **F5** or click the \"Start Debugging\" "
-"button in the **Run and Debug** sidebar panel, and the debugger will run to "
-"the first breakpoint it hits."
+"editor, you can set the breakpoint by clicking the margin, or press **F9**. "
+"Then press **F5** or click the \"Start Debugging\" button in the **Run and "
+"Debug** sidebar panel, and the debugger will run to the first breakpoint it "
+"hits."
 
 #: ../../debugger.rst:136 046ff0964d2d4e128838190ec19c3a26
 msgid "单步执行"
