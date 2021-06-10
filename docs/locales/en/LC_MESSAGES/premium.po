@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# qtom zheng <zhfnjust@gmail.com>, 2021
 # Xiaohui Liu <x.liu@scrypt.io>, 2021
+# qtom zheng <zhfnjust@gmail.com>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: sCrypt-IDE-docs 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-08 10:40+0800\n"
+"POT-Creation-Date: 2021-06-10 09:41+0800\n"
 "PO-Revision-Date: 2021-06-02 09:22+0000\n"
-"Last-Translator: Xiaohui Liu <x.liu@scrypt.io>, 2021\n"
+"Last-Translator: qtom zheng <zhfnjust@gmail.com>, 2021\n"
 "Language-Team: English (https://www.transifex.com/scrypt-1/teams/121283/en/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -118,10 +118,10 @@ msgstr "Copy Value"
 
 #: ../../premium.rst:61 b445e69c8fd74de2a089693dff5f87f5
 msgid ""
-"在 **Data Stack** 窗口中数据项上单击右键，会出现 **Copy Value** 菜单。点击改菜单可以将栈上的数据复制到剪切板。"
+"在 **Data Stack** 窗口中数据项上单击右键，会出现 **Copy Value** 菜单。点击该菜单可以将栈上的数据复制到剪切板。"
 msgstr ""
-"Right-click on a data item in the **Data Stack** window, and the **Copy "
-"Value** menu will appear. Click the menu to copy the data on the stack to "
+"Right-click on the data item in the **Data Stack** window, and the **Copy "
+"Value** menu will appear. Click this menu to copy the data on the stack to "
 "the clipboard."
 
 #: ../../premium.rst:68 9d28251ab0ea4912819eb3ea6ac5741a

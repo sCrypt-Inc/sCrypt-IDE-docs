@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# qtom zheng <zhfnjust@gmail.com>, 2021
 # Xiaohui Liu <x.liu@scrypt.io>, 2021
+# qtom zheng <zhfnjust@gmail.com>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: sCrypt-IDE-docs 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-08 10:40+0800\n"
+"POT-Creation-Date: 2021-06-10 09:41+0800\n"
 "PO-Revision-Date: 2021-06-02 09:22+0000\n"
-"Last-Translator: Xiaohui Liu <x.liu@scrypt.io>, 2021\n"
+"Last-Translator: qtom zheng <zhfnjust@gmail.com>, 2021\n"
 "Language-Team: English (https://www.transifex.com/scrypt-1/teams/121283/en/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,9 +22,9 @@ msgstr ""
 "Language: en\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../deploy.rst:5 e21cae7e18e446bcaf947e3e480aab9c
-msgid "部署调用合约"
-msgstr "Deploy and Call a Contract in a GUI"
+#: ../../deploy.rst:5 c6b43a74dd61402cbb174daa4c05f7e3
+msgid "图形化界面部署调用合约"
+msgstr "GUI deployment and call contract"
 
 #: ../../deploy.rst:8 7c7dbf9fafc040fc9e7748fa9d984535
 msgid ""
@@ -49,11 +49,10 @@ msgstr ""
 "to deployment view"
 
 #: ../../deploy.rst:17 7a2e5f1784004060bbac05808ca3a8c4
-msgid "本地合约窗口，加载当前工作区下 out 目录所有已经编译的 :ref:`合约描述文件 <contractdescription>`"
+msgid "本地合约窗口，加载当前工作区 ``out`` 目录下所有已经编译的 :ref:`合约描述文件 <contractdescription>`"
 msgstr ""
-"Local contract window, loading all compiled contracts in ``out`` directory "
-"under current workspace with :ref:`Contract description file "
-"<contractdescription>`"
+"Local contract window, load all compiled files in the ``out`` directory of "
+"the current workspace :ref:`Contract Description File <contractdescription>`"
 
 #: ../../deploy.rst:18 c5e87c9e7edd448dbcc8d7de84729a14
 msgid "已经部署成功的合约实例窗口"
@@ -404,10 +403,10 @@ msgid "复制值"
 msgstr "Copy Value"
 
 #: ../../deploy.rst:157 71265d1f43eb4cbd9b88419a384c79b7
-msgid "在合约实例窗口下选中某个函数，在参数列表上单击右键，会出现 **Copy Value** 菜单， 点击改菜单可以将参数的值复制到剪切板。"
+msgid "在合约实例窗口下选中某个函数，在参数列表上单击右键，会出现 **Copy Value** 菜单， 点击该菜单可以将参数的值复制到剪切板。"
 msgstr ""
 "Select a function in the contract instance window, right-click on the "
-"parameter list, and the **Copy Value** menu will appear. Click the menu to "
+"parameter list, and the **Copy Value** menu will appear. Click this menu to "
 "copy the value of the parameter to the clipboard."
 
 #: ../../deploy.rst:164 8b130cb393074f67a955e5cfa03111d0
@@ -423,7 +422,7 @@ msgid "删除单个合约实例"
 msgstr "Delete a Single Contract Instance"
 
 #: ../../deploy.rst:175 bd45134f66d94457bbf7fc77812615a3
-msgid "在合约实例上右键单击会出现 **Delete** 菜单， 点击改菜单可以删除该合约实例。"
+msgid "在合约实例上右键单击会出现 **Delete** 菜单， 点击该菜单可以删除该合约实例。"
 msgstr ""
 "Right-click on the contract instance and the **Delete** menu will appear. "
-"Click the menu to delete the contract instance."
+"Click this menu to delete the contract instance."

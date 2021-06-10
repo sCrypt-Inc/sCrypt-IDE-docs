@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# qtom zheng <zhfnjust@gmail.com>, 2021
 # Xiaohui Liu <x.liu@scrypt.io>, 2021
+# qtom zheng <zhfnjust@gmail.com>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: sCrypt-IDE-docs 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-08 10:40+0800\n"
+"POT-Creation-Date: 2021-06-10 09:41+0800\n"
 "PO-Revision-Date: 2021-06-04 16:37+0000\n"
-"Last-Translator: Xiaohui Liu <x.liu@scrypt.io>, 2021\n"
+"Last-Translator: qtom zheng <zhfnjust@gmail.com>, 2021\n"
 "Language-Team: English (https://www.transifex.com/scrypt-1/teams/121283/en/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -133,6 +133,6 @@ msgstr "Print out the public key hash corresponding to the private key"
 msgid "**sCrypt: Show Transaction ID**"
 msgstr "**sCrypt: Show Transaction ID**"
 
-#: ../../commands.rst:60 a2ff08ce62894a32afae28bf52d62886
-msgid "通过交易的 Raw-Hex 打印出交易的 ``ID``"
-msgstr "Print out the ``txid`` of a transaction represented in hex format"
+#: ../../commands.rst:60 6f12ac0a57e74b6aa38c5e8e3c596434
+msgid "打印出hex格式的交易的 ``txid``"
+msgstr "Print out the ``txid`` of the transaction in hex format"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sCrypt-IDE-docs 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-08 10:40+0800\n"
+"POT-Creation-Date: 2021-06-10 09:41+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -100,9 +100,9 @@ msgstr "复制值"
 
 #: ../../premium.rst:61 b445e69c8fd74de2a089693dff5f87f5
 msgid ""
-"在 **Data Stack** 窗口中数据项上单击右键，会出现 **Copy Value** 菜单。点击改菜单可以将栈上的数据复制到剪切板。"
+"在 **Data Stack** 窗口中数据项上单击右键，会出现 **Copy Value** 菜单。点击该菜单可以将栈上的数据复制到剪切板。"
 msgstr ""
-"在 **Data Stack** 窗口中数据项上单击右键，会出现 **Copy Value** 菜单。点击改菜单可以将栈上的数据复制到剪切板。"
+"在 **Data Stack** 窗口中数据项上单击右键，会出现 **Copy Value** 菜单。点击该菜单可以将栈上的数据复制到剪切板。"
 
 #: ../../premium.rst:68 9d28251ab0ea4912819eb3ea6ac5741a
 msgid "利用这个功能可以方便高级用户进一步提高开发调试效率，并且方便地进行一些脚本优化。"
