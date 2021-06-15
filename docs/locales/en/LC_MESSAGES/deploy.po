@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# qtom zheng <zhfnjust@gmail.com>, 2021
 # Xiaohui Liu <x.liu@scrypt.io>, 2021
+# qtom zheng <zhfnjust@gmail.com>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: sCrypt-IDE-docs 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-10 09:41+0800\n"
+"POT-Creation-Date: 2021-06-15 17:58+0800\n"
 "PO-Revision-Date: 2021-06-02 09:22+0000\n"
-"Last-Translator: Xiaohui Liu <x.liu@scrypt.io>, 2021\n"
+"Last-Translator: qtom zheng <zhfnjust@gmail.com>, 2021\n"
 "Language-Team: English (https://www.transifex.com/scrypt-1/teams/121283/en/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -150,11 +150,13 @@ msgid "有状态合约"
 msgstr "Stateful Contract"
 
 #: ../../deploy.rst:65 fefef128d8d14b9c9fd1657a343300ea
-msgid "在合约调用视图可以看到合约的当前信息，如合约锁定余额、当前执行阶段、内部状态等。要调用当前合约的函数，还需要根据情况完成以下几个步骤："
+msgid "在合约调用视图可以看到合约的当前信息，如合约锁定余额、合约当前状态、合约是否已结束等。要调用当前合约的函数，还需要根据情况完成以下几个步骤："
 msgstr ""
 "In the contract call view, you can see the current information of the "
-"contract, such as the locked amount and current state. To call the function "
-"of the current contract, you need to complete the following steps:"
+"contract, such as the locked balance of the contract, the current state of "
+"the contract, whether the contract has ended, etc. To call the function of "
+"the current contract, you need to complete the following steps according to "
+"the situation:"
 
 #: ../../deploy.rst:68 5e7cdf85e11144b9a060dc3ed9a193fc
 msgid "填写调用函数所需的实参。"
