@@ -5,16 +5,16 @@
 # 
 # Translators:
 # Xiaohui Liu <x.liu@scrypt.io>, 2021
-# qtom zheng <zhfnjust@gmail.com>, 2021
+# qtom zheng <zhfnjust@qq.com>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: sCrypt-IDE-docs 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-09 14:03+0800\n"
+"POT-Creation-Date: 2021-12-07 00:21+0800\n"
 "PO-Revision-Date: 2021-06-02 09:22+0000\n"
-"Last-Translator: qtom zheng <zhfnjust@gmail.com>, 2021\n"
+"Last-Translator: qtom zheng <zhfnjust@qq.com>, 2021\n"
 "Language-Team: English (https://www.transifex.com/scrypt-1/teams/121283/en/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -121,9 +121,9 @@ msgstr ""
 "Execute the *public* function of the contract to verify the correctness of "
 "the contract."
 
-#: ../../testing.rst:100 4a5ce10ba3684fbbb03fc3d938354beb
-msgid "快速调试错误"
-msgstr "Quickly Debug Exceptions"
+#: ../../testing.rst:100 ae2db0b79c5b45558160925ccc6f9a93
+msgid "启动调试器"
+msgstr "Start the debugger"
 
 #: ../../testing.rst:102 f7e31db7b6584965bba4595062c262b7
 msgid ""
@@ -153,11 +153,11 @@ msgstr ""
 " just before the error occurs in order to check the cause of the failure. "
 "Using this function can greatly improve the efficiency of debugging."
 
-#: ../../testing.rst:115 661889ad850e4d368617ce0a48e558b5
+#: ../../testing.rst:116 661889ad850e4d368617ce0a48e558b5
 msgid "Launch Debugger 命令"
 msgstr "Launch Debugger Command"
 
-#: ../../testing.rst:117 b88a338f19894146bd6d24cbe8f52fdc
+#: ../../testing.rst:118 b88a338f19894146bd6d24cbe8f52fdc
 msgid ""
 "通常情况下，可使用右键菜单来运行单元测试，这样可以从 **输出** 中单击测试报告中的链接来打开调试器。 但是某些情况下，测试在外部环境运行，比如终端。"
 " 这种情况您将无法通过单击测试报告中的链接来打开调试器。这个时候，可以使用 **Launch Debugger** 命令，将 "
@@ -171,7 +171,7 @@ msgstr ""
 "command: paste ``scryptlaunch:///{file}`` into the command input pop-up box,"
 " and press **Enter** to start the debugger."
 
-#: ../../testing.rst:123 de46ebd91e714d748648fdf96b9c3c81
+#: ../../testing.rst:124 de46ebd91e714d748648fdf96b9c3c81
 msgid "即使即将调试的合约不在当前项目中，也可以启动调试器"
 msgstr ""
 "Even if the contract to be debugged is not in the current project, you can "

@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# qtom zheng <zhfnjust@gmail.com>, 2021
 # Xiaohui Liu <x.liu@scrypt.io>, 2021
+# qtom zheng <zhfnjust@qq.com>, 2021
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: sCrypt-IDE-docs 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-09 14:03+0800\n"
+"POT-Creation-Date: 2021-12-07 00:38+0800\n"
 "PO-Revision-Date: 2021-06-02 09:22+0000\n"
-"Last-Translator: Xiaohui Liu <x.liu@scrypt.io>, 2021\n"
+"Last-Translator: qtom zheng <zhfnjust@qq.com>, 2021\n"
 "Language-Team: English (https://www.transifex.com/scrypt-1/teams/121283/en/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -433,11 +433,62 @@ msgstr ""
 msgid "了解校验签名是如何运作的: `CHECKSIG`_"
 msgstr "Understand how the verification signature works: `CHECKSIG`_"
 
-#: ../../debugger.rst:126 05032b2c25fa4e68b741b0ca54a6632d
-msgid "设置断点并启动"
-msgstr "Set a Breakpoint and Start"
+#: ../../debugger.rst:125 28f242de3d9844898f62524e7f94b526
+msgid "启动调试器"
+msgstr "Launch the debugger"
 
-#: ../../debugger.rst:129 bda139a63edd459cb5ec0e5ea5c7b4cc
+#: ../../debugger.rst:127 4a424456bc934744a5d9a26db4df7dfe
+msgid "启动调试器有4种方法："
+msgstr "There are 4 ways to start the debugger:"
+
+#: ../../debugger.rst:130 0c8031d2557947b3a8b538840d32c04b
+msgid "1. 通过 **F5** 启动"
+msgstr "1. Start by **F5**"
+
+#: ../../debugger.rst:132 b9aedceaa2d942c5b2adf38051491710
+msgid ""
+"通过 **F5** 启动，需要先创建 好launch.json "
+"并配置好启动参数。也可以通过调试视图的调试按钮来启动调试器。这是也是其它调试器最常见的启动方式。"
+msgstr ""
+"To start with **F5**, you need to create launch.json and configure the "
+"startup parameters. You can also start the debugger through the debug button"
+" in the debug view. This is also the most common way to start other "
+"debuggers."
+
+#: ../../debugger.rst:138 0602aeb16b4c474eb99f7108d6979593
+msgid "2. 通过 :ref:`单元测试 <Launch_Debugger_Link>` 启动"
+msgstr "2. Start by :ref:`Testing <Launch_Debugger_Link>` "
+
+#: ../../debugger.rst:141 285626eb8d444659b86add9ecac15d09
+msgid "3. 通过 :ref:`Launch Debugger 命令 <Launch_Debugger_Command>` 启动"
+msgstr "3. Start by :ref:`Launch Debugger command <Launch_Debugger_Command>`"
+
+#: ../../debugger.rst:144 6e9ad45cf22241aeaaa980395f79ad78
+msgid "4. 通过 **Launch Debugger from TxContext** 命令 启动"
+msgstr "4. Start by **Launch Debugger from TxContext** command"
+
+#: ../../debugger.rst:146 4bcf5001c9fd4b49b7447e7c481772dc
+msgid ""
+"**Launch Debugger from TxContext** 命令会打开一个调试器启动视图。允许你通过输入交易的 ``id`` 或者完整交易来 "
+"``rawTx`` 来调试合约。 "
+"你还可以选择调试主网或测试网上的交易，或者选择调试交易的哪一个输入，以及选择自动生成合约源代码或是附加一个已有的合约源码。自动生成的合约源码只包含 "
+"`内联汇编`_。 如果附加的合约源代码不正确，则会选择自动生成合约源代码。"
+msgstr ""
+"The **Launch Debugger from TxContext** command will open a debugger startup "
+"view. Allows you to debug the contract by entering the ``id`` of the "
+"transaction or the ``rawTx`` of the complete transaction. You can also "
+"choose to debug the transaction on the mainnet or testnet, or choose which "
+"input to debug the transaction, and choose to automatically generate the "
+"contract source code or attach an existing contract source code. The "
+"automatically generated contract source code only contains `Inline "
+"Assembly`_. If the attached contract source code is incorrect, the contract "
+"source code will be automatically generated."
+
+#: ../../debugger.rst:155 05032b2c25fa4e68b741b0ca54a6632d
+msgid "设置断点"
+msgstr "Set breakpoint"
+
+#: ../../debugger.rst:158 bda139a63edd459cb5ec0e5ea5c7b4cc
 msgid ""
 "在启动调试器之前，首先设置断点。断点是可靠调试的最基本和最重要的功能，若代码编辑器中打开了文件，则可通过单击代码行左侧的边缘来设置断点，或者按 "
 "**F9**。 接下来按 **F5** 或者 点击 **运行和调式** 侧边栏面板中的“开始调试”按钮，调试器将运行至它遇到的第一个断点。"
@@ -449,36 +500,36 @@ msgstr ""
 "Debug** sidebar panel, and the debugger will run to the first breakpoint it "
 "hits."
 
-#: ../../debugger.rst:136 046ff0964d2d4e128838190ec19c3a26
+#: ../../debugger.rst:165 046ff0964d2d4e128838190ec19c3a26
 msgid "单步执行"
 msgstr "Step Over"
 
-#: ../../debugger.rst:138 f45e05e0d3e64cdc94308935082e22c2
+#: ../../debugger.rst:167 f45e05e0d3e64cdc94308935082e22c2
 msgid "调试器遇到断点后，就进入中断模式，脚本执行被挂起，而函数、变量和合约实例保留在栈中，接下来："
 msgstr ""
 "After the debugger hits a breakpoint, it enters the debug mode. Contract "
 "execution is suspended. Functions, variables, and contract instances remain "
 "on the stack. Next:"
 
-#: ../../debugger.rst:140 8ec1cc1c60c0494191b133ccc392d094
+#: ../../debugger.rst:169 8ec1cc1c60c0494191b133ccc392d094
 msgid "通过按 **F10** 或 **F11** 开始单步执行代码"
 msgstr "Start stepping through the code by pressing **F10** or **F11**"
 
-#: ../../debugger.rst:142 b84548a9d26245c381c13b3bd0a82adb
+#: ../../debugger.rst:171 b84548a9d26245c381c13b3bd0a82adb
 msgid "通过打开右键菜单，选择 **运行到光标** 菜单"
 msgstr "Open the right-click menu and select **Run to Cursor** menu"
 
-#: ../../debugger.rst:144 0c8031d2557947b3a8b538840d32c04b
+#: ../../debugger.rst:173 0c8031d2557947b3a8b538840d32c04b
 msgid "通过按 **F5** 执行到下一个断点"
 msgstr "Execute to the next breakpoint by pressing **F5**"
 
-#: ../../debugger.rst:146 d66dfaf48e3e4185a1b314c0e057ac8f
+#: ../../debugger.rst:175 d66dfaf48e3e4185a1b314c0e057ac8f
 msgid "通过按 **Shit + F11** 停止单步执行， 跳出当前函数"
 msgstr ""
 "By pressing **Shit + F11** to stop single step execution, jump out of the "
 "current function"
 
-#: ../../debugger.rst:148 6fce4fd4dee2482dab5dd499d6bb01a7
+#: ../../debugger.rst:177 6fce4fd4dee2482dab5dd499d6bb01a7
 msgid ""
 "在通过上述操作浏览代码时，左侧调试视图的中的 **变量面板** 和 **调用堆栈面板** 中的数据会实时地变化，如果在 **监视面板** "
 "添加了表达式或者变量，将会实时地变化。"
@@ -488,51 +539,51 @@ msgstr ""
 "change in real time. If you add an expression or variable to the **Watch "
 "Panel**, it will change in real time too."
 
-#: ../../debugger.rst:153 5d4f3d7fc26e48dcbb80df800b5571e6
+#: ../../debugger.rst:182 5d4f3d7fc26e48dcbb80df800b5571e6
 msgid "一次调试只能以一个 *public* 函数为入口。"
 msgstr ""
 "Only one *public* function can be used as the entry point for debugging at a"
 " time."
 
-#: ../../debugger.rst:156 3d06371f56784b50a8841ebacac74218
+#: ../../debugger.rst:185 3d06371f56784b50a8841ebacac74218
 msgid "调试操作"
 msgstr "Debug Actions"
 
-#: ../../debugger.rst:158 bb9325352b854e44ae263512db43f598
+#: ../../debugger.rst:187 bb9325352b854e44ae263512db43f598
 msgid "调试会话开始后，调试工具栏将出现在代码编辑器的顶部。"
 msgstr ""
 "After the debugging session starts, the debugging toolbar will appear at the"
 " top of the code editor."
 
-#: ../../debugger.rst:164 8617a44b9359431dba314430b024b46b
+#: ../../debugger.rst:193 8617a44b9359431dba314430b024b46b
 msgid "继续/暂停 **F5**"
 msgstr "Continue/Pause **F5**"
 
-#: ../../debugger.rst:165 845ed1cbfd574ca8b4c06d0b524577e0
+#: ../../debugger.rst:194 845ed1cbfd574ca8b4c06d0b524577e0
 msgid "单步跨过 **F10**"
 msgstr "Step Over **F10**"
 
-#: ../../debugger.rst:166 17d505174f7e43b7b79f005686a89a5c
+#: ../../debugger.rst:195 17d505174f7e43b7b79f005686a89a5c
 msgid "单步跳入 **F11**"
 msgstr "Step Into **F11**"
 
-#: ../../debugger.rst:167 b8f0f13edf4246899683e12723d08e43
+#: ../../debugger.rst:196 b8f0f13edf4246899683e12723d08e43
 msgid "单步跳出 **Shift+F11**"
 msgstr "Step Out **Shift+F11**"
 
-#: ../../debugger.rst:168 88e3a1bc3b434146a32f02774df7862f
+#: ../../debugger.rst:197 88e3a1bc3b434146a32f02774df7862f
 msgid "重启调试器 **Ctrl+Shift+F5**"
 msgstr "Restart  **Ctrl+Shift+F5**"
 
-#: ../../debugger.rst:169 b144ca3ff5b64c79a7e813df96fa3d3a
+#: ../../debugger.rst:198 b144ca3ff5b64c79a7e813df96fa3d3a
 msgid "停止 **Shift+F5**"
 msgstr "Stop **Shift+F5**"
 
-#: ../../debugger.rst:173 7a20ca3f3e314410bbefcf8527dd4ca0
+#: ../../debugger.rst:202 7a20ca3f3e314410bbefcf8527dd4ca0
 msgid "变量"
 msgstr "Variable"
 
-#: ../../debugger.rst:175 1790fa485c224ab5867ccc6e68369c90
+#: ../../debugger.rst:204 1790fa485c224ab5867ccc6e68369c90
 msgid ""
 "**变量面板** 主要显示两个域的变量： 当前函数和静态变量。 ``this`` 表示当前合约， 单击可展开查看合约的所有属性。 ``Statics``"
 " 下则显示所有的静态变量。"
@@ -542,35 +593,35 @@ msgstr ""
 "expand to view all the properties of the contract. Under ``Statics``, all "
 "static variables are displayed."
 
-#: ../../debugger.rst:183 bbb0e157a9f24c23912a19700f7baadb
+#: ../../debugger.rst:212 bbb0e157a9f24c23912a19700f7baadb
 msgid "复制值"
 msgstr "Copy Value"
 
-#: ../../debugger.rst:185 cb6b80b32f254844a99dbe4c04269d4c
+#: ../../debugger.rst:214 cb6b80b32f254844a99dbe4c04269d4c
 msgid "在某个变量上右键单击，会出现 **复制值** 菜单，可以直接复制变量的值到剪切板中。"
 msgstr ""
 "Right-click on a variable, the **Copy Value** menu will appear, and you can "
 "directly copy the value of the variable to the clipboard."
 
-#: ../../debugger.rst:192 9fc6c780293c4adba8ad5fca3d442cce
+#: ../../debugger.rst:221 9fc6c780293c4adba8ad5fca3d442cce
 msgid "没有被引用到的静态变量不会出现在最后的脚本编译输出里，也不会在面板中显示。"
 msgstr ""
 "Static variables that are not referenced will not appear in the final script"
 " compilation output, nor will they be displayed in the panel."
 
-#: ../../debugger.rst:196 57397c01d16344d786662803fe51af23
+#: ../../debugger.rst:225 57397c01d16344d786662803fe51af23
 msgid "监视"
 msgstr "Watch"
 
-#: ../../debugger.rst:198 c4898cfe6e01443f998d7c27611974ba
+#: ../../debugger.rst:227 c4898cfe6e01443f998d7c27611974ba
 msgid "可以在 **监视面板** 中添加变量和表达式。"
 msgstr "You can add variables and expressions in the **Monitor Panel**."
 
-#: ../../debugger.rst:204 622766566f1747b582b9b66a26c9d95e
+#: ../../debugger.rst:233 622766566f1747b582b9b66a26c9d95e
 msgid "调用堆栈"
 msgstr "Call Stack"
 
-#: ../../debugger.rst:206 82561887e2004a19bd4ed52027e87d04
+#: ../../debugger.rst:235 82561887e2004a19bd4ed52027e87d04
 msgid ""
 "使用“调用堆栈”面板可以查看当前被调用的所有函数。 “调用堆栈”窗口显示函数被调用的顺序。栈底是当前调试的 *public* 函数。 "
 "单击“调用堆栈”上的函数名，代码编辑器会自动跳转到函数定义的位置。"
@@ -581,10 +632,10 @@ msgstr ""
 "Click the function name on the \"Call stack\" and the code editor will "
 "automatically jump to the location of the function definition."
 
-#: ../../debugger.rst:215 9577eb0b4b5041cdafa70d5024b9b2f4
+#: ../../debugger.rst:244 9577eb0b4b5041cdafa70d5024b9b2f4
 msgid "调试控制台 (REPL)"
 msgstr "Debug Console (REPL)"
 
-#: ../../debugger.rst:224 43ff24fdc87949e496225ab2d7e0edec
+#: ../../debugger.rst:253 43ff24fdc87949e496225ab2d7e0edec
 msgid "异常"
 msgstr "Exceptions"

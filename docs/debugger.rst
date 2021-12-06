@@ -144,7 +144,7 @@ opReturn             否     带状态合约的状态，从OP_RETURN开始，不
 -------------------------------------------------------------------------
 
 **Launch Debugger from TxContext** 命令会打开一个调试器启动视图。允许你通过输入交易的 ``id`` 或者完整交易来 ``rawTx`` 来调试合约。
-你还可以选择调试主网或测试网上的交易，或者选择调试交易的哪一个输入，以及选择自动生成合约源代码或是附加一个已有的合约源码。自动生成的合约源码只包含 `asm 块`_。
+你还可以选择调试主网或测试网上的交易，或者选择调试交易的哪一个输入，以及选择自动生成合约源代码或是附加一个已有的合约源码。自动生成的合约源码只包含 `内联汇编`_。
 如果附加的合约源代码不正确，则会选择自动生成合约源代码。
 
 .. image:: ./images/launchfromtxcontext.gif
@@ -263,5 +263,5 @@ opReturn             否     带状态合约的状态，从OP_RETURN开始，不
 .. _汇编变量: https://scryptdoc.readthedocs.io/zh_CN/latest/asm.html
 .. _Assembly Variable: https://scryptdoc.readthedocs.io/en/latest/asm.html
 .. _Opcodes: https://wiki.bitcoinsv.io/index.php/Opcodes_used_in_Bitcoin_Script
-.. _asm 块: https://scryptdoc.readthedocs.io/zh_CN/latest/asm.html
-.. _asm Block: https://scryptdoc.readthedocs.io/en/latest/asm.html
+.. _内联汇编: https://scryptdoc.readthedocs.io/zh_CN/latest/asm.html
+.. _Inline Assembly: https://scryptdoc.readthedocs.io/en/latest/asm.html

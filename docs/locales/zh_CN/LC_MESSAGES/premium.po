@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sCrypt-IDE-docs 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-10 09:41+0800\n"
+"POT-Creation-Date: 2021-12-07 00:29+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -48,29 +48,43 @@ msgstr "当前阶段颁发的所有许可证对于早期采用者都将终身有
 msgid "如何获得高级许可证"
 msgstr "如何获得高级许可证"
 
-#: ../../premium.rst:29 76f381d0953441feb842a1b54636ef1d
+#: ../../premium.rst:29 6cbe0eea73704beab75224c6c5b0a7a1
 msgid ""
-"通过使用 `Baemail`_ 服务向我们的官方邮件地址 scrypt@moneybutton.com 发送标题为 ‘Purchase An "
-"sCrypt Premium License’ 的邮件， "
-"同时在其中支付单个用户高级许可证的费用。待我们收到并确认后，会回复相应的高级许可证给发件人。如遇问题, 发邮件至 support@scrypt.io。"
+"以 199 美元的许可费通过 `scrypt@moneybutton.com` 向我们发送 BSV。 然后通过 support@scrypt.io "
+"给我们发送电子邮件，并提供以下信息："
 msgstr ""
-"通过使用 `Baemail`_ 服务向我们的官方邮件地址 scrypt@moneybutton.com 发送标题为 ‘Purchase An "
-"sCrypt Premium License’ 的邮件， "
-"同时在其中支付单个用户高级许可证的费用。待我们收到并确认后，会回复相应的高级许可证给发件人。如遇问题, 发邮件至 support@scrypt.io。"
+"以 199 美元的许可费通过 `scrypt@moneybutton.com` 向我们发送 BSV。 然后通过 support@scrypt.io "
+"给我们发送电子邮件，并提供以下信息："
 
-#: ../../premium.rst:33 479bd2bdf18b49ee91f2b83ff2b6ecb9
+#: ../../premium.rst:31 34ddc70389a4426994fdd524c227da43
+msgid "“购买sCrypt高级许可证”的主题"
+msgstr "“购买sCrypt高级许可证”的主题"
+
+#: ../../premium.rst:32 0b81af43f9d748938a605dbe296cb201
+msgid "付款的交易id"
+msgstr "付款的交易id"
+
+#: ../../premium.rst:33 f0d0110c85724dca9c101def285d5688
+msgid "你的paymail"
+msgstr "你的paymail"
+
+#: ../../premium.rst:35 6f1dfe4404d34491b19919bd756e153d
+msgid "收到您的电子邮件后，我们将回复您的电子邮件中绑定的许可证。 请不要将许可证分享给他人。"
+msgstr "收到您的电子邮件后，我们将回复您的电子邮件中绑定的许可证。 请不要将许可证分享给他人。"
+
+#: ../../premium.rst:38 479bd2bdf18b49ee91f2b83ff2b6ecb9
 msgid "如何使用高级许可证"
 msgstr "如何使用高级许可证"
 
-#: ../../premium.rst:35 253264e80f774a558071306acd0d9041
+#: ../../premium.rst:40 253264e80f774a558071306acd0d9041
 msgid "收到许可证后，在设置中 :ref:`设置激活 <settings_license>`。"
 msgstr "收到许可证后，在设置中 :ref:`设置激活 <settings_license>`。"
 
-#: ../../premium.rst:42 cce189b46c8c4bbcb84195e62a324093
+#: ../../premium.rst:47 cce189b46c8c4bbcb84195e62a324093
 msgid "脚本级调试"
 msgstr "脚本级调试"
 
-#: ../../premium.rst:44 c060a14e53634ab4b313ae0d55f05d4f
+#: ../../premium.rst:49 c060a14e53634ab4b313ae0d55f05d4f
 msgid ""
 "**IDE** 提供的调试器，不仅支持进行sCrypt 源码级的调试，也支持脚本级的调试。 当调试器进入中断模式后，点击代码编辑器右上角的 **View"
 " Script in debugging** 按钮，即可打开脚本视图。主要包括这几个功能点："
@@ -78,11 +92,11 @@ msgstr ""
 "**IDE** 提供的调试器，不仅支持进行sCrypt 源码级的调试，也支持脚本级的调试。 当调试器进入中断模式后，点击代码编辑器右上角的 **View"
 " Script in debugging** 按钮，即可打开脚本视图。主要包括这几个功能点："
 
-#: ../../premium.rst:49 1e1be1e03e5a4fab99133c70bd10f892
+#: ../../premium.rst:54 1e1be1e03e5a4fab99133c70bd10f892
 msgid "sCrypt 源码与其编译出的 Script 脚本之间关联映射的实时展示；"
 msgstr "sCrypt 源码与其编译出的 Script 脚本之间关联映射的实时展示；"
 
-#: ../../premium.rst:50 aea7db21c7ea495eb6a1c9ab44605ea8
+#: ../../premium.rst:55 aea7db21c7ea495eb6a1c9ab44605ea8
 msgid ""
 "通过单击代码行左侧的边缘来设置断点，通过按 **F10** 或 **F11** 开始单步执行比特脚本。更多调试技巧参阅 :ref:`调试器 "
 "<debugger>`"
@@ -90,29 +104,29 @@ msgstr ""
 "通过单击代码行左侧的边缘来设置断点，通过按 **F10** 或 **F11** 开始单步执行比特脚本。更多调试技巧参阅 :ref:`调试器 "
 "<debugger>`"
 
-#: ../../premium.rst:51 465a2603a0c142c19c5dc08755934d79
+#: ../../premium.rst:56 465a2603a0c142c19c5dc08755934d79
 msgid "在左下角的 **Data Stack** 窗口查看比特堆栈的实时状态；"
 msgstr "在左下角的 **Data Stack** 窗口查看比特堆栈的实时状态；"
 
-#: ../../premium.rst:59 f1fad1773d6a446586d9202b4e735ce4
+#: ../../premium.rst:64 f1fad1773d6a446586d9202b4e735ce4
 msgid "复制值"
 msgstr "复制值"
 
-#: ../../premium.rst:61 b445e69c8fd74de2a089693dff5f87f5
+#: ../../premium.rst:66 b445e69c8fd74de2a089693dff5f87f5
 msgid ""
 "在 **Data Stack** 窗口中数据项上单击右键，会出现 **Copy Value** 菜单。点击该菜单可以将栈上的数据复制到剪切板。"
 msgstr ""
 "在 **Data Stack** 窗口中数据项上单击右键，会出现 **Copy Value** 菜单。点击该菜单可以将栈上的数据复制到剪切板。"
 
-#: ../../premium.rst:68 9d28251ab0ea4912819eb3ea6ac5741a
+#: ../../premium.rst:73 9d28251ab0ea4912819eb3ea6ac5741a
 msgid "利用这个功能可以方便高级用户进一步提高开发调试效率，并且方便地进行一些脚本优化。"
 msgstr "利用这个功能可以方便高级用户进一步提高开发调试效率，并且方便地进行一些脚本优化。"
 
-#: ../../premium.rst:74 a7145dca77014c3a8e0e5b01e2a413b3
+#: ../../premium.rst:79 a7145dca77014c3a8e0e5b01e2a413b3
 msgid "代码优化"
 msgstr "代码优化"
 
-#: ../../premium.rst:76 10d29f5c235f40d4a5863dd2df4c0521
+#: ../../premium.rst:81 10d29f5c235f40d4a5863dd2df4c0521
 msgid ""
 "优化是将一段代码转换为其他功能上等效的代码以提高一个或多个特征的过程。两个最重要的特征是代码速度和大小。**sCrypt** 编程与使用 "
 "Javascript 或 Python 进行的传统编程不同，因为当将包含编译结果的交易提交到比特币网络时， "
@@ -126,12 +140,12 @@ msgstr ""
 "列出了一些技巧，供开发人员手动优化其 sCrypt 合约的脚本输出。而手动优化可能会导致含义模糊、难于维护的代码。 "
 "编译器为付费用户提供一个自动优化的功能。"
 
-#: ../../premium.rst:81 38087c55ae15466898dbef5103f66b75
+#: ../../premium.rst:86 38087c55ae15466898dbef5103f66b75
 msgid ""
 "当使用 :ref:`发布编译 <release_compiling>` 来构建合约时，编译器会自动开启优化，优化可以显著减小脚本的体积并提高其性能。"
 msgstr ""
 "当使用 :ref:`发布编译 <release_compiling>` 来构建合约时，编译器会自动开启优化，优化可以显著减小脚本的体积并提高其性能。"
 
-#: ../../premium.rst:84 63de4fb88cf846d79e7f5386bb58ae95
+#: ../../premium.rst:89 63de4fb88cf846d79e7f5386bb58ae95
 msgid "当前，交易费用仅与脚本/事务的大小成正比，未来会将演变为考虑脚本的复杂性。因此，优化目标也有望在未来发展演变。"
 msgstr "当前，交易费用仅与脚本/事务的大小成正比，未来会将演变为考虑脚本的复杂性。因此，优化目标也有望在未来发展演变。"
