@@ -121,8 +121,37 @@ opReturn             否     带状态合约的状态，从OP_RETURN开始，不
   了解校验签名是如何运作的: `CHECKSIG`_
 
 
+启动调试器
+======================
 
-设置断点并启动
+启动调试器有4种方法：
+
+1. 通过 **F5** 启动
+-------------------
+
+通过 **F5** 启动，需要先创建 好launch.json 并配置好启动参数。也可以通过调试视图的调试按钮来启动调试器。这是也是其它调试器最常见的启动方式。
+   
+.. image:: ./images/debugdemo.gif
+  :width: 100%
+
+2. 通过 :ref:`单元测试 <Launch_Debugger_Link>` 启动
+-------------------------------------------------------------------------
+
+3. 通过 :ref:`Launch Debugger 命令 <Launch_Debugger_Command>` 启动
+-------------------------------------------------------------------------
+
+4. 通过 **Launch Debugger from TxContext** 命令 启动
+-------------------------------------------------------------------------
+
+**Launch Debugger from TxContext** 命令会打开一个调试器启动视图。允许你通过输入交易的 ``id`` 或者完整交易来 ``rawTx`` 来调试合约。
+你还可以选择调试主网或测试网上的交易，或者选择调试交易的哪一个输入，以及选择自动生成合约源代码或是附加一个已有的合约源码。自动生成的合约源码只包含 `asm 块`_。
+如果附加的合约源代码不正确，则会选择自动生成合约源代码。
+
+.. image:: ./images/launchfromtxcontext.gif
+  :width: 100%
+
+
+设置断点
 ======================
 
 
@@ -234,3 +263,5 @@ opReturn             否     带状态合约的状态，从OP_RETURN开始，不
 .. _汇编变量: https://scryptdoc.readthedocs.io/zh_CN/latest/asm.html
 .. _Assembly Variable: https://scryptdoc.readthedocs.io/en/latest/asm.html
 .. _Opcodes: https://wiki.bitcoinsv.io/index.php/Opcodes_used_in_Bitcoin_Script
+.. _asm 块: https://scryptdoc.readthedocs.io/zh_CN/latest/asm.html
+.. _asm Block: https://scryptdoc.readthedocs.io/en/latest/asm.html
