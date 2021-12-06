@@ -26,8 +26,13 @@
 如何获得高级许可证
 --------------------
 
-通过使用 `Baemail`_ 服务向我们的官方邮件地址 scrypt@moneybutton.com 发送标题为 ‘Purchase An sCrypt Premium License’ 的邮件，
-同时在其中支付单个用户高级许可证的费用。待我们收到并确认后，会回复相应的高级许可证给发件人。如遇问题, 发邮件至 support@scrypt.io。
+以 199 美元的许可费通过 `scrypt@moneybutton.com` 向我们发送 BSV。 然后通过 support@scrypt.io 给我们发送电子邮件，并提供以下信息：
+
+1.“购买sCrypt高级许可证”的主题
+2.付款的交易id
+3.你的paymail
+
+收到您的电子邮件后，我们将回复您的电子邮件中绑定的许可证。 请不要将许可证分享给他人。
 
 如何使用高级许可证
 -------------------
