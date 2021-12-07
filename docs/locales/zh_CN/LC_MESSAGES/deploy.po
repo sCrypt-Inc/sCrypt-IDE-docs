@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sCrypt-IDE-docs 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-15 17:58+0800\n"
+"POT-Creation-Date: 2021-12-07 16:24+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -94,15 +94,27 @@ msgstr ""
 "**Deploy** 按钮，在 **输出面板** 可以看到部署成功的提示, 在左边的合约实例窗口 (DEPLOYED CONTRACTS) "
 "中会出现对应的实例，点击合约实例上的 View Tx 按钮，则可打开浏览器查看对应的交易。"
 
-#: ../../deploy.rst:51 3e012d2a5d5d4ec4b3dd2ad85e6ffd97
+#: ../../deploy.rst:51 747e11344aec488ca51b0a99944fd0bc
+msgid ""
+"部署P2PKH合约的时候会有一个Publickey Hash 的输入框，默认值是你设置的私钥的 ``Publickey "
+"Hash``，你可以把它修改成别的私钥的 ``Publickey Hash``。 "
+"如果你修改了，那么但你解锁它的时候，就需要有对应的私钥的签名。别担心，IDE 允许你输入对应的私钥。 "
+"签名输入框中的默认签名是用默认私钥计算的，在输入框的右边，有一个 [Sig] 按钮，点击它输入正确的私钥，就可以计算出正确的签名了"
+msgstr ""
+"部署P2PKH合约的时候会有一个Publickey Hash 的输入框，默认值是你设置的私钥的 ``Publickey "
+"Hash``，你可以把它修改成别的私钥的 ``Publickey Hash``。 "
+"如果你修改了，那么但你解锁它的时候，就需要有对应的私钥的签名。别担心，IDE 允许你输入对应的私钥。 "
+"签名输入框中的默认签名是用默认私钥计算的，在输入框的右边，有一个 [Sig] 按钮，点击它输入正确的私钥，就可以计算出正确的签名了"
+
+#: ../../deploy.rst:56 3e012d2a5d5d4ec4b3dd2ad85e6ffd97
 msgid "调用合约"
 msgstr "调用合约"
 
-#: ../../deploy.rst:54 fa7b81de7ae248afb6a6d88292803409
+#: ../../deploy.rst:59 fa7b81de7ae248afb6a6d88292803409
 msgid "普通合约"
 msgstr "普通合约"
 
-#: ../../deploy.rst:56 8c2833c6c0b94b9bbc684ed36182c4a1
+#: ../../deploy.rst:61 8c2833c6c0b94b9bbc684ed36182c4a1
 msgid ""
 "点击合约实例上的构造函数，则可查看构造函数调用时的实参。点击 *public* 函数，右边则会出现该函数的调用视图。 "
 "和部署合约的过程一样，只需给函数对应的参数赋值，点击 **Call** 按钮，就能调用该函数了。 如果调用成功，可以看到对应的交易， "
@@ -112,74 +124,74 @@ msgstr ""
 "和部署合约的过程一样，只需给函数对应的参数赋值，点击 **Call** 按钮，就能调用该函数了。 如果调用成功，可以看到对应的交易， "
 "失败则会打印出对应的错误。"
 
-#: ../../deploy.rst:63 3673668833d5491193ec57d40b3e5774
+#: ../../deploy.rst:68 3673668833d5491193ec57d40b3e5774
 msgid "有状态合约"
 msgstr "有状态合约"
 
-#: ../../deploy.rst:65 fefef128d8d14b9c9fd1657a343300ea
+#: ../../deploy.rst:70 fefef128d8d14b9c9fd1657a343300ea
 msgid "在合约调用视图可以看到合约的当前信息，如合约锁定余额、合约当前状态、合约是否已结束等。要调用当前合约的函数，还需要根据情况完成以下几个步骤："
 msgstr ""
 "在合约调用视图可以看到合约的当前信息，如合约锁定余额、合约当前状态、合约是否已结束等。要调用当前合约的函数，还需要根据情况完成以下几个步骤："
 
-#: ../../deploy.rst:68 5e7cdf85e11144b9a060dc3ed9a193fc
+#: ../../deploy.rst:73 5e7cdf85e11144b9a060dc3ed9a193fc
 msgid "填写调用函数所需的实参。"
 msgstr "填写调用函数所需的实参。"
 
-#: ../../deploy.rst:69 1f9bc76115324ef1a7ca7a6dd0cd9127
+#: ../../deploy.rst:74 1f9bc76115324ef1a7ca7a6dd0cd9127
 msgid "添加交易输出，对于有状态合约，一般会限制合约的输出脚本，所以需要手动管理所有交易输出。目前支持的输出类型有三种："
 msgstr "添加交易输出，对于有状态合约，一般会限制合约的输出脚本，所以需要手动管理所有交易输出。目前支持的输出类型有三种："
 
-#: ../../deploy.rst:72 89a959aed99248f0827cba79aa48ee49
+#: ../../deploy.rst:77 89a959aed99248f0827cba79aa48ee49
 msgid "输出类型"
 msgstr "输出类型"
 
-#: ../../deploy.rst:72 617b166ac5204afd93c4f61622d5da48
+#: ../../deploy.rst:77 617b166ac5204afd93c4f61622d5da48
 msgid "参数"
 msgstr "参数"
 
-#: ../../deploy.rst:74 232979e9dd39430697131ffadbd57b84
+#: ../../deploy.rst:79 232979e9dd39430697131ffadbd57b84
 msgid "状态合约输出"
 msgstr "状态合约输出"
 
-#: ../../deploy.rst:74 c2397017b8b241ea8d7682321727ce83
+#: ../../deploy.rst:79 c2397017b8b241ea8d7682321727ce83
 msgid "``State`` : 合约状态的序列化值(hex格式)， ``Amount`` : 合约中锁定的余额(satoshis)"
 msgstr "``State`` : 合约状态的序列化值(hex格式)， ``Amount`` : 合约中锁定的余额(satoshis)"
 
-#: ../../deploy.rst:75 b7047e4835da4f4891b9982a8fb3b567
+#: ../../deploy.rst:80 b7047e4835da4f4891b9982a8fb3b567
 msgid "P2PKH输出"
 msgstr "P2PKH输出"
 
-#: ../../deploy.rst:75 8f653cfa71a94a43adbc7c3d8aaa3521
+#: ../../deploy.rst:80 8f653cfa71a94a43adbc7c3d8aaa3521
 msgid "``Address``: 收款人地址， ``Amount`` : 合约中锁定的余额"
 msgstr "``Address``: 收款人地址， ``Amount`` : 合约中锁定的余额"
 
-#: ../../deploy.rst:76 b9590cc25423428e923997b3d7f40cd1
+#: ../../deploy.rst:81 b9590cc25423428e923997b3d7f40cd1
 msgid "OpReturn输出"
 msgstr "OpReturn输出"
 
-#: ../../deploy.rst:76 51af2b67e5b9432c831562f387048b53
+#: ../../deploy.rst:81 51af2b67e5b9432c831562f387048b53
 msgid "``OpReturn`` : op_return后数据部分，asm 格式， ``Amount`` : 合约中锁定的余额"
 msgstr "``OpReturn`` : op_return后数据部分，asm 格式， ``Amount`` : 合约中锁定的余额"
 
-#: ../../deploy.rst:79 41adb84c90ec45d3848bf8ddb88860ac
+#: ../../deploy.rst:84 41adb84c90ec45d3848bf8ddb88860ac
 msgid "设置交易相关参数"
 msgstr "设置交易相关参数"
 
-#: ../../deploy.rst:81 ba89c63af68e4c76b38b048d0e08b0e4
+#: ../../deploy.rst:86 ba89c63af68e4c76b38b048d0e08b0e4
 msgid "交易费用 ``Fee``： 根据已经添加的交易输出，以及合约的 *satoshis* 余额自动计算得到。"
 msgstr "交易费用 ``Fee``： 根据已经添加的交易输出，以及合约的 *satoshis* 余额自动计算得到。"
 
-#: ../../deploy.rst:83 18d09049c1334c5bbd1ca8df036a34e4
+#: ../../deploy.rst:88 18d09049c1334c5bbd1ca8df036a34e4
 msgid ""
 "交易签名类型 ``SighashType``： 默认用于计算交易原象 Preimage 的签名类型是 ALL，可根据合约使用交易签名类型来修改此值。"
 msgstr ""
 "交易签名类型 ``SighashType``： 默认用于计算交易原象 Preimage 的签名类型是 ALL，可根据合约使用交易签名类型来修改此值。"
 
-#: ../../deploy.rst:85 ceea8e241b384b4bb68f20b41da82383
+#: ../../deploy.rst:90 ceea8e241b384b4bb68f20b41da82383
 msgid "点击 Call 按钮调用合约"
 msgstr "点击 Call 按钮调用合约"
 
-#: ../../deploy.rst:87 bd9ecd0cc6204d2dba4c41654bc7118e
+#: ../../deploy.rst:92 bd9ecd0cc6204d2dba4c41654bc7118e
 msgid ""
 "所有设置均完成后点击 Call 按钮，会发送这个合约调用交易到测试网。交易发送成功后，可以看到顶部显示合约余额发生变化。 合约实例的 "
 "**transactions** 子项中增加了一个交易，并且可通过右侧的 **View Tx** "
@@ -189,23 +201,23 @@ msgstr ""
 "**transactions** 子项中增加了一个交易，并且可通过右侧的 **View Tx** "
 "按钮在区块链浏览器上进行查看。另外，选中该交易子项时，被调用函数下的参数列表中会显示出此次调用时传递的各个实参。"
 
-#: ../../deploy.rst:93 13a3170c37ff4a8887dfb8d765cfedb6
+#: ../../deploy.rst:98 13a3170c37ff4a8887dfb8d765cfedb6
 msgid "重复调用"
 msgstr "重复调用"
 
-#: ../../deploy.rst:95 389cc29fc3e04d0ca77e9156bfe45eb6
+#: ../../deploy.rst:100 389cc29fc3e04d0ca77e9156bfe45eb6
 msgid "针对有状态合约，可以重复上面的步骤继续调用其 *public* 函数并观察其状态变更，直到合约中的余额不足。"
 msgstr "针对有状态合约，可以重复上面的步骤继续调用其 *public* 函数并观察其状态变更，直到合约中的余额不足。"
 
-#: ../../deploy.rst:99 ec0b18a6e41d4fb49c0d6c3b6965b12d
+#: ../../deploy.rst:104 ec0b18a6e41d4fb49c0d6c3b6965b12d
 msgid "目前暂不支持合并其它输入来调用合约"
 msgstr "目前暂不支持合并其它输入来调用合约"
 
-#: ../../deploy.rst:102 da20ce892d86433585c46978dedcf8a3
+#: ../../deploy.rst:107 da20ce892d86433585c46978dedcf8a3
 msgid "调用失败"
 msgstr "调用失败"
 
-#: ../../deploy.rst:104 1739537e6e3e464a9c7ba6a39aa321ba
+#: ../../deploy.rst:109 1739537e6e3e464a9c7ba6a39aa321ba
 msgid ""
 "通常情况下，调用合约失败，将会在 **输出面板** 输出相应的信息，并生成 ``Launch Debugger`` 链接。 **CRTL + 单击** "
 "链接将根据测试中的参数直接启动调试器会话。"
@@ -213,43 +225,43 @@ msgstr ""
 "通常情况下，调用合约失败，将会在 **输出面板** 输出相应的信息，并生成 ``Launch Debugger`` 链接。 **CRTL + 单击** "
 "链接将根据测试中的参数直接启动调试器会话。"
 
-#: ../../deploy.rst:115 35120c12e9514cd39b414524c35b2114
+#: ../../deploy.rst:120 35120c12e9514cd39b414524c35b2114
 msgid "参数输入格式"
 msgstr "参数输入格式"
 
-#: ../../deploy.rst:117 36f07fcd334d4f3094f12cb8396a8679
+#: ../../deploy.rst:122 36f07fcd334d4f3094f12cb8396a8679
 msgid "部署合约和调用合约都需要在视图中输入正确的参数。参数输入格式参照下表："
 msgstr "部署合约和调用合约都需要在视图中输入正确的参数。参数输入格式参照下表："
 
-#: ../../deploy.rst:120 3fbb476b66c34b18b2459911a09b956a
+#: ../../deploy.rst:125 3fbb476b66c34b18b2459911a09b956a
 msgid "参数类型"
 msgstr "参数类型"
 
-#: ../../deploy.rst:120 6abbd5c894f346ef83baeb527975d46b
+#: ../../deploy.rst:125 6abbd5c894f346ef83baeb527975d46b
 msgid "输入格式说明"
 msgstr "输入格式说明"
 
-#: ../../deploy.rst:122 3e278e68372e4cc48f02984dc39f872c
+#: ../../deploy.rst:127 3e278e68372e4cc48f02984dc39f872c
 msgid "bool"
 msgstr "bool"
 
-#: ../../deploy.rst:122 5014be746d284c25b1bebada4fccbc9c
+#: ../../deploy.rst:127 5014be746d284c25b1bebada4fccbc9c
 msgid "``true`` 或者 ``false``"
 msgstr "``true`` 或者 ``false``"
 
-#: ../../deploy.rst:123 f909da5bd7f64e83ac50e9d5ffc57658
+#: ../../deploy.rst:128 f909da5bd7f64e83ac50e9d5ffc57658
 msgid "int"
 msgstr "int"
 
-#: ../../deploy.rst:123 5eafda3f0ee240369fe4ea3d8aca5489
+#: ../../deploy.rst:128 5eafda3f0ee240369fe4ea3d8aca5489
 msgid "十进制数字或十六进制数字，例如: ``123`` 或者 ``0x0123``"
 msgstr "十进制数字或十六进制数字，例如: ``123`` 或者 ``0x0123``"
 
-#: ../../deploy.rst:124 4aa01deaa5fd4ebfb8447fdcf4006c64
+#: ../../deploy.rst:129 4aa01deaa5fd4ebfb8447fdcf4006c64
 msgid "bytes"
 msgstr "bytes"
 
-#: ../../deploy.rst:124 eef0de40a7eb4c2994c2437f25241ef3
+#: ../../deploy.rst:129 eef0de40a7eb4c2994c2437f25241ef3
 msgid ""
 "十六进制字符串, 例如: "
 "``036cfa9a0b0abf4fa56e583b99f8d1ba4a2608096283cdea68ecf1d4f5bdefeb1f``"
@@ -257,104 +269,104 @@ msgstr ""
 "十六进制字符串, 例如: "
 "``036cfa9a0b0abf4fa56e583b99f8d1ba4a2608096283cdea68ecf1d4f5bdefeb1f``"
 
-#: ../../deploy.rst:125 7fe42ffd37ab41e89961cadefdf21310
+#: ../../deploy.rst:130 7fe42ffd37ab41e89961cadefdf21310
 msgid "PubKey"
 msgstr "PubKey"
 
-#: ../../deploy.rst:125 ../../deploy.rst:127 ../../deploy.rst:128
-#: ../../deploy.rst:129 ../../deploy.rst:130 ../../deploy.rst:131
-#: ../../deploy.rst:132 ../../deploy.rst:133 9e178f39808449cbae12b871762dd157
-#: 611ec1a8c0c3431eb879d7e0e007a1e2 8d111da6c1fe474b9517a48759b7d63c
-#: d9dd223cb0cd4c308c3e0ea876cd17c7 9969e0af46654c349a41c425acbeea3a
-#: f9df596e03e44cc893a3dadfd35ad1d9 f72ee5b606fd4c1ead686b828f9c4b3a
-#: 9208df1579344eafbce870947c49997a
+#: ../../deploy.rst:130 ../../deploy.rst:132 ../../deploy.rst:133
+#: ../../deploy.rst:134 ../../deploy.rst:135 ../../deploy.rst:136
+#: ../../deploy.rst:137 ../../deploy.rst:138 9e178f39808449cbae12b871762dd157
+#: 9e178f39808449cbae12b871762dd157 9e178f39808449cbae12b871762dd157
+#: 9e178f39808449cbae12b871762dd157 9e178f39808449cbae12b871762dd157
+#: 9e178f39808449cbae12b871762dd157 9e178f39808449cbae12b871762dd157
+#: 9e178f39808449cbae12b871762dd157
 msgid "十六进制字符串, 同 ``bytes``"
 msgstr "十六进制字符串, 同 ``bytes``"
 
-#: ../../deploy.rst:126 7bbedcd43db043ca8f971d21ef3129c6
+#: ../../deploy.rst:131 7bbedcd43db043ca8f971d21ef3129c6
 msgid "PrivKey"
 msgstr "PrivKey"
 
-#: ../../deploy.rst:126 4dea75312e0b4a7793c7228ebb5d862a
+#: ../../deploy.rst:131 4dea75312e0b4a7793c7228ebb5d862a
 msgid "同 ``int``"
 msgstr "同 ``int``"
 
-#: ../../deploy.rst:127 cf0434c76b7640a3ba07e63974d61929
+#: ../../deploy.rst:132 cf0434c76b7640a3ba07e63974d61929
 msgid "Sig"
 msgstr "Sig"
 
-#: ../../deploy.rst:128 30924ec410e84b76af4043a7cb8a40f2
+#: ../../deploy.rst:133 30924ec410e84b76af4043a7cb8a40f2
 msgid "Ripemd160"
 msgstr "Ripemd160"
 
-#: ../../deploy.rst:129 2bd9c115b4b24a0b8b9e8f776e3ba1c7
+#: ../../deploy.rst:134 2bd9c115b4b24a0b8b9e8f776e3ba1c7
 msgid "Sha1"
 msgstr "Sha1"
 
-#: ../../deploy.rst:130 b3804cf6634640a0a74d23681a413a71
+#: ../../deploy.rst:135 b3804cf6634640a0a74d23681a413a71
 msgid "Sha256"
 msgstr "Sha256"
 
-#: ../../deploy.rst:131 b163d3a0e7594a69b790ac6329b0307b
+#: ../../deploy.rst:136 b163d3a0e7594a69b790ac6329b0307b
 msgid "SigHashType"
 msgstr "SigHashType"
 
-#: ../../deploy.rst:132 f741d80f2fa245bf964d75861abf5eea
+#: ../../deploy.rst:137 f741d80f2fa245bf964d75861abf5eea
 msgid "SigHashPreimage"
 msgstr "SigHashPreimage"
 
-#: ../../deploy.rst:133 a37189cad377469b8dff9d02d9086b60
+#: ../../deploy.rst:138 a37189cad377469b8dff9d02d9086b60
 msgid "OpCodeType"
 msgstr "OpCodeType"
 
-#: ../../deploy.rst:134 6ca810fa80bd41538d0064dae972845d
+#: ../../deploy.rst:139 6ca810fa80bd41538d0064dae972845d
 msgid "数组"
 msgstr "数组"
 
-#: ../../deploy.rst:134 8ba1b15a4b8145b08b407bc8a4216c1d
+#: ../../deploy.rst:139 8ba1b15a4b8145b08b407bc8a4216c1d
 msgid "每个元素分别填写"
 msgstr "每个元素分别填写"
 
-#: ../../deploy.rst:135 2420b5498b40423b8f9426077c200288
+#: ../../deploy.rst:140 2420b5498b40423b8f9426077c200288
 msgid "结构体"
 msgstr "结构体"
 
-#: ../../deploy.rst:135 8d3eda2eba9a44278aa90c044f0f2d90
+#: ../../deploy.rst:140 8d3eda2eba9a44278aa90c044f0f2d90
 msgid "每个成员分别填写"
 msgstr "每个成员分别填写"
 
-#: ../../deploy.rst:141 132c541bfcb74d9fa3989fc016aa4c55
+#: ../../deploy.rst:146 132c541bfcb74d9fa3989fc016aa4c55
 msgid "其它功能"
 msgstr "其它功能"
 
-#: ../../deploy.rst:146 f0ea29fcb35a49a896d3a560714dcf01
+#: ../../deploy.rst:151 f0ea29fcb35a49a896d3a560714dcf01
 msgid "查看交易"
 msgstr "查看交易"
 
-#: ../../deploy.rst:148 16e6954dbd074ee5bb82f3f63e90272c
+#: ../../deploy.rst:153 16e6954dbd074ee5bb82f3f63e90272c
 msgid "合约实例窗口下 **transactions** 子项带有 **View Tx** 按钮， 点击可打开区块链浏览器查看该交易详情。"
 msgstr "合约实例窗口下 **transactions** 子项带有 **View Tx** 按钮， 点击可打开区块链浏览器查看该交易详情。"
 
-#: ../../deploy.rst:155 095ced9760294a3292b3676bac0713a4
+#: ../../deploy.rst:160 095ced9760294a3292b3676bac0713a4
 msgid "复制值"
 msgstr "复制值"
 
-#: ../../deploy.rst:157 71265d1f43eb4cbd9b88419a384c79b7
+#: ../../deploy.rst:162 71265d1f43eb4cbd9b88419a384c79b7
 msgid "在合约实例窗口下选中某个函数，在参数列表上单击右键，会出现 **Copy Value** 菜单， 点击该菜单可以将参数的值复制到剪切板。"
 msgstr "在合约实例窗口下选中某个函数，在参数列表上单击右键，会出现 **Copy Value** 菜单， 点击该菜单可以将参数的值复制到剪切板。"
 
-#: ../../deploy.rst:164 8b130cb393074f67a955e5cfa03111d0
+#: ../../deploy.rst:169 8b130cb393074f67a955e5cfa03111d0
 msgid "清除所有合约实例"
 msgstr "清除所有合约实例"
 
-#: ../../deploy.rst:166 5d8dd16c9b0f40dfa7e79c8ef1c19bc8
+#: ../../deploy.rst:171 5d8dd16c9b0f40dfa7e79c8ef1c19bc8
 msgid "点击该按钮删除所有合约实例。"
 msgstr "点击该按钮删除所有合约实例。"
 
-#: ../../deploy.rst:173 b44923319221468b8ed9af74dadc2c29
+#: ../../deploy.rst:178 b44923319221468b8ed9af74dadc2c29
 msgid "删除单个合约实例"
 msgstr "删除单个合约实例"
 
-#: ../../deploy.rst:175 bd45134f66d94457bbf7fc77812615a3
+#: ../../deploy.rst:180 bd45134f66d94457bbf7fc77812615a3
 msgid "在合约实例上右键单击会出现 **Delete** 菜单， 点击该菜单可以删除该合约实例。"
 msgstr "在合约实例上右键单击会出现 **Delete** 菜单， 点击该菜单可以删除该合约实例。"
