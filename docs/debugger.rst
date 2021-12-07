@@ -151,6 +151,12 @@ opReturn             否     带状态合约的状态，从OP_RETURN开始，不
   :width: 100%
 
 
+.. hint::
+
+  视频介绍： `4 种启动调试器的方法`_
+
+
+
 设置断点
 ======================
 
@@ -265,3 +271,5 @@ opReturn             否     带状态合约的状态，从OP_RETURN开始，不
 .. _Opcodes: https://wiki.bitcoinsv.io/index.php/Opcodes_used_in_Bitcoin_Script
 .. _内联汇编: https://scryptdoc.readthedocs.io/zh_CN/latest/asm.html
 .. _Inline Assembly: https://scryptdoc.readthedocs.io/en/latest/asm.html
+.. _4 种启动调试器的方法: https://www.bilibili.com/video/bv1WQ4y1e7mF
+.. _4 ways to start the debugger: https://www.bilibili.com/video/bv1WQ4y1e7mF
