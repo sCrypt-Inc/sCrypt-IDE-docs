@@ -22,6 +22,10 @@
 
     通过 *launch.json* 文件路径启动调试器
 
+#. **sCrypt: Launch debugger from TxContext**
+
+    通过 *txid* 或者 *rawTx* 来调试已经上链的合约
+
 #. **sCrypt: Deploy**
 
     编译当前合约并自动打开合约部署视图
@@ -54,6 +58,14 @@
 #. **sCrypt: Privkey To PubKeyHash**
 
     打印出私钥对应的公钥哈希
+
+#. **sCrypt: Address To PubKeyHash**
+
+    打印出地址对应的公钥哈希
+
+#. **sCrypt: PubKeyHash To Address**
+
+    打印出公钥哈希对应的地址 (需要选择主网还是测试网)
 
 #. **sCrypt: Show Transaction ID**
 

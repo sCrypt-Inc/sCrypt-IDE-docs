@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sCrypt-IDE-docs 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-10 09:41+0800\n"
+"POT-Creation-Date: 2021-12-07 15:50+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -56,74 +56,98 @@ msgstr "**sCrypt: Launch debugger**"
 msgid "通过 *launch.json* 文件路径启动调试器"
 msgstr "通过 *launch.json* 文件路径启动调试器"
 
-#: ../../commands.rst:25 5a069db422ac4bc8ac015a1dfbd22630
+#: ../../commands.rst:25 2c06d95cd0ed4f118579d37a72e715d7
+msgid "**sCrypt: Launch debugger from TxContext**"
+msgstr "**sCrypt: Launch debugger from TxContext**"
+
+#: ../../commands.rst:27 c111212018704270b70b6b7cdb3178ce
+msgid "通过 *txid* 或者 *rawTx* 来调试已经上链的合约"
+msgstr "通过 *txid* 或者 *rawTx* 来调试已经上链的合约"
+
+#: ../../commands.rst:29 5a069db422ac4bc8ac015a1dfbd22630
 msgid "**sCrypt: Deploy**"
 msgstr "**sCrypt: Deploy**"
 
-#: ../../commands.rst:27 fb944600e94843e3bbc9c918232a2599
+#: ../../commands.rst:31 fb944600e94843e3bbc9c918232a2599
 msgid "编译当前合约并自动打开合约部署视图"
 msgstr "编译当前合约并自动打开合约部署视图"
 
-#: ../../commands.rst:29 dc86711b93e9419c93e2563fdb71c60f
+#: ../../commands.rst:33 dc86711b93e9419c93e2563fdb71c60f
 msgid "**sCrypt: Compile Contract: Debug**"
 msgstr "**sCrypt: Compile Contract: Debug**"
 
-#: ../../commands.rst:31 cf464f27687e4d19b5788fb8a3d430a9
+#: ../../commands.rst:35 cf464f27687e4d19b5788fb8a3d430a9
 msgid "以调试模式编译当前合约"
 msgstr "以调试模式编译当前合约"
 
-#: ../../commands.rst:33 897ba0c15d524c879501fdae3845ceac
+#: ../../commands.rst:37 897ba0c15d524c879501fdae3845ceac
 msgid "**sCrypt: Compile Contract: Release**"
 msgstr "**sCrypt: Compile Contract: Release**"
 
-#: ../../commands.rst:35 86377fa8e2514fae98c0d38d14c7d724
+#: ../../commands.rst:39 86377fa8e2514fae98c0d38d14c7d724
 msgid "以发布模式编译当前合约"
 msgstr "以发布模式编译当前合约"
 
-#: ../../commands.rst:37 9de6f2bb650d415f9f053aaeeabfadef
+#: ../../commands.rst:41 9de6f2bb650d415f9f053aaeeabfadef
 msgid "**sCrypt: View Script In Debugging**"
 msgstr "**sCrypt: View Script In Debugging**"
 
-#: ../../commands.rst:39 d8e03074ef4e4f5d8ed1c53ad8b333ad
+#: ../../commands.rst:43 d8e03074ef4e4f5d8ed1c53ad8b333ad
 msgid "在调试过程中打开脚本视图"
 msgstr "在调试过程中打开脚本视图"
 
-#: ../../commands.rst:42 c9fc4964c8924807b7d8df282ce0dc5a
+#: ../../commands.rst:46 c9fc4964c8924807b7d8df282ce0dc5a
 msgid "**sCrypt: Random Privkey**"
 msgstr "**sCrypt: Random Privkey**"
 
-#: ../../commands.rst:44 284c641d7ad74411aaf23a625ac1a8ae
+#: ../../commands.rst:48 284c641d7ad74411aaf23a625ac1a8ae
 msgid "随机产生一个私钥"
 msgstr "随机产生一个私钥"
 
-#: ../../commands.rst:46 7cdcc055906b42ad8e9ae2ac68f968f5
+#: ../../commands.rst:50 7cdcc055906b42ad8e9ae2ac68f968f5
 msgid "**sCrypt: Privkey To Address**"
 msgstr "**sCrypt: Privkey To Address**"
 
-#: ../../commands.rst:48 692f9c00da7c427d8a82f075b6216e35
+#: ../../commands.rst:52 692f9c00da7c427d8a82f075b6216e35
 msgid "打印出私钥对应的地址"
 msgstr "打印出私钥对应的地址"
 
-#: ../../commands.rst:50 228a8ba3ca3e452c831e323c655af3ec
+#: ../../commands.rst:54 228a8ba3ca3e452c831e323c655af3ec
 msgid "**sCrypt: Privkey To PubKey**"
 msgstr "**sCrypt: Privkey To PubKey**"
 
-#: ../../commands.rst:52 14a25a6e53744a07aba470cc1438fea5
+#: ../../commands.rst:56 14a25a6e53744a07aba470cc1438fea5
 msgid "打印出私钥对应的公钥"
 msgstr "打印出私钥对应的公钥"
 
-#: ../../commands.rst:54 e639b0fbd2844c66bf44597c39fc0a48
+#: ../../commands.rst:58 e639b0fbd2844c66bf44597c39fc0a48
 msgid "**sCrypt: Privkey To PubKeyHash**"
 msgstr "**sCrypt: Privkey To PubKeyHash**"
 
-#: ../../commands.rst:56 4b7473886ec647118451590bd643186c
+#: ../../commands.rst:60 4b7473886ec647118451590bd643186c
 msgid "打印出私钥对应的公钥哈希"
 msgstr "打印出私钥对应的公钥哈希"
 
-#: ../../commands.rst:58 25a5ce5e41dc4cedaaa95ab2f140bcf0
+#: ../../commands.rst:62 e639b0fbd2844c66bf44597c39fc0a48
+msgid "**sCrypt: Address To PubKeyHash**"
+msgstr "**sCrypt: Address To PubKeyHash**"
+
+#: ../../commands.rst:64 4b7473886ec647118451590bd643186c
+msgid "打印出地址对应的公钥哈希"
+msgstr "打印出地址对应的公钥哈希"
+
+#: ../../commands.rst:66 7cdcc055906b42ad8e9ae2ac68f968f5
+msgid "**sCrypt: PubKeyHash To Address**"
+msgstr "**sCrypt: PubKeyHash To Address**"
+
+#: ../../commands.rst:68 4395770522f046829e2c609d738f660e
+msgid "打印出公钥哈希对应的地址 (需要选择主网还是测试网)"
+msgstr "打印出公钥哈希对应的地址 (需要选择主网还是测试网)"
+
+#: ../../commands.rst:70 25a5ce5e41dc4cedaaa95ab2f140bcf0
 msgid "**sCrypt: Show Transaction ID**"
 msgstr "**sCrypt: Show Transaction ID**"
 
-#: ../../commands.rst:60 6f12ac0a57e74b6aa38c5e8e3c596434
+#: ../../commands.rst:72 6f12ac0a57e74b6aa38c5e8e3c596434
 msgid "打印出hex格式的交易的 ``txid``"
 msgstr "打印出hex格式的交易的 ``txid``"
