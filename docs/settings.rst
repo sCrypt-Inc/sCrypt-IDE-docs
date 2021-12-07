@@ -2,9 +2,19 @@
 设置
 ===========================================
 
+**window** 系统和 **Linux** 系统:
+
 在 VS Code 中打开 “文件” -> “首选项” -> “设置” -> “扩展” -> **sCrypt**，可观看所有设置选项。
 
 .. image:: ./images/settings.png
+  :width: 100%
+
+**MacOS** 系统: 
+
+在 VS Code 中打开 “代码” -> “首选项” -> “设置” -> “扩展” -> **sCrypt**，
+
+
+.. image:: ./images/setting-macos.png
   :width: 100%
 
 
