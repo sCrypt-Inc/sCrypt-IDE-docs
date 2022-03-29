@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# qtom zheng <zhfnjust@gmail.com>, 2021
 # Xiaohui Liu <x.liu@scrypt.io>, 2021
+# qtom zheng <zhfnjust@qq.com>, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: sCrypt-IDE-docs 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-04 18:25+0800\n"
+"POT-Creation-Date: 2022-03-29 15:45+0800\n"
 "PO-Revision-Date: 2021-06-02 09:22+0000\n"
-"Last-Translator: Xiaohui Liu <x.liu@scrypt.io>, 2021\n"
+"Last-Translator: qtom zheng <zhfnjust@qq.com>, 2022\n"
 "Language-Team: English (https://www.transifex.com/scrypt-1/teams/121283/en/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Language: en\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../repl.rst:2 7f51af50f45c4d97b59618a90806e47a
+#: ../../repl.rst:2 4fc01aa2b71341ce8e5655391e387b07
 msgid ""
 "调试控制台, 又称为交互式窗口 **REPL** (**R** ead/**E** valuate/**P** rint/**L** "
 "oop)，可以极大地缩短了常用的“编译-生成-调试”周期，提高开发效率。 REPL中可以输入变量，表达式，同时还有一些方便调试异常的内置命令。"
@@ -33,7 +33,7 @@ msgstr ""
 "efficiency. Variables, expressions, and some built-in commands for debugging"
 " exceptions can be entered in the REPL."
 
-#: ../../repl.rst:5 872327e2ae824adbaaaad4126ea49f61
+#: ../../repl.rst:5 194dfda9b99c4f258f48a0110349d40a
 msgid ""
 "要打开调试控制台，请使用调试视图顶部的调试控制台操作或使用 **查看：调试控制台** 命令, 键盘快捷键是 **Ctrl+Shift+Y**。"
 msgstr ""
@@ -41,26 +41,36 @@ msgstr ""
 " the top of the debugging view or use the **View: Debug Console** command, "
 "the keyboard shortcut is **Ctrl+Shift+Y**."
 
-#: ../../repl.rst:9 0113177d028b4054b386a4c07be734b5
+#: ../../repl.rst:9 759c6b6106e04474975fbaf00702c7b0
 msgid "必须处于正在运行的调试会话中才能使用调试控制台"
 msgstr ""
 "You must be in a running debugging session to use the debugging console"
 
-#: ../../repl.rst:13 a0e22fc6c9444a5aa33d29ea7c3bf986
+#: ../../repl.rst:12 4d25825d163b401da9265a071181e0a5
+msgid "执行表达式"
+msgstr "Executing Expression"
+
+#: ../../repl.rst:13 65bcafc9008d475daa2784041b1af109
+msgid "当调试器停在任意断点上，你可以在调试控制台中查看变量，执行表达式"
+msgstr ""
+"When the debugger stops at any breakpoint, you can view variables in the "
+"debug console, execute expressions"
+
+#: ../../repl.rst:19 9c042054913c4363b14ea7a7aaa32e90
 msgid "自动提示"
 msgstr "Autocompletion"
 
-#: ../../repl.rst:15 4df60159b17e49318f91ef754ac5efcb
+#: ../../repl.rst:21 850dfcb909764d2d96060640d29f3681
 msgid "当在调试控制台输入代码时， **IDE** 会根据你的输入，自动提示补全。"
 msgstr ""
 "When you enter code in the debugging console, **IDE** will automatically "
 "prompt for completion based on your input."
 
-#: ../../repl.rst:23 cee8266fb0ee43d58b0fd2c2d895ccac
+#: ../../repl.rst:29 4722f972cabb4a2fb9441066b7287cf0
 msgid "历史记录"
 msgstr "History Suggestions"
 
-#: ../../repl.rst:25 c62bc215f7734f66b2f181167a30dd5c
+#: ../../repl.rst:31 a74c640e18404cf79c3fb1d35ba30bf0
 msgid ""
 "**历史记录** 功能需要开启相应设置。如果没有开启，找到 设置->功能->调试->Console->History Suggestions，并开启。"
 msgstr ""
@@ -68,43 +78,43 @@ msgstr ""
 "is not enabled, find Settings->Features->Debug->Console->History Suggestions"
 " and enable it."
 
-#: ../../repl.rst:32 543d55f7864e42f88c966af500ae676f
+#: ../../repl.rst:38 63dda88bbace45e0bb1b370ff150de21
 msgid "内置命令"
 msgstr "Built-in Commands"
 
-#: ../../repl.rst:34 5499ca1efab34757821c34b64b452c87
+#: ../../repl.rst:40 3148feca5ade4d909ca86ee41908bf00
 msgid "所有内置命令均以 ``:`` 开头"
 msgstr "All built-in commands start with ``:``"
 
-#: ../../repl.rst:37 f79fcae3d3b34554b100de11624ac464
+#: ../../repl.rst:43 6efc1c49a1fe4872884e15435429a252
 msgid "命令"
 msgstr "command"
 
-#: ../../repl.rst:37 bece483edc544749bd0d37846f639eae
+#: ../../repl.rst:43 00ffedded57a4a11a78a6fd7b357adc9
 msgid "功能"
 msgstr "Features"
 
-#: ../../repl.rst:39 84f77d7190604a29803a58eb4417afca
+#: ../../repl.rst:45 ff644e86623046e3a067e538016dd14f
 msgid ":hex2Asm"
 msgstr ":hex2Asm"
 
-#: ../../repl.rst:39 f60f1ec18b8b4eb78f499185d08e572a
+#: ../../repl.rst:45 66e434af3b764e2ab503d7a69daadf6c
 msgid "将 ``bytes`` 类型的脚本转换成 **asm** 并打印"
 msgstr "Convert ``bytes`` type script to **asm** and print"
 
-#: ../../repl.rst:40 f1c37ed50e0342dbaee17df6670825f0
+#: ../../repl.rst:46 1bebf464e20b4f81a69cc84ba375170a
 msgid ":parsePreimage"
 msgstr ":parsePreimage"
 
-#: ../../repl.rst:40 1f8359e107154fae8300a9dc593fa814
+#: ../../repl.rst:46 3332bd44269445ea9397cd72193e4c39
 msgid "将 ``bytes`` 类型的原象转换成 **json** 并打印"
 msgstr "Convert the pre-image of type ``bytes`` to **json** and print"
 
-#: ../../repl.rst:41 ee4076326b734efebd7883132b801443
+#: ../../repl.rst:47 fd351c9e7ad44a1a9d8db76b2f5f5cb8
 msgid ":diffoutputs"
 msgstr ":diffoutputs"
 
-#: ../../repl.rst:41 b59c39da22794e35805085549ce110cf
+#: ../../repl.rst:47 98a31a2f45f84598befe485fb72f7406
 msgid ""
 "将指定 ``output`` 与当前交易的 **output** 进行对比，打印出他们的不同之处。具体用法见： :ref:`交易输出哈希不一致 "
 "<diffoutputs>`"
