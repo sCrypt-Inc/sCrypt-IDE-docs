@@ -116,6 +116,10 @@ Hex输出              ``hex`` : 任意输出的 ``hex`` 字符串
 .. image:: ./images/stateprops.gif
     :width: 100%
 
+如果调用合约失败， 在 **输出面板** 会打印出 :ref:`启动调试器 <Launch_Debugger_Link>` 的连接。CTRL + 单击链接启动调试器
+
+.. image:: ./images/launch_debugger_from_deploy.gif
+    :width: 100%
 
 .. note::
 
