@@ -83,7 +83,7 @@ asmArgs               否     `汇编变量`_
 bool               ``true`` 或者 ``false``
 int                数字或字符串，如果值小于 ``9007199254740991`` (2^53 − 1)， 可以直接使用数字表示，也可以使用字符串表示（包括十进制
                    字符串和 ``0x`` 开头的十六进制字符串），如果值大于等于 ``9007199254740991``，应该使用字符串表示
-bytes              字符串, 例如: ``"b'0011'"``
+bytes              字符串, 例如: ``"b'0011'"``，或者是带双引号的字符串 ``"\"hello world\""``
 PubKey             字符串, 例如: ``"PubKey(b'036cfa9a0b0abf4fa56e583b99f8d1ba4a2608096283cdea68ecf1d4f5bdefeb1f')"``，括号中间是 *bytes*
                    
 PrivKey            字符串, 例如: ``"PrivKey(1000000000000)"`` or ``"PrivKey(0x036cfa9a)"``, 括号中间是十进制或十六进制数字
@@ -113,7 +113,8 @@ OpCodeType         字符串, 例如: ``"OpCodeType(b'81')"`` 表示 OP_1， 更
 hex                  是     序列化的当前交易，即解锁脚本所在交易。可以是签名过的，也可以是未签名的
 inputIndex           是     要花费的、被合约锁定的 UTXO 所对应的 input 索引
 inputSatoshis        是     要花费的、被合约锁定的 UTXO 中比特币数量，单位 *satoshis*
-opReturn             否     带状态合约的状态，从OP_RETURN开始，不包含OP_RETURN
+opReturn             否     有状态合约的状态，从OP_RETURN开始，不包含OP_RETURN， asm 格式
+opReturnHex          否     有状态合约的状态，从OP_RETURN开始，不包含OP_RETURN, hex 格式
 ===============    ======== ======================================================================================
 
 .. hint::
@@ -217,7 +218,7 @@ opReturn             否     带状态合约的状态，从OP_RETURN开始，不
 复制值
 -------
 
-在某个变量上右键单击，会出现 **复制值** 菜单，可以直接复制变量的值到剪切板中。
+在某个变量上右键单击，会出现 **Copy Value** 菜单，可以直接复制变量的值到剪切板中。
 
 .. image:: ./images/copyvalue.png
   :width: 100%
@@ -226,6 +227,19 @@ opReturn             否     带状态合约的状态，从OP_RETURN开始，不
 
   没有被引用到的静态变量不会出现在最后的脚本编译输出里，也不会在面板中显示。
 
+
+切换显示格式
+------------
+
+在某个变量上右键单击，会出现 **Toggle showing bytes in hex or utf8 string** 和 **Toggle showing int in hex or decimal**
+菜单，点击菜单可以切换变量值的显示格式。
+
+.. image:: ./images/showformat.gif
+  :width: 100%
+
+.. note::
+
+  改变一个变量的显示格式，其它类型相同的变量的显示格式也会跟着改变
 
 监视
 ===========================================

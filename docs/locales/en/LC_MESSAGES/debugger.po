@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sCrypt-IDE-docs 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-29 15:45+0800\n"
+"POT-Creation-Date: 2022-03-30 11:36+0800\n"
 "PO-Revision-Date: 2021-06-02 09:22+0000\n"
 "Last-Translator: qtom zheng <zhfnjust@qq.com>, 2022\n"
 "Language-Team: English (https://www.transifex.com/scrypt-1/teams/121283/en/)\n"
@@ -177,8 +177,9 @@ msgid "txContext"
 msgstr "txContext"
 
 #: ../../debugger.rst:71 ../../debugger.rst:72 ../../debugger.rst:116
-#: 5618660bdd9b4393bf2519724a1696a7 0db92bc670144da9adf98113f5b1b401
-#: 60ff91911258448fb71e7c1ae0bb21d0
+#: ../../debugger.rst:117 5618660bdd9b4393bf2519724a1696a7
+#: 0db92bc670144da9adf98113f5b1b401 60ff91911258448fb71e7c1ae0bb21d0
+#: 6bc831f969ca4bf3995498b9b657b98f
 msgid "否"
 msgstr "No"
 
@@ -234,9 +235,11 @@ msgstr ""
 msgid "bytes"
 msgstr "bytes"
 
-#: ../../debugger.rst:86 5c2968b964894ea19f9bb9e4367baca8
-msgid "字符串, 例如: ``\"b'0011'\"``"
-msgstr "String, e.g., ``\"b'0011'\"``"
+#: ../../debugger.rst:86 a1fd9072bb6d4ffe821e0859c25a2dd0
+msgid "字符串, 例如: ``\"b'0011'\"``，或者是带双引号的字符串 ``\"\\\"hello world\\\"\"``"
+msgstr ""
+"A string, for example: ``\"b'0011'\"``, or a double-quoted string "
+"``\"\\\"hello world\\\"\"``"
 
 #: ../../debugger.rst:87 9f61ec870af44d14a7a3f52d2a804a5c
 msgid "PubKey"
@@ -424,28 +427,38 @@ msgid "opReturn"
 msgstr "opReturn"
 
 #: ../../debugger.rst:116 ddfa86efc07d4839b0f3f4017d38c192
-msgid "带状态合约的状态，从OP_RETURN开始，不包含OP_RETURN"
+msgid "有状态合约的状态，从OP_RETURN开始，不包含OP_RETURN， asm 格式"
 msgstr ""
-"The state of the stateful contract, starting from OP_RETURN, excluding "
-"OP_RETURN"
+"The state of a stateful contract, starting from OP_RETURN, excluding "
+"OP_RETURN, in asm format"
 
-#: ../../debugger.rst:121 ec949dcddee64dc2aa2692b93a037083
+#: ../../debugger.rst:117 563cdc7704694635a38995d306650157
+msgid "opReturnHex"
+msgstr "opReturnHex"
+
+#: ../../debugger.rst:117 ddfa86efc07d4839b0f3f4017d38c192
+msgid "有状态合约的状态，从OP_RETURN开始，不包含OP_RETURN, hex 格式"
+msgstr ""
+"The state of a stateful contract, starting from OP_RETURN, excluding "
+"OP_RETURN, hex format"
+
+#: ../../debugger.rst:122 ec949dcddee64dc2aa2692b93a037083
 msgid "了解校验签名是如何运作的: `CHECKSIG`_"
 msgstr "Understand how the verification signature works: `CHECKSIG`_"
 
-#: ../../debugger.rst:125 65f381e9423d4e5096000292e63edf39
+#: ../../debugger.rst:126 65f381e9423d4e5096000292e63edf39
 msgid "启动调试器"
 msgstr "Launch the debugger"
 
-#: ../../debugger.rst:127 1c262e45698341bba55751d326cd1316
+#: ../../debugger.rst:128 1c262e45698341bba55751d326cd1316
 msgid "启动调试器有4种方法："
 msgstr "There are 4 ways to start the debugger:"
 
-#: ../../debugger.rst:130 b591e469b1284707807abfc9b3f180ab
+#: ../../debugger.rst:131 b591e469b1284707807abfc9b3f180ab
 msgid "1. 通过 **F5** 启动"
 msgstr "1. Start by **F5**"
 
-#: ../../debugger.rst:132 631462f1bfab45cfa013c0a7f69907d9
+#: ../../debugger.rst:133 631462f1bfab45cfa013c0a7f69907d9
 msgid ""
 "通过 **F5** 启动，需要先创建 好launch.json "
 "并配置好启动参数。也可以通过调试视图的调试按钮来启动调试器。这是也是其它调试器最常见的启动方式。"
@@ -455,19 +468,19 @@ msgstr ""
 " in the debug view. This is also the most common way to start other "
 "debuggers."
 
-#: ../../debugger.rst:138 52be6a14e68746fb9e9ae6ef7b1d80ac
+#: ../../debugger.rst:139 52be6a14e68746fb9e9ae6ef7b1d80ac
 msgid "2. 通过 :ref:`单元测试 <Launch_Debugger_Link>` 启动"
 msgstr "2. Start by :ref:`Testing <Launch_Debugger_Link>` "
 
-#: ../../debugger.rst:141 a41276c248f949faa006c2d2c085612d
+#: ../../debugger.rst:142 a41276c248f949faa006c2d2c085612d
 msgid "3. 通过 :ref:`Launch Debugger 命令 <Launch_Debugger_Command>` 启动"
 msgstr "3. Start by :ref:`Launch Debugger command <Launch_Debugger_Command>`"
 
-#: ../../debugger.rst:144 64e9a27750bb4579ba1f59956539ffa8
+#: ../../debugger.rst:145 64e9a27750bb4579ba1f59956539ffa8
 msgid "4. 通过 **Launch Debugger from TxContext** 命令 启动"
 msgstr "4. Start by **Launch Debugger from TxContext** command"
 
-#: ../../debugger.rst:146 68dcde62d10349a688ca1e16667c27ec
+#: ../../debugger.rst:147 68dcde62d10349a688ca1e16667c27ec
 msgid ""
 "**Launch Debugger from TxContext** 命令会打开一个调试器启动视图。允许你通过输入交易的 ``id`` 或者完整交易来 "
 "``rawTx`` 来调试合约。 "
@@ -484,15 +497,15 @@ msgstr ""
 "Assembly`_. If the attached sCrypt contract mismatches with what is on "
 "chain, the Script code will be automatically generated."
 
-#: ../../debugger.rst:156 d449e85a555947fcaa406ae64237d32b
+#: ../../debugger.rst:157 d449e85a555947fcaa406ae64237d32b
 msgid "视频介绍： `4 种启动调试器的方法`_"
 msgstr "Video introduction:  `4 ways to start the debugger`_"
 
-#: ../../debugger.rst:161 32d122eb6a844c1a9a01db15c355d927
+#: ../../debugger.rst:162 32d122eb6a844c1a9a01db15c355d927
 msgid "设置断点"
 msgstr "Set breakpoint"
 
-#: ../../debugger.rst:164 587f1aabe3ec4c0e84c2c2357944a1b4
+#: ../../debugger.rst:165 587f1aabe3ec4c0e84c2c2357944a1b4
 msgid ""
 "在启动调试器之前，首先设置断点。断点是可靠调试的最基本和最重要的功能，若代码编辑器中打开了文件，则可通过单击代码行左侧的边缘来设置断点，或者按 "
 "**F9**。 接下来按 **F5** 或者 点击 **运行和调式** 侧边栏面板中的“开始调试”按钮，调试器将运行至它遇到的第一个断点。"
@@ -504,36 +517,36 @@ msgstr ""
 "Debug** sidebar panel, and the debugger will run to the first breakpoint it "
 "hits."
 
-#: ../../debugger.rst:171 2029631b330f497982a45fd915e1d757
+#: ../../debugger.rst:172 2029631b330f497982a45fd915e1d757
 msgid "单步执行"
 msgstr "Step Over"
 
-#: ../../debugger.rst:173 cc7555c2cb3c41b6901f0974f9cdbe85
+#: ../../debugger.rst:174 cc7555c2cb3c41b6901f0974f9cdbe85
 msgid "调试器遇到断点后，就进入中断模式，脚本执行被挂起，而函数、变量和合约实例保留在栈中，接下来："
 msgstr ""
 "After the debugger hits a breakpoint, it enters the debug mode. Contract "
 "execution is suspended. Functions, variables, and contract instances remain "
 "on the stack. Next:"
 
-#: ../../debugger.rst:175 b11df13abaf4493bab280896661e84eb
+#: ../../debugger.rst:176 b11df13abaf4493bab280896661e84eb
 msgid "通过按 **F10** 或 **F11** 开始单步执行代码"
 msgstr "Start stepping through the code by pressing **F10** or **F11**"
 
-#: ../../debugger.rst:177 decd7613174a4a12b7ecb66eb06b52b6
+#: ../../debugger.rst:178 decd7613174a4a12b7ecb66eb06b52b6
 msgid "通过打开右键菜单，选择 **运行到光标** 菜单"
 msgstr "Open the right-click menu and select **Run to Cursor** menu"
 
-#: ../../debugger.rst:179 a063fbd6da8c4f479543164bce20ee83
+#: ../../debugger.rst:180 a063fbd6da8c4f479543164bce20ee83
 msgid "通过按 **F5** 执行到下一个断点"
 msgstr "Execute to the next breakpoint by pressing **F5**"
 
-#: ../../debugger.rst:181 5811af35975446eb94c0effc2a4d2c4c
+#: ../../debugger.rst:182 5811af35975446eb94c0effc2a4d2c4c
 msgid "通过按 **Shit + F11** 停止单步执行， 跳出当前函数"
 msgstr ""
 "By pressing **Shit + F11** to stop single step execution, jump out of the "
 "current function"
 
-#: ../../debugger.rst:183 d68c9eab71c541f99779674810c62b62
+#: ../../debugger.rst:184 d68c9eab71c541f99779674810c62b62
 msgid ""
 "在通过上述操作浏览代码时，左侧调试视图的中的 **变量面板** 和 **调用堆栈面板** 中的数据会实时地变化，如果在 **监视面板** "
 "添加了表达式或者变量，将会实时地变化。"
@@ -543,51 +556,51 @@ msgstr ""
 "change in real time. If you add an expression or variable to the **Watch "
 "Panel**, it will change in real time too."
 
-#: ../../debugger.rst:188 c3897c9b72244ff29d45a664792aea54
+#: ../../debugger.rst:189 c3897c9b72244ff29d45a664792aea54
 msgid "一次调试只能以一个 *public* 函数为入口。"
 msgstr ""
 "Only one *public* function can be used as the entry point for debugging at a"
 " time."
 
-#: ../../debugger.rst:191 d9e905ffc1bd46abbb20dde3a038c254
+#: ../../debugger.rst:192 d9e905ffc1bd46abbb20dde3a038c254
 msgid "调试操作"
 msgstr "Debug Actions"
 
-#: ../../debugger.rst:193 c9230269c4b14b9d804be2c51f05b096
+#: ../../debugger.rst:194 c9230269c4b14b9d804be2c51f05b096
 msgid "调试会话开始后，调试工具栏将出现在代码编辑器的顶部。"
 msgstr ""
 "After the debugging session starts, the debugging toolbar will appear at the"
 " top of the code editor."
 
-#: ../../debugger.rst:199 469755e3f99e4612b2cd28996059c62c
+#: ../../debugger.rst:200 469755e3f99e4612b2cd28996059c62c
 msgid "继续/暂停 **F5**"
 msgstr "Continue/Pause **F5**"
 
-#: ../../debugger.rst:200 f0c78c884b0e49d68bc53635f521967a
+#: ../../debugger.rst:201 f0c78c884b0e49d68bc53635f521967a
 msgid "单步跨过 **F10**"
 msgstr "Step Over **F10**"
 
-#: ../../debugger.rst:201 8302d1d6c2f3407d853838cfc6f143b1
+#: ../../debugger.rst:202 8302d1d6c2f3407d853838cfc6f143b1
 msgid "单步跳入 **F11**"
 msgstr "Step Into **F11**"
 
-#: ../../debugger.rst:202 7a556a556970409a8e9c9d71a6492db0
+#: ../../debugger.rst:203 7a556a556970409a8e9c9d71a6492db0
 msgid "单步跳出 **Shift+F11**"
 msgstr "Step Out **Shift+F11**"
 
-#: ../../debugger.rst:203 7c2b86cb884541459c59fb4c6c6e42ea
+#: ../../debugger.rst:204 7c2b86cb884541459c59fb4c6c6e42ea
 msgid "重启调试器 **Ctrl+Shift+F5**"
 msgstr "Restart  **Ctrl+Shift+F5**"
 
-#: ../../debugger.rst:204 93184b4c38d744bfa0f4009044255994
+#: ../../debugger.rst:205 93184b4c38d744bfa0f4009044255994
 msgid "停止 **Shift+F5**"
 msgstr "Stop **Shift+F5**"
 
-#: ../../debugger.rst:208 858e6c5a10404876aada82506842ca2d
+#: ../../debugger.rst:209 858e6c5a10404876aada82506842ca2d
 msgid "变量"
 msgstr "Variable"
 
-#: ../../debugger.rst:210 359b446fa5854bb98851d5b518ace593
+#: ../../debugger.rst:211 359b446fa5854bb98851d5b518ace593
 msgid ""
 "**变量面板** 主要显示两个域的变量： 当前函数和静态变量。 ``this`` 表示当前合约， 单击可展开查看合约的所有属性。 ``Statics``"
 " 下则显示所有的静态变量。"
@@ -597,35 +610,54 @@ msgstr ""
 "expand to view all the properties of the contract. Under ``Statics``, all "
 "static variables are displayed."
 
-#: ../../debugger.rst:218 fd23fd9cf3c84a64bdadf7e63865ef5c
+#: ../../debugger.rst:219 fd23fd9cf3c84a64bdadf7e63865ef5c
 msgid "复制值"
 msgstr "Copy Value"
 
-#: ../../debugger.rst:220 a0c453c937bf420fb094147d26325ba2
-msgid "在某个变量上右键单击，会出现 **复制值** 菜单，可以直接复制变量的值到剪切板中。"
+#: ../../debugger.rst:221 a0c453c937bf420fb094147d26325ba2
+msgid "在某个变量上右键单击，会出现 **Copy Value** 菜单，可以直接复制变量的值到剪切板中。"
 msgstr ""
-"Right-click on a variable, the **Copy Value** menu will appear, and you can "
+"Right-click on a variable, the **Copy Value** menu will appear, you can "
 "directly copy the value of the variable to the clipboard."
 
-#: ../../debugger.rst:227 e71709b3e01f4af991d29714a3075fc6
+#: ../../debugger.rst:228 e71709b3e01f4af991d29714a3075fc6
 msgid "没有被引用到的静态变量不会出现在最后的脚本编译输出里，也不会在面板中显示。"
 msgstr ""
 "Static variables that are not referenced will not appear in the final script"
 " compilation output, nor will they be displayed in the panel."
 
-#: ../../debugger.rst:231 28c0834bc1364ba1a375c434690d431f
+#: ../../debugger.rst:232 df6e9fe8d1404212b85295d085a01f0b
+msgid "切换显示格式"
+msgstr "Switch display format"
+
+#: ../../debugger.rst:234 9a2a01ecbdca4bd1b474da361741375d
+msgid ""
+"在某个变量上右键单击，会出现 **Toggle showing bytes in hex or utf8 string** 和 **Toggle "
+"showing int in hex or decimal** 菜单，点击菜单可以切换变量值的显示格式。"
+msgstr ""
+"Right-click on a variable, and the **Toggle showing bytes in hex or utf8 "
+"string** and **Toggle showing int in hex or decimal** menus will appear. "
+"Click the menu to switch the display format of the variable value."
+
+#: ../../debugger.rst:242 e09841af481b491a89a645230aab3f03
+msgid "改变一个变量的显示格式，其它类型相同的变量的显示格式也会跟着改变"
+msgstr ""
+"Change the display format of a variable, and the display format of other "
+"variables of the same type will also change."
+
+#: ../../debugger.rst:245 28c0834bc1364ba1a375c434690d431f
 msgid "监视"
 msgstr "Watch"
 
-#: ../../debugger.rst:233 c4b7f56c703a4a128fd74b7ccf5e718d
+#: ../../debugger.rst:247 c4b7f56c703a4a128fd74b7ccf5e718d
 msgid "可以在 **监视面板** 中添加变量和表达式。"
 msgstr "You can add variables and expressions in the **Monitor Panel**."
 
-#: ../../debugger.rst:239 16b37ba8a02d4fa99c0911181fcfc22f
+#: ../../debugger.rst:253 16b37ba8a02d4fa99c0911181fcfc22f
 msgid "调用堆栈"
 msgstr "Call Stack"
 
-#: ../../debugger.rst:241 0eeabfd32a1447dfa9e09f65870c6497
+#: ../../debugger.rst:255 0eeabfd32a1447dfa9e09f65870c6497
 msgid ""
 "使用“调用堆栈”面板可以查看当前被调用的所有函数。 “调用堆栈”窗口显示函数被调用的顺序。栈底是当前调试的 *public* 函数。 "
 "单击“调用堆栈”上的函数名，代码编辑器会自动跳转到函数定义的位置。"
@@ -636,10 +668,10 @@ msgstr ""
 "Click the function name on the \"Call stack\" and the code editor will "
 "automatically jump to the location of the function definition."
 
-#: ../../debugger.rst:250 216708e794d74eec949c14577644a5cf
+#: ../../debugger.rst:264 216708e794d74eec949c14577644a5cf
 msgid "调试控制台 (REPL)"
 msgstr "Debug Console (REPL)"
 
-#: ../../debugger.rst:259 fd23d60007a0471abf0a095c31e6bd34
+#: ../../debugger.rst:273 fd23d60007a0471abf0a095c31e6bd34
 msgid "异常"
 msgstr "Exceptions"
