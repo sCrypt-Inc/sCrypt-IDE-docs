@@ -15,7 +15,7 @@
 ===============
 **IDE** 支持在代码编辑器/资源管理器上下文菜单中编译合约文件。
 
-.. image:: ./images/compiling.gif
+.. image:: ./images/debug_compiling.gif
     :width: 100%
 
 编译完成后，在VS Code 窗口的右下角会有 **通知** ，同时 **输出面板** 也会输出编译结果，包括编译的合约文件名，编译出来的脚本大小 [1]_， 合约描述文件存放路径。
@@ -41,9 +41,6 @@
 在开发过程中主要使用调试编译来构建合约，包括调试器、单元测试，甚至部署调用合约也可以使用此构建类型。在该构建类型下，
 编译器生成的脚本不包含优化，包含辅助信息，可以用于调试和定位异常。
 
-.. image:: ./images/debug_compiling.gif
-    :width: 100%
-
 .. _release_compiling:
 
 发布编译
@@ -55,8 +52,6 @@
 编译器会 :ref:`生成优化 <optimize>` 的脚本，删除辅助信息，从而使脚本会变得更小，节省交易手续费。
 目前只有付费用户才能使用此功能，请参阅 :ref:`高级付费功能 <premium>`
 
-.. image:: ./images/release_compiling.gif
-    :width: 100%
 
 .. warning::
 

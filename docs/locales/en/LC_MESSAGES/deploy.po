@@ -5,16 +5,16 @@
 # 
 # Translators:
 # Xiaohui Liu <x.liu@scrypt.io>, 2021
-# qtom zheng <zhfnjust@qq.com>, 2021
+# qtom zheng <zhfnjust@qq.com>, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: sCrypt-IDE-docs 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-07 17:13+0800\n"
+"POT-Creation-Date: 2022-03-30 10:33+0800\n"
 "PO-Revision-Date: 2021-06-02 09:22+0000\n"
-"Last-Translator: qtom zheng <zhfnjust@qq.com>, 2021\n"
+"Last-Translator: qtom zheng <zhfnjust@qq.com>, 2022\n"
 "Language-Team: English (https://www.transifex.com/scrypt-1/teams/121283/en/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,11 +22,11 @@ msgstr ""
 "Language: en\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../../deploy.rst:5 c6b43a74dd61402cbb174daa4c05f7e3
+#: ../../deploy.rst:5 b8fde8cf79f74b9db9c205da210183e3
 msgid "图形化界面部署调用合约"
 msgstr "Deploy and call a contract in GUI"
 
-#: ../../deploy.rst:8 7c7dbf9fafc040fc9e7748fa9d984535
+#: ../../deploy.rst:8 0baf8be7c69b4a70927451f13a93d844
 msgid ""
 "在完成合约的编写与测试之后，通常需要将合约部署到测试网中，以验证合约是否正确，相关交易能否被网络接受。 **IDE** 提供一个通用的 UI "
 "交互界面，只需简单的填写相关参数，就能一键部署合约，点击按钮就能调用合约的 *public* 函数，无须编写一行代码。"
@@ -38,29 +38,32 @@ msgstr ""
 "inputs. You can call the *public* function of the deployed contract with "
 "just another click, without writing a single line of code."
 
-#: ../../deploy.rst:14 14742559dda14e6bbf8d933d31c56a03
+#: ../../deploy.rst:14 f8b6e00b9f714012b8a53a986ff588ee
 msgid "主要 UI 交换控件包括："
 msgstr "The GUI mainly includes:"
 
-#: ../../deploy.rst:16 cf407cbd33254e4d92435bd23dc51e45
-msgid "左边的 **sCrypt Deploy** 按钮, 点击可以从其它侧边视图切换到部署视图"
+#: ../../deploy.rst:16 43819537798446768d4089a696d844bf
+msgid "sCrypt按钮 (**sCrypt Deploy**)。点击可以从其它侧边视图切换到部署视图"
 msgstr ""
-"**SCrypt Deploy** button on the left, click to switch from other side view "
-"to deployment view"
+"sCrypt button (**sCrypt Deploy**). Click to switch from other side view to "
+"deployment view"
 
-#: ../../deploy.rst:17 7a2e5f1784004060bbac05808ca3a8c4
-msgid "本地合约窗口，加载当前工作区 ``out`` 目录下所有已经编译的 :ref:`合约描述文件 <contractdescription>`"
+#: ../../deploy.rst:17 10ae862668f5428683302dbdd4b8f4f7
+msgid ""
+"本地合约窗口 (**COMPILED CONTRACTS**)。加载当前工作区 ``out`` 目录下所有已经编译的 :ref:`合约描述文件 "
+"<contractdescription>`"
 msgstr ""
-"Local contract window, load all compiled files in the ``out`` directory of "
-"the current workspace :ref:`Contract Description File <contractdescription>`"
+"Local contracts window (**COMPILED CONTRACTS**). Load all compiled "
+":ref:`contract description files <contractdescription>` in the ``out`` "
+"directory of the current workspace"
 
-#: ../../deploy.rst:18 c5e87c9e7edd448dbcc8d7de84729a14
-msgid "已经部署成功的合约实例窗口"
+#: ../../deploy.rst:18 8f93ab7b74cc42c297d721c169fea96d
+msgid "合约实例窗口 (**DEPLOYED CONTRACTS**)。列出已经部署成功的合约实例"
 msgstr ""
-"The contract instance window, containing all contracts that have been "
-"successfully deployed"
+"Contract instance window (**DEPLOYED CONTRACTS**). List contract instances "
+"that have been deployed successfully"
 
-#: ../../deploy.rst:19 0e7a3860ce2c4b73882d0412fe8b452a
+#: ../../deploy.rst:19 af6a3a8eae934d2dbe2bc47a3e39abf3
 msgid ""
 "部署合约配置视图。在该视图下填写部署合约的相关参数，包括：构造函数参数，合约锁定的 *satoshis* 余额，以及 `有状态合约`_ 的初始状态。"
 msgstr ""
@@ -69,15 +72,15 @@ msgstr ""
 "*satoshis* balance amount locked in the contract, and the initial state of a"
 " `stateful contract`_."
 
-#: ../../deploy.rst:23 abb2803bf94943f4a25375f2cfa5ac0b
+#: ../../deploy.rst:23 99fa1a23f1b7409da4ced135e45469da
 msgid "目前只支持测试网"
 msgstr "Currently only testnet is supported."
 
-#: ../../deploy.rst:26 d78d335272cf4d138cac4856b33f6e3e
+#: ../../deploy.rst:26 a86f1249223048ad8eaa9858c5a350f0
 msgid "设置私钥"
 msgstr "Set private key"
 
-#: ../../deploy.rst:28 ac2766a620f640d8afa1c5ae83e81822
+#: ../../deploy.rst:28 e717804d34b54334886d5c92f8a67adc
 msgid ""
 "部署合约到测试网需要先 :ref:`设置私钥 <settings_privatekey>`。如果检测到没有设置私钥，**IDE** "
 "会自打开设置界面，提示设置测试网私钥。"
@@ -86,146 +89,177 @@ msgstr ""
 "<settings_privatekey>`. If it is not set yet, **IDE** will open the setting "
 "interface automatically and prompt you to set it"
 
-#: ../../deploy.rst:33 cc3d813365154bf6a2712060b89fced1
-msgid "编译合约"
-msgstr "Compile a Contract"
-
-#: ../../deploy.rst:35 c6044888e36e4c9cba7b50052f08259c
-msgid ""
-"部署合约到测试网需要先 :ref:`编译合约 <compiling>`。编译完合约后， 本地合约窗口（COMPILED "
-"CONTRACTS）会自动刷新出刚刚编译的合约。点击窗口中的合约，打开部署合约配置视图。 也可以通过在代码编辑器上右键单击 **Deploy** "
-"菜单，将会自动以 :ref:`调试编译 <debug_compiling>` 合约，并打开部署合约配置视图。"
-msgstr ""
-"To deploy a contract, you need to :ref:`compile it first <compiling>`. After"
-" the contract is compiled, the local contract window (COMPILED CONTRACTS) "
-"will automatically refresh and detect the contract just compiled. Click the "
-"contract in the window to open the contract deployment configuration view. "
-"You can also right-click the **Deploy** menu in the code editor. It will "
-"automatically compile the contract with :ref:`debug build type "
-"<debug_compiling>` and open the contract deployment configuration view."
-
-#: ../../deploy.rst:42 b8606cc797c14943a26997938a117c71
+#: ../../deploy.rst:32 e910aa552d92476c8b18823e6b6bf5dc
 msgid "部署合约"
 msgstr "Deploy a Contract"
 
-#: ../../deploy.rst:44 20da69616b9e4d4a8f8fecba7112c881
+#: ../../deploy.rst:34 d1238d0d913342e489dca22cbf7038c6
 msgid ""
-"打开部署合约配置视图后， 填写合约构造函数的各个参数，以及合约锁定 *satoshis* 余额，如果是状态合约，还需要填写初始的状态，然后点击 "
-"**Deploy** 按钮，在 **输出面板** 可以看到部署成功的提示, 在左边的合约实例窗口 (DEPLOYED CONTRACTS) "
-"中会出现对应的实例，点击合约实例上的 View Tx 按钮，则可打开浏览器查看对应的交易。"
+"在代码编辑器上右键单击 **Deploy Contract: Debug** "
+"菜单，将会编译合约，并自动打开部署合约配置视图。在配置视图中需要填写以下信息:"
 msgstr ""
-"After opening the contract deployment configuration view, fill in the "
-"various parameters of the contract constructor and *satoshis* amount the "
-"contract locks. If it is a stateful contract, you also need to fill in the "
-"initial state. Then click the **Deploy** button, in the **output panel** you"
-" can see the prompt of successful deployment. The corresponding instance "
-"will appear in the contract instance window (DEPLOYED CONTRACTS) on the "
-"left. Click the View Tx button on the contract instance to open a block "
-"explorer to view the corresponding transaction."
+"Right-clicking on the **Deploy Contract: Debug** menu on the code editor "
+"will compile the contract and automatically open the Deploy Contract "
+"configuration view. The following information needs to be filled in the "
+"configuration view:"
 
-#: ../../deploy.rst:53 3e012d2a5d5d4ec4b3dd2ad85e6ffd97
+#: ../../deploy.rst:36 96e025a7f7cc41878dc873843c104914
+msgid ""
+"根据合约构造函数的各个 :ref:`参数类型 <inputType>`，填写 **Constructor Arguments** 下的各个参数"
+msgstr ""
+"According to each :ref:`parameter type <inputType>` of the contract "
+"constructor, fill in the parameters under **Constructor Arguments**"
+
+#: ../../deploy.rst:37 3ae18c0a7bdd4a4fb5a95f854fa68eba
+msgid "填写合约锁定 *satoshis* 余额，默认是 ``10000`` *satoshis*"
+msgstr ""
+"Fill the *satoshis* locked in the contract, the default is ``10000`` "
+"*satoshis*"
+
+#: ../../deploy.rst:38 ff46221c459b4a03b1eb4f42782fc842
+msgid "如果是不带 ``@state`` 修饰器的有状态合约，还需要填写初始的状态"
+msgstr ""
+"If it is a stateful contract without the ``@state`` decorator, you also need"
+" to fill in the initial state"
+
+#: ../../deploy.rst:39 94412a0d3d0d40858c0286ec264fa4d7
+msgid "然后点击 **Deploy** 按钮"
+msgstr "Then click the **Deploy** button"
+
+#: ../../deploy.rst:44 40c3e9d5b8314efd817d1bbf69cc9871
+msgid ""
+"部署成功后， 可以在 **输出面板** 看到 log 提示， 并在左边的合约实例窗口中会出现对应的实例，点击合约实例上的 **View Tx** "
+"按钮，则可打开浏览器查看对应的交易。"
+msgstr ""
+"After the deployment is successful, you can see the log prompt in the "
+"**output panel**, and the corresponding instance will appear in the contract"
+" instance window on the left, click the **View Tx** button on the contract "
+"instance, you can open the browser to view corresponding transaction."
+
+#: ../../deploy.rst:47 d02d8de1670b43798a7b6cfab01694dd
 msgid "调用合约"
 msgstr "Call a Contract"
 
-#: ../../deploy.rst:56 fa7b81de7ae248afb6a6d88292803409
+#: ../../deploy.rst:50 680972776af64b72b6e86e225a01ca99
 msgid "普通合约"
 msgstr "Ordinary Contract"
 
-#: ../../deploy.rst:58 8c2833c6c0b94b9bbc684ed36182c4a1
+#: ../../deploy.rst:52 d25b1e33b3794546b0dcaabbeaf97e54
 msgid ""
-"点击合约实例上的构造函数，则可查看构造函数调用时的实参。点击 *public* 函数，右边则会出现该函数的调用视图。 "
-"和部署合约的过程一样，只需给函数对应的参数赋值，点击 **Call** 按钮，就能调用该函数了。 如果调用成功，可以看到对应的交易， "
-"失败则会打印出对应的错误。"
+"点击合约实例上的构造函数，则可查看构造函数调用时的实参。点击 ``public`` 函数，右边则会出现该函数的调用视图。 对于调用普通合约，一般只需在 "
+"**Public Function Arguments** 下填写正确的解锁参数，点击 **Call** 按钮，就能调用该函数了。 "
+"如果调用成功，可以看到对应的交易， 失败则会打印出对应的错误。"
 msgstr ""
-"Click the constructor on a contract instance, you can view the actual "
-"arguments of the constructor. Click a *public* function, and the call view "
-"of the function will appear on the right. Just like deploying a contract, "
-"you only need to assign values to the corresponding parameters of the "
-"function and click the **Call** button to call the function. If the call is "
-"successful, you can see the corresponding transaction. If it fails, the "
-"corresponding error will be printed."
+"Click the constructor on the contract instance to view the actual parameters"
+" when the constructor is called. Click on the ``public`` function, and the "
+"call view of the function will appear on the right. For calling ordinary "
+"contracts, generally only need to fill in the correct unlock parameters "
+"under **Public Function Arguments**, and click the **Call** button to call "
+"the function. If the call is successful, you can see the corresponding "
+"transaction, and if it fails, the corresponding error will be printed."
 
-#: ../../deploy.rst:65 3673668833d5491193ec57d40b3e5774
+#: ../../deploy.rst:58 afc5bf86ed194966b508cb6e06e36dac
+msgid "合约调用成功后，我们可以看到如下信息:"
+msgstr ""
+"After the contract is called successfully, we can see the following "
+"information:"
+
+#: ../../deploy.rst:63 e7310993551d48af9ad67191eb2b1475
+msgid "调用合约时所填写的解锁参数的值"
+msgstr "The value of the unlock parameter filled in when calling the contract"
+
+#: ../../deploy.rst:64 378313396e4045a89b2f7639f70ea9e1
+msgid "合约是否结束"
+msgstr "Whether the contract ends"
+
+#: ../../deploy.rst:65 8ce78b163df9448e87bc1876e9ef7a50
+msgid "合约剩余的 *satoshis*"
+msgstr "*satoshis* remaining in the contract"
+
+#: ../../deploy.rst:66 be64f94379944d828f05676f53a33505
+msgid "调用合约产生的交易，点击 **View Tx** 按钮可查看交易。"
+msgstr ""
+"The transaction generated by calling the contract, click the **View Tx** "
+"button to view the transaction."
+
+#: ../../deploy.rst:70 8ed60a9cd8914088934b883ad5ecb1d6
 msgid "有状态合约"
 msgstr "Stateful Contract"
 
-#: ../../deploy.rst:67 fefef128d8d14b9c9fd1657a343300ea
-msgid "在合约调用视图可以看到合约的当前信息，如合约锁定余额、合约当前状态、合约是否已结束等。要调用当前合约的函数，还需要根据情况完成以下几个步骤："
+#: ../../deploy.rst:72 adaa3902a87c4338b089ba91a146e94e
+msgid "调用有状态合约需要更多设置:"
+msgstr "Calling a stateful contract requires more setup:"
+
+#: ../../deploy.rst:74 1f030ef2496a4e3fbdf347562df5e911
+msgid "填写正确的解锁参数（同普通合约)。需要注意有 :ref:`两种特殊类型 <specialInputType>` 的解锁参数"
 msgstr ""
-"In the contract call view, you can see the current information of the "
-"contract, such as the locked balance of the contract, the current state of "
-"the contract, whether the contract has ended, etc. To call the function of "
-"the current contract, you need to complete the following steps according to "
-"the situation:"
+"Fill in the correct unlock parameters (same as normal contracts). It should "
+"be noted that there are  :ref:`two special types <specialInputType>`  of "
+"unlock parameters:"
 
-#: ../../deploy.rst:70 5e7cdf85e11144b9a060dc3ed9a193fc
-msgid "填写调用函数所需的实参。"
-msgstr "Fill in the arguments required to call the function."
-
-#: ../../deploy.rst:71 1f9bc76115324ef1a7ca7a6dd0cd9127
-msgid "添加交易输出，对于有状态合约，一般会限制合约的输出脚本，所以需要手动管理所有交易输出。目前支持的输出类型有四种："
+#: ../../deploy.rst:77 51c579292abe4ba59c08cad943a6b523
+msgid "添加交易输出，对于有状态合约，需要根据合约的限制添加相应的交易输出。目前支持的输出类型有四种："
 msgstr ""
-"Add transaction output. For stateful contracts, the output script of the "
-"contract is generally restricted, so you need to manually manage all "
-"transaction outputs. There are currently four types of output supported:"
+"Add transaction output. For stateful contracts, you need to add the "
+"corresponding transaction output according to the contract's restrictions. "
+"There are currently four output types supported:"
 
-#: ../../deploy.rst:74 89a959aed99248f0827cba79aa48ee49
+#: ../../deploy.rst:80 b5356b7853f3414cb903bf087f228b50
 msgid "输出类型"
 msgstr "Output Type"
 
-#: ../../deploy.rst:74 617b166ac5204afd93c4f61622d5da48
+#: ../../deploy.rst:80 30997e3932ea4220a729b98d5c485ca3
 msgid "参数"
 msgstr "Parameter"
 
-#: ../../deploy.rst:76 232979e9dd39430697131ffadbd57b84
-msgid "状态合约输出"
-msgstr "State contract output"
+#: ../../deploy.rst:82 ../../deploy.rst:126 1d651573d52247038a96cc7a7ce31a33
+#: 1d651573d52247038a96cc7a7ce31a33
+msgid "有状态合约输出"
+msgstr "Stateful contract output"
 
-#: ../../deploy.rst:76 c2397017b8b241ea8d7682321727ce83
-msgid "``State`` : 合约状态的序列化值(hex格式)， ``Amount`` : 合约中锁定的余额(satoshis)"
-msgstr ""
-"``State``: serialized value of the contract state (in hex format), "
-"``Amount``: the amount locked in the contract (satoshis)"
+#: ../../deploy.rst:82 9d81a77bce92446c8d482c7ffaa8a652
+msgid ":ref:`见下文 <statefulOutput>`"
+msgstr ":ref:`See below <statefulOutput>`"
 
-#: ../../deploy.rst:77 b7047e4835da4f4891b9982a8fb3b567
+#: ../../deploy.rst:83 53aa45575cf749d6972aff83d656d190
 msgid "P2PKH输出"
 msgstr "P2PKH output"
 
-#: ../../deploy.rst:77 8f653cfa71a94a43adbc7c3d8aaa3521
+#: ../../deploy.rst:83 bf1462d59fe04575911660057e59120d
 msgid "``Address``: 收款人地址， ``Amount`` : 合约中锁定的余额"
 msgstr ""
 "``Address``: address of the payee, ``Amount``: the amount locked in the "
 "contract"
 
-#: ../../deploy.rst:78 b9590cc25423428e923997b3d7f40cd1
+#: ../../deploy.rst:84 8dce774a76a0466d86ab6a136806c784
 msgid "OpReturn输出"
 msgstr "OpReturn output"
 
-#: ../../deploy.rst:78 51af2b67e5b9432c831562f387048b53
+#: ../../deploy.rst:84 b9da8ebefb684428aaf8f47f8cbc2425
 msgid "``OpReturn`` : op_return后数据部分，asm 格式， ``Amount`` : 合约中锁定的余额"
 msgstr ""
 "``OpReturn``: data after op_return, in asm format, ``Amount``: the amount "
 "locked in the contract"
 
-#: ../../deploy.rst:79 3600b4ea8cb84fa0b55fa7ac4ebe9d3f
+#: ../../deploy.rst:85 f11956eccb30464b82b62b9dcc8e2d68
 msgid "Hex输出"
 msgstr "Hex output"
 
-#: ../../deploy.rst:79 7f7d3d40a7c746018674b739a0747170
+#: ../../deploy.rst:85 fe6e92baf6b34645afbc3dc13e8cb2f5
 msgid "``hex`` : 任意输出的 ``hex`` 字符串"
 msgstr "``hex``: ``hex`` character string of arbitrary output "
 
-#: ../../deploy.rst:82 41adb84c90ec45d3848bf8ddb88860ac
+#: ../../deploy.rst:90 876327b376b04443a995759058f06ba4
 msgid "设置交易相关参数"
 msgstr "Set transaction-level parameters"
 
-#: ../../deploy.rst:84 ba89c63af68e4c76b38b048d0e08b0e4
+#: ../../deploy.rst:92 dc11487ac072439f954fd98ff34c1ede
 msgid "交易费用 ``Fee``： 根据已经添加的交易输出，以及合约的 *satoshis* 余额自动计算得到。"
 msgstr ""
 "Transaction fee ``Fee``: It is automatically calculated based on the "
 "summarized transaction outputs and the *satoshis* amount of the contract."
 
-#: ../../deploy.rst:86 18d09049c1334c5bbd1ca8df036a34e4
+#: ../../deploy.rst:94 46f236009bc54d7baab8347ffe0d9671
 msgid ""
 "交易签名类型 ``SighashType``： 默认用于计算交易原象 Preimage 的签名类型是 ALL，可根据合约使用交易签名类型来修改此值。"
 msgstr ""
@@ -233,7 +267,7 @@ msgstr ""
 "to calculate the preimage of the transaction is ALL, and this value can be "
 "modified according to the transaction signature type used in the contract."
 
-#: ../../deploy.rst:88 348c2a3bbffd4fd6914287b42efca875
+#: ../../deploy.rst:96 0265ecd4aeae4fcdb7bb55c71ddd2489
 msgid ""
 "``nLockTime``： nLockTime 是应用于在 unix 时间或块高度中指定的每个事务的参数，在此之前，该事务不能被接受到一个块中。"
 msgstr ""
@@ -241,17 +275,17 @@ msgstr ""
 "specified in unix time or block height. Before this, the transaction cannot "
 "be accepted into a block."
 
-#: ../../deploy.rst:91 ceea8e241b384b4bb68f20b41da82383
+#: ../../deploy.rst:99 fdacb3a539714cd4af0bbbe24777337a
 msgid "点击 Call 按钮调用合约"
 msgstr "Click the Call button to call the contract"
 
-#: ../../deploy.rst:93 bd9ecd0cc6204d2dba4c41654bc7118e
+#: ../../deploy.rst:101 e7a68db9f57942e9ae0e134dab64864e
 msgid ""
-"所有设置均完成后点击 Call 按钮，会发送这个合约调用交易到测试网。交易发送成功后，可以看到顶部显示合约余额发生变化。 合约实例的 "
+"所有设置均完成后点击 **Call** 按钮，会发送这个合约调用交易到测试网。交易发送成功后，可以看到顶部显示合约余额及状态发生变化。 合约实例的 "
 "**transactions** 子项中增加了一个交易，并且可通过右侧的 **View Tx** "
 "按钮在区块链浏览器上进行查看。另外，选中该交易子项时，被调用函数下的参数列表中会显示出此次调用时传递的各个实参。"
 msgstr ""
-"After all settings are completed, click the ``Call`` button to send this "
+"After all settings are completed, click the **Call** button to send this "
 "contract call transaction to testnet. After the transaction is sent "
 "successfully, you can see that the contract balance displayed at the top is "
 "updated. The transaction is added to the **transactions** sub-item of the "
@@ -259,26 +293,29 @@ msgstr ""
 "**View Tx** button on the right. In addition, when the transaction sub-item "
 "is selected, the arguments passed to the called function will be displayed."
 
-#: ../../deploy.rst:99 13a3170c37ff4a8887dfb8d765cfedb6
+#: ../../deploy.rst:107 7955c1cb06914df2807d89d9e5e4a1dc
 msgid "重复调用"
 msgstr "Repeated calls"
 
-#: ../../deploy.rst:101 389cc29fc3e04d0ca77e9156bfe45eb6
-msgid "针对有状态合约，可以重复上面的步骤继续调用其 *public* 函数并观察其状态变更，直到合约中的余额不足。"
+#: ../../deploy.rst:109 30eda8ea8be24bc696b16873b7841317
+msgid ""
+"针对有状态合约，可以重复上面的步骤继续调用其 ``public`` 函数并观察其状态变更。可以在合约实例窗口中的 **StateProp** "
+"条目上查看合约的最新状态。"
 msgstr ""
-"For a stateful contract, you can repeat the above steps to continue calling "
-"its *public* function and observe its state changes until the balance in the"
-" contract is insufficient."
+"For stateful contracts, you can repeat the above steps to continue calling "
+"its ``public`` function and observe its state changes. The latest state of "
+"the contract can be viewed on the **StateProp** entry in the contract "
+"instance window."
 
-#: ../../deploy.rst:105 ec0b18a6e41d4fb49c0d6c3b6965b12d
+#: ../../deploy.rst:113 8ad48d49439c4cc9ada5c346313a7e9c
 msgid "目前暂不支持合并其它输入来调用合约"
 msgstr "Currently, we do NOT support merging other inputs to call a contract."
 
-#: ../../deploy.rst:108 da20ce892d86433585c46978dedcf8a3
+#: ../../deploy.rst:116 9b457bc784de4f8bacc8fe5f84c07dd5
 msgid "调用失败"
 msgstr "Call Failure"
 
-#: ../../deploy.rst:110 1739537e6e3e464a9c7ba6a39aa321ba
+#: ../../deploy.rst:118 3e47d1d9ad2242a7b15b6bedb835d6e7
 msgid ""
 "通常情况下，调用合约失败，将会在 **输出面板** 输出相应的信息，并生成 ``Launch Debugger`` 链接。 **CRTL + 单击** "
 "链接将根据测试中的参数直接启动调试器会话。"
@@ -288,50 +325,75 @@ msgstr ""
 "generated. **CRTL + Click** the link will directly launch the debugger "
 "session based on the arguments in the test."
 
-#: ../../deploy.rst:119 35120c12e9514cd39b414524c35b2114
+#: ../../deploy.rst:128 ffc8b9946a9b45d991afe827ee0cbfd1
+msgid "有状态合约的输出包含两种格式的输出："
+msgstr "The output of a stateful contract contains output in two formats:"
+
+#: ../../deploy.rst:131 12fa5a7b681a4cc886b9b00326da65db
+msgid "有状态合约不包含带有 ``@state`` 装饰器的属性。"
+msgstr ""
+"Stateful contracts do not contain properties with the ``@state`` decorator."
+
+#: ../../deploy.rst:131 19c12b4733a24719b0376acf83d4a490
+msgid "需要填写 ``State`` （合约状态的序列化值，hex格式) 和 ``Amount`` (合约中锁定的余额satoshis) 两个参数。"
+msgstr ""
+"You need to fill in ``State`` (the serialized value of the contract state, "
+"in hex format) and ``Amount`` (the balance satoshis locked in the contract)."
+
+#: ../../deploy.rst:136 9e9449c193eb496c8801c58255e13f7c
+msgid "有状态合约包含带有 ``@state`` 装饰器的属性。"
+msgstr "Stateful contracts contain properties with the ``@state`` decorator."
+
+#: ../../deploy.rst:134 a381bab8c8464fc69e345cda774ba7c3
+msgid "需要填写 ``Amount`` 参数，以及所有被 ``@state`` 装饰器修饰的属性。"
+msgstr ""
+"The ``Amount`` parameter needs to be filled in, as well as all properties "
+"decorated with the ``@state`` decorator."
+
+#: ../../deploy.rst:141 118f80acd6fe43fdb34d3a4b8789b6d8
 msgid "参数输入格式"
 msgstr "Argument Input Format"
 
-#: ../../deploy.rst:122 3fbb476b66c34b18b2459911a09b956a
+#: ../../deploy.rst:144 860ba4666dca4e1cbb72d277abe8516e
 msgid "所有参数类型"
 msgstr "All parameter types"
 
-#: ../../deploy.rst:124 36f07fcd334d4f3094f12cb8396a8679
+#: ../../deploy.rst:146 d8f4ffa20f414dbda61ee95e50dd3294
 msgid "部署合约和调用合约都需要在视图中输入正确的参数。参数输入格式参照下表："
 msgstr ""
 "Both deploying a contract and calling it requires correct parameters in the "
 "view. Refer to the table below for the parameter input format:"
 
-#: ../../deploy.rst:127 3fbb476b66c34b18b2459911a09b956a
+#: ../../deploy.rst:149 be487924dbc9486a944c08eebf0a5044
 msgid "参数类型"
 msgstr "Parameter Type"
 
-#: ../../deploy.rst:127 6abbd5c894f346ef83baeb527975d46b
+#: ../../deploy.rst:149 147cc60875294a86894127eb251c3751
 msgid "输入格式说明"
 msgstr "Input format description"
 
-#: ../../deploy.rst:129 3e278e68372e4cc48f02984dc39f872c
+#: ../../deploy.rst:151 cf8ec788309f4936aee4fb3f59837bee
 msgid "bool"
 msgstr "bool"
 
-#: ../../deploy.rst:129 5014be746d284c25b1bebada4fccbc9c
+#: ../../deploy.rst:151 f1ddce4d19d8402fa867d631def2a383
 msgid "``true`` 或者 ``false``"
 msgstr "``true`` or ``false``"
 
-#: ../../deploy.rst:130 f909da5bd7f64e83ac50e9d5ffc57658
+#: ../../deploy.rst:152 723840f573d64ad69c38a5922647cb6d
 msgid "int"
 msgstr "int"
 
-#: ../../deploy.rst:130 5eafda3f0ee240369fe4ea3d8aca5489
+#: ../../deploy.rst:152 34e42632d44c43c2ac1605cfe185faf2
 msgid "十进制数字或十六进制数字，例如: ``123`` 或者 ``0x0123``"
 msgstr ""
 "Decimal number or hexadecimal number, for example: ``123`` or ``0x0123``"
 
-#: ../../deploy.rst:131 4aa01deaa5fd4ebfb8447fdcf4006c64
+#: ../../deploy.rst:153 f3603f0a3cbf4a39adf46b3aa3013435
 msgid "bytes"
 msgstr "bytes"
 
-#: ../../deploy.rst:131 eef0de40a7eb4c2994c2437f25241ef3
+#: ../../deploy.rst:153 e61ed22ecc144200a4fcf3ff62d9a0ee
 msgid ""
 "十六进制字符串, 例如: "
 "``036cfa9a0b0abf4fa56e583b99f8d1ba4a2608096283cdea68ecf1d4f5bdefeb1f``"
@@ -339,150 +401,145 @@ msgstr ""
 "Hexadecimal string, for example: "
 "``036cfa9a0b0abf4fa56e583b99f8d1ba4a2608096283cdea68ecf1d4f5bdefeb1f``"
 
-#: ../../deploy.rst:132 7fe42ffd37ab41e89961cadefdf21310
+#: ../../deploy.rst:154 251b39bc5a364965973ab30fb6460747
 msgid "PubKey"
 msgstr "PubKey"
 
-#: ../../deploy.rst:132 ../../deploy.rst:134 ../../deploy.rst:135
-#: ../../deploy.rst:136 ../../deploy.rst:137 ../../deploy.rst:138
-#: ../../deploy.rst:139 ../../deploy.rst:140 9e178f39808449cbae12b871762dd157
-#: 9e178f39808449cbae12b871762dd157 9e178f39808449cbae12b871762dd157
-#: 9e178f39808449cbae12b871762dd157 9e178f39808449cbae12b871762dd157
-#: 9e178f39808449cbae12b871762dd157 9e178f39808449cbae12b871762dd157
-#: 9e178f39808449cbae12b871762dd157
+#: ../../deploy.rst:154 ../../deploy.rst:156 ../../deploy.rst:157
+#: ../../deploy.rst:158 ../../deploy.rst:159 ../../deploy.rst:160
+#: ../../deploy.rst:161 ../../deploy.rst:162 59bbecd5b8f7437397dd876cedc0c5f6
+#: 59bbecd5b8f7437397dd876cedc0c5f6 59bbecd5b8f7437397dd876cedc0c5f6
+#: 59bbecd5b8f7437397dd876cedc0c5f6 59bbecd5b8f7437397dd876cedc0c5f6
+#: 59bbecd5b8f7437397dd876cedc0c5f6 59bbecd5b8f7437397dd876cedc0c5f6
+#: 59bbecd5b8f7437397dd876cedc0c5f6
 msgid "十六进制字符串, 同 ``bytes``"
 msgstr "Hexadecimal string, same as ``bytes``"
 
-#: ../../deploy.rst:133 7bbedcd43db043ca8f971d21ef3129c6
+#: ../../deploy.rst:155 cc7bf352bd13467f8433aa3ed6bc04b1
 msgid "PrivKey"
 msgstr "PrivKey"
 
-#: ../../deploy.rst:133 4dea75312e0b4a7793c7228ebb5d862a
+#: ../../deploy.rst:155 e23439c35c054df9afc5d80e3bd7237c
 msgid "同 ``int``"
 msgstr "Same as ``int``"
 
-#: ../../deploy.rst:134 cf0434c76b7640a3ba07e63974d61929
+#: ../../deploy.rst:156 4910ba402056456cad8431429eec65de
 msgid "Sig"
 msgstr "Sig"
 
-#: ../../deploy.rst:135 30924ec410e84b76af4043a7cb8a40f2
+#: ../../deploy.rst:157 38a6abe1cece461fabe94e0d09d2712c
 msgid "Ripemd160"
 msgstr "Ripemd160"
 
-#: ../../deploy.rst:136 2bd9c115b4b24a0b8b9e8f776e3ba1c7
+#: ../../deploy.rst:158 b740479322134e018d1cd52ca21e4649
 msgid "Sha1"
 msgstr "Sha1"
 
-#: ../../deploy.rst:137 b3804cf6634640a0a74d23681a413a71
+#: ../../deploy.rst:159 8b319c8908334715b7b1294c3ee64fbb
 msgid "Sha256"
 msgstr "Sha256"
 
-#: ../../deploy.rst:138 b163d3a0e7594a69b790ac6329b0307b
+#: ../../deploy.rst:160 b25615322a9543efb05b5b1298513378
 msgid "SigHashType"
 msgstr "SigHashType"
 
-#: ../../deploy.rst:139 f741d80f2fa245bf964d75861abf5eea
+#: ../../deploy.rst:161 251802a9fa6c4cacbdb085dbca21ab9c
 msgid "SigHashPreimage"
 msgstr "SigHashPreimage"
 
-#: ../../deploy.rst:140 a37189cad377469b8dff9d02d9086b60
+#: ../../deploy.rst:162 cbc7dde9695c4c7faa3c5e6184d4eea3
 msgid "OpCodeType"
 msgstr "OpCodeType"
 
-#: ../../deploy.rst:141 6ca810fa80bd41538d0064dae972845d
+#: ../../deploy.rst:163 140e7a6493474a22a265ad8c6b319316
 msgid "数组"
 msgstr "Array"
 
-#: ../../deploy.rst:141 8ba1b15a4b8145b08b407bc8a4216c1d
+#: ../../deploy.rst:163 d2d21167475e43ca83c43d67dc7349dd
 msgid "每个元素分别填写"
 msgstr "Fill in each element separately"
 
-#: ../../deploy.rst:142 2420b5498b40423b8f9426077c200288
+#: ../../deploy.rst:164 66763d7c4dd54e0da815b5dfff3e5b99
 msgid "结构体"
 msgstr "Structure"
 
-#: ../../deploy.rst:142 8d3eda2eba9a44278aa90c044f0f2d90
+#: ../../deploy.rst:164 fc120a5c890443ecae4d094371b8a5ff
 msgid "每个成员分别填写"
 msgstr "Fill in each struct field separately"
 
-#: ../../deploy.rst:146 3fbb476b66c34b18b2459911a09b956a
+#: ../../deploy.rst:171 74e318e9e7464c88b75fcfcd5a87d4d8
 msgid "特殊参数类型"
 msgstr "Special parameter type"
 
-#: ../../deploy.rst:148 c30122e9516f43d089198b1933b1373b
+#: ../../deploy.rst:173 77d9e541adb34c249a841bba64ae36fd
 msgid "``Sig`` 类型"
 msgstr "``Sig`` type"
 
-#: ../../deploy.rst:150 747e11344aec488ca51b0a99944fd0bc
+#: ../../deploy.rst:175 aecb4fc623dc4b429d91ed1eb89c10b5
 msgid ""
-"部署 ``P2PKH`` 合约的时候会有一个 ``Publickey Hash`` 的输入框。默认值是你设置的私钥的 ``Publickey "
-"Hash``。 你可以把它修改成别的私钥的 ``Publickey Hash``。 "
-"如果你修改了，那么当你解锁它的时候，就需要有对应的私钥的签名。别担心，IDE 允许你使用对应的私钥来签名交易。签名输入框中的默认签名是用默认私钥计算的。"
-" 点击输入框的右边的 [Sig] 按钮，在弹出的输入框中输入正确的私钥，就可以计算出正确的签名了。"
+"不需要手动填写。 **IDE** 默认使用设置中的私钥自动生成一个签名，作为该参数的默认值。如果你需要使用其它私钥进行签名，点击输入框右边的 "
+"**Sig** 按钮， 在弹出的输入框上输入正确的私钥。**IDE** 会根据输入的私钥生成新的参数值并自动更新该参数。"
 msgstr ""
-"When deploying the ``P2PKH`` contract, there will be an input box of "
-"``Publickey Hash``. The default value is the ``Publickey Hash`` of the "
-"private key you set. You can modify it to the ``Publickey Hash`` of another "
-"private key. If you modify it, then when you unlock it, you need to have the"
-" signature of the corresponding private key. Don't worry, the IDE allows you"
-" to use the corresponding private key to sign the transaction. The default "
-"signature in the signature input box is calculated using the default private"
-" key. Click the [Sig] button on the right side of the input box and enter "
-"the correct private key in the pop-up input box to calculate the correct "
-"signature."
+"No need to fill in manually. **IDE** uses the private key in the settings to"
+" automatically generate a signature by default, as the default value of this"
+" parameter. If you need to sign with another private key, click the **Sig** "
+"button on the right side of the input box, and enter the correct private key"
+" in the pop-up input box. **IDE** will generate a new parameter value based "
+"on the entered private key and update the parameter automatically."
 
-#: ../../deploy.rst:154 f741d80f2fa245bf964d75861abf5eea
+#: ../../deploy.rst:178 10d6164a9ff24bd495d565c8e4f176cf
 msgid "``SigHashPreimage`` 类型"
 msgstr "``SigHashPreimage`` type"
 
-#: ../../deploy.rst:156 6f786d6da24042fbbe5dfa5e5bbdd171
+#: ../../deploy.rst:180 f10928861c1f4e26bee25d8bd7885220
 msgid ""
-"IDE 会根据你添加的输出，设置的交易相关参数，比如 ``SigHashType``, ``nLockTime``， 自动计算出交易第一个输入的 "
-"preimage 原象。"
+"不需要手动填写。**IDE**  会根据你添加的输出，设置的交易相关参数，比如 ``SigHashType``, ``nLockTime``， "
+"计算出交易第一个输入的 preimage 原象，并自动更新该参数。"
 msgstr ""
-"The IDE will automatically calculate the preimage of the first input of the "
-"transaction based on the output you added and set the transaction-related "
-"parameters, such as ``SigHashType``, ``nLockTime``."
+"No need to fill in manually. **IDE** will calculate the preimage of the "
+"first input of the transaction based on the output you add and the "
+"transaction-related parameters set, such as ``SigHashType``, ``nLockTime``, "
+"and automatically update the parameter."
 
-#: ../../deploy.rst:159 132c541bfcb74d9fa3989fc016aa4c55
+#: ../../deploy.rst:183 f7745610eca74666aca9a24e54043b89
 msgid "其它功能"
 msgstr "Other Features"
 
-#: ../../deploy.rst:164 f0ea29fcb35a49a896d3a560714dcf01
+#: ../../deploy.rst:188 82d87251b5f2468c9507692663812ecb
 msgid "查看交易"
 msgstr "View Transaction"
 
-#: ../../deploy.rst:166 16e6954dbd074ee5bb82f3f63e90272c
+#: ../../deploy.rst:190 f33e5d2eca0a4373a3344f5746e498eb
 msgid "合约实例窗口下 **transactions** 子项带有 **View Tx** 按钮， 点击可打开区块链浏览器查看该交易详情。"
 msgstr ""
 "The **transactions** sub-item under the contract instance window has a "
 "**View Tx** button. Click it to open a block explorer to view the "
 "transaction details."
 
-#: ../../deploy.rst:173 095ced9760294a3292b3676bac0713a4
+#: ../../deploy.rst:197 25bc7b20c46743358b8a349a99ce27e0
 msgid "复制值"
 msgstr "Copy Value"
 
-#: ../../deploy.rst:175 71265d1f43eb4cbd9b88419a384c79b7
+#: ../../deploy.rst:199 7eb38c887c6a412eab5fb09f2a3833b3
 msgid "在合约实例窗口下选中某个函数，在参数列表上单击右键，会出现 **Copy Value** 菜单， 点击该菜单可以将参数的值复制到剪切板。"
 msgstr ""
 "Select a function in the contract instance window, right-click on the "
 "parameter list, and the **Copy Value** menu will appear. Click this menu to "
 "copy the value of the parameter to the clipboard."
 
-#: ../../deploy.rst:182 8b130cb393074f67a955e5cfa03111d0
+#: ../../deploy.rst:206 127bb94b35dd41de8aab9b4548ea1a66
 msgid "清除所有合约实例"
 msgstr "Clear All Contract Instances"
 
-#: ../../deploy.rst:184 5d8dd16c9b0f40dfa7e79c8ef1c19bc8
+#: ../../deploy.rst:208 650aa159b2a94018a7165bb1c51a0c3f
 msgid "点击该按钮删除所有合约实例。"
 msgstr "Click this button to delete all contract instances."
 
-#: ../../deploy.rst:191 b44923319221468b8ed9af74dadc2c29
+#: ../../deploy.rst:215 f0e1dcd2c11c4bc38ca2c63104f6a517
 msgid "删除单个合约实例"
 msgstr "Delete a Single Contract Instance"
 
-#: ../../deploy.rst:193 bd45134f66d94457bbf7fc77812615a3
+#: ../../deploy.rst:217 15dc7d67d3c6400f9a89a44838b641f2
 msgid "在合约实例上右键单击会出现 **Delete** 菜单， 点击该菜单可以删除该合约实例。"
 msgstr ""
 "Right-click on the contract instance and the **Delete** menu will appear. "
