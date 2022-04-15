@@ -28,8 +28,7 @@
 
     The `po` and `mo` files will be updated automatically after run pull.
 
-1. After pull, do commit and push
-1. Go to [Readthedocs](https://readthedocs.org/projects/scrypt-ide/), and click **Build version**
+1. After pull, do commit and push. Then github will trigger the build event through the webhook.
 
 
 After build version, look at the [latest version](https://scrypt-ide.readthedocs.io/en/latest/)
