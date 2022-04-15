@@ -26,9 +26,13 @@
 
     通过 *txid* 或者 *rawTx* 来调试已经上链的合约
 
-#. **sCrypt: Deploy**
+#. **sCrypt: Deploy Contract: Debug**
 
-    编译当前合约并自动打开合约部署视图
+    以调试模式编译当前合约并自动打开合约部署视图
+
+#. **sCrypt: Deploy Contract: Release**
+
+    以发布模式编译当前合约并自动打开合约部署视图
 
 #. **sCrypt: Compile Contract: Debug**
 
@@ -70,3 +74,11 @@
 #. **sCrypt: Show Transaction ID**
 
     打印出hex格式的交易的 ``txid``
+
+#. **sCrypt: Get BSV From Faucet**
+
+    从水龙头获取测试网 BSV
+
+#. **sCrypt: Show Balance**
+
+    显示余额

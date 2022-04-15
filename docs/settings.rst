@@ -29,6 +29,7 @@
 .. image:: ./images/privatekey.png
     :width: 100%
 
+如果你没有设置私钥，**IDE** 将自动设置一个随机生成的私钥，并从 `水龙头`_ 获取小额比特币。
 
 .. warning::
 
@@ -91,3 +92,10 @@ ASM缩进
 
 .. image:: ./images/indentedasm.png
     :width: 100%
+
+
+.. _水龙头: https://witnessonchain.com/faucet/tbsv
+
+.. _faucet: https://witnessonchain.com/faucet/tbsv
+
+
