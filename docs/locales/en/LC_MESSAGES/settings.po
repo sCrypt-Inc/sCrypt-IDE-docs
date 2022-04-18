@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sCrypt-IDE-docs 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-15 23:42+0800\n"
+"POT-Creation-Date: 2022-04-18 17:06+0800\n"
 "PO-Revision-Date: 2021-06-02 09:22+0000\n"
 "Last-Translator: qtom zheng <zhfnjust@qq.com>, 2022\n"
 "Language-Team: English (https://www.transifex.com/scrypt-1/teams/121283/en/)\n"
@@ -46,53 +46,99 @@ msgstr ""
 "Open \"Code\" -> \"Preferences\" -> \"Settings\" -> \"Extensions\" -> "
 "**sCrypt** in VS Code,"
 
-#: ../../settings.rst:24 2a5515f04f86482eba4dd08073e35df9
+#: ../../settings.rst:21 c8802c0543b14d4d8d3b754367f5b687
+msgid "部署环境"
+msgstr "Deployment Environment"
+
+#: ../../settings.rst:23 f2886fecc4d141879f5d0e01a788c80c
+msgid "用于指定合约的部署网络，包括测试网和主网。"
+msgstr "Specifies the deployment network of the contract."
+
+#: ../../settings.rst:32 2a5515f04f86482eba4dd08073e35df9
 msgid "私钥"
 msgstr "Private Key"
 
-#: ../../settings.rst:27 db0784e890b14848a60a1db64bc9ace0
+#: ../../settings.rst:35 6cd6677ca4c6457cb71d0513cd503255
+msgid "测试网私钥"
+msgstr "Testnet Private Key"
+
+#: ../../settings.rst:37 db0784e890b14848a60a1db64bc9ace0
 msgid "在设置项中找到 **Priv Key**，输入你的测试网私钥。有了私钥后，才能使用部署合约的相关功能。"
 msgstr ""
 "Find **Priv Key** in the settings, and enter your testnet private key. Only "
 "after having the private key can the related functions of the deployment "
 "contract be used."
 
-#: ../../settings.rst:32 ee0c05b5751e44f690f0e57645052cba
-msgid "如果你没有设置私钥，**IDE** 将自动设置一个随机生成的私钥，并从 `水龙头`_ 获取小额比特币。"
+#: ../../settings.rst:42 370448cd60464558a580e15157eb5e7e
+msgid ""
+"如果你没有设置私钥，**IDE** 将自动设置一个随机生成的私钥，并从 `水龙头`_ 获取测试网小额比特币。你可以通过执行 ``sCrypt: Get "
+"BSV From Faucet`` 命令来从获取。"
 msgstr ""
 "If you don't set a private key, **IDE** will automatically set a randomly "
-"generated private key and get small bitcoins from `faucet`_."
+"generated private key and get testnet petty bitcoins from `faucet`_. You can"
+" also get bsv from by executing the ``sCrypt: Get BSV From Faucet`` command."
 
-#: ../../settings.rst:36 d25b7e86fad84bfb968148643d6ddddd
-msgid "请勿在此处输入主网上的私钥"
-msgstr "Do NOT enter mainnet private key here."
+#: ../../settings.rst:46 2bd20a678d5f45a9aac8098bfd5d0fde
+msgid "主网私钥"
+msgstr "Mainnet Private Key"
 
-#: ../../settings.rst:40 de7b5882505449dcad22b827c9d116b5
+#: ../../settings.rst:48 a070c21480864f3aaf15d9abae31dc01
+msgid ""
+"在设置项中找到 **Priv Key Mainnet**，输入你的主网私钥。**IDE** "
+"将自动设置一个随机生成的主网私钥。你可以手动充值小额比特币用于在主网上部署和调用合约。"
+msgstr ""
+"Find **Priv Key Mainnet** in the settings and enter your mainnet private "
+"key. **IDE** will automatically set a randomly generated mainnet private "
+"key. You can manually deposit a small amount of Bitcoin for deploying and "
+"invoking contracts on the mainnet."
+
+#: ../../settings.rst:53 ae89b27fcc0f49b8b1c01b077082835f
+msgid "免责声明: 请勿充值大额比特币。该功能仅用于开发中的测试。不保证安全性。"
+msgstr ""
+"Disclaimer: Do not deposit large amounts of Bitcoin. This feature is only "
+"used for testing in development. Security is not guaranteed."
+
+#: ../../settings.rst:62 de7b5882505449dcad22b827c9d116b5
 msgid "我们永远不会上传，收集你的私钥。"
 msgstr "We will never upload and collect your private key."
 
-#: ../../settings.rst:43 74f2467ae7f142aa9633aa50f7949222
+#: ../../settings.rst:65 ad24a2336e10408e8e92b4b906c0e1d0
+msgid "状态栏部署环境"
+msgstr "Status bar Deployment Environment"
+
+#: ../../settings.rst:67 346ca490a4064edaab45b2a0abb1a569
+msgid "显示当前部署环境。点击可切换部署环境。"
+msgstr ""
+"Displays the current deployment environment. Click to switch deployment "
+"environments."
+
+#: ../../settings.rst:73 74f2467ae7f142aa9633aa50f7949222
 msgid "状态栏余额"
 msgstr "Balance in Status Bar"
 
-#: ../../settings.rst:45 a246a1819dda43b48f513ca6ab69f015
-msgid "设置好私钥后，状态栏右下角的 **BSV** 按钮会自动更新，显示出该私钥对应地址的比特币余额。"
+#: ../../settings.rst:75 12326f46d7bc478faf2b7ec0947fe7d6
+msgid ""
+"设置好私钥后，状态栏右下角的 **BSV** "
+"按钮会自动更新，显示出该私钥对应地址的比特币余额。如果部署环境是测试网，则显示测试网私钥的余额。如果部署环境是主网，则显示主网私钥的余额。"
 msgstr ""
 "After setting the private key, the **BSV** button in the lower right corner "
-"of the status bar will automatically update, showing the Bitcoin balance of "
-"the address corresponding to the private key."
+"of the status bar will be automatically updated to display the bitcoin "
+"balance of the address corresponding to the private key. If the deployment "
+"environment is a testnet, the balance of the testnet private key is "
+"displayed. If the deployment environment is the mainnet, the balance of the "
+"mainnet private key is displayed."
 
-#: ../../settings.rst:52 c837ac364614451a9914fdeea2190e2a
+#: ../../settings.rst:83 c837ac364614451a9914fdeea2190e2a
 msgid "Log 开关"
 msgstr "Log Switch"
 
-#: ../../settings.rst:57 ce2c84e9bcb348b6b2d23c87ceee6c7b
+#: ../../settings.rst:88 ce2c84e9bcb348b6b2d23c87ceee6c7b
 msgid "在设置项中找到 **Log** > **Enable**，开启 log开关 后，将在 **输出面板** 中看到更多的信息。"
 msgstr ""
 "Find **Log**> **Enable** in the setting, after turning on the log switch, "
 "you will see more information in the **output panel**."
 
-#: ../../settings.rst:59 af847241a67a440183ee4458be31b441
+#: ../../settings.rst:90 af847241a67a440183ee4458be31b441
 msgid ""
 "同时，**IDE** 会将所有的 log 输出一个到文件中并保存在磁盘上。在 **IDE** 激活时，可以在 **输出面板** 中看到 log "
 "保存的目录："
@@ -101,21 +147,21 @@ msgstr ""
 "the disk. When **IDE** is activated, you can see the directory where the log"
 " is saved in the **output panel**:"
 
-#: ../../settings.rst:66 eb2dd4b521314e27a0467e2546e3281d
+#: ../../settings.rst:97 eb2dd4b521314e27a0467e2546e3281d
 msgid "默认情况下log是关闭。在遇到问题时，请开启log以协助分析问题。"
 msgstr ""
 "By default, logging is turned off. When you encounter a problem, please turn"
 " on logging to help diagnose the problem."
 
-#: ../../settings.rst:70 a8cffb7333ca451486e4f3e6c34cbeb6
+#: ../../settings.rst:101 a8cffb7333ca451486e4f3e6c34cbeb6
 msgid "高级付费功能"
 msgstr "Premium Paid Features"
 
-#: ../../settings.rst:75 3cf3e4e734f54ffcb60edf205f2f3c75
+#: ../../settings.rst:106 3cf3e4e734f54ffcb60edf205f2f3c75
 msgid "高级许可证"
 msgstr "Premium License"
 
-#: ../../settings.rst:77 63d995b79a63453681222f3fc591fad5
+#: ../../settings.rst:108 63d995b79a63453681222f3fc591fad5
 msgid ""
 "首先需要购买我们的 :ref:`高级许可证 <buy_license>` ，在设置项中找到 **Premium: User License** 和 "
 "**Premium: User Paymail**,  配置好相应的 Paymail 及 License 信息，就可以顺利使用所有的高级功能了。"
@@ -125,17 +171,17 @@ msgstr ""
 "configure the corresponding Paymail and License information, and you can "
 "start using all the advanced features."
 
-#: ../../settings.rst:81 4e70adc8f4f24f68baa5a6a2cd680f64
+#: ../../settings.rst:112 4e70adc8f4f24f68baa5a6a2cd680f64
 msgid "高级许可证验证成后窗口右下角会有通知提示"
 msgstr ""
 "After the advanced license is verified, there will be a notification prompt "
 "in the lower right corner of the window"
 
-#: ../../settings.rst:88 c714992269264828a85d347b65cc9493
+#: ../../settings.rst:119 c714992269264828a85d347b65cc9493
 msgid "ASM缩进"
 msgstr "ASM Indention"
 
-#: ../../settings.rst:90 f9ffb6fcde334995a6c98c933d5dd68e
+#: ../../settings.rst:121 f9ffb6fcde334995a6c98c933d5dd68e
 msgid ""
 "在设置项中找到 **Premium: Indentedasm**。开启后，在使用 :ref:`脚本级调试 "
 "<script_level_debugging>` 功能时，ASM操作码会缩进显示。"
