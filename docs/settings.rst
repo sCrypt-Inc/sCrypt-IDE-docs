@@ -17,6 +17,8 @@
 .. image:: ./images/setting-macos.png
   :width: 100%
 
+.. _settings_env:
+
 部署环境
 ===========================================
 

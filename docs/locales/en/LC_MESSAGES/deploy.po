@@ -72,9 +72,11 @@ msgstr ""
 "*satoshis* balance amount locked in the contract, and the initial state of a"
 " `stateful contract`_."
 
-#: ../../deploy.rst:23 99fa1a23f1b7409da4ced135e45469da
-msgid "目前只支持测试网"
-msgstr "Currently only testnet is supported."
+#: ../../deploy.rst:23 7bf409272f6842d685f6d67df0e1670c
+msgid "IDE 同时支持部署到主网和测试网。你可以在 :ref:`部署环境 <settings_env>` 中指定合约的部署网络。"
+msgstr ""
+"The IDE supports deployment to both mainnet and testnet. You can specify a contract's deployment network in :ref:`Deployment Environment <settings_env>`."
+
 
 #: ../../deploy.rst:26 a86f1249223048ad8eaa9858c5a350f0
 msgid "设置私钥"
